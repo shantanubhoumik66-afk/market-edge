@@ -1,0 +1,171 @@
+{
+ "generated": "2026-10-23T17:18:09.534470+00:00",
+ "date": "2026-10-23",
+ "picks": [
+  {
+   "sym": "BEL",
+   "sector": "DEFENCE",
+   "net": 3.2,
+   "event_score": 1.6,
+   "sector_score": 1.6,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Order / contract win",
+     "title": "Bharat Electronics secures INR 10.11 billion orders before Bharat Electronics stock results",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORHpnZjJ3RjlVbmc2Qk1qQm51TjN6OE13UlpWZWtBeEFwRnFLd3lYX0NoSkNZSzRFY056OURjTVZUX2hURGI0N0hSbWpkVU8yUnZLNXpiZlRmTTlDNHFrcWg4YkdLUUd0bFNDU29nLVRFckI0S2ZWNU9USWdjVFV1RVYtQkFwbjY4RWxUSXJnZFRzMVY3aWl1dzVqeVBrS05NNV9EdEM3RTJHRnJQbHRLVGJTeVFFdUQtRnp1elRFWWFDd1l1dUNwamNNTlEyalhhcHRzcV9FSGU3NGdtNVBLUUdEWm9IcmlfTmc?oc=5",
+     "src": "AD HOC NEWS",
+     "time": "2026-10-23T07:12:28+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Geopolitical tension",
+     "title": "Crude oil prices hit five-month highs; Brent crude tops $115 per barrel amid escalating tensions in the Middle East",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRy1obkVPaC1MSWZoVWNETmR0eHEtUWRrVUpNekczb21oY3dMNjZzUHJLazQ1eXJIN1JMUExoS28zS2Z4WkVBelA2TWJnOEJSY25SaXBfcC1rLWlVR1RDTHlJallUTkZ2UllsRmJKaWxQUnk5c19KTlJuWWh3UkhHS3VoeHVhV01fR1NXckRsdF9hSmJZMmxleXZMOUQtZXZvaGl3VGotdHhhUXFTNWRKNjE5aDFrOGxFQjNSZGlzT1ZNa1U2U2ZRQXRYMmtSM1NzWFkxWUwxZzdGMlFtNkw3c1RSRG4zeGRNX3ZXWHE3cWtyMFZhWEEtZzY4VjdGMjB5VnhpZTNCOEQ?oc=5",
+     "src": "Upstox",
+     "time": "2026-10-23T13:17:12+00:00"
+    },
+    {
+     "label": "Defence orders / approvals",
+     "title": "India Signs Rs. 41.06 bn Defence Contracts for Satellite, Torpedoes",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWcyODNITUVEVHhzczFBSDI5bmFfZ183MzZxUUJYaEJDM0lSdnpiRFRBR2RBVk9sX0piM19VYmVhLUVwSUVfdXBkUEFDVVdZV0tZbnVCRGpBR2pVQkJUTG5Tc3BxamRmWEd5bHJSdlVFMGtnTVR4RjdmVWJScEJsZk1XdmNvQ01EVms2UGJBa2FtYXpWUlkxSWh6ZlFsNG1VamJvbTdLMTNCUU8wZ210SzNPVHdaUndEU0JfZ1MxRWxjN3RHZEdzUDZkSlo5ajA?oc=5",
+     "src": "Construction World",
+     "time": "2026-10-23T08:05:36+00:00"
+    }
+   ],
+   "today_chg": -0.69,
+   "vol_ratio": 0.94,
+   "close": 362.0,
+   "close_date": "2026-10-23",
+   "dir": "UP",
+   "confidence": "Medium"
+  },
+  {
+   "sym": "TECHM",
+   "sector": "IT",
+   "net": 2.6,
+   "event_score": 3.5,
+   "sector_score": -0.9,
+   "sources": 3,
+   "reasons": [
+    {
+     "label": "Acquisition / partnership",
+     "title": "Tech Mahindra acquires Finastra’s Cash Management suite",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPelc0SEFGY0lsM0dIREVzdUdfb3Q1Sml6SGIybTYzb2RqS3JtWXBZeWF2QkR2TG5raVhYMS1aQmJDSlFhSjhaNUs4bUVzTTFPTm0tSGVOQm5WcWhfLXI4TDRJd09BQm1tZmhzV2drZEl0aXlCVHN5am1uWnR3VzVkUjZnUFZOYVFSSW5wNlg3cTU1M0RzTWU3NQ?oc=5",
+     "src": "IBS Intelligence",
+     "time": "2026-10-23T11:36:10+00:00"
+    },
+    {
+     "label": "Broker upgrade",
+     "title": "Tech Mahindra signs deal with SpaceXSI to upgrade legacy apps",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX3g5LWFRMGxNcnowNWIzWkdYY2FVTEtTRFJQT3N4Ul9aRHc3UU1yT1VLeW1ybXdqY3RPeHJrR1pnbjdZMjB4TjBOUzhjc1FhZUo0THRwRmRONkhDV0hKTzBuQzBuejlRc3drbkI0UzhhMXNLYzdXSTM4SFlSOUhJaEJQRjhudXYyS2ZnQUpvb2VjM3NZZG15c0ctYzhBZVotbFFwNkZOcUZJNmhaS1RZ?oc=5",
+     "src": "scanx.trade",
+     "time": "2026-10-22T17:28:47+00:00"
+    },
+    {
+     "label": "Capital return",
+     "title": "Tech Mahindra bonus issue: A sweet deal or market trap",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkh4UU1WQlJQVXpGc0dfem5kZF9zNDRxLU9zRjBKVmNmWTJHVlJiU2dHeUJ0b1dvOVNGVy1CTWdyc29UR0FSLXE3cjh4WktPbV9jdFlXYXZjSXExRXNUTEtfbkxteHZlSG4zZ1Jjbm0zamRWNDlEZjhEUGFnWEJyOFBNQk5wOXlaMkNXalJodFZ2RS0xV3ZoaEZMaWFFQkd1SG02eWJTb2V3eVNHeW40?oc=5",
+     "src": "TradingView",
+     "time": "2026-10-22T03:33:00+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Fed tightening / yields up",
+     "title": "Gold falls below $4,100, silver slides 4.5% as Brent nears $112: Will Fed rate hike fears trigger more losses?",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOYzRoTjl0Wm1MQi0wRG5jaVktcEJaT2hDdXV5LUVFM0FSV2VVdDFEMlAwajFHWHQ2NTBkeTBka2l4S1h1YkQ5cVQyamUtZmFsR0hITjJBV2RBa0VOWEpNZ1RXZmdlQXJZckZaeXZ3aElyOFFlSE9FNFJoV0FFUENIQmVWR19neWJxa2ZKU1NtRThaV0cwdjdYeGlDZGc2cVZXa1M3Y3RvaTI1WU9nejU1SE9ydkp0U3luSzYxZC02TWxpVENjc2VNa2M4RUxWOUZCUm5wek5tdkRsSTAtMlkzeDlhLWl3YzJxaUhiOVF5WGVLVUhCOWk2OEx3Z0c1SVNP0gGGAkFVX3lxTFAxNmp0aE1INEVWdzktYW85d29xZmRQYjVNUUE3Qm03U1o5ZXVpbm82M21uTVI2TzQySWI5N01YcDZ3VzlRMldPWWQyQm12NnkzNkRPLXQ3OFpjRGdUOS12V2hmeUZMVlZlYldNVG9JTV9ERUFEMlhGVkxmUVZIWDQ2Z0V2bE03eXFVQWlpQ2pqZEFKREN5cDY2WGtTNmF4ekFlcy1fYnRfVmphLWhpdU53N1BWNExlejd0b3E3VUVvbURrbTJBZ1UyaUV2Z3MzejFQVjRpOHJBMi1sd2NSdDBVeWl5S2NTcmhjLWFxRnJIRHlteTA4cXZkeEtSZHlWNU5EV0toSFE?oc=5",
+     "src": "Business Today",
+     "time": "2026-10-22T16:31:50+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 3 paise to 94.78 against U.S. dollar",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkFQRUVoMF9HOHdPRUNhSzhiT2M0U044ZENxMzJfbktBTWJJWjVqRTc5ZTZlTXNTajdNekNtbGRYSDdCbWc5VS15Vnp0cVpURm5QeDV6ejBYRFo1dmdRdnE0VUxWT0NmT3RnMGV1UXRHMUVIQ3dHcUYwY3NPdkdsajlUWGFJQUpGSDQ1ZGwtaWhFX202MW5uNk14c0RreV85OVgySHU0c29ScGc1Y3pv0gG2AUFVX3lxTE5tN2c0R2JiUTlpQlpfelJaNTF1dlBObXJqVmxLUklnUDE3QmxwWmNseGJjSHYtR1BFVkwydDdzSXczZnZ2d3B0eVZQR2NFVndqS1dDVTdqNFBPQkhUalZhbEZlVk5MS0plTHJhSk8wb1FyOGMwc3lMVTdnbnV0N2lWN1JkdUo3alhHXzBuY3BESGpqNWxGc2xHWHJSSUdjNHQ3di1ZOWZVY1lIQnk1VFMya3FxT2VR?oc=5",
+     "src": "The Hindu",
+     "time": "2026-10-23T06:02:36+00:00"
+    }
+   ],
+   "today_chg": -2.14,
+   "vol_ratio": 0.88,
+   "close": 1790.0,
+   "close_date": "2026-10-23",
+   "dir": "UP",
+   "confidence": "Low"
+  },
+  {
+   "sym": "HAL",
+   "sector": "DEFENCE",
+   "net": 2.4,
+   "event_score": 0.8,
+   "sector_score": 1.6,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Order / contract win",
+     "title": "Millworks Technologies receives developmental orders from HAL for HAWK and MiG-29 component assemblies",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV29vQVptdEtsc1Rlb2xrVlR1WWw1ZUZVODFEZnA0bW1SY1JLeGVwOXVTN0NYby1wSDZ4YVdPREpRUEkzbzZoSEtCZTFiV2owRUZwR3JCTGVOcUNVLWdoVWFRT3h0Y2ZUX0xya3VtOVZHb3E1U3dHYVNiaklZOWpqUkMxUGNLVFBMVF9fenlnb1U1TFlBR2JjdkhTWHNvei1QSUV2VEo5bVRxQTZROWYtc3EtTVhuOVZsNGZyQnhsZWkxdWV2THc5TmFpNFhKMkJrWHhUQmtZNk5DWTFyZngtQ2ozcw?oc=5",
+     "src": "Trade Brains",
+     "time": "2026-10-22T09:29:18+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Geopolitical tension",
+     "title": "Crude oil prices hit five-month highs; Brent crude tops $115 per barrel amid escalating tensions in the Middle East",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRy1obkVPaC1MSWZoVWNETmR0eHEtUWRrVUpNekczb21oY3dMNjZzUHJLazQ1eXJIN1JMUExoS28zS2Z4WkVBelA2TWJnOEJSY25SaXBfcC1rLWlVR1RDTHlJallUTkZ2UllsRmJKaWxQUnk5c19KTlJuWWh3UkhHS3VoeHVhV01fR1NXckRsdF9hSmJZMmxleXZMOUQtZXZvaGl3VGotdHhhUXFTNWRKNjE5aDFrOGxFQjNSZGlzT1ZNa1U2U2ZRQXRYMmtSM1NzWFkxWUwxZzdGMlFtNkw3c1RSRG4zeGRNX3ZXWHE3cWtyMFZhWEEtZzY4VjdGMjB5VnhpZTNCOEQ?oc=5",
+     "src": "Upstox",
+     "time": "2026-10-23T13:17:12+00:00"
+    },
+    {
+     "label": "Defence orders / approvals",
+     "title": "India Signs Rs. 41.06 bn Defence Contracts for Satellite, Torpedoes",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWcyODNITUVEVHhzczFBSDI5bmFfZ183MzZxUUJYaEJDM0lSdnpiRFRBR2RBVk9sX0piM19VYmVhLUVwSUVfdXBkUEFDVVdZV0tZbnVCRGpBR2pVQkJUTG5Tc3BxamRmWEd5bHJSdlVFMGtnTVR4RjdmVWJScEJsZk1XdmNvQ01EVms2UGJBa2FtYXpWUlkxSWh6ZlFsNG1VamJvbTdLMTNCUU8wZ210SzNPVHdaUndEU0JfZ1MxRWxjN3RHZEdzUDZkSlo5ajA?oc=5",
+     "src": "Construction World",
+     "time": "2026-10-23T08:05:36+00:00"
+    }
+   ],
+   "today_chg": -3.08,
+   "vol_ratio": 1.51,
+   "close": 4725.0,
+   "close_date": "2026-10-23",
+   "dir": "UP",
+   "confidence": "Low"
+  }
+ ],
+ "stats": {
+  "total": 0,
+  "hits": 0
+ },
+ "recent": [
+  {
+   "date": "2026-10-23",
+   "sym": "HAL",
+   "dir": "UP",
+   "net": 2.4,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-10-23",
+   "sym": "TECHM",
+   "dir": "UP",
+   "net": 2.6,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-10-23",
+   "sym": "BEL",
+   "dir": "UP",
+   "net": 3.2,
+   "confidence": "Medium"
+  }
+ ],
+ "scanned": 68,
+ "sector_effects": {
+  "DEFENCE": 2.0,
+  "IT": -1.12,
+  "REALTY": -1.44,
+  "AUTO": -1.44
+ }
+}
