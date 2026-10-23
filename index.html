@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>India_edge</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#0e1a2b">
+<style>
+:root{--bg:#0e1a2b;--bg2:#16273f;--ink:#eef2f7;--mute:#93a3ba;--line:#26395a;--saff:#ff9933;--green:#2fbf71;--red:#ff5c5c;--card:#13233a}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.view{display:none;min-height:100%;padding:18px 16px 40px}
+.view.on{display:block}
+#clock{font-size:64px;font-weight:300;letter-spacing:-2px;margin-top:28px}
+#date{color:var(--mute);margin-bottom:34px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px 10px}
+.app{display:flex;flex-direction:column;align-items:center;gap:8px;background:none;border:0;color:var(--ink);font-size:12px;cursor:pointer}
+.ico{width:62px;height:62px;border-radius:18px;display:grid;place-items:center;font-size:28px;box-shadow:0 6px 16px #0006}
+.app.soon{opacity:.45}
+.top{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.back,.ref{background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:9px 13px;font-size:15px}
+.top h1{font-size:20px;flex:1}
+#stamp{font-size:12px;color:var(--mute);margin-bottom:10px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:10px;position:sticky;top:0;background:var(--bg);padding-top:6px;z-index:2}
+.tab{flex:none;background:var(--bg2);border:1px solid var(--line);color:var(--mute);border-radius:999px;padding:9px 15px;font-size:14px}
+.tab.on{background:var(--saff);border-color:var(--saff);color:#1b1100;font-weight:600}
+.panel{display:none}.panel.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.card h3{font-size:14px;margin-bottom:6px}
+.n{display:block;color:var(--ink);text-decoration:none;padding:9px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.35}
+.n:first-of-type{border-top:0}
+.meta{display:block;color:var(--mute);font-size:11px;margin-top:3px}
+.pos{color:var(--green)}.neg{color:var(--red)}
+.tick{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px}
+.tick div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px}
+.tick b{display:block;font-size:17px}.tick span{font-size:12px;color:var(--mute)}
+.tick span.pos{color:var(--green)}.tick span.neg{color:var(--red)}
+.note{font-size:12px;color:var(--mute);line-height:1.45;margin:6px 0 14px}
+.stock{border-left:4px solid var(--mute)}
+.stock.up{border-left-color:var(--green)}.stock.down{border-left-color:var(--red)}
+.stock h3{font-size:17px}
+.empty{color:var(--mute);font-size:13px;padding:6px 0}
+.pick{border-left:5px solid var(--mute)}.pick.up{border-left-color:var(--green)}.pick.down{border-left-color:var(--red)}
+.pick h2{font-size:20px;display:flex;justify-content:space-between;align-items:center}
+.badge{font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.dir{font-weight:700}.why{font-size:13px;color:var(--mute);margin:8px 0 2px}
+.why b{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<section id="home" class="view on">
+  <div id="clock"></div>
+  <div id="date"></div>
+  <div class="grid" id="apps"></div>
+</section>
+
+<section id="edge" class="view">
+  <div class="top">
+    <button class="back" onclick="go('home')">Back</button>
+    <h1>India_edge</h1>
+    <button class="ref" onclick="loadEdge()">Refresh</button>
+  </div>
+  <div id="stamp">Loading...</div>
+  <div class="tabs" id="tabs"></div>
+  <div id="p0" class="panel on"></div>
+  <div id="p1" class="panel"></div>
+  <div id="p2" class="panel"></div>
+  <div id="p3" class="panel"></div>
+  <div id="p4" class="panel"></div>
+</section>
+
+
+<section id="picks" class="view">
+  <div class="top">
+    <button class="back" onclick="go('home')">Back</button>
+    <h1>Evening picks</h1>
+    <button class="ref" onclick="loadPicks()">Refresh</button>
+  </div>
+  <div id="pstamp" class="meta" style="margin-bottom:10px">Loading...</div>
+  <div id="pbody"></div>
+</section>
+
+<script>
+/* Home screen buttons - add new apps here */
+const APPS = [
+  {name:'India_edge', icon:'🇮🇳', color:'#ff9933', page:'edge'},
+  {name:'Evening_picks', icon:'🎯', color:'#e11d48', page:'picks'},
+  {name:'Global_edge', icon:'🌍', color:'#3b82f6', soon:true},
+  {name:'Watchlist', icon:'📈', color:'#2fbf71', soon:true},
+  {name:'Crypto', icon:'₿', color:'#f59e0b', soon:true},
+  {name:'Notes', icon:'📝', color:'#a855f7', soon:true},
+  {name:'Files', icon:'📁', color:'#06b6d4', soon:true},
+];
+const $ = id => document.getElementById(id);
+function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks()}
+$('apps').innerHTML = APPS.map(a=>`<button class="app ${a.soon?'soon':''}" ${a.soon?'':`onclick="go('${a.page}')"`}><div class="ico" style="background:${a.color}">${a.icon}</div>${a.name}</button>`).join('');
+function tick(){const d=new Date();$('clock').textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});$('date').textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'long'})}
+tick();setInterval(tick,20000);
+
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ago=iso=>{const m=Math.max(0,Math.round((Date.now()-new Date(iso))/60000));return m<60?m+'m ago':m<1440?Math.round(m/60)+'h ago':Math.round(m/1440)+'d ago'};
+const list=(items,n=6)=>items&&items.length?items.slice(0,n).map(i=>`<a class="n" href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}<span class="meta">${esc(i.src)} · ${ago(i.time)}</span></a>`).join(''):'<div class="empty">No fresh items.</div>';
+const card=(h,b)=>`<div class="card"><h3>${h}</h3>${b}</div>`;
+const chg=q=>q&&q.chg!=null?`<span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+':''}${q.chg.toFixed(2)}%</span>`:'';
+
+const TABS=['News','Macro data','RBI','Government','Stocks'];
+$('tabs').innerHTML=TABS.map((t,i)=>`<button class="tab ${i?'':'on'}" onclick="tab(${i})">${t}</button>`).join('');
+function tab(i){document.querySelectorAll('.tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
+
+async function loadEdge(){
+  $('stamp').textContent='Loading...';
+  try{
+    const r=await fetch('data.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    $('p0').innerHTML=card('Top market-moving headlines',list(d.news,12));
+
+    const t=d.indices.map(q=>`<div><span>${esc(q.name)}</span><b>${q.price!=null?q.price.toLocaleString('en-IN',{maximumFractionDigits:2}):'n/a'}</b>${chg(q)}</div>`).join('');
+    const wb=(l,x)=>x?`<div><span>${l} (${x.date}, annual)</span><b>${x.value}%</b><span>World Bank</span></div>`:'';
+    $('p1').innerHTML=`<div class="tick">${t}${wb('CPI',d.wb.cpi)}${wb('GDP growth',d.wb.gdp)}</div>`+
+      d.macro.map(m=>card(esc(m.name)+' - latest',list(m.items,2))).join('')+
+      '<div class="note">Prices come from Yahoo Finance (unofficial, may be delayed). Monthly releases appear as the latest headlines from publishers. Official sources: mospi.gov.in, rbi.org.in, spglobal.com/marketintelligence.</div>';
+
+    $('p2').innerHTML=d.rbi.map(x=>card(esc(x.name),list(x.items,5))).join('');
+    $('p3').innerHTML=d.gov.map(x=>card(esc(x.name),list(x.items,5))).join('');
+
+    $('p4').innerHTML=(d.stocks.length?d.stocks.map(x=>{
+      const lean=x.score>0?['up','Positive news tilt']:x.score<0?['down','Negative news tilt']:['','Mixed / unclear tilt'];
+      const pr=x.stocks.map(s=>`${esc(s.sym)} ${s.price!=null?s.price.toFixed(1):''} ${chg(s)}`).join(' · ');
+      return `<div class="card stock ${lean[0]}"><h3>${esc(x.why)}</h3><div style="font-size:14px;margin:4px 0 8px">${pr}</div><div class="meta" style="margin-bottom:6px">${lean[1]} · ${x.hits.length} headline${x.hits.length>1?'s':''}</div>${list(x.hits,2)}</div>`}).join(''):'<div class="empty">No clear stock links in current headlines.</div>')+
+      '<div class="note">Keyword-based filter, not a prediction. It links headline themes to sectors that usually react and scores the wording as positive or negative. Check the linked source and the chart. Not investment advice.</div>';
+
+    $('stamp').textContent='Data updated '+ago(d.generated)+' (server refreshes about every 15 min)';
+  }catch(e){
+    $('stamp').textContent='Could not load data.json. Open this page from your GitHub Pages link, not as a local file.';
+  }
+}
+
+async function loadPicks(){
+  $('pstamp').textContent='Loading...';
+  try{
+    const r=await fetch('picks.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    const st=d.stats, rate=st.total?Math.round(100*st.hits/st.total)+'% ('+st.hits+' of '+st.total+')':'no results yet';
+    let h='';
+    if(!d.picks.length) h+=card('No strong setup today','<div class="empty">Nothing scored high enough. Skipping a day is a valid result.</div>');
+    d.picks.forEach(p=>{
+      const up=p.dir==='UP';
+      const price=p.close!=null?`Close ${p.close} (${p.today_chg>=0?'+':''}${p.today_chg}% today${p.vol_ratio?', volume '+p.vol_ratio+'x avg':''})`:'';
+      const rs=p.reasons.map(x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`).join('');
+      const sr=p.sector_reasons.map(x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(p.sector)} sector, ${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`).join('');
+      h+=`<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
+        <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} source${p.sources>1?'s':''}</span></div>
+        <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}
+        <div class="why"><b>Why:</b> company news ${p.event_score>=0?'+':''}${p.event_score}${p.sector_score?', sector effect '+(p.sector_score>=0?'+':'')+p.sector_score:''}</div>${rs}${sr}</div>`;
+    });
+    h+=card('Track record (live, since you started)','<div style="font-size:15px">Hit rate: <b>'+rate+'</b></div><div class="meta">A hit means the next close moved in the predicted direction. Judge the engine on at least 30 to 50 picks.</div>'+
+      (d.recent.length?d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%)':'pending'}</div>`).join(''):''));
+    h+='<div class="note">Scanned '+d.scanned+' large stocks after market close. This is a news-scoring engine, not a prediction or advice. A high score means the news is strong and fresh, not that the stock must move. Use a stop-loss, risk only a small part of your money per trade, and paper trade first.</div>';
+    $('pbody').innerHTML=h;
+    $('pstamp').textContent='Picks for '+d.date+', generated '+ago(d.generated);
+  }catch(e){
+    $('pstamp').textContent='No picks yet. The engine runs on weekdays at 5:30 PM India time, or run it manually from GitHub Actions.';
+    $('pbody').innerHTML='';
+  }
+}
+setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
+</script>
+</body>
+</html>
