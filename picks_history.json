@@ -22,30 +22,44 @@
  },
  {
   "date": "2026-10-24",
+  "sym": "ICICIBANK",
+  "dir": "UP",
+  "net": 2.34,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
   "sym": "INDHOTEL",
   "dir": "UP",
-  "net": 2.8,
+  "net": 2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "KOTAKBANK",
+  "dir": "UP",
+  "net": 1.52,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "GODREJPROP",
+  "dir": "DOWN",
+  "net": -4.59,
   "confidence": "Medium"
  },
  {
   "date": "2026-10-24",
-  "sym": "BEL",
-  "dir": "UP",
-  "net": 2.4,
-  "confidence": "Low"
- },
- {
-  "date": "2026-10-24",
-  "sym": "SHRIRAMFIN",
-  "dir": "UP",
-  "net": 2.22,
-  "confidence": "Low"
- },
- {
-  "date": "2026-10-24",
-  "sym": "SWIGGY",
+  "sym": "HAVELLS",
   "dir": "DOWN",
-  "net": -2.27,
-  "confidence": "Low"
+  "net": -3.5,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "IRFC",
+  "dir": "DOWN",
+  "net": -2.9,
+  "confidence": "Medium"
  }
 ]
