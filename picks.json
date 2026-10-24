@@ -1,101 +1,47 @@
 {
- "generated": "2026-10-23T17:18:09.534470+00:00",
- "date": "2026-10-23",
- "picks": [
+ "generated": "2026-10-24T04:55:11.541538+00:00",
+ "date": "2026-10-24",
+ "picks_up": [
   {
-   "sym": "BEL",
-   "sector": "DEFENCE",
-   "net": 3.2,
-   "event_score": 1.6,
-   "sector_score": 1.6,
-   "sources": 1,
+   "sym": "INDHOTEL",
+   "sector": null,
+   "net": 2.8,
+   "event_score": 2.8,
+   "sector_score": 0,
+   "sources": 3,
    "reasons": [
     {
-     "label": "Order / contract win",
-     "title": "Bharat Electronics secures INR 10.11 billion orders before Bharat Electronics stock results",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORHpnZjJ3RjlVbmc2Qk1qQm51TjN6OE13UlpWZWtBeEFwRnFLd3lYX0NoSkNZSzRFY056OURjTVZUX2hURGI0N0hSbWpkVU8yUnZLNXpiZlRmTTlDNHFrcWg4YkdLUUd0bFNDU29nLVRFckI0S2ZWNU9USWdjVFV1RVYtQkFwbjY4RWxUSXJnZFRzMVY3aWl1dzVqeVBrS05NNV9EdEM3RTJHRnJQbHRLVGJTeVFFdUQtRnp1elRFWWFDd1l1dUNwamNNTlEyalhhcHRzcV9FSGU3NGdtNVBLUUdEWm9IcmlfTmc?oc=5",
-     "src": "AD HOC NEWS",
-     "time": "2026-10-23T07:12:28+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "Geopolitical tension",
-     "title": "Crude oil prices hit five-month highs; Brent crude tops $115 per barrel amid escalating tensions in the Middle East",
-     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRy1obkVPaC1MSWZoVWNETmR0eHEtUWRrVUpNekczb21oY3dMNjZzUHJLazQ1eXJIN1JMUExoS28zS2Z4WkVBelA2TWJnOEJSY25SaXBfcC1rLWlVR1RDTHlJallUTkZ2UllsRmJKaWxQUnk5c19KTlJuWWh3UkhHS3VoeHVhV01fR1NXckRsdF9hSmJZMmxleXZMOUQtZXZvaGl3VGotdHhhUXFTNWRKNjE5aDFrOGxFQjNSZGlzT1ZNa1U2U2ZRQXRYMmtSM1NzWFkxWUwxZzdGMlFtNkw3c1RSRG4zeGRNX3ZXWHE3cWtyMFZhWEEtZzY4VjdGMjB5VnhpZTNCOEQ?oc=5",
-     "src": "Upstox",
-     "time": "2026-10-23T13:17:12+00:00"
+     "label": "Strong results / margins",
+     "title": "Indian Hotels shares jump 4% after Q2 profit rises 20%; Nomura raises target price to Rs 850",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSmdEWG5jR2M4ZkRnWW92Yk1oZEFaZGVaNjluRWpWR1RWTE53V0gtT0dZT2hrakxvTDRhLTFELTZZZS1MLTVqRVJKanFmWm42UnVYOXpnWFN0UC1wMDVDd0JsREJWUWYyMUlSVzh6MXpkbUhzVVpRWlRMaGZvZlZLVGZJYlRhdDNaRGFSNHpBX1hCMjVydjRFOXhoWWRwOGp2empSM3hBcWg1TzJnNThibHRFcThiRzRjaG5RZ1lLclZBZnBnUmk1RTFFZzBEZGx6QWZFMFJhYWltQVdv0gHiAUFVX3lxTFBaMXJNTzNCd0VyYnhtUVN6MjYzVDlSNGxuRGR2OXN5Vk5KUWZuOS1WcmlKamF6NngzQnRTd0ktM3I2NTk2YmpwX3dBNkNGRFpwQXpvMXRHV3h2akVZaE5kcmVucGJ6dUhCS0o1bTVUTFFOcUw2MHdSWnhReWVnM1dWdkpxRG95dmpjZEVjaVR3aHpRRm5MWDFNakhseXlDcGF1NFRpbEIwRDFKWGFCeG5JTkJpeDI2RXJYSmFjYS1XRmpNc1Y3LTQ5ODZ4U3Y3SGNBaGRlOE1UYVZwS0xFcVVQdmc?oc=5",
+     "src": "Moneycontrol.com",
+     "time": "2026-10-22T07:17:47+00:00"
     },
     {
-     "label": "Defence orders / approvals",
-     "title": "India Signs Rs. 41.06 bn Defence Contracts for Satellite, Torpedoes",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWcyODNITUVEVHhzczFBSDI5bmFfZ183MzZxUUJYaEJDM0lSdnpiRFRBR2RBVk9sX0piM19VYmVhLUVwSUVfdXBkUEFDVVdZV0tZbnVCRGpBR2pVQkJUTG5Tc3BxamRmWEd5bHJSdlVFMGtnTVR4RjdmVWJScEJsZk1XdmNvQ01EVms2UGJBa2FtYXpWUlkxSWh6ZlFsNG1VamJvbTdLMTNCUU8wZ210SzNPVHdaUndEU0JfZ1MxRWxjN3RHZEdzUDZkSlo5ajA?oc=5",
-     "src": "Construction World",
-     "time": "2026-10-23T08:05:36+00:00"
+     "label": "Broker upgrade",
+     "title": "Indian Hotels shares hit 52-week high after strong Q2 results and upgraded revenue outlook",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUmdyNkhObjlzSDJQSVZkOXZHT0pxbVRfSHljQ05ZUk00QldVSkVVX0Jra21Fc1RveWloalBiSmNyRS1zOGJSSmpLZmNwWkxVT1MzWmk5ckk3NzVnSnNpNEtuek5VSFowUWRzdWhzeFJoeTlicFN3X1Npd3NGSWQ2NG00bThKLXN4U1FlWDhacnduRGlpY052RHNHVDZKZnJqc0dSMElmZ0tycVZncmstMExOYVZwejBXS1pfTE80RU9idjVLNFFBTTJWSnVUTGozOUN3M1B0X0dUWU9P0gHiAUFVX3lxTE94UllNOHYwLTgwT3dTUjFQd1BKRXdaQ0ZfVFpUcVRVUG1KdFhrYWlwRl9OZEdiZVlmQVpsYmc5bkxhMWpSZzJmRk9nTjlhQjBHZlZHRXdIRDV3dWxYbGp6RTk5ZnYzV1hnNURUbkxvaDhEZ0F1U2h2QnhtZXFrUjBPd2JGb0l1cGtMTkhZQTNTUFlNQ0N1UWJMNy1feE1DNVg2UDVSYW02N0U1ek1JakNqTXZHeEN3RTU2VG9rTV9zSVNva2E3cjRqVTV3WWI3NVRZQW1jRmRkcWIzdFNqQmNLdHc?oc=5",
+     "src": "CNBC TV18",
+     "time": "2026-10-22T06:45:28+00:00"
+    },
+    {
+     "label": "Sharp buying reported",
+     "title": "Indian Hotels shares jump 6% after Q2 results, guidance; here are target prices",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdl8tVGg3bHgxWmpsaXUwNUtsbEhZa3VXNXNEWm5MNjQ5OE5COWRfX2J1MmRzQkM0SWkzRURpenF3cmJPdGhkREdZQk10VWNpemJRU1lsRElNZnFvUTIwMk1BNmIxbDhSdTRPNUM0Q1ZEazlXSDdmN1VEcXk0Yy1CTjhUZW81NzNqXzFxcVBjSUQybEI2R0tlYmVnbnNTRmpCSHl2VjREQXI4SHhkLWxlV25xNUF1cC13b2pVUC1WaVZGSDY5dnpYdlFLNmJkNUhobl9XcFprQmxqN0440gHiAUFVX3lxTE01TXBSdWI0OGdLT2wwRzMwbFJuU3lFbWNxVno1VUZrYkZNdXB4cktZc0F5d3hHMUQzc2NPdmJSV1E0ZkV2cmpRU0lkaFBoaVB1S1VPNU85OGU2d0FUZmJIN0JhUHJvZDRucE5Nb1ozYjMtbFNfRGZsZXhLLTV2SWNIeTBtS0hLdU83N1hwQUlEbTZLb2pySUgtOEFUY0YxQ0pHamtvMEkyOUhkbW0zVUVvRHB6cEsta3FEbXNld01sTm5hMFZBbDVIU3JsSzVwNGEyVElHS2xLVXMycDUyd0F1dnc?oc=5",
+     "src": "Business Today",
+     "time": "2026-10-22T07:06:53+00:00"
     }
    ],
-   "today_chg": -0.69,
-   "vol_ratio": 0.94,
-   "close": 362.0,
-   "close_date": "2026-10-23",
+   "sector_reasons": [],
+   "today_chg": 3.89,
+   "vol_ratio": 4.88,
+   "close": 782.3,
+   "close_date": "2026-10-22",
    "dir": "UP",
    "confidence": "Medium"
   },
   {
-   "sym": "TECHM",
-   "sector": "IT",
-   "net": 2.6,
-   "event_score": 3.5,
-   "sector_score": -0.9,
-   "sources": 3,
-   "reasons": [
-    {
-     "label": "Acquisition / partnership",
-     "title": "Tech Mahindra acquires Finastra’s Cash Management suite",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPelc0SEFGY0lsM0dIREVzdUdfb3Q1Sml6SGIybTYzb2RqS3JtWXBZeWF2QkR2TG5raVhYMS1aQmJDSlFhSjhaNUs4bUVzTTFPTm0tSGVOQm5WcWhfLXI4TDRJd09BQm1tZmhzV2drZEl0aXlCVHN5am1uWnR3VzVkUjZnUFZOYVFSSW5wNlg3cTU1M0RzTWU3NQ?oc=5",
-     "src": "IBS Intelligence",
-     "time": "2026-10-23T11:36:10+00:00"
-    },
-    {
-     "label": "Broker upgrade",
-     "title": "Tech Mahindra signs deal with SpaceXSI to upgrade legacy apps",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX3g5LWFRMGxNcnowNWIzWkdYY2FVTEtTRFJQT3N4Ul9aRHc3UU1yT1VLeW1ybXdqY3RPeHJrR1pnbjdZMjB4TjBOUzhjc1FhZUo0THRwRmRONkhDV0hKTzBuQzBuejlRc3drbkI0UzhhMXNLYzdXSTM4SFlSOUhJaEJQRjhudXYyS2ZnQUpvb2VjM3NZZG15c0ctYzhBZVotbFFwNkZOcUZJNmhaS1RZ?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-10-22T17:28:47+00:00"
-    },
-    {
-     "label": "Capital return",
-     "title": "Tech Mahindra bonus issue: A sweet deal or market trap",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkh4UU1WQlJQVXpGc0dfem5kZF9zNDRxLU9zRjBKVmNmWTJHVlJiU2dHeUJ0b1dvOVNGVy1CTWdyc29UR0FSLXE3cjh4WktPbV9jdFlXYXZjSXExRXNUTEtfbkxteHZlSG4zZ1Jjbm0zamRWNDlEZjhEUGFnWEJyOFBNQk5wOXlaMkNXalJodFZ2RS0xV3ZoaEZMaWFFQkd1SG02eWJTb2V3eVNHeW40?oc=5",
-     "src": "TradingView",
-     "time": "2026-10-22T03:33:00+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "Fed tightening / yields up",
-     "title": "Gold falls below $4,100, silver slides 4.5% as Brent nears $112: Will Fed rate hike fears trigger more losses?",
-     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOYzRoTjl0Wm1MQi0wRG5jaVktcEJaT2hDdXV5LUVFM0FSV2VVdDFEMlAwajFHWHQ2NTBkeTBka2l4S1h1YkQ5cVQyamUtZmFsR0hITjJBV2RBa0VOWEpNZ1RXZmdlQXJZckZaeXZ3aElyOFFlSE9FNFJoV0FFUENIQmVWR19neWJxa2ZKU1NtRThaV0cwdjdYeGlDZGc2cVZXa1M3Y3RvaTI1WU9nejU1SE9ydkp0U3luSzYxZC02TWxpVENjc2VNa2M4RUxWOUZCUm5wek5tdkRsSTAtMlkzeDlhLWl3YzJxaUhiOVF5WGVLVUhCOWk2OEx3Z0c1SVNP0gGGAkFVX3lxTFAxNmp0aE1INEVWdzktYW85d29xZmRQYjVNUUE3Qm03U1o5ZXVpbm82M21uTVI2TzQySWI5N01YcDZ3VzlRMldPWWQyQm12NnkzNkRPLXQ3OFpjRGdUOS12V2hmeUZMVlZlYldNVG9JTV9ERUFEMlhGVkxmUVZIWDQ2Z0V2bE03eXFVQWlpQ2pqZEFKREN5cDY2WGtTNmF4ekFlcy1fYnRfVmphLWhpdU53N1BWNExlejd0b3E3VUVvbURrbTJBZ1UyaUV2Z3MzejFQVjRpOHJBMi1sd2NSdDBVeWl5S2NTcmhjLWFxRnJIRHlteTA4cXZkeEtSZHlWNU5EV0toSFE?oc=5",
-     "src": "Business Today",
-     "time": "2026-10-22T16:31:50+00:00"
-    },
-    {
-     "label": "Rupee strengthening",
-     "title": "Rupee rises 3 paise to 94.78 against U.S. dollar",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkFQRUVoMF9HOHdPRUNhSzhiT2M0U044ZENxMzJfbktBTWJJWjVqRTc5ZTZlTXNTajdNekNtbGRYSDdCbWc5VS15Vnp0cVpURm5QeDV6ejBYRFo1dmdRdnE0VUxWT0NmT3RnMGV1UXRHMUVIQ3dHcUYwY3NPdkdsajlUWGFJQUpGSDQ1ZGwtaWhFX202MW5uNk14c0RreV85OVgySHU0c29ScGc1Y3pv0gG2AUFVX3lxTE5tN2c0R2JiUTlpQlpfelJaNTF1dlBObXJqVmxLUklnUDE3QmxwWmNseGJjSHYtR1BFVkwydDdzSXczZnZ2d3B0eVZQR2NFVndqS1dDVTdqNFBPQkhUalZhbEZlVk5MS0plTHJhSk8wb1FyOGMwc3lMVTdnbnV0N2lWN1JkdUo3alhHXzBuY3BESGpqNWxGc2xHWHJSSUdjNHQ3di1ZOWZVY1lIQnk1VFMya3FxT2VR?oc=5",
-     "src": "The Hindu",
-     "time": "2026-10-23T06:02:36+00:00"
-    }
-   ],
-   "today_chg": -2.14,
-   "vol_ratio": 0.88,
-   "close": 1790.0,
-   "close_date": "2026-10-23",
-   "dir": "UP",
-   "confidence": "Low"
-  },
-  {
-   "sym": "HAL",
+   "sym": "BEL",
    "sector": "DEFENCE",
    "net": 2.4,
    "event_score": 0.8,
@@ -104,10 +50,10 @@
    "reasons": [
     {
      "label": "Order / contract win",
-     "title": "Millworks Technologies receives developmental orders from HAL for HAWK and MiG-29 component assemblies",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV29vQVptdEtsc1Rlb2xrVlR1WWw1ZUZVODFEZnA0bW1SY1JLeGVwOXVTN0NYby1wSDZ4YVdPREpRUEkzbzZoSEtCZTFiV2owRUZwR3JCTGVOcUNVLWdoVWFRT3h0Y2ZUX0xya3VtOVZHb3E1U3dHYVNiaklZOWpqUkMxUGNLVFBMVF9fenlnb1U1TFlBR2JjdkhTWHNvei1QSUV2VEo5bVRxQTZROWYtc3EtTVhuOVZsNGZyQnhsZWkxdWV2THc5TmFpNFhKMkJrWHhUQmtZNk5DWTFyZngtQ2ozcw?oc=5",
-     "src": "Trade Brains",
-     "time": "2026-10-22T09:29:18+00:00"
+     "title": "Bharat Electronics remains top defence pick for PL Capital; sees order inflows picking up in Q4",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOW04Q2NsZ21VdGZhZHRtM1BFNTN4cVE1bVlLbVc1Wmx3TkkwYklROFA2NS1IeWR2UGhQei1HTDBmcE90TnFDTHAyRWFIQWZDV0UzNTFFTzE5YzBmSUU3LXRiVUs2LV9lcXBRZm1rQVZMcUkwSkFjLWRDWmppcEpJQkFEcVFXaWZMRHlMVktKVENtM1pfMFFHTjFCZVNzRTd0bWV4T3hHcUJqMm9xaEwtOXdpREJDeWdCOVAyZ2xoZWxNd3NtU2JSTzRKWDlmSC1O0gHWAUFVX3lxTE8weDVrS2lOSUNVNlVJN28yTEZJbUR6cjlDVmc4Z05QdzkydjhiOXdfZDE0dXRZT282RWJOcjIwV01mQlVDYzNSZlZOV0VldjV1bmpBQVI2UWhGeS03bTkwcURiZEZfMWpWQ3prakFyYmdVb2dwcFQtT1ZGdlNaakNWVTF1ZWZQeHV3M1dtaGd0aWhSdFRIRDdtaHA1VVZRaVpLbzJNeEZ5dWVRYlJJaUxVU01GaDIzRWlhQkpTMXFmdjRNTUYzdTJRdi1od0kxbkdOV09RY3c?oc=5",
+     "src": "CNBC TV18",
+     "time": "2026-10-23T04:52:50+00:00"
     }
    ],
    "sector_reasons": [
@@ -123,22 +69,133 @@
      "title": "India Signs Rs. 41.06 bn Defence Contracts for Satellite, Torpedoes",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWcyODNITUVEVHhzczFBSDI5bmFfZ183MzZxUUJYaEJDM0lSdnpiRFRBR2RBVk9sX0piM19VYmVhLUVwSUVfdXBkUEFDVVdZV0tZbnVCRGpBR2pVQkJUTG5Tc3BxamRmWEd5bHJSdlVFMGtnTVR4RjdmVWJScEJsZk1XdmNvQ01EVms2UGJBa2FtYXpWUlkxSWh6ZlFsNG1VamJvbTdLMTNCUU8wZ210SzNPVHdaUndEU0JfZ1MxRWxjN3RHZEdzUDZkSlo5ajA?oc=5",
      "src": "Construction World",
-     "time": "2026-10-23T08:05:36+00:00"
+     "time": "2026-10-23T12:14:47+00:00"
     }
    ],
-   "today_chg": -3.08,
+   "today_chg": -0.69,
+   "vol_ratio": 0.94,
+   "close": 362.0,
+   "close_date": "2026-10-23",
+   "dir": "UP",
+   "confidence": "Low"
+  },
+  {
+   "sym": "SHRIRAMFIN",
+   "sector": "BANK",
+   "net": 2.22,
+   "event_score": 1.5,
+   "sector_score": 0.72,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Strong results / margins",
+     "title": "Shriram Finance Q2 profit jumps 59% YoY to Rs 3,677 crore on strong interest income, lower funding costs",
+     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOeGR2TjNjWWgtMzZkTjlkZ2NvS1dCNUowemE0RGpGZVZwYkM1czMxR0hkazF2SGE5b1NHYVRhTEVkUEJzb2htRFZmbWRrQ284UDVhbUtGc3Z2ek5MMGlaNC1SMzNfRDFQMmV3RzhpYVFYdVZTMi03bHpUeThTTFhaZGxDSzZnWjdHNFdHbG1FdkpNZ3RubWhHN3dKblF3X2E3eUgxWjNMU2pSd2dRTGV1S0xBSWFqaXI1MGR4SEszbW9iXzF4UXlIN1NubGx6NElIbnNUSVRxSlhXbERkeVVRNF9LclZqOVhFd2JrbHlTQXk2bzFYY3JITC1ock0wVmR4YjctWGRFaEFnU2d6Zk5RM2daaU5PY2_SAZACQVVfeXFMUHFQdjhSamhxT1BuaDBNOXpScDR6X3Q3b1gyUFFZby1NVGJJeXVzSG83V2F5V01ua1ItdGJqdnJBOUk2TElGeGstVEZETUdwTjRZM21jNjQ5SFJzaktUYTFFRVNEV2pzVkxIRjd3Q250c3lDc3Y3TWdvbmNFMERYOTBOajJXMGdLME1Uc1FJVEZfOUIyVjJwVDdodmdMU0ZEVHZETEw3Y1dLQ1RQU3A0UHdDWnBaakxzdDhTUHM5cEtHcjdKR3VHXzczT24wSjdHT1BOM0ZJeF9LV2FXZjhwRlhvNERyMFNseDR0eFhNUXNmWFFKcWh1VzlxUG5WWUpYdmprUU5XN2NIcWVDRnlOVEk?oc=5",
+     "src": "The Economic Times",
+     "time": "2026-10-23T16:05:28+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "RBI rate cut",
+     "title": "RBI’s 125 Bps Repo Rate Cut Sees Fresh Loan Rates Fall 93 Bps",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVHFWUkZoVjFNaDZWLU9BdmgtS2J3TVBCYWF2Z3VQVTZFaWU2NlZsbVRsc1JIbTc0cXNGdHMzeFUxc0RuTUwtbnMxOFRYTUFZUTFDYXJaeGZWMkJVTHdkakZmdGJPN0VkR2tGOFV6b0RDckNIcThxVVVSSEk5VEs0V3JITFNxb1dLUjRfWnNvX2o2TXZJNmxrVDQyaF9QSnF2SGwxck1qUmo?oc=5",
+     "src": "BW Businessworld",
+     "time": "2026-10-24T03:12:24+00:00"
+    }
+   ],
+   "today_chg": -3.98,
    "vol_ratio": 1.51,
-   "close": 4725.0,
+   "close": 865.0,
    "close_date": "2026-10-23",
    "dir": "UP",
    "confidence": "Low"
   }
  ],
+ "picks_down": [
+  {
+   "sym": "SWIGGY",
+   "sector": null,
+   "net": -2.27,
+   "event_score": -3.78,
+   "sector_score": 0,
+   "sources": 3,
+   "reasons": [
+    {
+     "label": "Losses widening",
+     "title": "India's Swiggy falls to record low as quick-commerce losses widen",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbk9pX1l2cmZDU29vWmJMNEUxMm1DakxYdi1BS3FwMWQxVlN1T3R6RDl6Q1JMeUVxbDBxU0lfZmZFdWdzSkpxVGZDRU9BVkVBUzlabEtralRkUWZ1Vk5lVUl2S3dqZHVFdXIyUk9VSWhlQy10WjV4MnVaZFJEU05FN00zbFZhS3VGaHFiZ0p4ZE55bmhLemFWdDlJc0JveXA5Zi1NN2lhdmliX2tuUDNJd0NUOWxfSk5nS2dZQ0owX1k?oc=5",
+     "src": "Reuters",
+     "time": "2026-10-23T03:51:00+00:00"
+    },
+    {
+     "label": "Weak results",
+     "title": "Swiggy Q2 results: Net loss narrows to Rs 922 crore, revenue rises 36%",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX1lyUlBDSnBvOGFJXzVJR0d2UW9TbXltUjI4ejZZSFh3R3R5Rm0teWU1QWxLU3VkcXZSTE9UOExFYXh3dVFwbmFwRy1vNlhxVEVxS3gtWGRLSlduZlk1Uk5Mcmdmd2tqNm5XUUk4ZmNrZjc0MkxKTHUzRmJEdU9CWFJuUi1oLWU5YzkxTzYycG1ydUJ2emNteWRHT1JudlpkZU85dEZTNHRSa3dkZi1qMW5WTTFFSUZRTkRmbEV6MmFISmlQRi1kZE8zOFJud9IB0wFBVV95cUxPZnByZVVWR3VmMlVVakxyazRwRng3NnpKMzgwRE5HUUQwR2NKRFBQTlU1TE5YcmFHNG1EdmdfaHZGeTRiNlNiNl9WU0lDUVVkTm9tZTFBakliUUhLMDljNENjZllWdmktNE5PVkhFNVpnTGpLR0hta2xUanNvRXFvU0JWd01tTndhUm5hVXFwLXBHN3pNTTVzU1ZXWW9fdGlkTFFmczJLbVRnVmVUYm9OTTJlS01EUkR1dVBNb1otcGtoNDFmLTBiZmMzYnJLcFE2a29B?oc=5",
+     "src": "Moneycontrol.com",
+     "time": "2026-10-22T10:25:43+00:00"
+    },
+    {
+     "label": "Sharp selling reported",
+     "title": "Swiggy Shares Plunge After Losses Mount on Intense Competition",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUNFNXpBSUwyVDRQLWRRNVdWd3FNdksxSGVNWWVsVG1xeGdtRTZZLWxiZEtJYkpXQlJRQTdSRmhiQ1JLVzZ2d2NmVFVrT1FqV040X01vc1drSEJ0VHRmdzg2Zkh5WXNHbkQ5b1NiVjBZQzk1VURBU3ZuNW5iaWxNMUZ1UXhHekozazhjRE4tUU85RktKdDdQMEo2Rmc0M0hlUm1ZUm9XTXBIekF1MzVWMEZxOA?oc=5",
+     "src": "Bloomberg.com",
+     "time": "2026-10-23T11:46:09+00:00"
+    }
+   ],
+   "sector_reasons": [],
+   "today_chg": -16.75,
+   "vol_ratio": 12.54,
+   "close": 176.0,
+   "close_date": "2026-10-23",
+   "flag": "Already moved -16.7% today, part of the news may be priced in",
+   "dir": "DOWN",
+   "confidence": "Low"
+  }
+ ],
  "stats": {
-  "total": 0,
-  "hits": 0
+  "all": {
+   "total": 0,
+   "hits": 0
+  },
+  "up": {
+   "total": 0,
+   "hits": 0
+  },
+  "down": {
+   "total": 0,
+   "hits": 0
+  }
  },
  "recent": [
+  {
+   "date": "2026-10-24",
+   "sym": "SWIGGY",
+   "dir": "DOWN",
+   "net": -2.27,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-10-24",
+   "sym": "SHRIRAMFIN",
+   "dir": "UP",
+   "net": 2.22,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-10-24",
+   "sym": "BEL",
+   "dir": "UP",
+   "net": 2.4,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-10-24",
+   "sym": "INDHOTEL",
+   "dir": "UP",
+   "net": 2.8,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-10-23",
    "sym": "HAL",
@@ -161,11 +218,11 @@
    "confidence": "Medium"
   }
  ],
- "scanned": 68,
+ "scanned": 111,
  "sector_effects": {
   "DEFENCE": 2.0,
-  "IT": -1.12,
-  "REALTY": -1.44,
-  "AUTO": -1.44
+  "REALTY": -0.54,
+  "AUTO": -0.54,
+  "BANK": 0.9
  }
 }

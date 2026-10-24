@@ -19,5 +19,33 @@
   "dir": "UP",
   "net": 2.4,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "INDHOTEL",
+  "dir": "UP",
+  "net": 2.8,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 2.4,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "SHRIRAMFIN",
+  "dir": "UP",
+  "net": 2.22,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-24",
+  "sym": "SWIGGY",
+  "dir": "DOWN",
+  "net": -2.27,
+  "confidence": "Low"
  }
 ]
