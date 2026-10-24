@@ -85,11 +85,22 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div id="pbody"></div>
 </section>
 
+<section id="bt" class="view">
+  <div class="top">
+    <button class="back" onclick="go('home')">Back</button>
+    <h1>Backtest</h1>
+    <button class="ref" onclick="loadBT()">Refresh</button>
+  </div>
+  <div id="btstamp" class="meta" style="margin-bottom:10px">Loading...</div>
+  <div id="btbody"></div>
+</section>
+
 <script>
 /* Home screen buttons - add new apps here */
 const APPS = [
   {name:'India_edge', icon:'🇮🇳', color:'#ff9933', page:'edge'},
   {name:'Evening_picks', icon:'🎯', color:'#e11d48', page:'picks'},
+  {name:'Backtest', icon:'🧪', color:'#0ea5e9', page:'bt'},
   {name:'Global_edge', icon:'🌍', color:'#3b82f6', soon:true},
   {name:'Watchlist', icon:'📈', color:'#2fbf71', soon:true},
   {name:'Crypto', icon:'₿', color:'#f59e0b', soon:true},
@@ -97,7 +108,7 @@ const APPS = [
   {name:'Files', icon:'📁', color:'#06b6d4', soon:true},
 ];
 const $ = id => document.getElementById(id);
-function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks()}
+function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT()}
 $('apps').innerHTML = APPS.map(a=>`<button class="app ${a.soon?'soon':''}" ${a.soon?'':`onclick="go('${a.page}')"`}><div class="ico" style="background:${a.color}">${a.icon}</div>${a.name}</button>`).join('');
 function tick(){const d=new Date();$('clock').textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});$('date').textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'long'})}
 tick();setInterval(tick,20000);
@@ -150,7 +161,7 @@ function pickCard(p){
   return `<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
     <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} trusted source${p.sources==1?'':'s'}</span></div>
     <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}
-    <div class="why"><b>Why:</b> company news ${p.event_score>=0?'+':''}${p.event_score}${p.sector_score?', sector effect '+(p.sector_score>=0?'+':'')+p.sector_score:''}</div>${rs}${sr}</div>`;
+    <div class="why"><b>Layers</b> (agree ${p.agree} of 6): ${Object.entries(p.layers||{}).map(([k,v])=>`${k} <span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v}</span>`).join(' · ')}</div>${(p.tech_notes&&p.tech_notes.length)?`<div class="meta">Chart and flow: ${esc(p.tech_notes.join('; '))}</div>`:''}</div>${rs}${sr}</div>`;
 }
 async function loadPicks(){
   $('pstamp').textContent='Loading...';
@@ -161,7 +172,7 @@ async function loadPicks(){
     const rate=x=>x&&x.total?Math.round(100*x.hits/x.total)+'% ('+x.hits+' of '+x.total+')':'no results yet';
     const sec=(t,arr,e)=>`<h3 style="margin:14px 0 8px;font-size:16px">${t}</h3>`+(arr.length?arr.map(pickCard).join(''):card('None today','<div class="empty">'+e+'</div>'));
     let h=sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
-    h+=card('Track record (live)','<div style="font-size:15px">All: <b>'+rate(d.stats.all)+'</b><br>Up picks: <b>'+rate(d.stats.up)+'</b><br>Down picks: <b>'+rate(d.stats.down)+'</b></div><div class="meta">A hit means the next close moved in the predicted direction. Judge the engine only after 30 to 50 picks. This number, not a promise, shows the real probability.</div>'+
+    h+=card('Track record (live)','<div style="font-size:15px">All: <b>'+rate(d.stats.all)+'</b><br>Up picks: <b>'+rate(d.stats.up)+'</b><br>Down picks: <b>'+rate(d.stats.down)+'</b>'+(d.stats.tiers?'<br>By confidence: '+Object.entries(d.stats.tiers).map(([k,v])=>k+' <b>'+rate(v)+'</b>').join(' · '):'')+'</div><div class="meta">A hit means the next close moved in the predicted direction. Judge each confidence level only after 30 to 50 picks. These numbers, not a promise, show the real accuracy.</div>'+
       (d.recent.length?d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%)':'pending'}</div>`).join(''):''));
     h+='<div class="note">Scanned '+d.scanned+' stocks after market close, weighting news from Reuters, Bloomberg, Economic Times, Business Standard, Mint, Moneycontrol, CNBC-TV18 and similar outlets more than unknown sources. A news-scoring engine, not a prediction or advice. A high score means strong, fresh news, not that the stock must move. Use a stop-loss and small position size, and paper trade first.</div>';
     $('pbody').innerHTML=h;
@@ -169,6 +180,28 @@ async function loadPicks(){
   }catch(e){
     $('pstamp').textContent='No picks yet. The engine runs on weekdays at 5:30 PM India time, or run it manually from GitHub Actions.';
     $('pbody').innerHTML='';
+  }
+}
+
+async function loadBT(){
+  $('btstamp').textContent='Loading...';
+  try{
+    const r=await fetch('backtest.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json(), P=d.params;
+    const row=(n,x)=>x&&x.n?`<tr><td>${n}</td><td>${x.n}</td><td>${x.hit_rate}%</td><td class="${x.avg_net_pct>=0?'pos':'neg'}">${x.avg_net_pct}%</td><td>${x.profit_factor==null?'-':x.profit_factor}</td></tr>`:`<tr><td>${n}</td><td colspan="4">no trades</td></tr>`;
+    const tbl=rows=>`<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:13px"><tr style="color:var(--mute);text-align:left"><th>Group</th><th>Trades</th><th>Hit rate</th><th>Avg net / trade</th><th>Profit factor</th></tr>${rows}</table></div>`;
+    const eq=(n,x)=>x&&x.days?`<div class="meta" style="margin-top:6px">${n}: ${x.days} days, total ${x.total_return_pct}%, max drawdown ${x.max_drawdown_pct}%, Sharpe ${x.sharpe}</div>`:'';
+    let h=card('Realistic case: enter next open, exit next close, after costs',tbl(row('All, whole period',d.all.oc)+row('Older 60% (used to design rules)',d.in_sample.oc)+row('Newest 40% (not used to design)',d.out_of_sample.oc)+row('UP picks',d.up.oc)+row('DOWN picks',d.down.oc))+eq('Newest 40%',d.equity.out_of_sample.oc)+eq('Older 60%',d.equity.in_sample.oc));
+    h+=card('By confidence, realistic case',tbl(['High','Medium','Low'].map(k=>row(k+' (all)',d.tiers[k].all.oc)+row(k+' (newest 40%)',d.tiers[k].out_of_sample.oc)).join('')));
+    h+=card('Enter at the close, exit next close (not tradable after picks)',tbl(row('All',d.all.cc)+row('Newest 40%',d.out_of_sample.cc)));
+    h+=card('How to read it','<div class="meta">Baseline: on '+d.baseline.stock_days+' stock-days, '+d.baseline.pct_days_up+'% closed up. A real edge needs a hit rate clearly above 50% AND a positive average net return after costs, mainly in the newest 40%. Profit factor above 1.2 is worth attention. Each trade cost '+P.cost_pct_per_trade+'%.</div>');
+    h+='<div class="note"><b>Limits:</b><br>'+d.caveats.map(x=>'• '+esc(x)).join('<br>')+'</div>';
+    $('btbody').innerHTML=h;
+    $('btstamp').textContent=P.stocks+' stocks, '+P.first_day+' to '+P.last_day+', '+P.picks_per_side_per_day+' picks per side per day. Run '+ago(d.generated);
+  }catch(e){
+    $('btstamp').textContent='No backtest yet. Run the backtest workflow from GitHub Actions.';
+    $('btbody').innerHTML='';
   }
 }
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
