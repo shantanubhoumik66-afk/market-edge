@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T18:44:52.422092+00:00",
+ "generated": "2026-10-24T21:14:41.815295+00:00",
  "news": [
   {
    "title": "Indian Stock Market Bloodbath: ₹20.78 Lakh Crore Wiped Out in Four Days as Crude Oil Surge Rattles Investors",
@@ -18,6 +18,12 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLTdZdVlBZ25FS0dOTEtKVGhWUGMtMXBXbFgtampzZEl1Qmo1eTllaWt5ZjVOM2ZXbmwzX0ZZVEY1OVNrNUhEeTdpRVJGd0VDMl9BSF9hVVpxbFNjbnMxajdtb2J5UEpDRk9OVWN3alRCdWxJX2ktalE2N256eFRkMjZNSmNLdHk3VmVNdEszTFpONDJlUVQ0T25yTVFuZy1GRlUxd1JaaDM3Z1JUdjRjU01n?oc=5",
    "src": "INDIA New England News",
    "time": "2026-10-24T11:07:45+00:00"
+  },
+  {
+   "title": "Nifty IT Live | NSE Nifty IT Index Today - S&P CNX Nifty IT",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnS091SmlIQ0NWMXJ5SmhrR2p5aDY4cUxtSlhJZ3hseVlNNGQyYXlOQnFoTXZEa2lpZGdPQXM0WFJ3Q01vTUNzWmcxcFN3WXhua0p5NXpfM0RHY3V1eFNyLUIxYVRLQzY5R0Z6UUFVZ1c?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-10-24T10:42:09+00:00"
   },
   {
    "title": "AI Stocks Have Lost Over $1 Trillion.The AI Bubble Warning Bell Is Ringing Louder. What Are the IMF, Ray Dalio and Wall Street Experts Seeing, and How Badly Could India Be Hit?",
@@ -84,12 +90,6 @@
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Gd3lWUVc4RURIc3hYYkFVeVNDa3BOcHMydVBxX3Z1TUJEUmRrYk9zMDEzX1Y2RDJHN2NCQ0JPSGd2MmVBWDRSRzR1ZU5BRzN5UVA3R204elgtTGRNLTlTWlhXQ2dSLVNVMmFXR2NKQ2hzYXh3akVmSWZuRDA?oc=5",
    "src": "Business Outreach Magazine",
    "time": "2026-10-23T11:34:58+00:00"
-  },
-  {
-   "title": "D-Street bleeds! Market value of all BSE-listed firms falls below Rs 450 lakh crore for first time since A",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNZXh6eXI2Q3Z3dV92VDJ3NjBuZ3hvMUlrZzBnTlNaNUZyOWFTV25zbDBKdGEzMnJhMlNqQzBhZ3UyR2U5Tjc4ZXdCcFAyVjZTZ2hrTzB0UXFyRUtJQXU5QWVKTDA0bjU0dVU2VWo1UkMtZlRjM1Y1dnphNmMySWRBS1lhc0Z3OWl3OFdabDREaVV5TklGdFRaYnE2eGpCRjlxWENuS3hWbklCNG1pRWhlLTBzYk9Oai1XcDBMYkt4RkVLRF9uZGI2ODYwV1FyZzg2ZW91bFNPTWw3TGRFeTg4NTdva1pEWHczZzBHMUhPeE9nY0swdVNudzd6MmdZbjkwYThsY3hYQjhrQ0FFV0cyUUxaQVNtRXdFb0ZUZFNEUHhNSDAxV2fSAasCQVVfeXFMTjZLRFV5cWhFaldYazl1ZmItVTg3WmtJWFdQZzVmeV9kOXNncElIOTZWLUVTcVU2T2loVUxSRVF5d3BhcGNJaXJOcjdyN1lCQ3lnQlhuLWVsRU1vVGVoZzlGY1R6bDBVX1J4THRDM0JvNXdNVzd2VnBOYkVmR2o3cjFfVFdiWk5wbUxYTUhjSFhXQ0syNGdQWGx6eGxDZmI3dmc1OS1jb1VXQ2ZGeDJLR3kyZ3hHdllUYXFCQ1hWTWl5dWdkbkdtdFBoWWFncFBpSXVienJzaFhpUE5oY2dCVUV5RFMzTUp3Ynp4cnJYdWZxUXB5RXBKUkw4cEFhQ1otLXY2WkNkQ1R4OXZ1YmF5NlpTX0lLZFJYTXN4bEtIR3hJcW1Zc24yNWxkNjQ?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-10-23T08:29:38+00:00"
   }
  ],
  "macro": [
@@ -143,6 +143,12 @@
    "name": "PMI",
    "items": [
     {
+     "title": "India’s Private-Sector Activity Hits Four-Month High in October, but Hiring Remains Weak",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ2plVzdBVzVNRkYta1JUekhnNi1JLWxiQVhGQldnUTFRZ3lsS2FIQzFuX0V1MVljeFJieUUtVlVWbWxmM3RkREFWRFg5TGdweUpHSXRvMEJ1ZkZKc1RwdEpuTEh5VGk0OFlaalI2Qkc2TW9EMjFCUTNza1otcFB0Nlp5QkdPcDVCN0ZnUnpxdDhEbUR1c1AxU1drY2hvUE0?oc=5",
+     "src": "www.nationpathindia.com",
+     "time": "2026-10-24T19:20:03+00:00"
+    },
+    {
      "title": "Private sector activity hits four-month high | India News",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOanBlU1l1Y0FTWVJmc0hCZU5uVDVKdW9hMGpXbVlOQlQ4ZkxMcGx5blZlWURfa1M3ejJ0bDJ5WXZiQTJEUTAxNm4yTElnbUVMbDNtczNnSTI5X0tDS3JtNFZkMUREVElNVGdvMkVhOGNhZG5KYnZMdFZHZjFyUHNyVnVoM2NYT0ZRSWZFYXZTODZxVTM2SF9MMTFENkEybzc4Y25hRWIyVmpFTWvSAbABQVVfeXFMTWFYRkxxeWNDVERKQlJjQ19kUi1zdTJRcTlhMnZvRTl6eUxCN29RN21UOFZXbHF3YXBoaThSWlVCb1o4Qm9EWkYwSHBGSWVTWmxVUGNrUzRhQTNscnBXQXJWNW5OX2V5clU0VlhOS3VFblpNclV1bFB3YU0tQURCQklVdGdaQ0VyeWtleVdMNUdrXy1EZEtuT09LSmZ6enpSZGNWRFBWVUZEN09ZSFR1emM?oc=5",
      "src": "Hindustan Times",
@@ -159,18 +165,18 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYmQxd3N5TmJZTU9wZFM3VW1qUUlJYUdhdmlPLUltVmxpdUUtU21CV2lMLVpHakhqeHZZZFlxVm9pdDZZR3hhNWJnODNMNFktREppaHdBVHczaHdra3R6TW5BT1hwTWN5ZWJybGdMeWZQMnRuNmwxVHNNR0Yya21OUFhLb0R3TjJneTZ2N2w1b1g1WFVGNThXYVdoU0tlel90WnZfU05NYjI2RlFrakt0aFpwWdIBugFBVV95cUxNU0VLaTBRLThGRFdyTm5OSlZqU05nazYwVUduRzcxckVEakxXaE1pdlktT2hjbEI1MHBxem9vTkVHdnFZXzFFbGQyUldabDdLRXhaa2RSYzE4Z2VKM1kzVFdBUlI3RDV2ZTFWZzNZLUpqMVBqNEo0ODRuYktGdXhRWGt3UDJRNXFZd0Z4NUpMT0ozUXh0ZkxUZEw3eHd1NUdJenNQN3RrV1lLYzV3dUgtamo5S1gxMDVIdFE?oc=5",
      "src": "The Financial Express",
      "time": "2026-10-23T15:22:20+00:00"
-    },
-    {
-     "title": "India's Private Sector Growth Hits Four-Month High In October As Export Orders Surge",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVGRIU014R2MyN1FWemVwbDhBTFFBdlJPdDdrR05mZnRUWmRlWnZlNGF0ZU1jQkdYblZjdkxSQWhQVHYwUnZtcjZWMWxRS19aTXZZbXBGZ2t2Y3FtQTZUNGdrUGlwOFhnWng5UjlnNnpQRXgwUnUxNUhWekRrNnA3aDkzUnhUc0lGYjNSaGNoUnNybTZVZU5Ib0M3UVhFYUhDc2JtWVEzQXdnaHJ2Um83azVJQ2QwS1HSAccBQVVfeXFMTXVYNU02amFxS1lQc3lJUGNGaWpOM2tRTlBSSWswLVZvbDl0UzBORjR0dUlldHQ0Z3RJVkdIVlZDeVRscXpWSDAzd0pFLUpjbl9JNnRqZDg4eEhtY1plME5IZFZ0UXU4UTFCWHFub2c5UTVUU3dVdkhJeDFYUjVmekllOVdnX3NfX19JWlVqc0Q3TnY2VjYwcHZZRFd6c2xQdUd6MVdlQ0w5a0RkUWtXdjdIQmxGcHgtMmJyX21pSHQ2S1gzZnRyUQ?oc=5",
-     "src": "Swarajya",
-     "time": "2026-10-23T07:25:24+00:00"
     }
    ]
   },
   {
    "name": "IIP",
    "items": [
+    {
+     "title": "Index of Services Production:",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Qc2ljRVdadUUwLWpJYzJhNDNnTWxhUW9qMkRwTzZ0THI3aGxrRS1hTVhXYnpncmF4WUlqMWRpQ1FFYVhqOVFzT0ZmSVctdi1ReGxTQmN3d1ExU3VxSkZLOVlKam1IcXRBaHI1djYyT00yaEc0eFpJ?oc=5",
+     "src": "pib.gov.in",
+     "time": "2026-10-24T19:22:50+00:00"
+    },
     {
      "title": "India’s Core Sector Growth Hits Series High of 7.9% in September 2026",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZjZfaHllWE4xNEN1UmNVYVl2R0NER0xyeEg2ZHFYdnVJcXREaEpONnRHZno0SFV5OUJYaHRaQUpCVXRoRHRGWnl6eFBEYnJPal9wUUtIandHeE5iNVNqbi1EdVBfWGlEZW01TXFhWVliT3EwdHQ0WVRUazB5R1dpR1B1d3RWYVkyZ09LZEhwZW1jalhtdkpnVzlhZFdJVkFidVJ6c1pRc0huV3pBejExazlaSjdYUQ?oc=5",
@@ -184,16 +190,10 @@
      "time": "2026-10-24T08:11:14+00:00"
     },
     {
-     "title": "Index of Services Production:",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Qc2ljRVdadUUwLWpJYzJhNDNnTWxhUW9qMkRwTzZ0THI3aGxrRS1hTVhXYnpncmF4WUlqMWRpQ1FFYVhqOVFzT0ZmSVctdi1ReGxTQmN3d1ExU3VxSkZLOVlKam1IcXRBaHI1djYyT00yaEc0eFpJ?oc=5",
-     "src": "Press Information Bureau",
-     "time": "2026-10-23T00:17:34+00:00"
-    },
-    {
-     "title": "Petrochemical News - India’s core sector growth hits record 30-month high at 7.9% in September",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxOWpZSUdBOEdHamFKUzItTkFGalliUUd5a3daaEY2M0hFZlZzTGJFRFBYaENDUGx3U280YlFLcGdXeGFJWXJvdG5NS0RCLXFZUmNjTDZ6RjlfRzR2ZFRLc2h4M0FCRVlwQ29hSQ?oc=5",
-     "src": "Polymerupdate",
-     "time": "2026-10-22T12:15:40+00:00"
+     "title": "Weekly Wisdom - October 23, 2026",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52OUVIdVRxQlRVRXI1VW9DbkN2VW9hSTRwb2RNT2xXMDZlbmswX0NqQ2JkM09wRmVZWnRlQ1RvN1RKREo5WGJfenM0WlcwdUViN18wNkJiWVc3Y2xWdE1WelU1S05mRFh1VlE?oc=5",
+     "src": "Daijiworld",
+     "time": "2026-10-23T09:56:32+00:00"
     }
    ]
   },
@@ -201,28 +201,28 @@
    "name": "GDP",
    "items": [
     {
-     "title": "The RBI Just Raised Rates For The First Time In Nearly Four Years. What Does It Mean For Inflation, Growth And Your Money?",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTms3UjJzN3MtT3J0ZG5RVDl1UkZPYnVqOUMteHUzekxFazNmNnZScmVuQm0yZURhVUVXQ1I4eTZJbC1ka2t3Rl9sT3hfSTBpaThBS0ZhcS1vUGNqY25PRVhIVDktemZ1czRINDI4VzQ2X2tKSXNNT2xQN1BSTV9XZU8wNnFvRTdpankxandLa3ZHN1FuXzQ4MFJoVWFlWGxjTjk5UVZ4WDN3VXFBbVN3UkROX0dzeHM1cmZDejZsb3ZUcDA3bnNwVGFoaTF6Um5lempGcmxaWThueG9GMThldlVDZndialhkN2FR?oc=5",
-     "src": "Inventiva",
-     "time": "2026-10-24T16:33:51+00:00"
+     "title": "Strong Macroeconomic Fundamentals Anchor India's Economy Against Global Headwinds: RBI Bulletin",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZFlFeFdfcmxqQm02ZEp2dHpCcFJxbTBBdDR5d0JGTEw1NndpWFIxUUQ3UTBNVFI3VGROaTlZaWhWVFkxQVExQ2FVOVptZFJPQTJSVFgzcHlCSlYtYzZfejhvUnpQS09hLUN5OHg5TEtMZDNSa2NqTWZFRE9TdzYtZkt6VWUybFRVUHRQdl83Vm1kTF9KMUU3a2Vybm1vVFh2cW5qbzJqcF9mdXRuMWZyM2FWVXJiZGNGVFF1Y3hiTmFoaXp0NTViRmpIZDVpMG9SbUFXb0ZFTzNZek5LemtwQUhvY29zSUFQS0o3UNIB7AFBVV95cUxNZFlFeFdfcmxqQm02ZEp2dHpCcFJxbTBBdDR5d0JGTEw1NndpWFIxUUQ3UTBNVFI3VGROaTlZaWhWVFkxQVExQ2FVOVptZFJPQTJSVFgzcHlCSlYtYzZfejhvUnpQS09hLUN5OHg5TEtMZDNSa2NqTWZFRE9TdzYtZkt6VWUybFRVUHRQdl83Vm1kTF9KMUU3a2Vybm1vVFh2cW5qbzJqcF9mdXRuMWZyM2FWVXJiZGNGVFF1Y3hiTmFoaXp0NTViRmpIZDVpMG9SbUFXb0ZFTzNZek5LemtwQUhvY29zSUFQS0o3UA?oc=5",
+     "src": "News18",
+     "time": "2026-10-24T03:29:44+00:00"
     },
     {
-     "title": "India’s Economic Growth Stays Strong Amid Global Challenges: Report",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONTJWSDNZd3g1ZGVWdVYwN1lVeS15NWQxNC1rdnRmaFZncUJGUEpmTFdIRmY2RTdGVlBmZ1lVVnhEQlZrdWFrVnlJZW1EX2U5VkJBUFBIMWtBcS11S1B2N1B6NGZ5ZHdHNjMwN0RTcFZ5ZkhTRFRSMHIyVGs0MWctRFNtUnFpd0dfZmdsS0FiQjd6OFVONXBCendadDFmT19RS0M1Y2MwR25FX0w4QUtDaGk4ZXDSAboBQVVfeXFMTVAxa1E5WnoxWTZ4YzdIQ053UE5nSVhXR2RJbE5ZZmNuZDlpYkFGS21zSXJUVlRhWXJCSmRRMkRvczdSOFFuNldGRzltZ1R1ZExPMXNCSVVtdnBFQWJhUUh1SmZjWnFXY244aGQyajVjZkU1RVo5ck91RjNzckJVaU5xZGI5Uk5Lc25PM0M5LWxMQWpGVGdmTFZDbDkwMDBrTnFhcGtuN3NfbFlURFdKeno2VFV2Q29LcUl3?oc=5",
-     "src": "Lokmat Times",
-     "time": "2026-10-24T10:18:29+00:00"
+     "title": "Earnings call transcript: Shriram Finance Q2 2026 results show strong growth, shares fall",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd25hZmQ1TzZQb1dJNUpMYjdrb09Pek5YV2xWQUl3R1dYTDVEM095M2RCSUpXTHMxTEgwSks5S19CcjgzSFlCQWN6LXpHZDd2OVZfQmg1NHF4QmxIRXU3aW5Yb2tsc1JDUVNSUzlSdjdKcjhFY29taF9hdF9LQzJsM1dVYWZkMTZncjZYUzZPeHo0TklUbm5VODhXN3VaTTlxSTFKWUp3Q0swZjl2RlBFcWl6NHZiYVl5RlFTOVRXb3RFak9sa2JMUUZ3VlVXRHB2Ync1M3d6UFZwemh4NzJyazd3?oc=5",
+     "src": "Investing.com India",
+     "time": "2026-10-23T14:53:41+00:00"
     },
     {
-     "title": "CRISIL Q3FY27 Results: Net profit up 5.9%, declares ₹17 dividend",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWdJSEEteGJTZ09WZUJBbXdMSURmRkhFRDBLTXc2SHpCQlJxeXM2RW1nYmtPWkFCZHhvZ29JTHFSbV9IUmlnejBRejBpRHc3b1NDRmVwYzFDVGZDMXoxUVJPYUNCX19kd1I1cWxBSGFtOUpaSTBEa3VrUF9qRUtzYkhYMU13bzJvdVZyX1B5X0RQY25CSEVZLTFCdzhyWHJYd1VaM05ocG1Idw?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-10-24T07:39:42+00:00"
+     "title": "Crisil Reports Strong Q3 FY26 Results with 20.2% Revenue Growth",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVV9sNHdTS3NLUFBqTkpNQmM2eS0tdHlaWDByVGxlamt3RjNkaUIwUklkRnUwYjR3OXNndmNGdGdnckdxMG1MNlVhTXo3MGk0V3M1N1gwdXNRcjZEMF8taGdHUDVVMnpPWFZxMl9pUUxhV3Jsa1hPc0NzRzcteUJKX0djX0Vtc3JsVUZWcncwbVVaQQ?oc=5",
+     "src": "InvestyWise",
+     "time": "2026-10-23T11:57:08+00:00"
     },
     {
-     "title": "India’s 7.8% growth faces fresh test as inflation hits 23-month high of 5.54%: RBI Bulletin",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNkJzX3MtcWszTkhYbWNOTEV1OXBrMTJ0dnRiWWI3Y1dORnFWX0Rjekc3ajdLWjNXWU02UjFqRXdXU0xoUktXeXlfR2VNbGlYR0lNZUFycGZZT3ZvOGFCX2pWSXhWWEkxcXBKUjUwYkFsVmdsdGs2eXRNZHI1Rm9EMHBWTldYaEF3OU53WHJFY2dIVGQ2OHpoTkVmb1F2OUFKNl9FRC1yeTZLLVZhMEc1eGpHS1hkOFFmM0xGNm1mQVhUaHhzUHZZV0Ytd3Z1N0MzdE1wdHJn0gHWAUFVX3lxTE82QnNfcy1xazNOSFhtY05MRXU5cGsxMnR2dGJZYjdjV05GcVZfRGN6RzdqN0taM1dZTTZSMWpFd1dTTGhSS1d5eV9HZU1saVhHSU1lQXJwZllPdm84YUJfalZJeFZYSTFxcEpSNTBiQWxWZ2x0azZ5dE1kcjVGb0QwcFZOV1hoQXc5TndYckVjZ0hUZDY4emhORWZvUXY5QUo2X0VELXJ5NkstVmEwRzV4akdLWGQ4UWYzTEY2bWZBWFRoeHNQdllXRi13dnU3QzN0TXB0cmc?oc=5",
-     "src": "Fortune India",
-     "time": "2026-10-24T06:28:28+00:00"
+     "title": "India's Interest Rate Gap With G7 Economies Key To Attracting Foreign Debt Capital: YES Bank",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeW56R2hyeVFiREtWSFgxZlFsb29BUjJ0R2Z6VEk4RmhPYlZWdmpsYW9GUW1YQWtCbVRpVmVpTEtDMUJzMjdnQ3FvcEtrNmpBSjlsaVVVRVlnRklKelpiSk84S2kxTnRiaVZXaGg4QzNxVHRnTnUzU1ZreHVsODdseHhlV1JjcEhudjA3QWhLdjc2ZmppY3dCd3RhZm5uUGZLbTFqVXJlQ1llRW85WFdCVXdCZXFQbTVVTWNGYkZOUG9od0RVV3RlVVJhLUVNTWt6eU9lXw?oc=5",
+     "src": "KNN India",
+     "time": "2026-10-23T10:55:11+00:00"
     }
    ]
   },
@@ -230,28 +230,28 @@
    "name": "GST collections",
    "items": [
     {
-     "title": "Ramayana advance booking live",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOalhjSmkwcmRPNFA4TVJWUS0yTnhYczRMRjI5XzktaklqQ3UySlZUZmdvd2MtN2k1UmNyNEVHVjZPdXBkUmhRUHItc0JENF8tYzQzOTdWUDExSjVlMUc0dkJ1YjJsVXV1eU5GbHZqQ19YN0JjRkp4bFJ6ZW1JbmRNcUtiSQ?oc=5",
-     "src": "Sacnilk",
-     "time": "2026-10-24T18:08:22+00:00"
-    },
-    {
      "title": "Urban India’s festive spending set to fall 6 per cent to Rs 1.97 lakh crore",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWIweHgxaVhNR05zMjNfcWdkaTdnZXpEbjFzUkpTdDVxTjM2N3kwTElkVHZudDZKQUw3S0RFSWVLbGJYR21TOE1kSHdhbk4xYmxSVlFyR1ZpN1VOaDFtZ2RaTFNDaUYzUXlUYVZ2Y0lmU01YUU9QWVhHS1pCc2pvTGlFWk5EemVKMHJDQjFoQUkzSDVyUHlqaHpjanVKSS11VUJQNEJhQ0tfZllj?oc=5",
      "src": "Indian Television Dot Com",
      "time": "2026-10-24T13:52:40+00:00"
     },
     {
-     "title": "India's basmati rice yield likely to be 5-10% higher this year: Industry leader",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU2Z3Q2VuaTd3Yi1LYWVFYTM2OVNKOTk3cUFPVU5Obk5rbFFzeFFFdG50d1VSTlFXUzFDSEEteW41cS12b1FpNjdRbElJVW55S0hTcDlvN2o1ZUMzMlFFaWtzOFlJdXpDaGtyYWdkcDdXVDM3OExqaFdIZHcwQnJsOTFfQ05aTkpibXdMT1dJcUdWRzk2SDRxcC1FX19PNDJzbHY0RDF4TC1scWtnUkVRSy1TX3hXZ2dBd0NUbUdXRjVuQzFBZUJoZERaNk9QQnJuZDJn?oc=5",
-     "src": "Babushahi.com",
-     "time": "2026-10-24T12:39:00+00:00"
-    },
-    {
      "title": "Sony India TV, audio sales stay flat in FY26 despite GST boost",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzY5aXc3S19KeDJRbjhMSnBlR3ZCblNSc25DVDAtbW1lak4waXBKRmlzVjRUSHJZQmdaR1BHZ1JKalU3NVB3bXpRMGdoelpHMlJoR3pFNG9ESE4xU2dySmFGMWt2dHplYWZLaHBSREVMeDZHRGhGNlM4OGN6cUNjV3hUYy1SX3pIYmpLMmdn?oc=5",
      "src": "A2Z Taxcorp LLP",
      "time": "2026-10-24T10:44:29+00:00"
+    },
+    {
+     "title": "China's Moonshot AI launches Kimi K3.1 Pro; plans full model weights release by this date",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX2NsZEluczRqOWZsekZjZWFvd3NxTWpvaml6QnpNSHZxbDNhMnBQSUd2NkZpcFVzTmY4OWVDaVd2N0xVOW5qclpITWNHM0djc2Q2bjFoWWVucVB3aWpiOTVPSDQ5dUpuMDhKZ1d4Qnh1emJIaU0zOXhXZmJHM0oxRThzc0NaWmxNN0pMSTBnNG9mUWlsc1pjSS1tS1pqTkdSam9mSkxraFktelFkWGk5ZnZTdF8waWFDbWRsZ21xWHV4V0REdmc5Q244d2FqNjhMcmRNTzloUm9GQTNSMWZ1LQ?oc=5",
+     "src": "Babushahi.com",
+     "time": "2026-10-24T06:48:00+00:00"
+    },
+    {
+     "title": "GCCI seeks simpler GST compliance and reforms for Goa MSMEs",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWFTbVJwbkEtcDFmUEpqWEdIcWdyNEkteVFkRjFKekpuc3laZm52QzE1RmU1dVVnODhfVXdUUy1EZU9iVDUxejVaSXo0TE9wY1MyZWd0Y3JDdHdTb0lxY2tpOHpXWFN1SDdwLVFfdnVZd2MxOVBkQTk1dWR0UjJ1aDRBZW5GOEF1VFZGaWI5OGc3NUlPWHE1XzlZcG4wWmVTY29SNjUtdnVEWEZSVHJqTjFFZTV1Sy1hWjZrMDF4QTJpMGV4SHlmTDF30gHPAUFVX3lxTE1EZktJOEdmZWNZT1ZwR3BZM3UzVHRSakROblpOTDZicjZqbWdQdkg0Z1RCMG5ETEp6THZzVzFWb2xzR05PaGJ2cEU4MHhzX2lFOG0tNEl2OFE4QnhKckdfQ3RpblFCZWlkZFFPbml4MGNJM1RoTll6SW1QcXBaWEFLb3BTaDdPb1VxRF94R0E5SFNaU3FPUmE5dFg1TmZsU2tpQUMyV2RrbzNiSFRDc25yM3p1RWotRzZSdjJsQ1hlZGl2dnlzYmt4QjM5NE1OTQ?oc=5",
+     "src": "The Times of India",
+     "time": "2026-10-23T18:55:00+00:00"
     }
    ]
   },
@@ -360,30 +360,6 @@
    "name": "Policy and rates",
    "items": [
     {
-     "title": "RBI Hikes Repo Rate by 25 bps to 5.50%; Switches Stance to Calibrated Tightening",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemhVSFZwbk41cVlvNVJqbFNWQ2RBbk42enh6RG1jZEJUcFFrbHZrRXZ4QUxuT3Q0eHpRVFhwemJ1SzZrQ2ZoVkVZd1g1M2duam9sX0V2Nk5DYmpDLW4zUU5wdEtHWFFRa2JzUW80MXltYTFEc2cxeVpCMWRCTFBWMUxWUE5TLWwwVlVlVUdCQUt0RllPb3hXRXM3RzhWVl9ITlZILWZZS1VuZDBmY19zZ09ZMlk?oc=5",
-     "src": "PSU Connect",
-     "time": "2026-10-24T09:09:00+00:00"
-    },
-    {
-     "title": "RBI's Rs 2.5 lakh crore liquidity infusion raises questions over tightening policy signal: SBI Report",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSFNhbzNjTzJwSUlxamNpZnBybjljaWdTQWJ3UV9ycWxMMGZoOW1TVVlIRVBOcU5LeUpjYVJ0UFV6aHhKNGF6S0hBb0NmLXBOR3lLclJoVVBFeE05amRjVlhVMEllOEk2S2Nzc0JtSFV4UDg3X1drYXpjcklpcG1vZzgwUDBxbVBXUUZrX2VnTy1tNmd0eEFoNWJocGg3ZW5NSlZIZ1pWVTVudjBxSTVSRjZ2OEh6OGZwZGlDRHpnRkx4ME1lUFRCX1VsQTRhbkF6SmJJaGtsVXV5UWttMW8tbkcxONIB6AFBVV95cUxPX0ZUMmp1QTNUUll2bHE2LXZ4X19oMm51QmRQOXZrOHplS3JReWtHMmdTclotOVZFVUtJSEVzUnhEeFNVQXBjbUlIMWNxU3ppUkx1eFNjQ3AtdkNFcWszM1Ruck85X0kxeG9vanBxNGl4RG5zWjRqTGROeGhfdG12T213cXBPWVJCazI5dnhQWWNYajZRX2NRQ1hReVRXSHJFb2VVWVdzMVp6enpURVltY1AwX2M2dXh1R1FBcTlGd3RIdURPNE9BaVlIdTZOaWl4S0s3Ri1tSF95blFPcjd3c3RDU0ozdWhy?oc=5",
-     "src": "The Economic Times",
-     "time": "2026-10-23T14:23:11+00:00"
-    },
-    {
-     "title": "\"High Inflation Is Like Tax On Everyone\": RBI Governor At NDTV World Summit",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zbnlOUVpURlJ1eTEwemNKQ0g5SU9mZGpkMlZ1VndVdUl5TWktRVhEQW9CSlZtcndfVFA5bVk4ZVRtdjVoY0dRTWZHTmhCZVFNQlFj?oc=5",
-     "src": "شبكة تواصل الإخبارية",
-     "time": "2026-10-23T14:12:08+00:00"
-    },
-    {
-     "title": "RBI Monetary Policy: MPC Minutes Signal Repo Rate Peak at 6% with Increased Odds of December Hike",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPS21nLU9aZzB4NkV5amh6RzVzLUJIXzM4aHg4NmZ4S29hT3IzU1lRdnVPb0RJTWF1S1YwLTFqZUVpN2p1LUFLUlluM0g0Q1RITmt3UEdTTWFmVjBONjNybGlURkJzQXh4c1hWNV9QZHFiamozNV8tVnRtelZsSW5vb3dMWHpRcXdPVl80VVQzSlo5M0NZWl9sb00zZ0p2N2RCZGFkeTFmaE9iYU55emNHSmVrUVVNZVprb3hFUmZNVXNYeVA2enB6UXhCc3ZGOXBGTXFWRkhWbXBvM03SAeABQVVfeXFMTlQwWXk5ckRBMkdvREtBbS1nOTZ2N2FfcFlVNlgxaFhJQkFUdFo2TzFVVkYyWWhUcDJTN015R1BlWko4Ui1WUE9odVM4cTVfRDNiWGJacndYQjRiMkVzVFhYc25IdFU1alJNUmpSMUtZbzctYWY5TG9ZSkRxMENFelpWWUQtdmo5TnBFUkJGRmNpdzZDTUs3ZnFvUEVBc1NpcGI5WHVZOHdKMlBycGtDOTFaZjRVR0JNLWx4cHlFTmlPbE9MSXBwZm1lY1ZEMGtrSVFtS25rd2phUlpVbkpVeTM?oc=5",
-     "src": "PSU India",
-     "time": "2026-10-23T07:21:32+00:00"
-    },
-    {
      "title": "RBI MPC Meet 2026 Minutes: More Repo Rate Hikes Coming? Governor Malhotra Reveals Next Moves, Future Outlook Amid Inflation",
      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWWZWTk9QMExzdFF2VFlJSlNKVk1EYXFkRmJIMHpxNWdTQlY0TEgtNFJyd2xpX0VoQXdzWnpvU3hFU25UVXZaMXpCTlNidG9TMFR1Z0VzX2F6UEFRVEZtR3U3dm0xOEJsZG9HSnB4dzBIMDFhd2R1TGZtSnVWd1ZnbUR0YmNBT0tXUmJ1VnRUemp0YTh2S2V1NE9veGREMFVtYjZzMlM1emtMeDB3X3JpVFVtbnJHNFlSeWZWUjBMa19vbWRRVlJ2U1o4QjVNWGVNeDJ6eWljd0hzb2RNMGVJaWlIWW5OOWhPVHBRTndEbDVaSG5zQzI2REU3S2hyRmJ4X0J0QlRZUdIBjgJBVV95cUxQaEVmRUdoa0VYODRRSk92R19NX3NUaGhXcjBud1dCNmZZNTFxRnJqWW9HNkY1a252NDlsYVZGeXV5Y0tBRUQ3aFVRakZRMXVtNjlPSmVxTVFMOWVQeVM4MVZTU3FFaFZYVVl2VEJKWmdTbHEwd1p2QVpIZDJPamhoUnUxdkNYMmNpZFpNSExVVzM3cTVWMkg5R2VNODZmeVpYZUJLODBCRTFacXpwQlJqVFV1WEdmaU9xQUx1cGk4VU1kbnNoWkdKdy1UbHNXNXd5OVJNejhjLUNPREFXSjU4eF9tQkhJSm9MWXVrVmNIX3hhbzJ4cDdFV1cxV1hNXzZOT0E5VDFCTEw2Z2xWQWc?oc=5",
      "src": "Jagran Josh",
@@ -394,12 +370,42 @@
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTFdGcnJLRTBBLUt1aC1kQnUwUUxfbmF4Rmp6QXVPSHJGNG5aQkl3WnZnbllRMXgzb1ctTFJ4clJXam52bWxqODE1TTBiZUxEUnFqLXROa1ZCVTdvZzZZcXdPalJYQVVEdWpaNUtIZlV2SUZOMExhMkc2MXJ5ZDMtZm4tTVhjTk4yVTBHV2xMTVlmcUhiVXJqSHVPTENaWWVuR1R3UlF6NTZPYTRISDdvT3gyYW8yQmNsRFFjUWRha1F2M0Rka25OZ0JhUEVIeExQUlIzZHRCdWY4Z9IB3wFBVV95cUxPeHFLT2J1amZYQ2l6WWNsVWlEOS0zV2xtTmhNRHo2RU9jdjRuZ0hXSS1DZ2UyczlWQVR3MGJMOWI2M00zT2l4c2w1bWtmaEIzQlptSW9jSk84VEJoRzh6S3hJQUNDTnlnSWpJLUlTMFpCU21heU40bVJ3RkZZMEo0RU1CZE81bUllNHVNdTUzT2QyV0NKVWpzTnhwMnprZEJqYVR6dHozMDJ1TFVUNzBXWS1UU1p3X05PUEdyWWhtamNSR184NkJqWFI2QU5iLXpQMzA5WEZ4Z3dYdTY3blZR?oc=5",
      "src": "The Economic Times",
      "time": "2026-10-22T19:26:43+00:00"
+    },
+    {
+     "title": "RBI Signals Further Rate Hikes As Inflation Nears 6 Per Cent Ceiling",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjdpX3pPby1FTGtKbjFnSjE0RE1PbEpORUNuT1pIdGwwc25pSXU2NTBPSUVVck9rVV9CZ2tzUldrVVd1b0FIWUlZd2RkTnpVQnVLTy1vN0xlWkVUbVpqTnNEdlRlbFdPdks1dkprNkJEdzlxekdJMlI3cnlLSndJNG1Ud2JWVU0xYWEzSzJBbW5BcHdVYWJpVDBmdERwckZubW9xUHF30gG2AUFVX3lxTE1VR3Rwcmx2NzZ1dGNWTjdtM0k2bWUwQTJFZkZxTEMza1VnQVhYc1lEYmpRU2ZqMXA2dTVrWDdhSG9EakJ6ZTg1OVBYemVpU3dxdkVheXVBLWN3OGg5OV9nNVBsNHlwVmkxWU93LTdjSkExOEJjbklPbGd3NndvZFNVODhsWjBpWGI0UlNqWDhrY3Q2WGlqUEhVeGluRzhwbm1rNXJWOE15X1dBUlNROXlLYUpXTjlB?oc=5",
+     "src": "Swarajyamag",
+     "time": "2026-10-22T09:52:26+00:00"
+    },
+    {
+     "title": "Is inflation becoming more widespread? RBI’s rate-setters are divided, and that’s a worry",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1FUMzlQdDlRdWVfa2FiX3hmV1Y1Z2hnOUVwRmFkV0tmTVNvc29Kd2RhbTdJYzlVQUx1Y0xiczd6UGR3emJvWW0wRkVJT0dDUV94bWo0LXplWHdlcklHNWhnUzVNMHhNZGxtVHJVS3Z6QmVaa0dzdjNRemdHSFlkcmdVWmNzZlFRU1BodlhYb1ZXMnczeWVGMVh5N1lFVUxpSGd5WFZCd01LbzJoNmhzTGFVTFVCZk9ibDdIYXFKN1UyQWN6RjN6NmtTVzVmYVXSAdYBQVVfeXFMTjNCU2tDV2cybHdRaDFDZ3JKRHloQXMzUVpNcFhxVDdRWjE0REgyU1c4QmlGX3czTDZFbDZzVWNxTlQ5bXF5c2dpd01xdWM2a1EzZUtLblpyRlNjM2JtcFUxUmJxNDRFcjZqS1k1NTR2UDA5a0VKVjZGNXlsZ3hGT09vcm5GSTJ6ZEtOby1rNlMzb3M2T0NNSnhGY3RsQzZjaXJGZ1VGYVR1X3VYTTZiUmg2amVxT0tIQkZyYlIzSXRCUWNRZ2lvRWl3MVRvVGtNemd2V0MxZw?oc=5",
+     "src": "The Indian Express",
+     "time": "2026-10-22T09:11:04+00:00"
+    },
+    {
+     "title": "RBI MPC Minutes Signal More Repo Rate Hikes, Economists Expect 50 Bps Increase In December Amid Rising",
+     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPT3luRkFjX2d2WVR6WDFGNURGNDhkWlpuektoakhkT3pGU1FDT3B2OHRUb2NDQXRRMnlCaWJPczcyWjlZWDRvM2dBY3pWMWg2V1RVOUVtcS1vX0JscVJza1U1bWplclBDNmd2MmNFT3VYa0J0NUktLU9YRVRUUWZGNDljWFRLQ0xTT0JyelpSazNSUkNVemNTcDVjdlBfblVFM1MwMGRBVkM3NlV4OG5jNlpXTV8wczBzLWE2QWRQZXFfRVRpNEx3bWVZZXE5WWRPM1VjejVqOHBNTExjY2NmNDdNcllaR1kxdnF6NFMxSEw3VlFI0gH0AUFVX3lxTE9PeW5GQWNfZ3ZZVHpYMUY1REY0OGRaWm56S2hqSGRPekZTUUNPcHY4dFRvY0NBdFEyeUJpYk9zNzJaOVlYNG8zZ0FjelYxaDZXVFU5RW1xLW9fQmxxUnNrVTVtamVyUEM2Z3YyY0VPdVhrQnQ1SS0tT1hFVFRRZkY0OWNYVEtDTFNPQnJ6WlJrM1JSQ1V6Y1NwNWN2UF9uVUUzUzAwZEFWQzc2VXg4bmM2WldNXzBzMHMtYTZBZFBlcV9FVGk0THdtZVllcTlZZE8zVWN6NWo4cE1MTGNjY2Y0N01yWVpHWTF2cXo0UzFITDdWUUg?oc=5",
+     "src": "Free Press Journal",
+     "time": "2026-10-22T08:43:39+00:00"
+    },
+    {
+     "title": "Higher inflation, price pressure spillover led to RBI hiking rate: MPC minutes",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRlFSM3JvYWJET3k4aHZyeDJGcl91dl9NbldDbGNjQ2FCUWRhdHJTSVZpVzl3NEZZYlktbVNSSTZub2F3YVpBanZPaVdrWnBsVG5BajV2SGZBdHBHRnZIdU9BM2lCRzVWU2VKMjU0V014NmtPY3dWWXM4NmFiY0szeEZiTUVOWUNIamJSTUlOaGtOX255M2VrdnZfVzBiMTNsbXZ2eQ?oc=5",
+     "src": "Nagaland Post",
+     "time": "2026-10-22T06:40:18+00:00"
     }
    ]
   },
   {
    "name": "Liquidity, rupee and banks",
    "items": [
+    {
+     "title": "The RBI Just Raised Rates For The First Time In Nearly Four Years. What Does It Mean For Inflation, Growth And Your Money?",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTms3UjJzN3MtT3J0ZG5RVDl1UkZPYnVqOUMteHUzekxFazNmNnZScmVuQm0yZURhVUVXQ1I4eTZJbC1ka2t3Rl9sT3hfSTBpaThBS0ZhcS1vUGNqY25PRVhIVDktemZ1czRINDI4VzQ2X2tKSXNNT2xQN1BSTV9XZU8wNnFvRTdpankxandLa3ZHN1FuXzQ4MFJoVWFlWGxjTjk5UVZ4WDN3VXFBbVN3UkROX0dzeHM1cmZDejZsb3ZUcDA3bnNwVGFoaTF6Um5lempGcmxaWThueG9GMThldlVDZndialhkN2FR?oc=5",
+     "src": "Inventiva",
+     "time": "2026-10-24T16:33:51+00:00"
+    },
     {
      "title": "RBI Achieves Record High with $43 Billion in Net Dollar Purchases",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNnlzREpzZXlyQ3pQdkJhbWFPdEJBbXk2WWNNOVBiRjdKbzFDQVhEZFZwUFJhazNRa2Y4RzlzT2Jfckc3ZXpsWUY3TWJHY1pBYnRtWmRCMGRLcE9rTlRLcDNXUFpPMU5TOEJuT3FzVmE4WUFwMnJwbmFZb3lNc1ZZZnF4RzR4clE5UEZSNm0yaExfNTZxd1BKTmJmSE13bVU?oc=5",
@@ -417,12 +423,6 @@
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUEVGVUd2ZU02dkNnNmNYM0llUWdid1VGdGtqRnNSVHU5R0RNLV9oMW4zLWZXOUNwcFNSMDRzOFNBcG1NMFZzMmdDYktMTkJtM3Q4eGNTU1RqU2c4SXZWR2FPU3ZDUXJIaE5wYTdQbmRBXzd2UzQ4Mk14RFJsT0dlSG16Vl9DTGFpeWZ3YzZOR2xNc3d5RkhaVGZDZTNjNmRNNUNkOEhQbEZoY3hxbnFlSkc2aFNSNDVodVowTW5weGVkejNmRVNCREpyeEppUWNwRXZ6VW1QTmRuOC1TMGfSAeMBQVVfeXFMT3pDSUZVNy1NaUxBczBfZzUzTnhaY25IMkZRZW9ySjZsY1FmNVNwcXVHT1VYNnhBekhFOWdJQ2R0dFh6OWdZaVVTVHZ0bDRuNkdZWVdOZGpHMGhpOTFtMXpQd01NUFF4LTVZaXA3Q2VOV0xodHFSN3otWXY0S1d5Z3pISll4RTFIakRSTGs2VEQ0NmZDclp1RGZOWnFDVkxSTTEtZVFYd1N3Rl9ua3NYSmZ5Wlo4SXprWHlQSzlzdXg1bWNFdWI4WXRtcVljT1ZEM3FDQWNMSTNhQ09naG9XOU1BdEE?oc=5",
      "src": "Times Now",
      "time": "2026-10-24T07:03:06+00:00"
-    },
-    {
-     "title": "Banking System Faces Tight Liquidity Amid Festive Demand, RBI Interventions",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1dsemRyck5IdTBROXREV3hsVEFJQ092d2YxUGF4SVpGN3hvTDlpQnZWc0FpQ3o3VEtYeHItLTJod0RwSVRCMUlxR3dJMlBfcVJxNkNSMjRMOGV1NDQ4VGFEMEh4MnJqUlBaWkk3bUxRX1RIYnhTVHY4YVdVOWVtdW5xdlByOXpfSnRaN3dLYjM0Y2VBU05leG9ISkJMUEZXQUVWWTRYclF1VEJFVmlwRkJCWVp1OXFfLTZLd1lidWzSAcYBQVVfeXFMTU1XN3J4SENRWEd3cjZMNE1xb2tRYXZkQWNHSHpZRFljRlZKTVNPd0ZwMGlaUW5IeklTOS1CX3F6NzhrNEY5UVc4Mm1FZ3ZDYWVBYVpTMEVaV0stYzNYV0lZZTJvY3RwdDBXQTRoWUtudGtZVTdiZWs1QzNnVUZqZmtScU9lWjQ5dThqNjlFRHV5aDhDbE1xNnNTMWQ2ckJWeVF1RGRTdXJMWWtqZXAycWszcnh3NHNuYVRQaXYxbFJEMjdDT0VR?oc=5",
-     "src": "Lokmat Times",
-     "time": "2026-10-24T05:32:27+00:00"
     },
     {
      "title": "Durable liquidity still significant amid forex interventions, rising cash demand: Report",
@@ -443,6 +443,12 @@
   {
    "name": "Cabinet and policy",
    "items": [
+    {
+     "title": "MyVoice: Views of our readers 25th October 2026",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVZSeG13OTNxSHAtbVlnRVEtcHFuaF8xM2hRTWZIWEFmajBuWVVGUHNHbWlwUERpNmh1V2twaEZRVnBzeVhZbmdyTG5iS2dDdmt1TENSSGpvT1E3T3FSaHgyTmJsYko0NmxqX2I3aFBJODFrNTQ3amZFX0g1dTI3dlctaUJXZ0g3YktPbG1LTmpFb1BrWk9J?oc=5",
+     "src": "The Hans India",
+     "time": "2026-10-24T19:55:08+00:00"
+    },
     {
      "title": "11 crore farmer IDs created five months ahead of deadline: Shivraj Singh Chouhan",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcUI5ekIzNGk3NWNidHNQSUoyVXVDVEJQb2o3QmlJcFJ2UnF4UnhhWUUyd0ZnZi01SDJYM0xTVnIyWnRSaTd1RVRkRENQdjQ4d1RsdldGM0swTnV4LWJ6UXVjU296NktJRk9wOENtLVh0aDIwdGtwQ2dXLWhMdFJzd1JxaE55VFJhSmwtXzBhUzVwV0RvSWtpUi1zQkhWWE5vYjcwbG5aQXdxRnhTQXFqWGFOYWhHb0ZZOGNXRzF3?oc=5",
@@ -465,25 +471,31 @@
      "title": "Foreignisation of IDBI Bank and Hypocrisy of Patriotism",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHdFTnpNWE9WQ3FNTGdoc3JnUm1JMGhrdXIxYUNuaWt0TXZ2OW1tQkJNekNaZFZLTW14ZXo3cFdUR2NVQ0JZUEhZSDNOMTBGcXNET19NRlZCVzNpNUdHSmU2TUk2amdmZlQwRDNjYWpvSjNhYlRPVUg1OWdIaWJ3eC1NY21qazlqeHFHZTdIX3RMSEs2NUw4aXhn?oc=5",
      "src": "Thekanal",
-     "time": "2026-10-24T14:10:43+00:00"
+     "time": "2026-10-24T14:12:43+00:00"
     },
     {
      "title": "India to Build Secure Military AI Layer",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FOXYtTDJyWXRzRmNzRHg3UGlrYi1QdG92MFVsdTdLRUtlSEhiZllveTd3eTlySlJaWVhpZ2FyOWlYS2hPVy1TbzJjcHZzUE9WRFRQWkczdnlyakxFTG5KYkRtRGVsNGlrLTIyeUtjTnM?oc=5",
      "src": "GK Today",
      "time": "2026-10-24T06:34:41+00:00"
-    },
-    {
-     "title": "8th pay commission: Here's what ToR says on dearness allowance and govt's response to DA merger demands",
-     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPLTB2dHNMWEhCX2g2b01KOXR2QkxUT1lXUUlEVkFuMzJuWTlwZTR3b2Jwai13WTVKMmE0c3VoV3lOR2d1ZTdReXdIMHBOWHZhLWx4OWpmVXV0QURUTF9aRjBZZVpMSFV2Zjh3N2VOTnBOSDRmQzcwRk1zS3dVTjViOHZCd0I0LWtoVkEtdzY2OXhJbk1UWHFRR2xPSkpzcUNmZzlmcGVTOUgyalVnRzJzWjhPbXplYXRnM2JNbFd4YkRxdUNGZ3hWRVVVd1hmdzVVNDZ2T1VNOUVEcUZTN0stbGpsWmdvTHJVVFloV2NqblpMOHZHV25DTWViWW5XVWJ60gGGAkFVX3lxTE9PWTUxbmM3d0lxWVZDMTExV0E5LW1QWkM5enBhR1JqckE5REJFcm1ZeUFnRDUyaXl0bFZJNHJFdnZlQ0FJOWFLZjYxTDE0UXA4UmkySVFLc3JDcTF0T1RjSTl0b2dPZExqNlVaX3hZcmQ3LV9ualRrLTFqY2stWG4yMkNvRmlCek5Bd1R5LXU1MV9vWExpQ3hKdjBPWDhqU0lhdTRVRWFMOWw0NURucmgtZktWT2NSOS1aWjZCNDNGRnNzLUREcUxFMENhbUE2ZVY2MjJVWGtlaUVkMUlndmcwTzF5eW5LNXpNcTBhZWI2WmszdEVXWXplRGloWDlxc1M5bUpKZ1E?oc=5",
-     "src": "Livemint",
-     "time": "2026-10-24T05:21:43+00:00"
     }
    ]
   },
   {
    "name": "PIB sector decisions",
    "items": [
+    {
+     "title": "Manufacturing Momentum:Building a Self-Reliant India",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvRmtvLV9MbC1nX2RudWdiZ2xQUnpCRmtTTU0xNkF2eV96Zi1kUUhkVjlrMWNGUkVKZzZXRUdEQjN0eGZRS3AxSm1BWC0tbnVHOXU2LUJDNlR1eDVpY1B0N09Ga01xUG9XSzVRejNpOHRvREdBS3c?oc=5",
+     "src": "Press Information Bureau",
+     "time": "2026-10-24T19:00:51+00:00"
+    },
+    {
+     "title": "India's Defence Strength Powering National Security through Self-Reliance",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5",
+     "src": "Press Information Bureau",
+     "time": "2026-10-24T17:40:25+00:00"
+    },
     {
      "title": "PLI Schemes Attract Over ₹2.40 Lakh Crore Investment, Generate More Than 14.15 Lakh Jobs",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOakJyV2JscE5RVTl2Mjk3M05sYWNWMy1ETWdMbk1rZnU5bHpDbjZ3dzVRWU5uRzhxX3JhMU1kSnVjcy1Yb0V5RU1wODRTTUdMcTc0NzU0MVhsR3A0RENHREg3QTNfYmhwYk44b0xndUZLb0ZUcDJrbFhrZkc0UEVTMnRzMA?oc=5",
@@ -507,18 +519,6 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BZG5RSWRmSHBuYW1NWFNTaXRWQkRqSDJQNEM4bGNsc3VHWHBZX3NkZlZ5NXdnb1dIbkNhSkppYUNLQjE0UDNpUTRnY0U4eVFXSkdyZjcyY2FSdkVMSkM5Q2tJSnpfODduQWNLNXY1MWVRd3p6clpPMVhZWQ?oc=5",
      "src": "Press Information Bureau",
      "time": "2026-10-24T14:09:00+00:00"
-    },
-    {
-     "title": "National Urban Conclave 2026 inaugurated in Bhubaneswar, Odisha",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IY0dnaDY5b2QwZWRQWUhPczg2enZZcUNpOVZiSGNvWTNyR1dNc2JRVkl6Zm8xRXJmUF85RjE4MzRMTHhPN3M2WEdHQV9FeUZ3dVBwTmllOFo0a19wQVkyRV9WZHNBM1RsOTVmR2JCb3hyd1lhNmJyem5fNjV0Zw?oc=5",
-     "src": "Press Information Bureau",
-     "time": "2026-10-24T13:47:00+00:00"
-    },
-    {
-     "title": "Ethanol Blending in India",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWRTQ5d29pMmJxc21sTlBfYktCMnRFcFBhY2pDREUtNUNJV0FZTUk1UDRlbWg3R05rTGRmOGdzQkxHQ2tFSDFiT0M0Y1ZlcEd6T21PdlJpaEZua3FTVmVRZWp3TE1IYWpPVUdDbUJaQjREUWxaRERv?oc=5",
-     "src": "Press Information Bureau",
-     "time": "2026-10-24T10:56:57+00:00"
     }
    ]
   },
@@ -550,22 +550,28 @@
      "time": "2026-10-24T08:58:01+00:00"
     },
     {
+     "title": "Sebi proposes easier rules for market infrastructure institutions, relaxes analyst call-recording norms",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRklVNXlLVm5LQXpFVlNDS05JQ0tXWmRwR0pzeWQtLWxXcUdnencxV3ktNjBvUGFWcXcxU0tJUmRqMUdxNHVLU3VHWElmRFpRLUszM1B3V3ZobVFVM0RIV29oWGh3bWlTLW1lVFE2eGxTWTVJTkdUUEE5VHZUa2doTk5wR21OcEVXRlN4b1REcW1YRUlvcllTSDFqRWQza1dZLXpGOGNOUVQzQnl1ZzliaXVxMGt2cE9MdzdHdWtYTnZyV1pPRk9XYWRVUDlFbFFvRnoyONIB4gFBVV95cUxOWjNIalItTF8xX2d3MXhBeXItNEx6LXFYQXp3ZjlQSTRmTGUxWGtMZ0paM0RFRG9DV0Z2ZmdSaXJrNjBvaGttZFpySUhCcW1UaHY0V0Z0WElUazhHTmZ5ZDctaWR1bXhSVDJSNkJWakR6elpBUWxXQXpWd1ljQVJaaGRNdFpHQ3c1bFdySGZjOGdDZm5RY0VGX2dTeFhYNHJydk83elRHYm8xUUo3cTI2ZjR5SWxMczdMZjZLS05EYWJabkZqTUpmRXlPdjRaUVptdEF6Zk9QdDRRWkhQcUR3SExR?oc=5",
+     "src": "Fortune India",
+     "time": "2026-10-24T07:32:31+00:00"
+    },
+    {
      "title": "SEBI Amends Research Analysts Regulations: Exemption from Maintaining Institutional Client Call Recordings",
      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNkhxYnJYenRlSWFOekNXSDFKc1hyN0JDRnZ0bVplcW1KYVJQU2wtQlJjNjRwY2xhZ1NIYW1zMUJlNVV0T3dETUdIWXdueVN1TzVPQkZDQW1KVFMyc1pVamd1ek9YNFZxb3gtbnU3NVpJZjVPNWhpbWFudlg1QkJMYUQwdnFQQXVSR3hnT3R6a2lhVDdMSHZyV1ZUN3pFeVIwcWZKdlBiY05veVg5VnRUNzNKZlN1ZGhnOFFGVnBxUExpSnVEM2lXZC1WVmpZcTliSFVJRXNvdWZPMXR4M0ZiS1FDaGZFazFQeDVZV281eFNKUQ?oc=5",
      "src": "CAclubindia",
      "time": "2026-10-24T04:43:00+00:00"
-    },
-    {
-     "title": "Sebi eases call-recording norms for research analysts dealing with institutional investors",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObWdBR2lLZnY1Vl9sSWJqbzN0bHZmcmdvN1BoSlF2SHlTaXpkWnQwa1JsR3k5bU95MTZ0V3ljdXRBVjlJSl90ZmVmemVrYkZzc0EyaC1ndmVadlF6OExvZjA4VFl2REN0M1lvN3lkOU1pV1FTZlR4R0c3TjIwYUctMVE5c1BYdFRGSzBsb3lpNFlFZVpEY05YNWMyZGxfQUJteWN3VFpVb0ZZY2NrT2J3SjA5RFBxSVJZd1RyX1p1OVgwUlFJTXJkbFFYSWRrWlJsR2pjcmVEeUNVYTlSckpObVU5WHNSQ19mWnFnajd1MkNvb3FCVkp6NEUzTnN5MGNaOXRV0gGIAkFVX3lxTE9kNUN4c2puY19mdFlqRzFuRld2cmMzeFFVUXMxa05lVGk1VTRRTUpXa2VpbUVHLXo4dHVUUE9sZ1JxWWZMWnU3WmpWSnRYRE8tTHhXVUNReEg5ZWFoT3RmakVSSWd5UVI4Z0V2bHU1R3lkR1lkOEJqTmF3aDcwXzVJdGk4ZktrcmhQN00tdXh4Tno1aEtPUmZhMi1JWHRXQlpPSmpFZm5WSzRaRldGeHVvSElrWWZjaC1Xa09Zc3ZrdzFmVWoxQmtXR0hSSVVvcWgxblFKN0tiVWxLcGQ1UFc4Q3JaM3NVVUFaeGg4c0MwYkhjSzdBSjBad1ZjN2RGZUZQNUpNS0hvVg?oc=5",
-     "src": "cfo.economictimes.indiatimes.com",
-     "time": "2026-10-24T02:30:18+00:00"
     }
    ]
   },
   {
    "name": "Duties, PLI and tariffs",
    "items": [
+    {
+     "title": "India brings back duties on specified Chinese titanium dioxide imports",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY1Z3OTFxcmNKVVVPWUUwXzRYa2JhYzRDaUtrcmkzVlpzLV9va0xNSDBNcGstaFQzbkdQMnBXZnhRUEV6V3ZOSTJXOWRBb0NXX0JmVzlqZnN4SmhsWkxhT1dGUDVlb2RxZ21iX1JyS2dqRkZpelZkUVI1T3lGMzdpQ3l2aUw2dXpXM19OdG5Sb1Z2WWFUaWotaDdwNFpUbWtDc0xZTHRjbzNnTTBObU5wWm96MWFDR1NYX25BY0R6dUpwVHNiYjRSUTdlbFowa0JBU2dETnRrWmJHdVdRWHRpeC1ETjVkUdIB6wFBVV95cUxOSXlXd2NRNzNXZm5IaFFsc1ZJYUNULVNaRjc5VGsyaVZ6TF9rMVVqX0QzVGVDY0lmMnZYbXgzSlhGdXg5Nl9zLWJpWDZqMV9sQ0paWTVjZWs2a3NFVlVobE5VeVI4MUtxUUp0aVdaUW5vTWNoNHgtNFF6bm0zdEtPZmJiTjQ2X0ZZTGhqS05SNW9XUlJjcGVZMDhhQzk5aEx5eFQ4YkRFR1dheDd2YTZqbkFQQ2Jnanc0UHU3QkxPX3J1VjQ3RWQ2d2JqZFhvdHBoV1I5VnQtam5TdWhLdjVYQjF6M1NQNkFPVzdr?oc=5",
+     "src": "The Economic Times",
+     "time": "2026-10-24T17:53:14+00:00"
+    },
     {
      "title": "China faces fresh Indian duties on titanium dioxide imports: Anti-dumping levy of $460-$681 per tonne reim",
      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQT203UFN6TkZxTDlxb3dDUWVwbEw5ZUZNTFhaVUlQMUdGMlhwVkkzYzNlUzA4Zm9LaHd6cHY4ck5hdnlud0tOYTJRNW1kc3ZqOF9ENTc0N1l1aTJPNl82NWllazR3N1RKOXpLcURSOXc3VmpiRk4tVnVNQkJ6aWgtZG1sU0hYeUQ4QTJnS1pwczYzMktaWXoxaXFDcWNtUDNlcDBwVGZWblgtdU5jdmlad3k0MFROUnNfeVhKck1iN0NGWWVhbGdfbnNNLVVzYVZXNmVsenFDWXMxM2Nhc2U0SWd5QWdsVU80SkpSWWs1UG8zb0RsdFJOSG45bm0yM3k2THJjRXg4aXhBRldPLXRnZXZ6Vl84elA3NGFTc0pCcFQtTmROS0VOWWtEZF95eWxk0gG2AkFVX3lxTE1EUGFZUGJEY1k4QVZhQXRFakZuWFlVNXpqS29YZDNtNjk3R25WSFhKbWpFQ2UtSDNuR09WMWZyb0ZjTy1FM3JBUWdiTDMtbTktTFpXRE5DdHpRVGRoVXBzQWhHVnltTmlYRVdqRnRrMGE0N2xoVkRtRzlpUk00V0s5UW1lU3VhNHRSSmlMaWUyeFYyVkV0RGJhOU9hUUF2cEdwTzFUNXJlUUJGMFVSb2tfV0VjT2ZFZjN6a0RyMXhfX1ROeE92elFPTVlWLXFxNmwzamRsUzJjSjdSdGlGdlVPc05DNUNXUWFaVUZ3dnJCendCcTF6Nkg5eGZvT3ZVd2FYYTRDdHlzSmVBSGxIQUVfQ3hEMHZodWc4NVlDdzBVVHBIUDBER24zT2R0M0kxa1B6SHFGbGc?oc=5",
@@ -595,12 +601,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbFlzcjQ1VHRGQkQycE9JdWMzRHY2MGdYVTlDekNqWVl6dG5wNGZ5ODVMblgxWVF6eUtLbjdydG0xZmg2Rmd5S0pVTVdhbFctWks1N2tua09wMHRQOXFkQ2c1a0xxM055Z1o2b1dwSDlPbS05S3ZqZVViMmZEbzlfbDF6ck1tR20wNzctOVhvc0t5Q2dZX3c0aGljZnlkOUFXRUHSAaIBQVVfeXFMUGxZc3I0NVR0RkJEMnBPSXVjM0R2NjBnWFU5Q3pDallZenRucDRmeTg1TG5YMVlRenlLS243cnRtMWZoNkZneUtKVU1XYWxXLVpLNTdrbmtPcDB0UDlxZENnNWtMcTNOeWdaNm9XcEg5T20tOUt2amVVYjJmRG85X2wxenJNbUdtMDc3LTlYb3NLeUNnWV93NGhpY2Z5ZDlBV0VB?oc=5",
      "src": "Daily Excelsior",
      "time": "2026-10-23T06:38:39+00:00"
-    },
-    {
-     "title": "Govt extends duty-free raw sugar import window till Dec 31 to ease supplies",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYlVjRGdfOTBWVzAwa0F3cmlyd0d2ZzZYeFFzTWJtUTBjZXRITC1RZjNlSkFhdlZXMGJvTi12SFdfampIMFpXNEk2N2V0RHJwUkVCc0NBUEhwZ3ZDMjRNRG1RaXg3QkdsVmVEc19PXzhoQ0JqZFVaV2p2bUFiN2lwSEhPOFJReTBBd2FLbmRMYUlEa0x4Mi02QTNQOV9rV1pvLTA3Y0dvX1RUQlRXeHE0Q21RUXhSSm95eWVHQ0l4VGgwNGc0QzhmemRNZE5OdzFEaGx1LW9pbkFMbDjSAeABQVVfeXFMTmpULWY4UUtnWlFsa3pTMjNQVlVPYzJURDVGNXcxNTRSNGM2Q3dBTDRidVJnVDdhU3YwOGpmRWJqTnl6MTNpTkZ3aVpBU0gxOEk2ZGc5UTlBX2d6TWR2Znl5ZmlLV2NMRUg0Z05IdTlsNWNHZkRXR2hrc2VKOG92X3JQRkItcXZrQjhuTGQ2ZzdMZWF2U09tMGZqTXh5V250d0hWQnpZOUoya2VQTlBKTEVsNUlEWG5JcXFLZXkta3czYlhHTFFJY01GNXFpZ29qVmk5WnRfZjdyd3Q2QWN2dFQ?oc=5",
-     "src": "Business Standard",
-     "time": "2026-10-23T06:37:14+00:00"
     }
    ]
   }
@@ -640,7 +640,7 @@
  "stocks": [
   {
    "why": "Rates and liquidity",
-   "score": -5,
+   "score": -4,
    "stocks": [
     {
      "sym": "HDFCBANK",
@@ -660,63 +660,22 @@
    ],
    "hits": [
     {
-     "title": "RBI Hikes Repo Rate by 25 bps to 5.50%; Switches Stance to Calibrated Tightening",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemhVSFZwbk41cVlvNVJqbFNWQ2RBbk42enh6RG1jZEJUcFFrbHZrRXZ4QUxuT3Q0eHpRVFhwemJ1SzZrQ2ZoVkVZd1g1M2duam9sX0V2Nk5DYmpDLW4zUU5wdEtHWFFRa2JzUW80MXltYTFEc2cxeVpCMWRCTFBWMUxWUE5TLWwwVlVlVUdCQUt0RllPb3hXRXM3RzhWVl9ITlZILWZZS1VuZDBmY19zZ09ZMlk?oc=5",
-     "src": "PSU Connect",
-     "time": "2026-10-24T09:09:00+00:00"
-    },
-    {
-     "title": "Banking System Faces Tight Liquidity Amid Festive Demand, RBI Interventions",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1dsemRyck5IdTBROXREV3hsVEFJQ092d2YxUGF4SVpGN3hvTDlpQnZWc0FpQ3o3VEtYeHItLTJod0RwSVRCMUlxR3dJMlBfcVJxNkNSMjRMOGV1NDQ4VGFEMEh4MnJqUlBaWkk3bUxRX1RIYnhTVHY4YVdVOWVtdW5xdlByOXpfSnRaN3dLYjM0Y2VBU05leG9ISkJMUEZXQUVWWTRYclF1VEJFVmlwRkJCWVp1OXFfLTZLd1lidWzSAcYBQVVfeXFMTU1XN3J4SENRWEd3cjZMNE1xb2tRYXZkQWNHSHpZRFljRlZKTVNPd0ZwMGlaUW5IeklTOS1CX3F6NzhrNEY5UVc4Mm1FZ3ZDYWVBYVpTMEVaV0stYzNYV0lZZTJvY3RwdDBXQTRoWUtudGtZVTdiZWs1QzNnVUZqZmtScU9lWjQ5dThqNjlFRHV5aDhDbE1xNnNTMWQ2ckJWeVF1RGRTdXJMWWtqZXAycWszcnh3NHNuYVRQaXYxbFJEMjdDT0VR?oc=5",
-     "src": "Lokmat Times",
-     "time": "2026-10-24T05:32:27+00:00"
-    },
-    {
      "title": "Durable liquidity still significant amid forex interventions, rising cash demand: Report",
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnRCX1pGdmJjV3FaMlMyWU1hZ2U1eS1YU3lld3ROR29SUUxNcVkzbWFRX1RqMk9ybmpwZ3hTcHVrTUx0ZGVEMEN2Vlpqb3prWndPMWE5am5jTUVXUDFGMVZyT1U2SjIyOE1DQ2pyY0JDRzNRdTY2UVlQSmtoWV9RWXpDa3lIMzdIa3Z6bHk4cXlVSDhLRzJoTUR3enFWOFc3LVBpd2I1WHVzcDBQSlFPMXBBVjRfbVBCLWZEMTEtSXVnVVBrUDFRUlM1aC1hV2NCUTItSHk4bFhVWmlkQWRkMA?oc=5",
      "src": "The Hans India",
      "time": "2026-10-24T05:30:38+00:00"
-    }
-   ]
-  },
-  {
-   "why": "Sugar / ethanol",
-   "score": 1,
-   "stocks": [
-    {
-     "sym": "BALRAMCHIN",
-     "price": 639.9,
-     "chg": -2.27
     },
     {
-     "sym": "TRIVENI",
-     "price": 227.52,
-     "chg": -2.99
+     "title": "RBI MPC Meet 2026 Minutes: More Repo Rate Hikes Coming? Governor Malhotra Reveals Next Moves, Future Outlook Amid Inflation",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWWZWTk9QMExzdFF2VFlJSlNKVk1EYXFkRmJIMHpxNWdTQlY0TEgtNFJyd2xpX0VoQXdzWnpvU3hFU25UVXZaMXpCTlNidG9TMFR1Z0VzX2F6UEFRVEZtR3U3dm0xOEJsZG9HSnB4dzBIMDFhd2R1TGZtSnVWd1ZnbUR0YmNBT0tXUmJ1VnRUemp0YTh2S2V1NE9veGREMFVtYjZzMlM1emtMeDB3X3JpVFVtbnJHNFlSeWZWUjBMa19vbWRRVlJ2U1o4QjVNWGVNeDJ6eWljd0hzb2RNMGVJaWlIWW5OOWhPVHBRTndEbDVaSG5zQzI2REU3S2hyRmJ4X0J0QlRZUdIBjgJBVV95cUxQaEVmRUdoa0VYODRRSk92R19NX3NUaGhXcjBud1dCNmZZNTFxRnJqWW9HNkY1a252NDlsYVZGeXV5Y0tBRUQ3aFVRakZRMXVtNjlPSmVxTVFMOWVQeVM4MVZTU3FFaFZYVVl2VEJKWmdTbHEwd1p2QVpIZDJPamhoUnUxdkNYMmNpZFpNSExVVzM3cTVWMkg5R2VNODZmeVpYZUJLODBCRTFacXpwQlJqVFV1WEdmaU9xQUx1cGk4VU1kbnNoWkdKdy1UbHNXNXd5OVJNejhjLUNPREFXSjU4eF9tQkhJSm9MWXVrVmNIX3hhbzJ4cDdFV1cxV1hNXzZOT0E5VDFCTEw2Z2xWQWc?oc=5",
+     "src": "Jagran Josh",
+     "time": "2026-10-23T06:43:59+00:00"
     },
     {
-     "sym": "PRAJIND",
-     "price": 251.2,
-     "chg": -2.58
-    }
-   ],
-   "hits": [
-    {
-     "title": "Ethanol Blending in India",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWRTQ5d29pMmJxc21sTlBfYktCMnRFcFBhY2pDREUtNUNJV0FZTUk1UDRlbWg3R05rTGRmOGdzQkxHQ2tFSDFiT0M0Y1ZlcEd6T21PdlJpaEZua3FTVmVRZWp3TE1IYWpPVUdDbUJaQjREUWxaRERv?oc=5",
-     "src": "Press Information Bureau",
-     "time": "2026-10-24T10:56:57+00:00"
-    },
-    {
-     "title": "Centre Extends Duty-Free Raw Sugar Import Timeline Under 10 Lakh MT Tariff Rate Quota Scheme Till December 31, 2026",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbHpwWUZUcFJ6UUx4NzZvdzNHbGUxYWJiSkdsZkx3QUhaLXFPVFU0Y2ltMnp5anZxNTVxenpuRXVKUnRvME45NEw0SDlkeWk5c3djYkxzXzVjbThwOU85WjNWbHdRaVdJeUV1TDA2NDZYMi03TG0yT19vMjVkNzF5S0dTTTZnMUhUcDNZRkxVbGVheVMzTlZqdDF2ckR0dUMwVk5mMmhjQktGN19GWEkxMUJRVnpTMExsbUJ5TVg4ekdwdVl4MjZXeDNOeHlEUDRHVTg3Ng?oc=5",
-     "src": "A2Z Taxcorp LLP",
-     "time": "2026-10-24T06:39:13+00:00"
-    },
-    {
-     "title": "Government Extends Duty-Free Imports Of 1 Million Tonnes Of Raw Sugar Until December 31",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVpKdTBCOWUtakVjT1draXkza1JCTmp4UlkybEhIVUxlWko2Mm9WcXRFUmlkOVE3d3cwdlhicmZtenZSTmp2eWhRWjMza1FhcThLT0I3UDNLQXdFbnVqd2I3eTlsUnlHVERvem02NjQ4c0VpXzVnMmRmZXd5SUdNaDA1MVR1c2dVZm1za21hbUZrcUVyOXFRbEI5WDAzczBSMmpiS0NSYVFyMEZjbWRhOFRybV9nWXFETEJpM2xTLVlaRmJuX2t30gHMAUFVX3lxTE5wVUhpVlN1MVpubFg3WC1PUWI4eHNiT2lLbndBckFNMGZQN2hxeTBpNzNZLTdpS21EV01LUDA4akZvNWNIbEJULWhNUzlYUlNKempDLU5vYlh5R0NoOERqYklMeDNHTE0zQ3Vncjd1Y0xZRVZRdFIyRlBZUXhCdFg4UEx5dTdRR2FXdVRwZHNwVUx2UW9tY09WM2J2alZaVTFveENmcnFHNlgta0dhQ3EzVzY4VmhJLURVOENKZWV6UkNoUF9Sa0NLcGk0YQ?oc=5",
-     "src": "Free Press Journal",
-     "time": "2026-10-23T13:37:39+00:00"
+     "title": "MPC minutes: Two more interest rate hikes on cards, maybe even a third",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTFdGcnJLRTBBLUt1aC1kQnUwUUxfbmF4Rmp6QXVPSHJGNG5aQkl3WnZnbllRMXgzb1ctTFJ4clJXam52bWxqODE1TTBiZUxEUnFqLXROa1ZCVTdvZzZZcXdPalJYQVVEdWpaNUtIZlV2SUZOMExhMkc2MXJ5ZDMtZm4tTVhjTk4yVTBHV2xMTVlmcUhiVXJqSHVPTENaWWVuR1R3UlF6NTZPYTRISDdvT3gyYW8yQmNsRFFjUWRha1F2M0Rka25OZ0JhUEVIeExQUlIzZHRCdWY4Z9IB3wFBVV95cUxPeHFLT2J1amZYQ2l6WWNsVWlEOS0zV2xtTmhNRHo2RU9jdjRuZ0hXSS1DZ2UyczlWQVR3MGJMOWI2M00zT2l4c2w1bWtmaEIzQlptSW9jSk84VEJoRzh6S3hJQUNDTnlnSWpJLUlTMFpCU21heU40bVJ3RkZZMEo0RU1CZE81bUllNHVNdTUzT2QyV0NKVWpzTnhwMnprZEJqYVR6dHozMDJ1TFVUNzBXWS1UU1p3X05PUEdyWWhtamNSR184NkJqWFI2QU5iLXpQMzA5WEZ4Z3dYdTY3blZR?oc=5",
+     "src": "The Economic Times",
+     "time": "2026-10-22T19:26:43+00:00"
     }
    ]
   },
@@ -758,6 +717,47 @@
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVE9pMU9xNm1iSS1JRkZRT3RPMkNNUHR3SlRTVmwxRGhKZnc5Y3oxTFNXM0FVelNXX3YwRVR4d1NHYnJkazJJcHRqcVlSWU4tcU9xLWZBWGp1czBScEJCZC1zOE1KZnJZMFRTWW5MaVdHdEdoNWJiYlRpajljUmMxSWNlUlRHTWh1WndUeWtkLWE1X0NSRzdXcWRRUmJxcFRubVFPbDJyVEhMblJxbExCRG1hVGg2NWdzQWFHYXhBT1FmREV5QnZtdXNSWjFPUm1xNUlZU1l3REd0a1NvSVlacEROcG5PM0JLMEhJSXJiWWrSAfYBQVVfeXFMUEtua2p1S2QzTkV0UV8tMmxlVzBTc1ZVaVJoYlRyMmVpang5LVBtRWp2MFNrX2REZFN1R1VPbzRhTVNsc1UwdUNvZ3VndGhOalpORk1VcWo3VmgxRDlURjNiQU9tNmZOZmpXVnhQQ1pqc2l3VHJzYk5peVo4dnZ4cElTV2drYWRVNm1JVFpEaWFDM0FqNkFFdkFTU3kwc0JqTUtaTEFyR3lLd3BENUx6M3lTYncwTHhhbmpVVFBqNFhKYXpOTUVQdjY0WUJ2T3dIbExiOERVcFJsSnNsVVlFalRhMktBd2x0Vl9PREdtemxmV1VIV01B?oc=5",
      "src": "Business Today",
      "time": "2026-10-22T22:05:02+00:00"
+    }
+   ]
+  },
+  {
+   "why": "Market regulation",
+   "score": 0,
+   "stocks": [
+    {
+     "sym": "BSE",
+     "price": 3230.8,
+     "chg": -1.05
+    },
+    {
+     "sym": "ANGELONE",
+     "price": 279.0,
+     "chg": -4.21
+    },
+    {
+     "sym": "CDSL",
+     "price": 1188.5,
+     "chg": -2.98
+    }
+   ],
+   "hits": [
+    {
+     "title": "Sebi Exempts Research Analysts From Mandatory Call Recording Of Institutional Clients",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0FsYXJvR1ZzVGFrbnJWSWQ3bkxWUTBnYVVwZWU0akVwRi1oeGNpOGJmY2dQXzBXaTFCaUE3SE8xdV9JWXhWU0xyYlk3S210YThHWVRXUmoxbTB3RTZ3RnN6SGhnMnExdVVnM0VZTkNjNE9iTWowQzA4azJudF9kU1hGdHk2dnVUTjdOSG5sdUJUX0I4Ynd0ZElEX3F1dkI1UU1n0gGwAUFVX3lxTE9lbVREa0RlQjhCZjhRNFE5S0MzbVUzQno2bjlja19SdlN5ek1oY3pKdGpvbVZDbE9aOVQ0MDV5N1MwdUVYdmw0Q1pWMEdoYWM4YmZjeVZfYWFzQnJVUHE3OEhkOVFkX2QydU9ZNXZxZS1PNmJ5Ukk0bWg3NHlhalp2NktISGJRZlA2Y2txMVlUOEdIX0xpS3RrckVobUphNEp3ckc1SF9fWW1RQm9saHp2?oc=5",
+     "src": "Outlook Money",
+     "time": "2026-10-24T08:58:01+00:00"
+    },
+    {
+     "title": "Sebi proposes easier rules for market infrastructure institutions, relaxes analyst call-recording norms",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRklVNXlLVm5LQXpFVlNDS05JQ0tXWmRwR0pzeWQtLWxXcUdnencxV3ktNjBvUGFWcXcxU0tJUmRqMUdxNHVLU3VHWElmRFpRLUszM1B3V3ZobVFVM0RIV29oWGh3bWlTLW1lVFE2eGxTWTVJTkdUUEE5VHZUa2doTk5wR21OcEVXRlN4b1REcW1YRUlvcllTSDFqRWQza1dZLXpGOGNOUVQzQnl1ZzliaXVxMGt2cE9MdzdHdWtYTnZyV1pPRk9XYWRVUDlFbFFvRnoyONIB4gFBVV95cUxOWjNIalItTF8xX2d3MXhBeXItNEx6LXFYQXp3ZjlQSTRmTGUxWGtMZ0paM0RFRG9DV0Z2ZmdSaXJrNjBvaGttZFpySUhCcW1UaHY0V0Z0WElUazhHTmZ5ZDctaWR1bXhSVDJSNkJWakR6elpBUWxXQXpWd1ljQVJaaGRNdFpHQ3c1bFdySGZjOGdDZm5RY0VGX2dTeFhYNHJydk83elRHYm8xUUo3cTI2ZjR5SWxMczdMZjZLS05EYWJabkZqTUpmRXlPdjRaUVptdEF6Zk9QdDRRWkhQcUR3SExR?oc=5",
+     "src": "Fortune India",
+     "time": "2026-10-24T07:32:31+00:00"
+    },
+    {
+     "title": "SEBI Amends Research Analysts Regulations: Exemption from Maintaining Institutional Client Call Recordings",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNkhxYnJYenRlSWFOekNXSDFKc1hyN0JDRnZ0bVplcW1KYVJQU2wtQlJjNjRwY2xhZ1NIYW1zMUJlNVV0T3dETUdIWXdueVN1TzVPQkZDQW1KVFMyc1pVamd1ek9YNFZxb3gtbnU3NVpJZjVPNWhpbWFudlg1QkJMYUQwdnFQQXVSR3hnT3R6a2lhVDdMSHZyV1ZUN3pFeVIwcWZKdlBiY05veVg5VnRUNzNKZlN1ZGhnOFFGVnBxUExpSnVEM2lXZC1WVmpZcTliSFVJRXNvdWZPMXR4M0ZiS1FDaGZFazFQeDVZV281eFNKUQ?oc=5",
+     "src": "CAclubindia",
+     "time": "2026-10-24T04:43:00+00:00"
     }
    ]
   }
