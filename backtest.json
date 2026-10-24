@@ -1,0 +1,236 @@
+{
+ "generated": "2026-10-24T10:01:53.599424+00:00",
+ "params": {
+  "cost_pct_per_trade": 0.1,
+  "picks_per_side_per_day": 3,
+  "stocks": 109,
+  "first_day": "2022-01-19",
+  "last_day": "2026-10-23",
+  "split_date": "2024-11-28"
+ },
+ "baseline": {
+  "stock_days": 126731,
+  "pct_days_up": 50.5
+ },
+ "all": {
+  "cc": {
+   "n": 6972,
+   "hit_rate": 49.3,
+   "avg_net_pct": -0.073,
+   "median_net_pct": -0.112,
+   "profit_factor": 0.9
+  },
+  "oc": {
+   "n": 6972,
+   "hit_rate": 47.8,
+   "avg_net_pct": -0.112,
+   "median_net_pct": -0.162,
+   "profit_factor": 0.84
+  }
+ },
+ "in_sample": {
+  "cc": {
+   "n": 4170,
+   "hit_rate": 49.3,
+   "avg_net_pct": -0.059,
+   "median_net_pct": -0.111,
+   "profit_factor": 0.92
+  },
+  "oc": {
+   "n": 4170,
+   "hit_rate": 48.3,
+   "avg_net_pct": -0.092,
+   "median_net_pct": -0.152,
+   "profit_factor": 0.87
+  }
+ },
+ "out_of_sample": {
+  "cc": {
+   "n": 2802,
+   "hit_rate": 49.3,
+   "avg_net_pct": -0.095,
+   "median_net_pct": -0.114,
+   "profit_factor": 0.87
+  },
+  "oc": {
+   "n": 2802,
+   "hit_rate": 47.1,
+   "avg_net_pct": -0.142,
+   "median_net_pct": -0.177,
+   "profit_factor": 0.79
+  }
+ },
+ "up": {
+  "cc": {
+   "n": 3499,
+   "hit_rate": 49.4,
+   "avg_net_pct": -0.016,
+   "median_net_pct": -0.108,
+   "profit_factor": 0.98
+  },
+  "oc": {
+   "n": 3499,
+   "hit_rate": 41.9,
+   "avg_net_pct": -0.245,
+   "median_net_pct": -0.352,
+   "profit_factor": 0.69
+  }
+ },
+ "down": {
+  "cc": {
+   "n": 3473,
+   "hit_rate": 49.3,
+   "avg_net_pct": -0.131,
+   "median_net_pct": -0.117,
+   "profit_factor": 0.83
+  },
+  "oc": {
+   "n": 3473,
+   "hit_rate": 53.8,
+   "avg_net_pct": 0.022,
+   "median_net_pct": 0.036,
+   "profit_factor": 1.03
+  }
+ },
+ "tiers": {
+  "High": {
+   "all": {
+    "cc": {
+     "n": 4048,
+     "hit_rate": 50.2,
+     "avg_net_pct": -0.016,
+     "median_net_pct": -0.085,
+     "profit_factor": 0.98
+    },
+    "oc": {
+     "n": 4048,
+     "hit_rate": 45.9,
+     "avg_net_pct": -0.126,
+     "median_net_pct": -0.239,
+     "profit_factor": 0.83
+    }
+   },
+   "out_of_sample": {
+    "cc": {
+     "n": 1656,
+     "hit_rate": 49.7,
+     "avg_net_pct": -0.066,
+     "median_net_pct": -0.1,
+     "profit_factor": 0.91
+    },
+    "oc": {
+     "n": 1656,
+     "hit_rate": 46.3,
+     "avg_net_pct": -0.147,
+     "median_net_pct": -0.217,
+     "profit_factor": 0.8
+    }
+   }
+  },
+  "Medium": {
+   "all": {
+    "cc": {
+     "n": 2387,
+     "hit_rate": 49.0,
+     "avg_net_pct": -0.12,
+     "median_net_pct": -0.119,
+     "profit_factor": 0.83
+    },
+    "oc": {
+     "n": 2387,
+     "hit_rate": 50.9,
+     "avg_net_pct": -0.078,
+     "median_net_pct": -0.074,
+     "profit_factor": 0.88
+    }
+   },
+   "out_of_sample": {
+    "cc": {
+     "n": 957,
+     "hit_rate": 49.7,
+     "avg_net_pct": -0.093,
+     "median_net_pct": -0.1,
+     "profit_factor": 0.87
+    },
+    "oc": {
+     "n": 957,
+     "hit_rate": 48.9,
+     "avg_net_pct": -0.112,
+     "median_net_pct": -0.112,
+     "profit_factor": 0.83
+    }
+   }
+  },
+  "Low": {
+   "all": {
+    "cc": {
+     "n": 537,
+     "hit_rate": 44.1,
+     "avg_net_pct": -0.297,
+     "median_net_pct": -0.256,
+     "profit_factor": 0.63
+    },
+    "oc": {
+     "n": 537,
+     "hit_rate": 49.2,
+     "avg_net_pct": -0.16,
+     "median_net_pct": -0.125,
+     "profit_factor": 0.76
+    }
+   },
+   "out_of_sample": {
+    "cc": {
+     "n": 189,
+     "hit_rate": 43.9,
+     "avg_net_pct": -0.364,
+     "median_net_pct": -0.328,
+     "profit_factor": 0.57
+    },
+    "oc": {
+     "n": 189,
+     "hit_rate": 45.5,
+     "avg_net_pct": -0.26,
+     "median_net_pct": -0.232,
+     "profit_factor": 0.64
+    }
+   }
+  }
+ },
+ "equity": {
+  "in_sample": {
+   "cc": {
+    "days": 704,
+    "total_return_pct": -38.0,
+    "max_drawdown_pct": -40.6,
+    "sharpe": -1.14
+   },
+   "oc": {
+    "days": 704,
+    "total_return_pct": -50.9,
+    "max_drawdown_pct": -51.9,
+    "sharpe": -1.94
+   }
+  },
+  "out_of_sample": {
+   "cc": {
+    "days": 470,
+    "total_return_pct": -38.3,
+    "max_drawdown_pct": -41.3,
+    "sharpe": -1.88
+   },
+   "oc": {
+    "days": 470,
+    "total_return_pct": -50.1,
+    "max_drawdown_pct": -51.3,
+    "sharpe": -3.13
+   }
+  }
+ },
+ "caveats": [
+  "Price layers only. News layers cannot be backtested with free data and are tested live instead.",
+  "Uses today's stock list, so companies that were delisted or fell out of the index are missing (survivorship bias).",
+  "Entering at the close ('cc') is not exactly tradable after you see the picks. 'oc' enters at the next open, which is the realistic case.",
+  "Short selling is assumed possible for DOWN picks (intraday or futures). Costs are a flat estimate.",
+  "Past results do not guarantee future results. The out-of-sample column is the honest one: those days were not used to design the rules."
+ ]
+}
