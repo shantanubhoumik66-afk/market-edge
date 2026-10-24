@@ -324,7 +324,7 @@ def main():
             two = (ser[-1][1] / ser[-3][1] - 1) * 100
             avg = sum(v for _, _, v in ser[-21:-1]) / max(1, len(ser[-21:-1]))
             c["today_chg"] = round(chg, 2)
-              c["two_day_chg"] = round(two, 2)
+            c["two_day_chg"] = round(two, 2)
             c["vol_ratio"] = round(ser[-1][2] / avg, 2) if avg else None
             c["close"] = round(ser[-1][1], 2)
             c["close_date"] = ser[-1][0]
