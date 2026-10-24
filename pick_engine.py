@@ -324,4 +324,73 @@ def main():
             two = (ser[-1][1] / ser[-3][1] - 1) * 100
             avg = sum(v for _, _, v in ser[-21:-1]) / max(1, len(ser[-21:-1]))
             c["today_chg"] = round(chg, 2)
-            c
+              c["two_day_chg"] = round(two, 2)
+            c["vol_ratio"] = round(ser[-1][2] / avg, 2) if avg else None
+            c["close"] = round(ser[-1][1], 2)
+            c["close_date"] = ser[-1][0]
+            if abs(two) > 5 and (two > 0) == (news_net > 0):
+                c["exclude"] = True
+                c["flag"] = "Moved %.1f%% in 2 sessions, news likely priced in" % two
+            elif abs(chg) > 4 and (chg > 0) == (news_net > 0):
+                news_net *= 0.6
+                c["flag"] = "Already moved %.1f%% today, part of the news may be priced in" % chg
+        layers = {"news": round(c["event_score"] * (news_net / c["net"]) if c["net"] else 0, 2),
+                  "sector": c["sector_score"],
+                  "technical": round(pl["tech"], 2) if pl else 0,
+                  "relative": round(pl["rel"], 2) if pl else 0,
+                  "flow": round(pl["flow"], 2) if pl else 0,
+                  "market": round(0.4 * regime, 2)}
+        c["layers"] = layers
+        c["tech_notes"] = pl["notes"] if pl else []
+        c["net"] = sum(layers.values())
+        d = sgn(c["net"])
+        c["agree"] = sum(1 for v in layers.values() if v * d > 0.15)
+        time.sleep(0.3)
+
+    def confidence(p):
+        a, d, t = abs(p["net"]), sgn(p["net"]), p["layers"]["technical"]
+        if a >= 3.5 and p["agree"] >= 4 and p["sources"] >= 2 and t * d >= -0.2:
+            return "High"
+        if a >= 2.5 and p["agree"] >= 3 and t * d >= -0.4:
+            return "Medium"
+        return "Low" if a >= 1.5 else "Weak signal"
+
+    def finish(lst, direction):
+        ranked = sorted([c for c in lst if not c.get("exclude")], key=lambda s: abs(s["net"]), reverse=True)
+        out = [c for c in ranked if abs(c["net"]) >= 0.6][:3]
+        for p in out:
+            p["dir"] = direction
+            p["confidence"] = confidence(p)
+            p["net"] = round(p["net"], 2)
+        return out
+
+    pool = ups + downs
+    picks_up = finish([c for c in pool if c["net"] > 0], "UP")
+    picks_down = finish([c for c in pool if c["net"] < 0], "DOWN")
+    picks = picks_up + picks_down
+
+    today = NOW.astimezone(IST).strftime("%Y-%m-%d")
+    history = [h for h in history if h["date"] != today]
+    for p in picks:
+        history.append({"date": today, "sym": p["sym"], "dir": p["dir"], "net": p["net"], "confidence": p["confidence"]})
+    history = history[-400:]
+    done = [h for h in history if "result" in h]
+
+    def st(f):
+        x = [h for h in done if f(h)]
+        return {"total": len(x), "hits": sum(1 for h in x if h["result"]["hit"])}
+
+    stats = {"all": st(lambda h: True), "up": st(lambda h: h["dir"] == "UP"), "down": st(lambda h: h["dir"] == "DOWN"),
+             "tiers": {t: st(lambda h, t=t: h.get("confidence") == t) for t in ("High", "Medium", "Low", "Weak signal")}}
+
+    out = {"generated": NOW.isoformat(), "date": today, "picks_up": picks_up, "picks_down": picks_down,
+           "stats": stats, "recent": history[-20:][::-1], "scanned": len(UNIVERSE),
+           "market_regime": regime, "sector_effects": {k: round(v, 2) for k, v in overlay.items() if abs(v) >= 0.5}}
+    json.dump(out, open("picks.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(history, open("picks_history.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("UP:", [(p["sym"], p["confidence"]) for p in picks_up], "DOWN:", [(p["sym"], p["confidence"]) for p in picks_down])
+
+
+if __name__ == "__main__":
+    main()
+
