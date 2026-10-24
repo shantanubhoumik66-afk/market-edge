@@ -1,4 +1,4 @@
-."""Evening pick engine. Runs after market close on GitHub Actions.
+"""Evening pick engine. Runs after market close on GitHub Actions.
 Scores news per stock (results, margins, orders, management, legal, brokers),
 adds sector effects from global / government / geopolitical news,
 picks the top 3 for next day, and tracks its own hit rate in picks_history.json.
