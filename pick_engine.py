@@ -47,6 +47,27 @@ UNIVERSE = [
  ("SBILIFE","SBI Life","SBI Life",None),("HDFCLIFE","HDFC Life","HDFC Life",None),
  ("IRCTC","IRCTC","IRCTC",None),("TRENT","Trent Tata","\\bTrent\\b",None),
  ("DMART","Avenue Supermarts DMart","DMart|Avenue Supermarts",None),("PIDILITIND","Pidilite","Pidilite",None),
+ ("SWIGGY","Swiggy","Swiggy",None),("ETERNAL","Zomato Eternal","Zomato|Eternal",None),
+ ("COLPAL","Colgate-Palmolive India","Colgate","FMCG"),("JINDALSTEL","Jindal Steel and Power","Jindal Steel","METALS"),
+ ("PAYTM","Paytm One97","Paytm",None),("NYKAA","Nykaa FSN E-Commerce","Nykaa|FSN",None),
+ ("PAGEIND","Page Industries Jockey","Page Industries",None),("DABUR","Dabur","Dabur","FMCG"),
+ ("MARICO","Marico","Marico","FMCG"),("GODREJCP","Godrej Consumer","Godrej Consumer","FMCG"),
+ ("TATAELXSI","Tata Elxsi","Tata Elxsi","IT"),("PERSISTENT","Persistent Systems","Persistent","IT"),
+ ("COFORGE","Coforge","Coforge","IT"),("MPHASIS","Mphasis","Mphasis","IT"),
+ ("BANDHANBNK","Bandhan Bank","Bandhan","BANK"),("PNB","Punjab National Bank","PNB|Punjab National","BANK"),
+ ("BANKBARODA","Bank of Baroda","Bank of Baroda","BANK"),("CANBK","Canara Bank","Canara","BANK"),
+ ("TVSMOTOR","TVS Motor","TVS Motor","AUTO"),("ASHOKLEY","Ashok Leyland","Ashok Leyland","AUTO"),
+ ("MOTHERSON","Samvardhana Motherson","Motherson","AUTO"),("SAIL","SAIL Steel Authority","SAIL|Steel Authority","METALS"),
+ ("NMDC","NMDC","NMDC","METALS"),("AUROPHARMA","Aurobindo Pharma","Aurobindo","PHARMA"),
+ ("ZYDUSLIFE","Zydus Lifesciences","Zydus","PHARMA"),("TORNTPHARM","Torrent Pharma","Torrent Pharma","PHARMA"),
+ ("IRFC","IRFC","IRFC",None),("RVNL","Rail Vikas Nigam","RVNL|Rail Vikas",None),
+ ("PFC","Power Finance Corporation","Power Finance|\\bPFC\\b","BANK"),("RECLTD","REC Limited","\\bREC\\b","BANK"),
+ ("SIEMENS","Siemens India","Siemens",None),("ABB","ABB India","ABB India",None),
+ ("HAVELLS","Havells","Havells",None),("POLYCAB","Polycab","Polycab",None),
+ ("CHOLAFIN","Cholamandalam Investment","Chola","BANK"),("MUTHOOTFIN","Muthoot Finance","Muthoot","BANK"),
+ ("SHRIRAMFIN","Shriram Finance","Shriram Finance","BANK"),("BOSCHLTD","Bosch","Bosch",None),
+ ("DIXON","Dixon Technologies","Dixon",None),("INDHOTEL","Indian Hotels","Indian Hotels",None),
+ ("JUBLFOOD","Jubilant FoodWorks","Jubilant Food|Domino",None),("UPL","UPL","\\bUPL\\b",None),("SRF","SRF","\\bSRF\\b",None),
 ]
 
 # ---- company event rules: (regex, weight, label). Positive = up, negative = down ----
@@ -66,7 +87,17 @@ EVENTS = [
  (r"usfda (observations|warning|import alert)|form 483|plant (shutdown|fire)|recall", -1.8, "USFDA / plant issue"),
  (r"downgrade[sd]?|target price (cut|slashed|lowered)|cuts? target|sell rating", -1.2, "Broker downgrade"),
  (r"tax (demand|notice)|penalty|fined|default|debt (stress|concern)|rating (cut|downgrade)|pledge", -1.4, "Tax / debt / penalty"),
- (r"block deal sell|promoter (sells|pledges|dilutes)|stake sale|offer for sale|\bofs\b", -1.0, "Supply / stake sale"),
+ (r"block deal sell|promoter (sells|pledges|dilutes)|stake sale|offer for sale|\bofs\b", -1.0, "Supply / stake sale"), (r"loss(es)? (widen|widens|widened|deepen)|widening loss|cash burn|quick[- ]commerce loss", -2.2, "Losses widening"),
+ (r"ebitda (margin )?(miss|missed|misses|below)|margin miss|(miss|misses|missed).{0,25}margin|below consensus", -2.0, "Margin / EBITDA miss"),
+ (r"(advertising|marketing|a&p|ad) (spend|expenses?|costs?) (surge|jump|rise|soar|up)", -1.4, "Higher ad spend"),
+ (r"(coking coal|input|raw material|freight|logistics|commodity) (cost|prices?).{0,30}(pressure|rise|surge|higher|elevated|squeeze)|cost pressure", -1.4, "Cost pressure"),
+ (r"sequential(ly)? (decline|fall|drop|dip)|(profit|ebitda) (falls|declines|drops) (sequentially|qoq|q-o-q)|qoq (decline|fall)", -1.6, "Sequential profit decline"),
+ (r"(cuts?|lowers?|slashes?) (guidance|outlook|forecast)|guidance cut", -1.8, "Guidance cut"),
+ (r"(demand|volume) (slowdown|weakness|decline|falls?|drops?)|weak demand", -1.4, "Weak demand"),
+ (r"shares? (tank|plunge|crash|sink|slump)|stock (tanks|plunges|crashes|sinks)", -0.8, "Sharp selling reported"),
+ (r"(ebitda|margin) beat|beats? consensus|volume growth|price hikes? (boost|help)", 1.6, "Beat / volume growth"),
+ (r"merger|demerger|amalgamation|takeover bid", 0.8, "Merger / restructuring"),
+ (r"shares? (surge|jump|soar|rally|zoom)|stock (surges|jumps|soars|rallies)", 0.8, "Sharp buying reported"),
 ]
 EVENTS = [(re.compile(p, re.I), w, l) for p, w, l in EVENTS]
 
@@ -98,6 +129,13 @@ GLOBAL_QUERIES = ["crude oil prices Brent", "US Federal Reserve interest rates",
                   "rupee dollar forex", "China economy metals prices", "US Treasury yields", "India cabinet approves policy",
                   "India import duty anti-dumping", "RBI repo rate", "monsoon India", "defence ministry contract India",
                   "India GST council decision"]
+
+
+TRUSTED = re.compile(r"reuters|bloomberg|economic times|business standard|mint|livemint|moneycontrol|cnbc|financial express|businessline|business line|ndtv profit|business today|bq prime|bqprime|zee business|the hindu|hindustan times|financial times|wsj|wall street journal|pti|press trust|pib|rbi|nse|bse|sebi", re.I)
+
+
+def src_mult(src):
+    return 1.0 if TRUSTED.search(src or "") else 0.4
 
 
 def news(q):
@@ -136,7 +174,7 @@ def global_overlay():
     hits = {}  # label -> [rule, items]
     for q in GLOBAL_QUERIES:
         for it in news(q):
-            f = fresh(it["time"])
+            f = fresh(it["time"]) * src_mult(it["src"])
             if f == 0:
                 continue
             for rx, sec, w, label in OVERLAY:
@@ -159,7 +197,7 @@ def score_stock(sym, name, alias, sector, overlay, why_sector):
     for it in news('"' + name + '"'):
         if not arx.search(it["title"]):
             continue
-        f = fresh(it["time"])
+        f = fresh(it["time"]) * src_mult(it["src"])
         if f == 0:
             continue
         found = None
@@ -175,7 +213,7 @@ def score_stock(sym, name, alias, sector, overlay, why_sector):
     top = sorted(best.items(), key=lambda kv: abs(kv[1][0]), reverse=True)[:3]
     total = sum(v for _, (v, _) in top)
     sign = 1 if total >= 0 else -1
-    srcs = {it["src"] for _, (v, it) in top if (v >= 0) == (sign > 0)}
+    srcs = {it["src"] for _, (v, it) in top if (v >= 0) == (sign > 0) and src_mult(it["src"]) == 1.0}
     factor = min(1.6, 1 + 0.2 * (max(len(srcs), 1) - 1))
     ev_net = total * factor
     ov = overlay.get(sector, 0) * 0.8 if sector else 0
@@ -209,9 +247,10 @@ def main():
 
     overlay, why_sector = global_overlay()
     scored = [score_stock(*u, overlay, why_sector) for u in UNIVERSE]
-    cands = sorted([s for s in scored if abs(s["net"]) >= 1.0], key=lambda s: abs(s["net"]), reverse=True)[:12]
+    ups = sorted([s for s in scored if s["net"] >= 1.0], key=lambda s: s["net"], reverse=True)[:10]
+    downs = sorted([s for s in scored if s["net"] <= -1.0], key=lambda s: s["net"])[:10]
 
-    for c in cands:
+    for c in ups + downs:
         ser = series(c["sym"])
         if len(ser) >= 2:
             chg = (ser[-1][1] / ser[-2][1] - 1) * 100
@@ -225,28 +264,38 @@ def main():
                 c["flag"] = "Already moved %.1f%% today, part of the news may be priced in" % chg
         time.sleep(0.3)
 
-    picks = [c for c in sorted(cands, key=lambda s: abs(s["net"]), reverse=True) if abs(c["net"]) >= 1.8][:3]
-    for p in picks:
-        a = abs(p["net"])
-        p["dir"] = "UP" if p["net"] > 0 else "DOWN"
-        p["confidence"] = "High" if a >= 4 and p["sources"] >= 2 else "Medium" if a >= 2.8 else "Low"
-        p["net"] = round(p["net"], 2)
+    def finish(lst, direction):
+        out = [c for c in sorted(lst, key=lambda s: abs(s["net"]), reverse=True) if abs(c["net"]) >= 1.5][:3]
+        for p in out:
+            a = abs(p["net"])
+            p["dir"] = direction
+            p["confidence"] = "High" if a >= 4 and p["sources"] >= 2 else "Medium" if a >= 2.8 else "Low"
+            p["net"] = round(p["net"], 2)
+        return out
+
+    picks_up = finish([c for c in ups if c["net"] > 0], "UP")
+    picks_down = finish([c for c in downs if c["net"] < 0], "DOWN")
+    picks = picks_up + picks_down
 
     today = NOW.astimezone(IST).strftime("%Y-%m-%d")
     history = [h for h in history if h["date"] != today]
     for p in picks:
         history.append({"date": today, "sym": p["sym"], "dir": p["dir"], "net": p["net"], "confidence": p["confidence"]})
-    history = history[-200:]
+    history = history[-300:]
     done = [h for h in history if "result" in h]
-    stats = {"total": len(done), "hits": sum(1 for h in done if h["result"]["hit"])}
+    def st(d):
+        x = [h for h in done if d is None or h["dir"] == d]
+        return {"total": len(x), "hits": sum(1 for h in x if h["result"]["hit"])}
+    stats = {"all": st(None), "up": st("UP"), "down": st("DOWN")}
 
-    out = {"generated": NOW.isoformat(), "date": today, "picks": picks, "stats": stats,
-           "recent": history[-15:][::-1], "scanned": len(UNIVERSE),
+    out = {"generated": NOW.isoformat(), "date": today, "picks_up": picks_up, "picks_down": picks_down,
+           "stats": stats, "recent": history[-20:][::-1], "scanned": len(UNIVERSE),
            "sector_effects": {k: round(v, 2) for k, v in overlay.items() if abs(v) >= 0.5}}
     json.dump(out, open("picks.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(history, open("picks_history.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("picks:", [(p["sym"], p["dir"], p["confidence"]) for p in picks])
+    print("UP:", [(p["sym"], p["confidence"]) for p in picks_up], "DOWN:", [(p["sym"], p["confidence"]) for p in picks_down])
 
 
 if __name__ == "__main__":
     main()
+ 
