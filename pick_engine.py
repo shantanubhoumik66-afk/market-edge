@@ -1,4 +1,4 @@
-"""Evening pick engine. Runs after market close on GitHub Actions.
+."""Evening pick engine. Runs after market close on GitHub Actions.
 Scores news per stock (results, margins, orders, management, legal, brokers),
 adds sector effects from global / government / geopolitical news,
 picks the top 3 for next day, and tracks its own hit rate in picks_history.json.
@@ -47,9 +47,9 @@ UNIVERSE = [
  ("SBILIFE","SBI Life","SBI Life",None),("HDFCLIFE","HDFC Life","HDFC Life",None),
  ("IRCTC","IRCTC","IRCTC",None),("TRENT","Trent Tata","\\bTrent\\b",None),
  ("DMART","Avenue Supermarts DMart","DMart|Avenue Supermarts",None),("PIDILITIND","Pidilite","Pidilite",None),
- ("SWIGGY","Swiggy","Swiggy",None),("ETERNAL","Zomato Eternal","Zomato|Eternal",None),
+ ("SWIGGY","Swiggy","Swiggy","NEWAGE"),("ETERNAL","Zomato Eternal","Zomato|Eternal","NEWAGE"),
  ("COLPAL","Colgate-Palmolive India","Colgate","FMCG"),("JINDALSTEL","Jindal Steel and Power","Jindal Steel","METALS"),
- ("PAYTM","Paytm One97","Paytm",None),("NYKAA","Nykaa FSN E-Commerce","Nykaa|FSN",None),
+ ("PAYTM","Paytm One97","Paytm","NEWAGE"),("NYKAA","Nykaa FSN E-Commerce","Nykaa|FSN","NEWAGE"),
  ("PAGEIND","Page Industries Jockey","Page Industries",None),("DABUR","Dabur","Dabur","FMCG"),
  ("MARICO","Marico","Marico","FMCG"),("GODREJCP","Godrej Consumer","Godrej Consumer","FMCG"),
  ("TATAELXSI","Tata Elxsi","Tata Elxsi","IT"),("PERSISTENT","Persistent Systems","Persistent","IT"),
@@ -94,10 +94,8 @@ EVENTS = [
  (r"sequential(ly)? (decline|fall|drop|dip)|(profit|ebitda) (falls|declines|drops) (sequentially|qoq|q-o-q)|qoq (decline|fall)", -1.6, "Sequential profit decline"),
  (r"(cuts?|lowers?|slashes?) (guidance|outlook|forecast)|guidance cut", -1.8, "Guidance cut"),
  (r"(demand|volume) (slowdown|weakness|decline|falls?|drops?)|weak demand", -1.4, "Weak demand"),
- (r"shares? (tank|plunge|crash|sink|slump)|stock (tanks|plunges|crashes|sinks)", -0.8, "Sharp selling reported"),
  (r"(ebitda|margin) beat|beats? consensus|volume growth|price hikes? (boost|help)", 1.6, "Beat / volume growth"),
  (r"merger|demerger|amalgamation|takeover bid", 0.8, "Merger / restructuring"),
- (r"shares? (surge|jump|soar|rally|zoom)|stock (surges|jumps|soars|rallies)", 0.8, "Sharp buying reported"),
 ]
 EVENTS = [(re.compile(p, re.I), w, l) for p, w, l in EVENTS]
 
@@ -107,8 +105,8 @@ OVERLAY = [
  (r"(crude|brent|oil prices?).{0,25}(fall|drop|slump|plunge|slide|tumble)", {"OMC":1,"PAINT":1,"AVIATION":1,"UPSTREAM":-1}, 1.0, "Crude oil falling"),
  (r"\bwar\b|missile|airstrike|escalat|border tension|military", {"DEFENCE":1}, 0.8, "Geopolitical tension"),
  (r"defen[cs]e (order|procurement|deal|contract)|dac approves", {"DEFENCE":1}, 1.0, "Defence orders / approvals"),
- (r"fed.{0,15}(cuts?|dovish)|rate cut by (the )?fed", {"IT":1}, 0.7, "Fed easing"),
- (r"fed.{0,15}(hikes?|hawkish)|yields? (surge|jump|spike)", {"IT":-1}, 0.7, "Fed tightening / yields up"),
+ (r"fed.{0,15}(cuts?|dovish)|rate cut by (the )?fed", {"IT":1,"NEWAGE":1}, 0.7, "Fed easing / lower yields"),
+ (r"fed.{0,15}(hikes?|hawkish)|yields? (surge|jump|spike)", {"IT":-1,"NEWAGE":-1}, 0.7, "Fed tightening / yields up"),
  (r"rupee (falls|weakens|slumps|hits record low)", {"IT":1,"PHARMA":1}, 0.6, "Rupee weakening"),
  (r"rupee (gains|strengthens|rallies|rises)", {"IT":-1,"PHARMA":-1}, 0.6, "Rupee strengthening"),
  (r"anti-dumping duty|safeguard duty|import duty on steel", {"METALS":1}, 0.9, "Steel import duties"),
@@ -152,9 +150,9 @@ def fresh(iso):
     return 1.0 if h <= 12 else 0.75 if h <= 24 else 0.5 if h <= 48 else 0.0
 
 
-def series(sym):
-    """Daily closes and volumes for the last month: list of (IST date, close, volume)."""
-    path = "/v8/finance/chart/" + urllib.parse.quote(sym, safe="") + ".NS?interval=1d&range=1mo"
+def series(sym, suffix=".NS", rng="3mo"):
+    """Daily closes and volumes: list of (IST date, close, volume)."""
+    path = "/v8/finance/chart/" + urllib.parse.quote(sym, safe="") + suffix + "?interval=1d&range=" + rng
     for host in ("query1", "query2"):
         try:
             j = json.loads(get("https://%s.finance.yahoo.com%s" % (host, path), 15))
@@ -194,9 +192,12 @@ def global_overlay():
 def score_stock(sym, name, alias, sector, overlay, why_sector):
     arx = re.compile(alias, re.I)
     best = {}  # label -> (value, item)
-    for it in news('"' + name + '"'):
-        if not arx.search(it["title"]):
+    seen_titles = set()
+    items = news('"' + name + '"') + news('"' + name + '" results OR profit OR margin OR loss OR downgrade OR probe OR resigns OR order')
+    for it in items:
+        if it["title"] in seen_titles or not arx.search(it["title"]):
             continue
+        seen_titles.add(it["title"])
         f = fresh(it["time"]) * src_mult(it["src"])
         if f == 0:
             continue
@@ -238,6 +239,67 @@ def evaluate(history):
                 h["result"] = {"next_date": s[i + 1][0], "chg": round(chg, 2), "hit": (chg > 0) == (h["dir"] == "UP")}
 
 
+def sgn(x):
+    return 1 if x > 0 else -1 if x < 0 else 0
+
+
+def clamp(x, lo, hi):
+    return max(lo, min(hi, x))
+
+
+def price_layers(ser, nser):
+    """Technical, relative-strength and volume/flow layers from daily prices."""
+    closes = [c for _, c, _ in ser]
+    vols = [v for _, _, v in ser]
+    if len(closes) < 25:
+        return None
+    c, notes = closes[-1], []
+    sma20 = sum(closes[-20:]) / 20
+    sma50 = sum(closes[-50:]) / 50 if len(closes) >= 50 else None
+    t = 0.4 if c > sma20 else -0.4
+    if sma50:
+        t += 0.4 if c > sma50 else -0.4
+        if c > sma20 and c > sma50:
+            notes.append("uptrend (above 20 and 50-day averages)")
+        elif c < sma20 and c < sma50:
+            notes.append("downtrend (below 20 and 50-day averages)")
+    mom5 = (c / closes[-6] - 1) * 100
+    t += clamp(mom5 / 5, -0.6, 0.6)
+    avgv = sum(vols[-21:-1]) / 20
+    vr = vols[-1] / avgv if avgv else 1.0
+    if c > max(closes[-21:-1]) and vr >= 1.3:
+        t += 0.8
+        notes.append("20-day breakout on volume")
+    if c < min(closes[-21:-1]) and vr >= 1.3:
+        t -= 0.8
+        notes.append("20-day breakdown on volume")
+    diffs = [closes[k] - closes[k - 1] for k in range(len(closes) - 14, len(closes))]
+    gain = sum(d for d in diffs if d > 0) / 14
+    loss = -sum(d for d in diffs if d < 0) / 14
+    rsi = 100 - 100 / (1 + gain / loss) if loss else 100
+    if rsi > 75:
+        t -= 0.4
+        notes.append("RSI %d, overbought" % rsi)
+    elif rsi < 25:
+        t += 0.4
+        notes.append("RSI %d, oversold (bounce risk)" % rsi)
+    nm = ((nser[-1][1] / nser[-6][1] - 1) * 100) if len(nser) >= 6 else mom5
+    rel = clamp((mom5 - nm) / 6, -0.5, 0.5)
+    chg = (c / closes[-2] - 1) * 100
+    flow = 0.6 * sgn(chg) if vr >= 1.5 and abs(chg) >= 1 else 0.0
+    if flow:
+        notes.append("volume %.1fx average on a %+.1f%% day" % (vr, chg))
+    return {"tech": clamp(t, -2, 2), "rel": rel, "flow": flow, "notes": notes, "vr": vr, "mom5": mom5}
+
+
+def market_regime(nser):
+    if len(nser) < 21:
+        return 0
+    c, sma = nser[-1][1], sum(x[1] for x in nser[-20:]) / 20
+    mom = (c / nser[-6][1] - 1) * 100
+    return 1 if (c > sma and mom > 0) else -1 if (c < sma and mom < 0) else 0
+
+
 def main():
     try:
         history = json.load(open("picks_history.json", encoding="utf-8"))
@@ -247,55 +309,19 @@ def main():
 
     overlay, why_sector = global_overlay()
     scored = [score_stock(*u, overlay, why_sector) for u in UNIVERSE]
-    ups = sorted([s for s in scored if s["net"] >= 1.0], key=lambda s: s["net"], reverse=True)[:10]
-    downs = sorted([s for s in scored if s["net"] <= -1.0], key=lambda s: s["net"])[:10]
+    ups = sorted([s for s in scored if s["net"] >= 0.6], key=lambda s: s["net"], reverse=True)[:20]
+    downs = sorted([s for s in scored if s["net"] <= -0.6], key=lambda s: s["net"])[:20]
+
+    nser = series("^NSEI", suffix="")
+    regime = market_regime(nser)
 
     for c in ups + downs:
         ser = series(c["sym"])
-        if len(ser) >= 2:
+        news_net = c["net"]
+        pl = price_layers(ser, nser) if len(ser) >= 25 else None
+        if len(ser) >= 3:
             chg = (ser[-1][1] / ser[-2][1] - 1) * 100
+            two = (ser[-1][1] / ser[-3][1] - 1) * 100
             avg = sum(v for _, _, v in ser[-21:-1]) / max(1, len(ser[-21:-1]))
             c["today_chg"] = round(chg, 2)
-            c["vol_ratio"] = round(ser[-1][2] / avg, 2) if avg else None
-            c["close"] = round(ser[-1][1], 2)
-            c["close_date"] = ser[-1][0]
-            if abs(chg) > 4 and (chg > 0) == (c["net"] > 0):
-                c["net"] *= 0.6
-                c["flag"] = "Already moved %.1f%% today, part of the news may be priced in" % chg
-        time.sleep(0.3)
-
-    def finish(lst, direction):
-        out = [c for c in sorted(lst, key=lambda s: abs(s["net"]), reverse=True) if abs(c["net"]) >= 1.5][:3]
-        for p in out:
-            a = abs(p["net"])
-            p["dir"] = direction
-            p["confidence"] = "High" if a >= 4 and p["sources"] >= 2 else "Medium" if a >= 2.8 else "Low"
-            p["net"] = round(p["net"], 2)
-        return out
-
-    picks_up = finish([c for c in ups if c["net"] > 0], "UP")
-    picks_down = finish([c for c in downs if c["net"] < 0], "DOWN")
-    picks = picks_up + picks_down
-
-    today = NOW.astimezone(IST).strftime("%Y-%m-%d")
-    history = [h for h in history if h["date"] != today]
-    for p in picks:
-        history.append({"date": today, "sym": p["sym"], "dir": p["dir"], "net": p["net"], "confidence": p["confidence"]})
-    history = history[-300:]
-    done = [h for h in history if "result" in h]
-    def st(d):
-        x = [h for h in done if d is None or h["dir"] == d]
-        return {"total": len(x), "hits": sum(1 for h in x if h["result"]["hit"])}
-    stats = {"all": st(None), "up": st("UP"), "down": st("DOWN")}
-
-    out = {"generated": NOW.isoformat(), "date": today, "picks_up": picks_up, "picks_down": picks_down,
-           "stats": stats, "recent": history[-20:][::-1], "scanned": len(UNIVERSE),
-           "sector_effects": {k: round(v, 2) for k, v in overlay.items() if abs(v) >= 0.5}}
-    json.dump(out, open("picks.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    json.dump(history, open("picks_history.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("UP:", [(p["sym"], p["confidence"]) for p in picks_up], "DOWN:", [(p["sym"], p["confidence"]) for p in picks_down])
-
-
-if __name__ == "__main__":
-    main()
- 
+            c
