@@ -141,28 +141,29 @@ async function loadEdge(){
   }
 }
 
+function pickCard(p){
+  const up=p.dir==='UP';
+  const price=p.close!=null?`Close ${p.close} (${p.today_chg>=0?'+':''}${p.today_chg}% today${p.vol_ratio?', volume '+p.vol_ratio+'x avg':''})`:'';
+  const link=x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`;
+  const rs=p.reasons.map(link).join('');
+  const sr=p.sector_reasons.map(x=>link({...x,label:p.sector+' sector, '+x.label})).join('');
+  return `<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
+    <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} trusted source${p.sources==1?'':'s'}</span></div>
+    <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}
+    <div class="why"><b>Why:</b> company news ${p.event_score>=0?'+':''}${p.event_score}${p.sector_score?', sector effect '+(p.sector_score>=0?'+':'')+p.sector_score:''}</div>${rs}${sr}</div>`;
+}
 async function loadPicks(){
   $('pstamp').textContent='Loading...';
   try{
     const r=await fetch('picks.json?t='+Date.now());
     if(!r.ok) throw new Error(r.status);
     const d=await r.json();
-    const st=d.stats, rate=st.total?Math.round(100*st.hits/st.total)+'% ('+st.hits+' of '+st.total+')':'no results yet';
-    let h='';
-    if(!d.picks.length) h+=card('No strong setup today','<div class="empty">Nothing scored high enough. Skipping a day is a valid result.</div>');
-    d.picks.forEach(p=>{
-      const up=p.dir==='UP';
-      const price=p.close!=null?`Close ${p.close} (${p.today_chg>=0?'+':''}${p.today_chg}% today${p.vol_ratio?', volume '+p.vol_ratio+'x avg':''})`:'';
-      const rs=p.reasons.map(x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`).join('');
-      const sr=p.sector_reasons.map(x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(p.sector)} sector, ${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`).join('');
-      h+=`<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
-        <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} source${p.sources>1?'s':''}</span></div>
-        <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}
-        <div class="why"><b>Why:</b> company news ${p.event_score>=0?'+':''}${p.event_score}${p.sector_score?', sector effect '+(p.sector_score>=0?'+':'')+p.sector_score:''}</div>${rs}${sr}</div>`;
-    });
-    h+=card('Track record (live, since you started)','<div style="font-size:15px">Hit rate: <b>'+rate+'</b></div><div class="meta">A hit means the next close moved in the predicted direction. Judge the engine on at least 30 to 50 picks.</div>'+
+    const rate=x=>x&&x.total?Math.round(100*x.hits/x.total)+'% ('+x.hits+' of '+x.total+')':'no results yet';
+    const sec=(t,arr,e)=>`<h3 style="margin:14px 0 8px;font-size:16px">${t}</h3>`+(arr.length?arr.map(pickCard).join(''):card('None today','<div class="empty">'+e+'</div>'));
+    let h=sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
+    h+=card('Track record (live)','<div style="font-size:15px">All: <b>'+rate(d.stats.all)+'</b><br>Up picks: <b>'+rate(d.stats.up)+'</b><br>Down picks: <b>'+rate(d.stats.down)+'</b></div><div class="meta">A hit means the next close moved in the predicted direction. Judge the engine only after 30 to 50 picks. This number, not a promise, shows the real probability.</div>'+
       (d.recent.length?d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%)':'pending'}</div>`).join(''):''));
-    h+='<div class="note">Scanned '+d.scanned+' large stocks after market close. This is a news-scoring engine, not a prediction or advice. A high score means the news is strong and fresh, not that the stock must move. Use a stop-loss, risk only a small part of your money per trade, and paper trade first.</div>';
+    h+='<div class="note">Scanned '+d.scanned+' stocks after market close, weighting news from Reuters, Bloomberg, Economic Times, Business Standard, Mint, Moneycontrol, CNBC-TV18 and similar outlets more than unknown sources. A news-scoring engine, not a prediction or advice. A high score means strong, fresh news, not that the stock must move. Use a stop-loss and small position size, and paper trade first.</div>';
     $('pbody').innerHTML=h;
     $('pstamp').textContent='Picks for '+d.date+', generated '+ago(d.generated);
   }catch(e){
