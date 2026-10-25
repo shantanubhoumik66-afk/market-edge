@@ -49,6 +49,16 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
 .badge{font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
 .dir{font-weight:700}.why{font-size:13px;color:var(--mute);margin:8px 0 2px}
 .why b{color:var(--ink)}
+.vgrid{display:grid;gap:14px}.vcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer}
+.vcard .th{position:relative}.vcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#0006}
+.vcard .pl{position:absolute;inset:0;display:grid;place-items:center;font-size:40px;color:#fff;text-shadow:0 2px 10px #000}
+.vcard .vt{padding:10px 12px;font-size:14px;line-height:1.35}
+#player{position:fixed;inset:0;background:#05080fee;display:none;z-index:50;overflow-y:auto;padding-top:env(safe-area-inset-top,0px)}
+#player.on{display:block}.ptop{display:flex;gap:10px;align-items:center;padding:10px 14px}.ptop b{flex:1;font-size:14px;line-height:1.3}
+.pwrap{position:relative;width:100%;aspect-ratio:16/9;background:#000}.pwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.chip{display:inline-block;font-size:12px;padding:3px 9px;margin:3px 4px 0 0;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.chip.up{color:var(--green);border-color:#2fbf7166}.chip.dn{color:var(--red);border-color:#ff5c5c66}.rchip{flex:none}
+.hi{font-size:11px;padding:2px 8px;border-radius:999px;background:#ff5c5c22;color:var(--red);margin-left:6px}.md{background:#ff993322;color:var(--saff)}
 </style>
 </head>
 <body>
@@ -95,20 +105,40 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div id="btbody"></div>
 </section>
 
+<section id="global" class="view">
+  <div class="top">
+    <button class="back" onclick="go('home')">Back</button>
+    <h1>Global_edge</h1>
+    <button class="ref" onclick="loadGlobal()">Refresh</button>
+  </div>
+  <div id="gstamp" class="meta" style="margin-bottom:10px">Loading...</div>
+  <div class="tabs">
+    <button class="tab gtab on" data-t="news" onclick="gTab('news')">News</button>
+    <button class="tab gtab" data-t="videos" onclick="gTab('videos')">▶ Videos</button>
+  </div>
+  <div id="gbody"></div>
+</section>
+<div id="player">
+  <div class="ptop"><b id="ptitle"></b><button class="back" onclick="closePlayer()">Close</button></div>
+  <div class="pwrap"><iframe id="pframe" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+  <div style="padding:10px 14px"><a id="pyt" class="meta" target="_blank" rel="noopener" style="color:var(--saff)">If the video will not play here, open it on YouTube</a></div>
+  <div id="pnext" style="padding:0 14px 30px"></div>
+</div>
+
 <script>
 /* Home screen buttons - add new apps here */
 const APPS = [
   {name:'India_edge', icon:'🇮🇳', color:'#ff9933', page:'edge'},
   {name:'Evening_picks', icon:'🎯', color:'#e11d48', page:'picks'},
   {name:'Backtest', icon:'🧪', color:'#0ea5e9', page:'bt'},
-  {name:'Global_edge', icon:'🌍', color:'#3b82f6', soon:true},
+  {name:'Global_edge', icon:'🌍', color:'#3b82f6', page:'global'},
   {name:'Watchlist', icon:'📈', color:'#2fbf71', soon:true},
   {name:'Crypto', icon:'₿', color:'#f59e0b', soon:true},
   {name:'Notes', icon:'📝', color:'#a855f7', soon:true},
   {name:'Files', icon:'📁', color:'#06b6d4', soon:true},
 ];
 const $ = id => document.getElementById(id);
-function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT()}
+function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT();if(v==='global')loadGlobal()}
 $('apps').innerHTML = APPS.map(a=>`<button class="app ${a.soon?'soon':''}" ${a.soon?'':`onclick="go('${a.page}')"`}><div class="ico" style="background:${a.color}">${a.icon}</div>${a.name}</button>`).join('');
 function tick(){const d=new Date();$('clock').textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});$('date').textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'long'})}
 tick();setInterval(tick,20000);
@@ -155,12 +185,12 @@ async function loadEdge(){
 function pickCard(p){
   const up=p.dir==='UP';
   const price=p.close!=null?`Close ${p.close} (${p.today_chg>=0?'+':''}${p.today_chg}% today${p.vol_ratio?', volume '+p.vol_ratio+'x avg':''})`:'';
-  const link=x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}</span></a>`;
+  const link=x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}${x.when?' · <b class="'+(x.when==='after close'?'pos':'')+'">'+esc(x.when)+'</b>':''}</span></a>`;
   const rs=p.reasons.map(link).join('');
   const sr=p.sector_reasons.map(x=>link({...x,label:p.sector+' sector, '+x.label})).join('');
   return `<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
     <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} trusted source${p.sources==1?'':'s'}</span></div>
-    <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}
+    <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}${p.chart_note?`<div class="meta">${esc(p.chart_note)}</div>`:''}
     <div class="why"><b>Layers</b> (agree ${p.agree} of 6): ${Object.entries(p.layers||{}).map(([k,v])=>`${k} <span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v}</span>`).join(' · ')}</div>${(p.tech_notes&&p.tech_notes.length)?`<div class="meta">Chart and flow: ${esc(p.tech_notes.join('; '))}</div>`:''}</div>${rs}${sr}</div>`;
 }
 async function loadPicks(){
@@ -171,12 +201,13 @@ async function loadPicks(){
     const d=await r.json();
     const rate=x=>x&&x.total?Math.round(100*x.hits/x.total)+'% ('+x.hits+' of '+x.total+')':'no results yet';
     const sec=(t,arr,e)=>`<h3 style="margin:14px 0 8px;font-size:16px">${t}</h3>`+(arr.length?arr.map(pickCard).join(''):card('None today','<div class="empty">'+e+'</div>'));
-    let h=sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
+    const cu=(d.cues||[]).map(q=>`<div style="display:flex;justify-content:space-between;padding:4px 0;font-size:13px"><span>${esc(q.name)}</span><span>${q.price} <span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+':''}${q.chg}%</span></span></div>`).join('');
+    let h=(cu?card('Global cues (last close)',cu+'<div class="meta" style="margin-top:6px">US markets close after this evening run. For intraday, re-check these at about 8:30 AM India time: if they moved sharply overnight, treat the picks with caution. News tagged <b class="pos">after close</b> has not traded yet; news tagged before close is mostly priced in.</div>'):'')+sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
     h+=card('Track record (live)','<div style="font-size:15px">All: <b>'+rate(d.stats.all)+'</b><br>Up picks: <b>'+rate(d.stats.up)+'</b><br>Down picks: <b>'+rate(d.stats.down)+'</b>'+(d.stats.tiers?'<br>By confidence: '+Object.entries(d.stats.tiers).map(([k,v])=>k+' <b>'+rate(v)+'</b>').join(' · '):'')+'</div><div class="meta">A hit means the next close moved in the predicted direction. Judge each confidence level only after 30 to 50 picks. These numbers, not a promise, show the real accuracy.</div>'+
       (d.recent.length?d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%)':'pending'}</div>`).join(''):''));
     h+='<div class="note">Scanned '+d.scanned+' stocks after market close, weighting news from Reuters, Bloomberg, Economic Times, Business Standard, Mint, Moneycontrol, CNBC-TV18 and similar outlets more than unknown sources. A news-scoring engine, not a prediction or advice. A high score means strong, fresh news, not that the stock must move. Use a stop-loss and small position size, and paper trade first.</div>';
     $('pbody').innerHTML=h;
-    $('pstamp').textContent='Picks for '+d.date+', generated '+ago(d.generated);
+    setBadge(d.picks_up.length,d.picks_down.length);$('pstamp').textContent='Picks for '+d.date+', generated '+ago(d.generated);
   }catch(e){
     $('pstamp').textContent='No picks yet. The engine runs on weekdays at 5:30 PM India time, or run it manually from GitHub Actions.';
     $('pbody').innerHTML='';
@@ -204,6 +235,75 @@ async function loadBT(){
     $('btbody').innerHTML='';
   }
 }
+
+/* Live tab icon and title: green when picks lean up, red when they lean down, saffron when balanced */
+function setBadge(up,down){
+  try{
+    const c=document.createElement('canvas');c.width=c.height=64;const x=c.getContext('2d');
+    x.fillStyle='#0e1a2b';x.fillRect(0,0,64,64);
+    x.lineWidth=5;x.strokeStyle='#ff9933';x.beginPath();x.arc(32,32,26,0,7);x.stroke();
+    const col=up>down?'#2fbf71':down>up?'#ff5c5c':'#ff9933';
+    x.fillStyle=col;x.beginPath();
+    if(down>up){x.moveTo(32,48);x.lineTo(46,26);x.lineTo(18,26);}else{x.moveTo(32,16);x.lineTo(46,38);x.lineTo(18,38);}
+    x.fill();
+    let l=document.querySelector('link[rel="icon"]');if(!l){l=document.createElement('link');l.rel='icon';document.head.appendChild(l)}
+    l.type='image/png';l.href=c.toDataURL('image/png');
+    document.title='Edge ▲'+up+' ▼'+down;
+  }catch(e){}
+}
+fetch('picks.json?t='+Date.now()).then(r=>r.json()).then(d=>setBadge(d.picks_up.length,d.picks_down.length)).catch(()=>{});
+
+let GL=null,glRegion=0,glMed=false,glTab='news',GR=['All'];
+async function loadGlobal(){
+  $('gstamp').textContent='Loading...';
+  try{
+    const r=await fetch('global.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    GL=await r.json();
+    $('gstamp').textContent='Updated '+ago(GL.generated)+' · trusted outlets only';
+    renderGlobal();
+  }catch(e){
+    $('gstamp').textContent='No global data yet. Run the global-edge workflow from GitHub Actions.';
+    $('gbody').innerHTML='';
+  }
+}
+function gTab(t){glTab=t;document.querySelectorAll('.gtab').forEach(e=>e.classList.toggle('on',e.dataset.t===t));renderGlobal()}
+function setRegion(i){glRegion=i;renderGlobal()}
+function toggleMed(){glMed=!glMed;renderGlobal()}
+function chips(secs){return (secs||[]).map(s=>`<span class="chip ${s.dir>0?'up':'dn'}">${esc(s.sector)} ${s.dir>0?'▲':'▼'}${s.stocks?' ('+esc(s.stocks)+')':''}</span>`).join('')}
+function renderGlobal(){
+  if(!GL) return;
+  if(glTab==='videos'){renderVideos();return}
+  const b=GL.bias||{sectors:[]};
+  GR=['All',...new Set(GL.news.map(x=>x.region))];
+  if(glRegion>=GR.length) glRegion=0;
+  const reg=GR[glRegion];
+  const items=GL.news.filter(x=>(reg==='All'||x.region===reg)&&(glMed||x.level==='High'));
+  const tone=b.score<=-1.5?'neg':b.score>=1.5?'pos':'';
+  let h=card('Global bias for the Indian market',`<div style="font-size:18px;font-weight:700" class="${tone}">${esc(b.label||'')}</div><div class="meta">Score ${b.score} from ${GL.news.length} market-moving stories</div>`+
+    (b.sectors&&b.sectors.length?'<div style="margin-top:6px">'+b.sectors.map(s=>`<span class="chip ${s.score>0?'up':'dn'}">${esc(s.sector)} ${s.score>0?'▲':'▼'}${s.stocks?' ('+esc(s.stocks)+')':''}</span>`).join('')+'</div>':''));
+  h+='<div class="tabs" style="position:static;padding-top:0">'+GR.map((r,i)=>`<button class="tab rchip ${i===glRegion?'on':''}" onclick="setRegion(${i})">${esc(r)}</button>`).join('')+`<button class="tab rchip ${glMed?'on':''}" onclick="toggleMed()">${glMed?'High + medium':'High only'}</button></div>`;
+  h+=items.length?items.map(x=>`<div class="card"><div class="meta">${esc(x.flag)} ${esc(x.region)} · ${esc(x.label)}<span class="hi ${x.level==='High'?'':'md'}">${esc(x.level)} impact</span></div>
+    <a class="n" style="border:0;padding:6px 0" href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)} · ${x.confirmed_by>1?'<b class="pos">confirmed by '+x.confirmed_by+' trusted outlets</b>':'single trusted source'}</span></a>
+    <div class="why"><b>Why it matters for India:</b> ${esc(x.why)}</div>${chips(x.sectors)}</div>`).join(''):'<div class="empty">No high-impact story in this region right now. That is a valid result.</div>';
+  h+='<div class="note">Only trusted outlets (Reuters, Bloomberg, FT, WSJ, CNBC, AP, BBC, Al Jazeera, Nikkei and major Indian business papers) are used, and only stories that match an Indian-market impact rule are shown. The rules are a filter, not a prediction. Always open the source link and check the facts.</div>';
+  $('gbody').innerHTML=h;
+}
+function renderVideos(){
+  const v=GL.videos||[];
+  if(!v.length){$('gbody').innerHTML=card('No videos right now','<div class="empty">The video feeds returned nothing. Try again after the next update.</div>');return}
+  $('gbody').innerHTML='<div class="meta" style="margin-bottom:8px">'+v.length+' market videos from official channels'+(GL.channels_ok?': '+esc(GL.channels_ok.join(', ')):'')+'. Tap one to play with sound.</div><div class="vgrid">'+
+    v.map((x,i)=>`<div class="vcard" onclick="openPlayer(${i})"><div class="th"><img loading="lazy" src="${esc(x.thumb)}" alt=""><div class="pl">▶</div></div><div class="vt">${esc(x.title)}<span class="meta">${esc(x.channel)} · ${ago(x.published)}</span></div></div>`).join('')+'</div>';
+}
+function openPlayer(i){
+  const v=GL.videos[i];if(!v) return;
+  $('ptitle').textContent=v.title;
+  $('pframe').src='https://www.youtube-nocookie.com/embed/'+v.id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';
+  $('pyt').href=v.url;
+  $('pnext').innerHTML='<h3 style="margin:10px 0 8px;font-size:15px">Up next</h3>'+GL.videos.map((x,k)=>k===i?'':`<div class="vcard" style="margin-bottom:10px" onclick="openPlayer(${k})"><div class="th"><img loading="lazy" src="${esc(x.thumb)}" alt=""><div class="pl">▶</div></div><div class="vt">${esc(x.title)}<span class="meta">${esc(x.channel)} · ${ago(x.published)}</span></div></div>`).join('');
+  $('player').classList.add('on');$('player').scrollTop=0;
+}
+function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
 </script>
 </body>
