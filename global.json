@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-25T17:31:31.679228+00:00",
+ "generated": "2026-10-25T20:38:08.143300+00:00",
  "bias": {
-  "score": -4.74,
+  "score": -3.46,
   "label": "Risk-off for India",
   "sectors": [
    {
@@ -28,11 +28,6 @@
     "sector": "PAINT",
     "score": -1.6,
     "stocks": "Asian Paints"
-   },
-   {
-    "sector": "NEWAGE",
-    "score": -1.28,
-    "stocks": "Zomato, Paytm, Nykaa"
    }
   ]
  },
@@ -190,34 +185,6 @@
    ]
   },
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbFg3ZkV4QzdBaTNjLTU0N3lHTUpMWEFETVhtYU9NS2l5QlhfMU0zeV9SLTd4ZTFwbnBGUGFOa29IQ25VMmQ3aXotU1hPRkZHR0szdFQ2RzRCemE4SzNVYS1GRG5oZjh0RHVIU2FiUzJLemdEdlk3TGF3SWdKQi1ZZGk5SFNwS2ZKTU1HNzJZSk85T0tiTlU4VXVVVlVsVkE2R2VlSGIxOVd1MUpjY1U2cA?oc=5",
-   "src": "Bloomberg.com",
-   "time": "2026-10-24T20:00:00+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Bloomberg.com"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "War clouds intensify as US, Iran set for escalation",
@@ -258,21 +225,39 @@
  ],
  "videos": [
   {
-   "id": "gjpKo4HvZ30",
-   "title": "Jordan Bardella: 'La France est au bord de l'abîme' | National Rally Congress | Le Pen | N18G",
+   "id": "YnT6BqTFZyk",
+   "title": "Israeli assault on Hebron displaces thousands as West Bank restrictions tighten",
+   "channel": "Al Jazeera English",
+   "published": "2026-10-25T19:07:28+00:00",
+   "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
+   "business": false
+  },
+  {
+   "id": "PSo0spc8f84",
+   "title": "We Have Cushion Against Crude Supply Shock: FM Nirmala Sitharaman | CNBC EXCLUSIVE",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T17:24:53+00:00",
-   "thumb": "https://i.ytimg.com/vi/gjpKo4HvZ30/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=gjpKo4HvZ30",
+   "published": "2026-10-25T18:21:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/PSo0spc8f84/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=PSo0spc8f84",
    "business": true
   },
   {
-   "id": "4WmoRT45B_M",
-   "title": "‘No Guarantee FIIs Will Return Even If Taxes Are Cut’: Vallabh Bhanshali Exclusive | Market Masters",
+   "id": "NyzzLugFl_I",
+   "title": "Who will be the next James Bond? | BBC News",
+   "channel": "BBC News",
+   "published": "2026-10-25T18:00:26+00:00",
+   "thumb": "https://i.ytimg.com/vi/NyzzLugFl_I/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=NyzzLugFl_I",
+   "business": false
+  },
+  {
+   "id": "_7BcomMG8ow",
+   "title": "Israel Election LIVE: Gadi Eisenkot Yashar Party RALLY | Israel's 'Not Netanyahu' Candidate | N18G",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T17:00:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/4WmoRT45B_M/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=4WmoRT45B_M",
+   "published": "2026-10-25T17:54:24+00:00",
+   "thumb": "https://i.ytimg.com/vi/_7BcomMG8ow/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_7BcomMG8ow",
    "business": true
   },
   {
