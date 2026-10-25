@@ -1,33 +1,38 @@
 {
- "generated": "2026-10-25T20:38:08.143300+00:00",
+ "generated": "2026-10-25T23:06:36.913530+00:00",
  "bias": {
-  "score": -3.46,
+  "score": -4.46,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "OMC",
-    "score": -5.32,
+    "score": -4.93,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -5.32,
+    "score": -4.93,
     "stocks": "IndiGo"
    },
    {
     "sector": "DEFENCE",
-    "score": 5.32,
+    "score": 4.76,
     "stocks": "HAL, BEL"
    },
    {
     "sector": "UPSTREAM",
-    "score": 4.26,
+    "score": 3.98,
     "stocks": "ONGC, Oil India"
    },
    {
     "sector": "PAINT",
     "score": -1.6,
     "stocks": "Asian Paints"
+   },
+   {
+    "sector": "NEWAGE",
+    "score": -1.28,
+    "stocks": "Zomato, Paytm, Nykaa"
    }
   ]
  },
@@ -109,6 +114,34 @@
    ]
   },
   {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Fed Set To Lead G7 Trio In Hawkish Rate Pause: Eco Week Ahead",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVFwc3FDUVgzejRYX3Y3RTdRUndEaVpOay1Ec0V1ZjU1SVBtX0xXTUpoSGV4OUhha0hXYnFrT3lzZEJuTmd1aXk3NU0wS1VTUUpfQjYwMHMwOEZsMEppaEFsNEJpSzB1cGk2SGRsbGFYY3hqeTFZWDIzZ1dySGROb3Q5MDVGY3ZEN19CQVNIRTRiNzRpcEFFRHVIQURNWDNHZTE3WXhmUdIBrwFBVV95cUxOMUhzZ3lQSmZ6MEJISWVvdi15eWxjUk9TVmg1YVl0WmFQVmxRa2s0SmFFcmJBWjR2NDMyOTNMWG9QZTRvWmgxQTJXNmRxY1EyTFdwS2tETTljR3NYdG9XTkNKVGhXTVRSdjVCOTdudnRBa0czLW0xWlNlcU9BZHZkQllwQ01RcTMtQ1RiQXNvVUN4dm9HU2o4QWlsdm9VbUtNS0xtcFV5ZEJZZHFfZGRV?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-10-25T01:22:37+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "NDTV Profit"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
@@ -116,7 +149,7 @@
    "src": "Bloomberg.com",
    "time": "2026-10-25T10:51:03+00:00",
    "level": "Medium",
-   "score": 1.4,
+   "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
@@ -154,7 +187,7 @@
    "src": "Al Jazeera",
    "time": "2026-10-25T08:51:07+00:00",
    "level": "Medium",
-   "score": 1.4,
+   "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
@@ -225,6 +258,15 @@
  ],
  "videos": [
   {
+   "id": "XAtfvSU5x4M",
+   "title": "WATCH: Nicki Minaj Joins Trump at Michigan Rally: ‘Will Continue To Support You Forever’ | N18G",
+   "channel": "CNBC-TV18",
+   "published": "2026-10-25T22:51:08+00:00",
+   "thumb": "https://i.ytimg.com/vi/XAtfvSU5x4M/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=XAtfvSU5x4M",
+   "business": true
+  },
+  {
    "id": "YnT6BqTFZyk",
    "title": "Israeli assault on Hebron displaces thousands as West Bank restrictions tighten",
    "channel": "Al Jazeera English",
@@ -232,15 +274,6 @@
    "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
    "business": false
-  },
-  {
-   "id": "PSo0spc8f84",
-   "title": "We Have Cushion Against Crude Supply Shock: FM Nirmala Sitharaman | CNBC EXCLUSIVE",
-   "channel": "CNBC-TV18",
-   "published": "2026-10-25T18:21:09+00:00",
-   "thumb": "https://i.ytimg.com/vi/PSo0spc8f84/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=PSo0spc8f84",
-   "business": true
   },
   {
    "id": "NyzzLugFl_I",
@@ -321,15 +354,6 @@
    "published": "2026-10-25T11:30:31+00:00",
    "thumb": "https://i.ytimg.com/vi/J6g4gFOf8TY/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=J6g4gFOf8TY",
-   "business": false
-  },
-  {
-   "id": "kNUedqBNAlY",
-   "title": "What happens behind the scenes when the UK prepares for economic announcements? | BBC News",
-   "channel": "BBC News",
-   "published": "2026-10-24T19:00:36+00:00",
-   "thumb": "https://i.ytimg.com/vi/kNUedqBNAlY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=kNUedqBNAlY",
    "business": false
   },
   {
