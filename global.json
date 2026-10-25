@@ -1,27 +1,27 @@
 {
- "generated": "2026-10-25T09:20:04.170135+00:00",
+ "generated": "2026-10-25T13:51:37.095225+00:00",
  "bias": {
-  "score": -5.36,
+  "score": -3.4,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "DEFENCE",
-    "score": 8.26,
+    "score": 4.34,
     "stocks": "HAL, BEL"
    },
    {
     "sector": "OMC",
-    "score": -5.29,
+    "score": -2.55,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -5.29,
+    "score": -2.55,
     "stocks": "IndiGo"
    },
    {
     "sector": "UPSTREAM",
-    "score": 3.78,
+    "score": 1.82,
     "stocks": "ONGC, Oil India"
    },
    {
@@ -35,93 +35,17 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
-   "src": "WSJ",
-   "time": "2026-10-25T07:17:07+00:00",
+   "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmpMTzVMV0M5WU04b2s2LW1QeWlLWVVSdnRJQ2xQeW9WeVdXVjZYVkVwVFgzWTd5U25HZHJ4VFFIb0xfZDBrOVNJYzVsWndCcmhfdEkycExMaVoxelNzcWtuTWhxdjFKWVZxeVhGemVZdi0wNjBaX1pwdWE0aTBOS1gtUlNUcjRwRXNzcXNkdnF6ZDlrTFBJejVCQ1kwUGRjQWQ2MTNHai10OUlhQ29TdFNn0gG3AUFVX3lxTE9zVTVQVDdCLWlial92eERzejVzYnlMSnRwdTRiOFd5WTZCcFE2VnVabkJYOFNwV0NQRl90a0R1ZllSc2NDUDdPLVd3bXBUV0dLcU01a0MzbVhNVUlHczgzUTlYOW95YkZFVVdFOW8zVmROUUN0alc1aTZzRnNuTUxZcHg1a1VTQktVYkNhSTBNMzZiampRSUFtbjBFaDBSZURlVDBiYnh4MjBBRDNuYlVNTnpPcVdJaw?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-10-25T08:51:07+00:00",
    "level": "Medium",
    "score": 1.4,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "WSJ"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS1tMzRuM2wzRGNDV0R5b3o5N3p0V1U1OVhreW01YXB6dWdmQlBCMS1Hb2FmQnJYYVZsSVJKNG5pVHFGN1pqWlJYUk13cC02OTR5RWpZczZ1c21KMjkyMmIxOXJOQ1VDZFg0V3pSTENZTi1DM1NDeGx1OHJBVVc4TjlyeG84ZUhTZ3NXVnVHZGZVaE9tVFFoSHVkUlJoeE5BMkJJVU9kOFNSUG05YVRtc09R?oc=5",
-   "src": "Bloomberg.com",
-   "time": "2026-10-25T03:43:00+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "Bloomberg.com"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "War clouds intensify as US, Iran set for escalation",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FWS1U3V1dQNEFjaFYzbm9mdHVNY3pfYmpoWndsVEhTemw0bWJvVE55TWN1T2VTMjVmNEd5MlFyT29UbmNtd0xSUjNwaWNidjJWcUFvaEhtR0VkNGxqclF1cXcteHpyS2RGMTIyOTFuMjBZMGhVRExIcTFGbUxfaUZnaHNDVF9ncmR1XzRWRjFTVFpZMzIzWk4yTHZMM25aUGcxbFRB0gGsAUFVX3lxTE5jbVdJdnVySG40dURtVzlrd0ZlVDNscFRkdjhndlZpX1dnR0dxbVlzUk55dDVKUnN6cjF6ZS1rMjd5Y1NuY1ZlUG9hMkhaT3hYNFpsTEJsZlBIUGtrRFR2TzNfdmhvYnVtWUo1M1A2a2FZR3VNWFEwMjdINkdjbldqV1JjcThyZFkzQnNidGxjTGRSamlsWkpwdnRhM1gxNDFETXZ1RkdxYm8wMEw?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-10-25T00:58:00+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
+    "Al Jazeera"
    ],
    "sectors": [
     {
@@ -177,10 +101,10 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "8 months of ‘Little Epic Fury’: The cost of Iran war for US, Iran and India",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY25kNDlzNTJYemcyZ203ZWtoak1jLUlJR2tvNE9LcjBwdC1TMUZzQ0FBanl5U2VaSlZmRDFwNVY3RlZlV25yVmFsMTkzRHZEOWhpOEphMEp5bmoxa0ZoaTVZdnFKdHp5d2NrR0MxbzliS0RXd1JVZzhVVEc4enlCdGJ5QUN6a1NQQmhDNmJkbk5mdExXcFR1eFZyamQ0akNMSC1LdzBoUERfbEdmdzJGaHZWRkR2VUg5Y1dEb1dabW5pV2ZJaHVFZTkybURlSE41TUxpMlU5OWhtZTRKMjNyUEVIc2dodUh50gHvAUFVX3lxTE5SdndLZWFibFZ5Ynp6V3I3ZEtsdjVqY09Xa01taXVTVGpjaHRDMGpXRlNNNHZVZk44UDkxU05LLURPS3FpLXkwU3pYVnQtUmhHZm9zYTdZMXZHQVJySE43UkRBeG1TZjRnZWtRNm0wU0VGMzYzVDhyekYtZEc3Tll4ZGJDYllMZ3RzanVtN25mRy10eE1JWTFSU01TU1ppdUx6a2RDNHh6NkNRdXBndVREcGcyZWc3TnRhWnBSTG91Uk9mVlA3dFVudHViZ3d0OGpKdlR5d1ZZUml4ZXJFcTVyVTVUZFVWU1U3X0ZRSFZ3?oc=5",
+   "title": "War clouds intensify as US, Iran set for escalation",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FWS1U3V1dQNEFjaFYzbm9mdHVNY3pfYmpoWndsVEhTemw0bWJvVE55TWN1T2VTMjVmNEd5MlFyT29UbmNtd0xSUjNwaWNidjJWcUFvaEhtR0VkNGxqclF1cXcteHpyS2RGMTIyOTFuMjBZMGhVRExIcTFGbUxfaUZnaHNDVF9ncmR1XzRWRjFTVFpZMzIzWk4yTHZMM25aUGcxbFRB0gGsAUFVX3lxTE5jbVdJdnVySG40dURtVzlrd0ZlVDNscFRkdjhndlZpX1dnR0dxbVlzUk55dDVKUnN6cjF6ZS1rMjd5Y1NuY1ZlUG9hMkhaT3hYNFpsTEJsZlBIUGtrRFR2TzNfdmhvYnVtWUo1M1A2a2FZR3VNWFEwMjdINkdjbldqV1JjcThyZFkzQnNidGxjTGRSamlsWkpwdnRhM1gxNDFETXZ1RkdxYm8wMEw?oc=5",
    "src": "The Financial Express",
-   "time": "2026-10-24T16:38:01+00:00",
+   "time": "2026-10-25T00:58:00+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
@@ -215,55 +139,17 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbnhYekZtTGYtNUxRY1l0SkNlclVxV1JhVHJ2QUNzRFhRQW96Z0FWbXBSakNhblFEYk9kNHBibExfT0xFVFhLbUEzLWZpR0VNVC0tT2NlTTRIWmlaRThSTXN5OEF6d1ZiSEhGak11ck5zclJpYkRPODdJdFNqLXJTWjZiemlRSnZuOUV1MWY3eDZYMTBjaThzRDJaU3VVQnFqbFQ3bEt2enJEeHNUcm1nZTBnT1lXNXfSAbwBQVVfeXFMTzcyR081VVdqUVNRX05XQ0NxRFFPdm81M0NEV0hPcm9FYlZmTEJ4bTBPQUtjSjZvOEx3aGFWdGNDbHkyZzdoVDlVZzZyU1NrNkt4YkhBZGxZcm1vZ0tlWTB0T3lZbDdaX3dnSkZVdUpqc19KZnpWS3Vlc2tiN1JEQUNWZEVZYmV0ZWVyYXFENDU4a2FqU3ZWZGR5dFFreHl4VzVZellsU2hwQVcyZzBBTjl6SG9WQUpBNmprOXA?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-10-24T13:15:07+00:00",
+   "title": "8 months of ‘Little Epic Fury’: The cost of Iran war for US, Iran and India",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY25kNDlzNTJYemcyZ203ZWtoak1jLUlJR2tvNE9LcjBwdC1TMUZzQ0FBanl5U2VaSlZmRDFwNVY3RlZlV25yVmFsMTkzRHZEOWhpOEphMEp5bmoxa0ZoaTVZdnFKdHp5d2NrR0MxbzliS0RXd1JVZzhVVEc4enlCdGJ5QUN6a1NQQmhDNmJkbk5mdExXcFR1eFZyamQ0akNMSC1LdzBoUERfbEdmdzJGaHZWRkR2VUg5Y1dEb1dabW5pV2ZJaHVFZTkybURlSE41TUxpMlU5OWhtZTRKMjNyUEVIc2dodUh50gHvAUFVX3lxTE5SdndLZWFibFZ5Ynp6V3I3ZEtsdjVqY09Xa01taXVTVGpjaHRDMGpXRlNNNHZVZk44UDkxU05LLURPS3FpLXkwU3pYVnQtUmhHZm9zYTdZMXZHQVJySE43UkRBeG1TZjRnZWtRNm0wU0VGMzYzVDhyekYtZEc3Tll4ZGJDYllMZ3RzanVtN25mRy10eE1JWTFSU01TU1ppdUx6a2RDNHh6NkNRdXBndVREcGcyZWc3TnRhWnBSTG91Uk9mVlA3dFVudHViZ3d0OGpKdlR5d1ZZUml4ZXJFcTVyVTVUZFVWU1U3X0ZRSFZ3?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-10-24T16:38:01+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "Al Jazeera"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran claims control of Strait of Hormuz, says 2 oil tankers hit mines, warns US warships against Persian Gulf entry",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdGtsYWpsdFFFelk2QjJMd3ZYOTVUbmNYRzh6NVROV2tLOTZlUWFrSzV1NlB5d3RuWmFXekJuU3ZCVXRFXzVPY3l2ZDg0a2Y1dXdSc3JlU1QxSlhjajBVUTZ2b0NBRGc2aEpwNU50Mm4wcFphZEo2RVhnVTNSbjAycmpQRXpUVGp2QVlIeDVoUkdrOHJWMlhIbGpZRU1hRzlNZlFxNlFVSEtaLWF6UDVreDhjWU1TWDRvXzlQbThGMDBBNzdTamFmdDVmN0JEcS1JQ0V1dXJDcU9sakZzZlNQWUdSYlpraklxSjdTYlB6OG9NbGF6NGZ5YWMwcW1pd9IBgwJBVV95cUxQc3hqS2xOTExCSmJwamNLT2E5YlN6el9WOVJIclVBYzFtZldnYWZtcGQwYUVnT0twWVg5V3hNNm5tdWZMSko4YWhfRTJObFlkcnBUeWZkNE9TajJsdjNnbEVreGR0U3BPMUQwOENLdUZuYW9HdUxJYUNZRDk0TGRKNW85QnRBLW43WUpURXJFVk5rVXd0cFJhY3luNUFsMUE3RWJYMGtCYmJ1NVJkaUhmVDV5WHZRQzFhVGgySm9KQTVDaGNnOUwxMmxkdlhtZmtXcFBaakQ5d3d0aUJLT180ZVBfRmtNUGprWlpFa0tYVmlGb3lFUmhEX2VKdXExQ2xyZjJj?oc=5",
-   "src": "Livemint",
-   "time": "2026-10-24T10:33:07+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "Livemint"
+    "The Financial Express"
    ],
    "sectors": [
     {
@@ -314,40 +200,49 @@
  ],
  "videos": [
   {
-   "id": "bd2biHWLZxA",
-   "title": "Amandeep Johl: Indian Golf Needs an ‘83 Moment to Go Mainstream",
+   "id": "XHS0lgtzCdo",
+   "title": "Samir Arora On FPI Outflows, Taxation And India’s Market Outlook | Market Masters",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T08:51:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/bd2biHWLZxA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=bd2biHWLZxA",
+   "published": "2026-10-25T13:30:08+00:00",
+   "thumb": "https://i.ytimg.com/vi/XHS0lgtzCdo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=XHS0lgtzCdo",
    "business": true
   },
   {
-   "id": "Z-tYvsXErVM",
-   "title": "Israel Election: Thousands Rally Against Netanyahu Govt; West Bank Crossings To Shut On Voting Day",
+   "id": "r28xkuw3u20",
+   "title": "Editors Playbook | Jio Platforms IPO Fully Subscribed In 100 Minutes: Is Telecom India’s AI Trade?",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T08:49:00+00:00",
-   "thumb": "https://i.ytimg.com/vi/Z-tYvsXErVM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Z-tYvsXErVM",
+   "published": "2026-10-25T12:30:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/r28xkuw3u20/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=r28xkuw3u20",
    "business": true
   },
   {
-   "id": "O004G2SHLbc",
-   "title": "🔴Obama Takes the Stage in Ohio! Democrats Rally Ahead of Midterm Elections | US Midterms 2026 LIVE",
-   "channel": "Moneycontrol",
-   "published": "2026-10-25T08:34:02+00:00",
-   "thumb": "https://i.ytimg.com/vi/O004G2SHLbc/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=O004G2SHLbc",
+   "id": "OT_EussjmW0",
+   "title": "Markets Look to Big Tech for AI Payoff",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-10-25T12:09:11+00:00",
+   "thumb": "https://i.ytimg.com/vi/OT_EussjmW0/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=OT_EussjmW0",
    "business": true
   },
   {
-   "id": "mAWSYhhP82k",
-   "title": "“Brazil Is Sovereign!” — Lula Wraps Up Campaign in São Paulo With Massive Rally Ahead of Run-Off",
+   "id": "oqhQnSIlFVI",
+   "title": "Israel Election Showdown: Thousands Rally Against Netanyahu, Demand October 7 Probe | N18G",
    "channel": "Moneycontrol",
-   "published": "2026-10-25T07:55:22+00:00",
-   "thumb": "https://i.ytimg.com/vi/mAWSYhhP82k/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=mAWSYhhP82k",
+   "published": "2026-10-25T11:56:30+00:00",
+   "thumb": "https://i.ytimg.com/vi/oqhQnSIlFVI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=oqhQnSIlFVI",
    "business": true
+  },
+  {
+   "id": "J6g4gFOf8TY",
+   "title": "Why Europe’s economic dependencies are so risky | The Dip Podcast",
+   "channel": "DW News",
+   "published": "2026-10-25T11:30:31+00:00",
+   "thumb": "https://i.ytimg.com/vi/J6g4gFOf8TY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=J6g4gFOf8TY",
+   "business": false
   },
   {
    "id": "kNUedqBNAlY",
@@ -356,24 +251,6 @@
    "published": "2026-10-24T19:00:36+00:00",
    "thumb": "https://i.ytimg.com/vi/kNUedqBNAlY/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=kNUedqBNAlY",
-   "business": false
-  },
-  {
-   "id": "6FqKVPSTN28",
-   "title": "Persistent Oil Prices Threaten Inflation Outlook",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-10-24T13:17:47+00:00",
-   "thumb": "https://i.ytimg.com/vi/6FqKVPSTN28/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=6FqKVPSTN28",
-   "business": true
-  },
-  {
-   "id": "Z7IUjkHTQUw",
-   "title": "Hunting the fraudster who stole millions in VAT - Behind The Investigation | BBC News",
-   "channel": "BBC News",
-   "published": "2026-10-24T12:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/Z7IUjkHTQUw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Z7IUjkHTQUw",
    "business": false
   },
   {
