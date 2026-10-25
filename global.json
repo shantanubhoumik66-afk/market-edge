@@ -1,28 +1,33 @@
 {
- "generated": "2026-10-25T13:51:37.095225+00:00",
+ "generated": "2026-10-25T17:31:31.679228+00:00",
  "bias": {
-  "score": -3.4,
+  "score": -4.74,
   "label": "Risk-off for India",
   "sectors": [
    {
-    "sector": "DEFENCE",
-    "score": 4.34,
-    "stocks": "HAL, BEL"
-   },
-   {
     "sector": "OMC",
-    "score": -2.55,
+    "score": -5.32,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -2.55,
+    "score": -5.32,
     "stocks": "IndiGo"
    },
    {
+    "sector": "DEFENCE",
+    "score": 5.32,
+    "stocks": "HAL, BEL"
+   },
+   {
     "sector": "UPSTREAM",
-    "score": 1.82,
+    "score": 4.26,
     "stocks": "ONGC, Oil India"
+   },
+   {
+    "sector": "PAINT",
+    "score": -1.6,
+    "stocks": "Asian Paints"
    },
    {
     "sector": "NEWAGE",
@@ -32,6 +37,120 @@
   ]
  },
  "news": [
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Trade Setup For Oct. 26: Nifty Support Slips To 22,500 As Brent Crude Spike Prevents Upside — Key Levels",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmF6T0FKS0pBbWpvcGxoajVqbU9oY2hEOHVPUTFYZkZtWDdxRkRQOVZSZGMwV1hLV1F2SmVmQTFza2ZYRDV2cWt2Ul93VlFXN01CSGtNdHprOW9hZlU1T1VRRC1UQmk3Zjh1dTlqemk1Y3E5SlJRaExZOXp6M3JWdjdTSDEyNXZlb3YtbnM1OHppOWFDNkNKMFR2bHZWSG83M2dSbzhwNXdDb1NoOUhMbW1WVjZUcC1wU2VqMzlZSThUbVRpUXV1SDQxRExrMTdWRGZOb3hLdU5BUFZ30gHkAUFVX3lxTE5UUC1CUHZ2QU16SDEzdk9TS3dZT19mZVdQWnktSE9fSTJIOURtc1M1Qm9Gc3VvT2VndHBzZjdhOGdxbmVObDV4ZG1KQU5uMEd1bUxGUVJETFZUWF9lOFh4SGdBWUdJUHBwaHpEbFU4N2RtWWp6UVhMS0t2QkROWGNGblhNcXotLXA0NHNKakl2M2N4UUZOWUFDXzhzbmd3VUpSZC1ldnc4UGwxajMwOEZmVnNJY0pkZXFlSTV2c2V4WlBoazRoaTc3bkFTYTNBcDk0UFFUV1JKaHpraDhLeHN0RlVmbg?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-10-25T14:27:24+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "Crude oil rising",
+   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "confirmed_by": 1,
+   "sources": [
+    "NDTV Profit"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "PAINT",
+     "dir": -1,
+     "stocks": "Asian Paints"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVmJvVFROYklRaWdWUnhjOXhGUVpNQmRzME1NM25aUWVTNVlDQU90aGNQaTRlZTUzZUNscE9QZHNZX2ZZY0pKS2htbjNpUHJXaDVMR25zeFRlU1I2ZzN0LWlsdTNsSU9TUnZvcFVFTXVyUXZtUjNvZFhlQU1WUjdITnBlZ1hzc0gyRXV4blBDMkdPcC13Wl9VbW5uaC1JaGR30gGmAUFVX3lxTE4xY3BFSzlQa0VZLWcwaUo3SklTdzRKaExfbzlEUjNDYlVpczR6amNiN3BmUzRaM0tReUhJeVVnWkJnaWJkVXMtVUlQR3haX2JScWFsRHRmazlzYW9hMVZfaFdIYWxiendHMldwcDBMOWctQWNQX0xQd0RZUVVDOEt5OUQzSkhZbFpHMEIxc0dSOENFbm1jRVNUUjZBSzN6MjJzTjNJMFE?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-10-25T14:51:13+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Al Jazeera"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS1tMzRuM2wzRGNDV0R5b3o5N3p0V1U1OVhreW01YXB6dWdmQlBCMS1Hb2FmQnJYYVZsSVJKNG5pVHFGN1pqWlJYUk13cC02OTR5RWpZczZ1c21KMjkyMmIxOXJOQ1VDZFg0V3pSTENZTi1DM1NDeGx1OHJBVVc4TjlyeG84ZUhTZ3NXVnVHZGZVaE9tVFFoSHVkUlJoeE5BMkJJVU9kOFNSUG05YVRtc09R?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-10-25T10:51:03+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Bloomberg.com"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
   {
    "region": "Middle East",
    "flag": "🌍",
@@ -135,105 +254,80 @@
      "stocks": "ONGC, Oil India"
     }
    ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "8 months of ‘Little Epic Fury’: The cost of Iran war for US, Iran and India",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY25kNDlzNTJYemcyZ203ZWtoak1jLUlJR2tvNE9LcjBwdC1TMUZzQ0FBanl5U2VaSlZmRDFwNVY3RlZlV25yVmFsMTkzRHZEOWhpOEphMEp5bmoxa0ZoaTVZdnFKdHp5d2NrR0MxbzliS0RXd1JVZzhVVEc4enlCdGJ5QUN6a1NQQmhDNmJkbk5mdExXcFR1eFZyamQ0akNMSC1LdzBoUERfbEdmdzJGaHZWRkR2VUg5Y1dEb1dabW5pV2ZJaHVFZTkybURlSE41TUxpMlU5OWhtZTRKMjNyUEVIc2dodUh50gHvAUFVX3lxTE5SdndLZWFibFZ5Ynp6V3I3ZEtsdjVqY09Xa01taXVTVGpjaHRDMGpXRlNNNHZVZk44UDkxU05LLURPS3FpLXkwU3pYVnQtUmhHZm9zYTdZMXZHQVJySE43UkRBeG1TZjRnZWtRNm0wU0VGMzYzVDhyekYtZEc3Tll4ZGJDYllMZ3RzanVtN25mRy10eE1JWTFSU01TU1ppdUx6a2RDNHh6NkNRdXBndVREcGcyZWc3TnRhWnBSTG91Uk9mVlA3dFVudHViZ3d0OGpKdlR5d1ZZUml4ZXJFcTVyVTVUZFVWU1U3X0ZRSFZ3?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-10-24T16:38:01+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Russia",
-   "flag": "🇷🇺",
-   "title": "Trump waives Russia sanctions, tariffs before they take effect",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHVEcnRlZEs4d1diWkU0cjFRbTFEUWIxN014M2VvU3JTNW1SZlkwQUdKaTVadU1qQ0JXSkNtLVpPN3dIR1NEVExFLTI5ZXI0QlIyS25aMHNhLU5CZlNndGJzcVExV0M1MHVUbThPdDJzMC1vZWstSG5VVTNWZW9rMndkWnowdXpDQ1RWY3hZRXVmRnhXSDE2bkowZGNyT2hsbW1qY2taSWk5OS1ONlRxOWdnM2tNSldU?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-10-25T04:39:56+00:00",
-   "level": "Medium",
-   "score": 1.0,
-   "label": "Russia-Ukraine developments",
-   "why": "Can move crude, fertiliser and metal prices and India's oil import costs.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Business Standard"
-   ],
-   "sectors": [
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    }
-   ]
   }
  ],
  "videos": [
   {
-   "id": "XHS0lgtzCdo",
-   "title": "Samir Arora On FPI Outflows, Taxation And India’s Market Outlook | Market Masters",
+   "id": "gjpKo4HvZ30",
+   "title": "Jordan Bardella: 'La France est au bord de l'abîme' | National Rally Congress | Le Pen | N18G",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T13:30:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/XHS0lgtzCdo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=XHS0lgtzCdo",
+   "published": "2026-10-25T17:24:53+00:00",
+   "thumb": "https://i.ytimg.com/vi/gjpKo4HvZ30/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=gjpKo4HvZ30",
    "business": true
   },
   {
-   "id": "r28xkuw3u20",
-   "title": "Editors Playbook | Jio Platforms IPO Fully Subscribed In 100 Minutes: Is Telecom India’s AI Trade?",
+   "id": "4WmoRT45B_M",
+   "title": "‘No Guarantee FIIs Will Return Even If Taxes Are Cut’: Vallabh Bhanshali Exclusive | Market Masters",
    "channel": "CNBC-TV18",
-   "published": "2026-10-25T12:30:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/r28xkuw3u20/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=r28xkuw3u20",
+   "published": "2026-10-25T17:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/4WmoRT45B_M/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=4WmoRT45B_M",
    "business": true
   },
   {
-   "id": "OT_EussjmW0",
-   "title": "Markets Look to Big Tech for AI Payoff",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-10-25T12:09:11+00:00",
-   "thumb": "https://i.ytimg.com/vi/OT_EussjmW0/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=OT_EussjmW0",
-   "business": true
-  },
-  {
-   "id": "oqhQnSIlFVI",
-   "title": "Israel Election Showdown: Thousands Rally Against Netanyahu, Demand October 7 Probe | N18G",
+   "id": "iKTth_UyqRY",
+   "title": "Brazil Election Showdown: Lula And Flávio Bolsonaro Rally Supporters Ahead Of Run-Off | N18G",
    "channel": "Moneycontrol",
-   "published": "2026-10-25T11:56:30+00:00",
-   "thumb": "https://i.ytimg.com/vi/oqhQnSIlFVI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=oqhQnSIlFVI",
+   "published": "2026-10-25T16:30:07+00:00",
+   "thumb": "https://i.ytimg.com/vi/iKTth_UyqRY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=iKTth_UyqRY",
    "business": true
+  },
+  {
+   "id": "TvkDfq9WUpU",
+   "title": "PM Modi Targets Congress’ ‘Phone Banking Scheme’ At RBI Data Centre Inauguration",
+   "channel": "Moneycontrol",
+   "published": "2026-10-25T16:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/TvkDfq9WUpU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=TvkDfq9WUpU",
+   "business": true
+  },
+  {
+   "id": "0XwQ12XxxRE",
+   "title": "Big Tech Earnings, 9 Days to Midterm Elections",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-10-25T15:47:54+00:00",
+   "thumb": "https://i.ytimg.com/vi/0XwQ12XxxRE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=0XwQ12XxxRE",
+   "business": true
+  },
+  {
+   "id": "keAEh70anhs",
+   "title": "Why Investors Love Wonder",
+   "channel": "CNBC",
+   "published": "2026-10-25T14:00:30+00:00",
+   "thumb": "https://i.ytimg.com/vi/keAEh70anhs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=keAEh70anhs",
+   "business": true
+  },
+  {
+   "id": "mNCvC9940OA",
+   "title": "Fed Looks Set to Pause After September Rate Hike",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-10-25T13:47:19+00:00",
+   "thumb": "https://i.ytimg.com/vi/mNCvC9940OA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=mNCvC9940OA",
+   "business": true
+  },
+  {
+   "id": "5OU0ICw2KPY",
+   "title": "Why Russia has a shadow fleet | DW News",
+   "channel": "DW News",
+   "published": "2026-10-25T13:45:31+00:00",
+   "thumb": "https://i.ytimg.com/vi/5OU0ICw2KPY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=5OU0ICw2KPY",
+   "business": false
   },
   {
    "id": "J6g4gFOf8TY",
@@ -269,15 +363,6 @@
    "published": "2026-10-23T21:20:28+00:00",
    "thumb": "https://i.ytimg.com/vi/_kCK21gIOnI/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
-   "business": true
-  },
-  {
-   "id": "BMdLiG8J7-g",
-   "title": "Why Bonds Are Back On Investors’ Radar",
-   "channel": "CNBC",
-   "published": "2026-10-21T14:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/BMdLiG8J7-g/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=BMdLiG8J7-g",
    "business": true
   }
  ],
