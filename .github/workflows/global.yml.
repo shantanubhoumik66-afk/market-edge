@@ -1,0 +1,31 @@
+name: global-edge
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-edge
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build global news and videos
+        run: python global_edge.py
+      - name: Commit global.json
+        run: |
+          git config user.name "india-edge-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add global.json
+          git diff --staged --quiet || (git commit -m "global update" && git pull --rebase && git push)
