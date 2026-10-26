@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-26T00:52:09.196969+00:00",
+ "generated": "2026-10-26T01:31:58.930510+00:00",
  "bias": {
-  "score": -2.62,
+  "score": -4.12,
   "label": "Risk-off for India",
   "sectors": [
    {
@@ -67,6 +67,34 @@
      "sector": "UPSTREAM",
      "dir": 1,
      "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Asian stocks mixed as AI sell-off, earnings and Central Bank meetings in focus",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSF83cEM3VVNTa0dLTk15aDFtZkZnT0lWVkM2R2tWLVRVVExacmtiSi14QXlhRjY4QXZLeHRTUHZKZVpoVXk3SHNOQXMyTGtHRXlJbFk0VWhyc0VfMTZxX2Fpc0E1OENHTGplWHg0YUNmMF9zem5DNVdYckNWTmtpVm1taFRzdUdRYUwxWXFoN2tubjFiNlZBMU1tR3BDMHo5MWU4SjNCVFZrY1A3LVJmMnlGWHpNQll2SW1Xb1k0SmJkVUU1b0podTFjZ19OcTFocDMyeGZ4OXZxRTFQVDd4UGVvc3BFOVR20gHuAUFVX3lxTE1oZnZjd1kwYmhSdWZneE82V0FWajlNcFNYOFByZ01SejlIZlhUQUpycW80emg3Vk4yVTJTVTA1ZHlVaFhOOE1STExIM0V5cUd1WkZmbG1qUm5VQ2llWGFvZV9xVkthaU1Obi14VzRWdnpoSDRZVFpmTzNVR0RVOXlFV3AxTkhIcHpoWjA3UGhyUEhaV29lMENfYnVlSW5LQmpsdEdkM2pxNm0tVFU2TE9aRmRVc2ljVTBxVWx2VnRQSW9mLVhKWTZXejVoaEN2MHF2WHRBMXpiNUhzdndidHh2U3hHX3RrQ25Cb2M5Qmc?oc=5",
+   "src": "CNBC TV18",
+   "time": "2026-10-26T01:24:46+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "CNBC TV18"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
@@ -149,17 +177,17 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "War clouds intensify as US, Iran set for escalation",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FWS1U3V1dQNEFjaFYzbm9mdHVNY3pfYmpoWndsVEhTemw0bWJvVE55TWN1T2VTMjVmNEd5MlFyT29UbmNtd0xSUjNwaWNidjJWcUFvaEhtR0VkNGxqclF1cXcteHpyS2RGMTIyOTFuMjBZMGhVRExIcTFGbUxfaUZnaHNDVF9ncmR1XzRWRjFTVFpZMzIzWk4yTHZMM25aUGcxbFRB0gGsAUFVX3lxTE5jbVdJdnVySG40dURtVzlrd0ZlVDNscFRkdjhndlZpX1dnR0dxbVlzUk55dDVKUnN6cjF6ZS1rMjd5Y1NuY1ZlUG9hMkhaT3hYNFpsTEJsZlBIUGtrRFR2TzNfdmhvYnVtWUo1M1A2a2FZR3VNWFEwMjdINkdjbldqV1JjcThyZFkzQnNidGxjTGRSamlsWkpwdnRhM1gxNDFETXZ1RkdxYm8wMEw?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-10-25T00:58:00+00:00",
+   "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmpMTzVMV0M5WU04b2s2LW1QeWlLWVVSdnRJQ2xQeW9WeVdXVjZYVkVwVFgzWTd5U25HZHJ4VFFIb0xfZDBrOVNJYzVsWndCcmhfdEkycExMaVoxelNzcWtuTWhxdjFKWVZxeVhGemVZdi0wNjBaX1pwdWE0aTBOS1gtUlNUcjRwRXNzcXNkdnF6ZDlrTFBJejVCQ1kwUGRjQWQ2MTNHai10OUlhQ29TdFNn0gG3AUFVX3lxTE9zVTVQVDdCLWlial92eERzejVzYnlMSnRwdTRiOFd5WTZCcFE2VnVabkJYOFNwV0NQRl90a0R1ZllSc2NDUDdPLVd3bXBUV0dLcU01a0MzbVhNVUlHczgzUTlYOW95YkZFVVdFOW8zVmROUUN0alc1aTZzRnNuTUxZcHg1a1VTQktVYkNhSTBNMzZiampRSUFtbjBFaDBSZURlVDBiYnh4MjBBRDNuYlVNTnpPcVdJaw?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-10-25T08:51:07+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "The Financial Express"
+    "Al Jazeera"
    ],
    "sectors": [
     {
@@ -194,10 +222,29 @@
    "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
    "business": false
+  },
+  {
+   "id": "wldMfxicWa4",
+   "title": "Is a tech bear market coming? A 40-year strategist’s warning",
+   "channel": "Yahoo Finance",
+   "published": "2026-10-24T00:00:15+00:00",
+   "thumb": "https://i.ytimg.com/vi/wldMfxicWa4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=wldMfxicWa4",
+   "business": true
+  },
+  {
+   "id": "_kCK21gIOnI",
+   "title": "Apple tops Nvidia and what history says about the tech selloff",
+   "channel": "Yahoo Finance",
+   "published": "2026-10-23T21:20:28+00:00",
+   "thumb": "https://i.ytimg.com/vi/_kCK21gIOnI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
+   "business": true
   }
  ],
  "channels_ok": [
-  "Al Jazeera English"
+  "Al Jazeera English",
+  "Yahoo Finance"
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
 }
