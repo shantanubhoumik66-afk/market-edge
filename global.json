@@ -1,75 +1,37 @@
 {
- "generated": "2026-10-26T00:36:01.484044+00:00",
+ "generated": "2026-10-26T00:52:09.196969+00:00",
  "bias": {
-  "score": -3.98,
+  "score": -2.62,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "OMC",
-    "score": -6.53,
+    "score": -4.15,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -6.53,
+    "score": -4.15,
     "stocks": "IndiGo"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 5.58,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "DEFENCE",
-    "score": 4.76,
+    "score": 3.64,
     "stocks": "HAL, BEL"
    },
    {
+    "sector": "UPSTREAM",
+    "score": 3.42,
+    "stocks": "ONGC, Oil India"
+   },
+   {
     "sector": "PAINT",
-    "score": -3.2,
+    "score": -1.6,
     "stocks": "Asian Paints"
    }
   ]
  },
  "news": [
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Oil Prices Rise on Fears of Middle East Conflict Escalation",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1hJV09vQ2pHZVVPLU5uUVVCSTdEVk56TzBQSW5Walc2eU5XTTVqWmZLVUdJSGRFRUhUR2RJb18xbWVGOFN1OHJyZWpNYXNQU1d4R3RTcnRjTkJNc3FPTFVUa1lhRDFreU9Dc3JucjNvR0tTNUJScmtBYWdwLVZiUDUwaVFnMEZrQkRWdzNqNDNGRTVmZWc?oc=5",
-   "src": "WSJ",
-   "time": "2026-10-26T00:02:11+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "Crude oil rising",
-   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
-   "confirmed_by": 1,
-   "sources": [
-    "WSJ"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": -1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
   {
    "region": "Global",
    "flag": "🌐",
@@ -187,44 +149,6 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmpMTzVMV0M5WU04b2s2LW1QeWlLWVVSdnRJQ2xQeW9WeVdXVjZYVkVwVFgzWTd5U25HZHJ4VFFIb0xfZDBrOVNJYzVsWndCcmhfdEkycExMaVoxelNzcWtuTWhxdjFKWVZxeVhGemVZdi0wNjBaX1pwdWE0aTBOS1gtUlNUcjRwRXNzcXNkdnF6ZDlrTFBJejVCQ1kwUGRjQWQ2MTNHai10OUlhQ29TdFNn0gG3AUFVX3lxTE9zVTVQVDdCLWlial92eERzejVzYnlMSnRwdTRiOFd5WTZCcFE2VnVabkJYOFNwV0NQRl90a0R1ZllSc2NDUDdPLVd3bXBUV0dLcU01a0MzbVhNVUlHczgzUTlYOW95YkZFVVdFOW8zVmROUUN0alc1aTZzRnNuTUxZcHg1a1VTQktVYkNhSTBNMzZiampRSUFtbjBFaDBSZURlVDBiYnh4MjBBRDNuYlVNTnpPcVdJaw?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-10-25T08:51:07+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "Al Jazeera"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
    "title": "War clouds intensify as US, Iran set for escalation",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FWS1U3V1dQNEFjaFYzbm9mdHVNY3pfYmpoWndsVEhTemw0bWJvVE55TWN1T2VTMjVmNEd5MlFyT29UbmNtd0xSUjNwaWNidjJWcUFvaEhtR0VkNGxqclF1cXcteHpyS2RGMTIyOTFuMjBZMGhVRExIcTFGbUxfaUZnaHNDVF9ncmR1XzRWRjFTVFpZMzIzWk4yTHZMM25aUGcxbFRB0gGsAUFVX3lxTE5jbVdJdnVySG40dURtVzlrd0ZlVDNscFRkdjhndlZpX1dnR0dxbVlzUk55dDVKUnN6cjF6ZS1rMjd5Y1NuY1ZlUG9hMkhaT3hYNFpsTEJsZlBIUGtrRFR2TzNfdmhvYnVtWUo1M1A2a2FZR3VNWFEwMjdINkdjbldqV1JjcThyZFkzQnNidGxjTGRSamlsWkpwdnRhM1gxNDFETXZ1RkdxYm8wMEw?oc=5",
    "src": "The Financial Express",
@@ -263,27 +187,17 @@
  ],
  "videos": [
   {
-   "id": "keAEh70anhs",
-   "title": "Why Investors Love Wonder",
-   "channel": "CNBC",
-   "published": "2026-10-25T14:00:30+00:00",
-   "thumb": "https://i.ytimg.com/vi/keAEh70anhs/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=keAEh70anhs",
-   "business": true
-  },
-  {
-   "id": "ZYsP8qM6bPE",
-   "title": "Why Young Airplanes Are Being Torn Apart For Scrap",
-   "channel": "CNBC",
-   "published": "2026-10-24T14:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/ZYsP8qM6bPE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ZYsP8qM6bPE",
-   "business": true
+   "id": "YnT6BqTFZyk",
+   "title": "Israeli assault on Hebron displaces thousands as West Bank restrictions tighten",
+   "channel": "Al Jazeera English",
+   "published": "2026-10-25T19:07:28+00:00",
+   "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
+   "business": false
   }
  ],
  "channels_ok": [
-  "CNBC",
-  "Reuters"
+  "Al Jazeera English"
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
 }
