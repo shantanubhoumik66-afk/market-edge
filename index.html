@@ -59,6 +59,15 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
 .chip{display:inline-block;font-size:12px;padding:3px 9px;margin:3px 4px 0 0;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
 .chip.up{color:var(--green);border-color:#2fbf7166}.chip.dn{color:var(--red);border-color:#ff5c5c66}.rchip{flex:none}
 .hi{font-size:11px;padding:2px 8px;border-radius:999px;background:#ff5c5c22;color:var(--red);margin-left:6px}.md{background:#ff993322;color:var(--saff)}
+.globewrap{text-align:center;cursor:pointer;padding:6px 0 12px}
+@keyframes spin{0%{transform:scaleX(1)}50%{transform:scaleX(.04)}100%{transform:scaleX(1)}}
+.mer{transform-origin:100px 100px;animation:spin 6s linear infinite}
+@keyframes ping{0%{r:4;opacity:.9}100%{r:16;opacity:0}}.ping{animation:ping 1.8s ease-out infinite}
+.livegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px}
+.lw{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.lh{padding:8px 10px;font-size:13px;display:flex;align-items:center;justify-content:space-between}
+.lv{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;display:grid;place-items:center;color:#fff;font-size:34px}
+.lv iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
@@ -82,6 +91,23 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div id="p2" class="panel"></div>
   <div id="p3" class="panel"></div>
   <div id="p4" class="panel"></div>
+  <div id="p5" class="panel">
+    <div class="globewrap" onclick="toggleLive()">
+      <svg viewBox="0 0 200 200" width="170" height="170">
+        <defs><radialGradient id="gg" cx="35%" cy="30%"><stop offset="0" stop-color="#4b8bff"/><stop offset="1" stop-color="#0a1a33"/></radialGradient></defs>
+        <circle cx="100" cy="100" r="92" fill="url(#gg)" stroke="#6f9cf0" stroke-width="2"/>
+        <g fill="none" stroke="#a9c8ff" stroke-opacity=".55" stroke-width="1.2">
+          <ellipse cx="100" cy="100" rx="92" ry="20"/><ellipse cx="100" cy="100" rx="92" ry="52"/>
+          <ellipse class="mer" cx="100" cy="100" rx="70" ry="92" style="animation-delay:0s"/>
+          <ellipse class="mer" cx="100" cy="100" rx="70" ry="92" style="animation-delay:-2s"/>
+          <ellipse class="mer" cx="100" cy="100" rx="70" ry="92" style="animation-delay:-4s"/>
+        </g>
+        <circle cx="118" cy="82" r="4" fill="#ff9933"/><circle cx="118" cy="82" r="4" fill="none" stroke="#ff9933" class="ping"/>
+      </svg>
+      <div id="globehint" class="meta">Tap the globe for live share-market news</div>
+    </div>
+    <div id="liveGrid" class="livegrid" style="display:none"></div>
+  </div>
 </section>
 
 
@@ -138,7 +164,7 @@ const APPS = [
   {name:'Files', icon:'📁', color:'#06b6d4', soon:true},
 ];
 const $ = id => document.getElementById(id);
-function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT();if(v==='global')loadGlobal()}
+function go(v){stopLive();document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT();if(v==='global')loadGlobal()}
 $('apps').innerHTML = APPS.map(a=>`<button class="app ${a.soon?'soon':''}" ${a.soon?'':`onclick="go('${a.page}')"`}><div class="ico" style="background:${a.color}">${a.icon}</div>${a.name}</button>`).join('');
 function tick(){const d=new Date();$('clock').textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});$('date').textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'long'})}
 tick();setInterval(tick,20000);
@@ -149,9 +175,9 @@ const list=(items,n=6)=>items&&items.length?items.slice(0,n).map(i=>`<a class="n
 const card=(h,b)=>`<div class="card"><h3>${h}</h3>${b}</div>`;
 const chg=q=>q&&q.chg!=null?`<span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+':''}${q.chg.toFixed(2)}%</span>`:'';
 
-const TABS=['News','Macro data','RBI','Government','Stocks'];
+const TABS=['News','Macro data','RBI','Government','Stocks','🌐 Live news'];
 $('tabs').innerHTML=TABS.map((t,i)=>`<button class="tab ${i?'':'on'}" onclick="tab(${i})">${t}</button>`).join('');
-function tab(i){document.querySelectorAll('.tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
+function tab(i){if(i!==5)stopLive();if(i===5)loadLive();document.querySelectorAll('#tabs .tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
 
 async function loadEdge(){
   $('stamp').textContent='Loading...';
@@ -304,6 +330,27 @@ function openPlayer(i){
   $('player').classList.add('on');$('player').scrollTop=0;
 }
 function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
+
+let LIVE=null,liveOpen=false;
+async function loadLive(){
+  if(LIVE) return;
+  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();LIVE=(d.live||[]).slice(0,6)}catch(e){LIVE=[]}
+}
+async function toggleLive(){await loadLive();liveOpen=!liveOpen;renderLive()}
+function renderLive(){
+  const g=$('liveGrid');
+  if(!liveOpen){g.style.display='none';g.innerHTML='';$('globehint').textContent='Tap the globe for live share-market news';return}
+  $('globehint').textContent='Live business news. Tap a window to play with sound.';
+  if(!LIVE.length){g.style.display='block';g.innerHTML='<div class="empty">No live channels found yet. Run the global-edge workflow (or python global_edge.py) once, then refresh.</div>';return}
+  g.style.display='grid';
+  g.innerHTML=LIVE.map((x,i)=>`<div class="lw"><div class="lh"><b>${esc(x.name)}</b><span class="hi">LIVE</span></div><div class="lv" id="lv${i}" onclick="playLive(${i})">▶</div><div class="lh"><a class="meta" style="color:var(--saff)" href="https://www.youtube.com/channel/${esc(x.id)}/live" target="_blank" rel="noopener">Open on YouTube</a></div></div>`).join('');
+}
+function playLive(i){
+  if(!LIVE||!LIVE[i]) return;
+  LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e&&k!==i)e.innerHTML='▶'});
+  $('lv'+i).innerHTML='<iframe src="https://www.youtube.com/embed/live_stream?channel='+encodeURIComponent(LIVE[i].id)+'&autoplay=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+}
+function stopLive(){if(!LIVE)return;LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML='▶'})}
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
 </script>
 </body>
