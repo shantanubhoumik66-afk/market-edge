@@ -1,71 +1,104 @@
 {
- "generated": "2026-10-26T01:31:58.930510+00:00",
+ "generated": "2026-10-26T07:36:32.786067+00:00",
  "bias": {
-  "score": -4.12,
+  "score": -5.11,
   "label": "Risk-off for India",
   "sectors": [
    {
+    "sector": "DEFENCE",
+    "score": 4.34,
+    "stocks": "HAL, BEL"
+   },
+   {
+    "sector": "NEWAGE",
+    "score": -2.35,
+    "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
     "sector": "OMC",
-    "score": -4.15,
+    "score": -2.33,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -4.15,
+    "score": -2.33,
     "stocks": "IndiGo"
    },
    {
-    "sector": "DEFENCE",
-    "score": 3.64,
-    "stocks": "HAL, BEL"
-   },
-   {
     "sector": "UPSTREAM",
-    "score": 3.42,
+    "score": 1.6,
     "stocks": "ONGC, Oil India"
    },
    {
-    "sector": "PAINT",
-    "score": -1.6,
-    "stocks": "Asian Paints"
+    "sector": "IT",
+    "score": -1.55,
+    "stocks": "TCS, Infosys, Wipro"
    }
   ]
  },
  "news": [
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Trade Setup For Oct. 26: Nifty Support Slips To 22,500 As Brent Crude Spike Prevents Upside — Key Levels",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmF6T0FKS0pBbWpvcGxoajVqbU9oY2hEOHVPUTFYZkZtWDdxRkRQOVZSZGMwV1hLV1F2SmVmQTFza2ZYRDV2cWt2Ul93VlFXN01CSGtNdHprOW9hZlU1T1VRRC1UQmk3Zjh1dTlqemk1Y3E5SlJRaExZOXp6M3JWdjdTSDEyNXZlb3YtbnM1OHppOWFDNkNKMFR2bHZWSG83M2dSbzhwNXdDb1NoOUhMbW1WVjZUcC1wU2VqMzlZSThUbVRpUXV1SDQxRExrMTdWRGZOb3hLdU5BUFZ30gHkAUFVX3lxTE5UUC1CUHZ2QU16SDEzdk9TS3dZT19mZVdQWnktSE9fSTJIOURtc1M1Qm9Gc3VvT2VndHBzZjdhOGdxbmVObDV4ZG1KQU5uMEd1bUxGUVJETFZUWF9lOFh4SGdBWUdJUHBwaHpEbFU4N2RtWWp6UVhMS0t2QkROWGNGblhNcXotLXA0NHNKakl2M2N4UUZOWUFDXzhzbmd3VUpSZC1ldnc4UGwxajMwOEZmVnNJY0pkZXFlSTV2c2V4WlBoazRoaTc3bkFTYTNBcDk0UFFUV1JKaHpraDhLeHN0RlVmbg?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-10-25T14:27:24+00:00",
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Fed expected to pause rate hikes ahead of US midterms",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWVJCZXdzaUFVeU1SRlY1ajhfWHhYYkc0S0dnbW1scjg3cmI2V3EzV2pGbG9EQS1rMFNVVjU0ME1mb1VYR2ZEeE1ZLWFvREFHaDBaZ0dkOHF2eE9jRnlseF9Id1lzUm1ZMHd1aGx6X0t4TlU2Vk1HanJ2cnFIN0pPcGNrc2t6NzgxN0U1R21PSDM3Rm0yN21VSDdLVTEyR1o2bWt5X080SkJtUy02SFBVQmx0dVhSS2t1a0tUZ2dQZFl6TlE1ejYtSmF30gHPAUFVX3lxTE8tVzl4V2Z0SkQ1N0ZucnpFQU9majA3V296a2lONm1CS2ZZV1dlYldPUXI4ckZ1TlktVFNOY21PUTRxY3JSbnhxRGF2TkwycllDdkxDVE1rZ3FKYUJqSVktUldscUs1YlFveWF5TVU2MjJDU3dpc3dVZV90dFkwRHRHQUtjTHF2U21HV1Q2cDZwcHk2MlhSX3JuWEk1Y2hSbmlQaVpzdzJFOVFkRzJvSnZwV0l6a0FmOU9Wd3RGWWdRNVd1cTBmM1ZhQXczQUpJQQ?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-10-26T01:44:05+00:00",
    "level": "High",
    "score": 1.6,
-   "label": "Crude oil rising",
-   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "NDTV Profit"
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Brent crude price falls from 6-month high as US-Iran de-escalation hopes ease supply fears",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdWgxaW4ydllvNjZzR3lGYjBtU1hwY0xwMmttQjhaV0Z6TTA4VldmZDZ2SS10MFhxR2l1QkNpZFZJTnZDdjlqaG5UaGtoQXN0Z1gzUE9qUVBnLW16S1E5RVBTcUVUVVhnbHllVThwVURpTlJzazRRREpoOWZHUXBsRW5PbEtMOGltbVE0blBMRGthRTMzTGRvUERzWHBuNTVBVWEzY3J2R3BlSW1QRG1CYmhJaHRmVTZRWTNGOG94TnBQOUwydDRuNjdycHhidVo1Rk1iY2wwRVdQbWNPS2dhWFZoZE55SWpvTnJ6LThjY29VUdIB9wFBVV95cUxPVWwwRXoxT29HeGRwRndEeFJyWGM2bXE5UGxiYVBFWFBrS01CYllfNXlKekhELXJNX3l2el90ekM0QVNUeUtRaTZvZVNYT1k0RFY0Wi1UUVExVnpsVndsTFNVTHVMZ3BkZEZHTXh4RjNMMkpwbTZ3VFdVSDFKakRPdHQzaFZhdkQtSFVUWVlsTXJjMTJMZHdEbUFIT1E0X3hQUG1GbzRVRzZ6QmQwaHFCWGlYRWJrUG1DaGk0c0pfZGg2MkhPX3ExRDFpdEpONEZzZFcxWE03RDdNcTBxWGZTbDdLVlJ0QzRSQnNDNTdQUG9iMFJ6REtB?oc=5",
+   "src": "Moneycontrol.com",
+   "time": "2026-10-26T05:36:05+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
+   "confirmed_by": 1,
+   "sources": [
+    "Moneycontrol.com"
    ],
    "sectors": [
     {
      "sector": "OMC",
-     "dir": -1,
+     "dir": 1,
      "stocks": "BPCL, IOC, HPCL"
     },
     {
      "sector": "PAINT",
-     "dir": -1,
+     "dir": 1,
      "stocks": "Asian Paints"
     },
     {
      "sector": "AVIATION",
-     "dir": -1,
+     "dir": 1,
      "stocks": "IndiGo"
     },
     {
      "sector": "UPSTREAM",
-     "dir": 1,
+     "dir": -1,
      "stocks": "ONGC, Oil India"
     }
    ]
@@ -99,6 +132,82 @@
    ]
   },
   {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Oil drops from near six-month highs on hopes Iran war hostilities to ease",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2J2QlNheno1OW9FdmN3RTJWVHF1RXdLX0VQSGlKSkZlZEtNTnFxU3FUd1Zab1FPME1felpOVl9oM1oyNXc0T2xkdDZhc0JfUVlSTFU4Vm9aYWRrd1BhQmw1QThZRDZHbEZZR3Y5UlhNaDlWWm8tbjU2bjVtaFRVM0VMcml2OXY4TUtxNXRZU2c3c0lC?oc=5",
+   "src": "Reuters",
+   "time": "2026-10-25T23:24:00+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Reuters"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Trade Setup For Oct. 26: Nifty Support Slips To 22,500 As Brent Crude Spike Prevents Upside — Key Levels",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmF6T0FKS0pBbWpvcGxoajVqbU9oY2hEOHVPUTFYZkZtWDdxRkRQOVZSZGMwV1hLV1F2SmVmQTFza2ZYRDV2cWt2Ul93VlFXN01CSGtNdHprOW9hZlU1T1VRRC1UQmk3Zjh1dTlqemk1Y3E5SlJRaExZOXp6M3JWdjdTSDEyNXZlb3YtbnM1OHppOWFDNkNKMFR2bHZWSG83M2dSbzhwNXdDb1NoOUhMbW1WVjZUcC1wU2VqMzlZSThUbVRpUXV1SDQxRExrMTdWRGZOb3hLdU5BUFZ30gHkAUFVX3lxTE5UUC1CUHZ2QU16SDEzdk9TS3dZT19mZVdQWnktSE9fSTJIOURtc1M1Qm9Gc3VvT2VndHBzZjdhOGdxbmVObDV4ZG1KQU5uMEd1bUxGUVJETFZUWF9lOFh4SGdBWUdJUHBwaHpEbFU4N2RtWWp6UVhMS0t2QkROWGNGblhNcXotLXA0NHNKakl2M2N4UUZOWUFDXzhzbmd3VUpSZC1ldnc4UGwxajMwOEZmVnNJY0pkZXFlSTV2c2V4WlBoazRoaTc3bkFTYTNBcDk0UFFUV1JKaHpraDhLeHN0RlVmbg?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-10-25T14:27:24+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "Crude oil rising",
+   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "confirmed_by": 1,
+   "sources": [
+    "NDTV Profit"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "PAINT",
+     "dir": -1,
+     "stocks": "Asian Paints"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
@@ -106,7 +215,7 @@
    "src": "Al Jazeera",
    "time": "2026-10-25T14:51:13+00:00",
    "level": "Medium",
-   "score": 1.4,
+   "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
@@ -139,7 +248,7 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
+   "title": "Trump Prepares for Iran Escalation After US, Israeli Polls",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS1tMzRuM2wzRGNDV0R5b3o5N3p0V1U1OVhreW01YXB6dWdmQlBCMS1Hb2FmQnJYYVZsSVJKNG5pVHFGN1pqWlJYUk13cC02OTR5RWpZczZ1c21KMjkyMmIxOXJOQ1VDZFg0V3pSTENZTi1DM1NDeGx1OHJBVVc4TjlyeG84ZUhTZ3NXVnVHZGZVaE9tVFFoSHVkUlJoeE5BMkJJVU9kOFNSUG05YVRtc09R?oc=5",
    "src": "Bloomberg.com",
    "time": "2026-10-25T10:51:03+00:00",
@@ -175,52 +284,118 @@
    ]
   },
   {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmpMTzVMV0M5WU04b2s2LW1QeWlLWVVSdnRJQ2xQeW9WeVdXVjZYVkVwVFgzWTd5U25HZHJ4VFFIb0xfZDBrOVNJYzVsWndCcmhfdEkycExMaVoxelNzcWtuTWhxdjFKWVZxeVhGemVZdi0wNjBaX1pwdWE0aTBOS1gtUlNUcjRwRXNzcXNkdnF6ZDlrTFBJejVCQ1kwUGRjQWQ2MTNHai10OUlhQ29TdFNn0gG3AUFVX3lxTE9zVTVQVDdCLWlial92eERzejVzYnlMSnRwdTRiOFd5WTZCcFE2VnVabkJYOFNwV0NQRl90a0R1ZllSc2NDUDdPLVd3bXBUV0dLcU01a0MzbVhNVUlHczgzUTlYOW95YkZFVVdFOW8zVmROUUN0alc1aTZzRnNuTUxZcHg1a1VTQktVYkNhSTBNMzZiampRSUFtbjBFaDBSZURlVDBiYnh4MjBBRDNuYlVNTnpPcVdJaw?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-10-25T08:51:07+00:00",
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "Russia’s War on Ukraine Is Straining Food and Fuel Supply",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KS25wTEw0YXIxWE1yOWFVYlQ3T2RsaDBIb0hzdG5pSnZvR090eXVmTHVQVnZXbXVtQzdUdDBOb2prZEo3a3Z0eVF2VWhzb0o5dThndUFZWGtDRW0zRzlRejhaelozaE1yR2NUZFpLTVZpenVoVGRrRDJjMA?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-10-26T05:02:49+00:00",
    "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "score": 1.0,
+   "label": "Russia-Ukraine developments",
+   "why": "Can move crude, fertiliser and metal prices and India's oil import costs.",
    "confirmed_by": 1,
    "sources": [
-    "Al Jazeera"
+    "Bloomberg.com"
    ],
    "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
     {
      "sector": "DEFENCE",
      "dir": 1,
      "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
     }
    ]
   }
  ],
  "videos": [
   {
-   "id": "YnT6BqTFZyk",
-   "title": "Israeli assault on Hebron displaces thousands as West Bank restrictions tighten",
-   "channel": "Al Jazeera English",
-   "published": "2026-10-25T19:07:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
+   "id": "4Dym-i76oqw",
+   "title": "Mastek Falls Over 6%; Constant Currency Revenue Growth At 2.40%, UK-Europe Backlog Declines",
+   "channel": "CNBC-TV18",
+   "published": "2026-10-26T07:31:23+00:00",
+   "thumb": "https://i.ytimg.com/vi/4Dym-i76oqw/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=4Dym-i76oqw",
+   "business": true
+  },
+  {
+   "id": "q3rH4Tg11Ws",
+   "title": "Stable Q2 From DCB Bank | Talks With Chrys Capital & Other PE Players For Equity Capital Raise: Mgmt",
+   "channel": "CNBC-TV18",
+   "published": "2026-10-26T07:28:11+00:00",
+   "thumb": "https://i.ytimg.com/vi/q3rH4Tg11Ws/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=q3rH4Tg11Ws",
+   "business": true
+  },
+  {
+   "id": "4vEUYyLy01c",
+   "title": "Beyond the AI hype: How TatvaCare is solving India’s healthcare problem",
+   "channel": "Moneycontrol",
+   "published": "2026-10-26T06:26:32+00:00",
+   "thumb": "https://i.ytimg.com/vi/4vEUYyLy01c/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=4vEUYyLy01c",
+   "business": true
+  },
+  {
+   "id": "A-_7qKi3iWQ",
+   "title": "Market Falls, Baliga Buys: His Top Stock Idea Revealed",
+   "channel": "Moneycontrol",
+   "published": "2026-10-26T06:10:11+00:00",
+   "thumb": "https://i.ytimg.com/vi/A-_7qKi3iWQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=A-_7qKi3iWQ",
+   "business": true
+  },
+  {
+   "id": "RFkPGyDhsJI",
+   "title": "Markets Brace After Lula's Surprise Comeback Win In Brazil Elections",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-10-26T05:14:16+00:00",
+   "thumb": "https://i.ytimg.com/vi/RFkPGyDhsJI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=RFkPGyDhsJI",
+   "business": true
+  },
+  {
+   "id": "NyzzLugFl_I",
+   "title": "Who will be the next James Bond? | BBC News",
+   "channel": "BBC News",
+   "published": "2026-10-25T18:00:26+00:00",
+   "thumb": "https://i.ytimg.com/vi/NyzzLugFl_I/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=NyzzLugFl_I",
+   "business": false
+  },
+  {
+   "id": "0XwQ12XxxRE",
+   "title": "Big Tech Earnings, 9 Days to Midterm Elections",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-10-25T15:47:54+00:00",
+   "thumb": "https://i.ytimg.com/vi/0XwQ12XxxRE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=0XwQ12XxxRE",
+   "business": true
+  },
+  {
+   "id": "keAEh70anhs",
+   "title": "Why Investors Love Wonder",
+   "channel": "CNBC",
+   "published": "2026-10-25T14:00:30+00:00",
+   "thumb": "https://i.ytimg.com/vi/keAEh70anhs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=keAEh70anhs",
+   "business": true
+  },
+  {
+   "id": "5OU0ICw2KPY",
+   "title": "Why Russia has a shadow fleet | DW News",
+   "channel": "DW News",
+   "published": "2026-10-25T13:45:31+00:00",
+   "thumb": "https://i.ytimg.com/vi/5OU0ICw2KPY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=5OU0ICw2KPY",
+   "business": false
+  },
+  {
+   "id": "J6g4gFOf8TY",
+   "title": "Why Europe’s economic dependencies are so risky | The Dip Podcast",
+   "channel": "DW News",
+   "published": "2026-10-25T11:30:31+00:00",
+   "thumb": "https://i.ytimg.com/vi/J6g4gFOf8TY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=J6g4gFOf8TY",
    "business": false
   },
   {
@@ -243,8 +418,17 @@
   }
  ],
  "channels_ok": [
+  "CNBC",
+  "Bloomberg Markets and Finance",
+  "Reuters",
+  "Financial Times",
+  "Wall Street Journal",
   "Al Jazeera English",
-  "Yahoo Finance"
+  "BBC News",
+  "DW News",
+  "Yahoo Finance",
+  "CNBC-TV18",
+  "Moneycontrol"
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
 }
