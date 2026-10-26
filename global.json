@@ -1,18 +1,23 @@
 {
- "generated": "2026-10-25T23:06:36.913530+00:00",
+ "generated": "2026-10-26T00:36:01.484044+00:00",
  "bias": {
-  "score": -4.46,
+  "score": -3.98,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "OMC",
-    "score": -4.93,
+    "score": -6.53,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -4.93,
+    "score": -6.53,
     "stocks": "IndiGo"
+   },
+   {
+    "sector": "UPSTREAM",
+    "score": 5.58,
+    "stocks": "ONGC, Oil India"
    },
    {
     "sector": "DEFENCE",
@@ -20,23 +25,51 @@
     "stocks": "HAL, BEL"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 3.98,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "PAINT",
-    "score": -1.6,
+    "score": -3.2,
     "stocks": "Asian Paints"
-   },
-   {
-    "sector": "NEWAGE",
-    "score": -1.28,
-    "stocks": "Zomato, Paytm, Nykaa"
    }
   ]
  },
  "news": [
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Oil Prices Rise on Fears of Middle East Conflict Escalation",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1hJV09vQ2pHZVVPLU5uUVVCSTdEVk56TzBQSW5Walc2eU5XTTVqWmZLVUdJSGRFRUhUR2RJb18xbWVGOFN1OHJyZWpNYXNQU1d4R3RTcnRjTkJNc3FPTFVUa1lhRDFreU9Dc3JucjNvR0tTNUJScmtBYWdwLVZiUDUwaVFnMEZrQkRWdzNqNDNGRTVmZWc?oc=5",
+   "src": "WSJ",
+   "time": "2026-10-26T00:02:11+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "Crude oil rising",
+   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "PAINT",
+     "dir": -1,
+     "stocks": "Asian Paints"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
   {
    "region": "Global",
    "flag": "🌐",
@@ -110,34 +143,6 @@
      "sector": "UPSTREAM",
      "dir": 1,
      "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Fed Set To Lead G7 Trio In Hawkish Rate Pause: Eco Week Ahead",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVFwc3FDUVgzejRYX3Y3RTdRUndEaVpOay1Ec0V1ZjU1SVBtX0xXTUpoSGV4OUhha0hXYnFrT3lzZEJuTmd1aXk3NU0wS1VTUUpfQjYwMHMwOEZsMEppaEFsNEJpSzB1cGk2SGRsbGFYY3hqeTFZWDIzZ1dySGROb3Q5MDVGY3ZEN19CQVNIRTRiNzRpcEFFRHVIQURNWDNHZTE3WXhmUdIBrwFBVV95cUxOMUhzZ3lQSmZ6MEJISWVvdi15eWxjUk9TVmg1YVl0WmFQVmxRa2s0SmFFcmJBWjR2NDMyOTNMWG9QZTRvWmgxQTJXNmRxY1EyTFdwS2tETTljR3NYdG9XTkNKVGhXTVRSdjVCOTdudnRBa0czLW0xWlNlcU9BZHZkQllwQ01RcTMtQ1RiQXNvVUN4dm9HU2o4QWlsdm9VbUtNS0xtcFV5ZEJZZHFfZGRV?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-10-25T01:22:37+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
@@ -258,69 +263,6 @@
  ],
  "videos": [
   {
-   "id": "XAtfvSU5x4M",
-   "title": "WATCH: Nicki Minaj Joins Trump at Michigan Rally: ‘Will Continue To Support You Forever’ | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-10-25T22:51:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/XAtfvSU5x4M/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=XAtfvSU5x4M",
-   "business": true
-  },
-  {
-   "id": "YnT6BqTFZyk",
-   "title": "Israeli assault on Hebron displaces thousands as West Bank restrictions tighten",
-   "channel": "Al Jazeera English",
-   "published": "2026-10-25T19:07:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/YnT6BqTFZyk/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=YnT6BqTFZyk",
-   "business": false
-  },
-  {
-   "id": "NyzzLugFl_I",
-   "title": "Who will be the next James Bond? | BBC News",
-   "channel": "BBC News",
-   "published": "2026-10-25T18:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/NyzzLugFl_I/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=NyzzLugFl_I",
-   "business": false
-  },
-  {
-   "id": "_7BcomMG8ow",
-   "title": "Israel Election LIVE: Gadi Eisenkot Yashar Party RALLY | Israel's 'Not Netanyahu' Candidate | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-10-25T17:54:24+00:00",
-   "thumb": "https://i.ytimg.com/vi/_7BcomMG8ow/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_7BcomMG8ow",
-   "business": true
-  },
-  {
-   "id": "iKTth_UyqRY",
-   "title": "Brazil Election Showdown: Lula And Flávio Bolsonaro Rally Supporters Ahead Of Run-Off | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-10-25T16:30:07+00:00",
-   "thumb": "https://i.ytimg.com/vi/iKTth_UyqRY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=iKTth_UyqRY",
-   "business": true
-  },
-  {
-   "id": "TvkDfq9WUpU",
-   "title": "PM Modi Targets Congress’ ‘Phone Banking Scheme’ At RBI Data Centre Inauguration",
-   "channel": "Moneycontrol",
-   "published": "2026-10-25T16:00:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/TvkDfq9WUpU/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=TvkDfq9WUpU",
-   "business": true
-  },
-  {
-   "id": "0XwQ12XxxRE",
-   "title": "Big Tech Earnings, 9 Days to Midterm Elections",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-10-25T15:47:54+00:00",
-   "thumb": "https://i.ytimg.com/vi/0XwQ12XxxRE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=0XwQ12XxxRE",
-   "business": true
-  },
-  {
    "id": "keAEh70anhs",
    "title": "Why Investors Love Wonder",
    "channel": "CNBC",
@@ -330,63 +272,18 @@
    "business": true
   },
   {
-   "id": "mNCvC9940OA",
-   "title": "Fed Looks Set to Pause After September Rate Hike",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-10-25T13:47:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/mNCvC9940OA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=mNCvC9940OA",
-   "business": true
-  },
-  {
-   "id": "5OU0ICw2KPY",
-   "title": "Why Russia has a shadow fleet | DW News",
-   "channel": "DW News",
-   "published": "2026-10-25T13:45:31+00:00",
-   "thumb": "https://i.ytimg.com/vi/5OU0ICw2KPY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=5OU0ICw2KPY",
-   "business": false
-  },
-  {
-   "id": "J6g4gFOf8TY",
-   "title": "Why Europe’s economic dependencies are so risky | The Dip Podcast",
-   "channel": "DW News",
-   "published": "2026-10-25T11:30:31+00:00",
-   "thumb": "https://i.ytimg.com/vi/J6g4gFOf8TY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=J6g4gFOf8TY",
-   "business": false
-  },
-  {
-   "id": "wldMfxicWa4",
-   "title": "Is a tech bear market coming? A 40-year strategist’s warning",
-   "channel": "Yahoo Finance",
-   "published": "2026-10-24T00:00:15+00:00",
-   "thumb": "https://i.ytimg.com/vi/wldMfxicWa4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=wldMfxicWa4",
-   "business": true
-  },
-  {
-   "id": "_kCK21gIOnI",
-   "title": "Apple tops Nvidia and what history says about the tech selloff",
-   "channel": "Yahoo Finance",
-   "published": "2026-10-23T21:20:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/_kCK21gIOnI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
+   "id": "ZYsP8qM6bPE",
+   "title": "Why Young Airplanes Are Being Torn Apart For Scrap",
+   "channel": "CNBC",
+   "published": "2026-10-24T14:00:26+00:00",
+   "thumb": "https://i.ytimg.com/vi/ZYsP8qM6bPE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ZYsP8qM6bPE",
    "business": true
   }
  ],
  "channels_ok": [
   "CNBC",
-  "Bloomberg Markets and Finance",
-  "Reuters",
-  "Financial Times",
-  "Wall Street Journal",
-  "Al Jazeera English",
-  "BBC News",
-  "DW News",
-  "Yahoo Finance",
-  "CNBC-TV18",
-  "Moneycontrol"
+  "Reuters"
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
 }
