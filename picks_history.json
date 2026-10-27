@@ -82,41 +82,113 @@
   "sym": "JSWSTEEL",
   "dir": "UP",
   "net": 4.05,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": -0.58,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-26",
   "sym": "COFORGE",
   "dir": "UP",
   "net": 3.57,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": 0.2,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-26",
   "sym": "INDHOTEL",
   "dir": "UP",
   "net": 2.7,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": 2.18,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-26",
   "sym": "ASHOKLEY",
   "dir": "DOWN",
   "net": -4.7,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": 0.07,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-26",
   "sym": "BRITANNIA",
   "dir": "DOWN",
   "net": -4.06,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": -0.44,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-26",
   "sym": "COLPAL",
   "dir": "DOWN",
   "net": -3.6,
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-27",
+   "chg": -0.75,
+   "hit": true
+  }
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "LT",
+  "dir": "UP",
+  "net": 3.66,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "ULTRACEMCO",
+  "dir": "UP",
+  "net": 3.14,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "KOTAKBANK",
+  "dir": "UP",
+  "net": 1.68,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -5.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "MARUTI",
+  "dir": "DOWN",
+  "net": -4.5,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-27",
+  "sym": "VEDL",
+  "dir": "DOWN",
+  "net": -3.58,
   "confidence": "Medium"
  }
 ]
