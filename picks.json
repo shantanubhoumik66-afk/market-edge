@@ -1,85 +1,48 @@
 {
- "generated": "2026-10-27T17:03:26.749661+00:00",
- "date": "2026-10-27",
+ "generated": "2026-10-28T17:39:22.695439+00:00",
+ "date": "2026-10-28",
  "picks_up": [
   {
-   "sym": "LT",
+   "sym": "ADANIPORTS",
    "sector": "INFRA",
-   "net": 3.66,
-   "event_score": 4.32,
+   "net": 6.23,
+   "event_score": 5.09,
    "sector_score": 0.0,
    "sources": 2,
    "reasons": [
     {
      "label": "Strong results / margins",
-     "title": "Larsen & Toubro Q2 Results: Profit surges 33% YoY to Rs 5,202 crore, revenue grows 16%",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORlFRb0Y4M2NDX1pPLUNTTldlVlZnLUNxNUJzNVlPWWY4eG1YRWU1NTB6YWhNWi14N1lsWkI5a0ZScXVnWnZfbVV6X1VFWjE4S2Z3UWExVl92eGtUMUo3b3N0WmtUYzdEbWEtbVFTa3VUTWU4bUpjV2VlSmRhczZLOHlld1NFb0d4QWdpWTctYkZRSkdIS0FnalZ5MXMzZGJYTXZHYTBBOURZVlNNN1N6OHAta2ktT0RZQzV1RWRaZmo4VDJwRkN1bWpDXzJicmRHVXFlamdMRVNLS1hiVkFFX2VrMmlGQjg4NzNCXzdn0gHzAUFVX3lxTFBmOWhXS2d0XzB0OFpFY3NLZWZkZWlsLV95dkx0YlVQS0JBbUtQU3hWTmNOeVhCQWtieEszQW9abjYyUUp5UWxYUnlaUDBmVE5NV25CYU1wdFA4YThkNEJKTGxsZDk2dWRuOVRMRVFDczdMSkw5X29VZmtmOGx6czlFT2t4VzZoSDR2NHE4a0gzYmNYOUhBQ2NHTUJ0ZHVBVmZNYUJ0Zm5CYVFXVVBRNzZ6SmJTOFlJSUcxclVzbVNVcmRmbTV0UTB6RG9PZE80N0JZU2FVTkF5MHhiUmpEN2ZCd1BsVG1PWnJNRkhsSDhraFVMUQ?oc=5",
-     "src": "The Economic Times",
-     "time": "2026-10-27T12:09:00+00:00"
+     "title": "Adani Ports Q2 results: Net profit rises 18% YoY to Rs 3,682 crore; revenue jumps 24%, FY27 guidance...",
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU0JCRTlDWndVQWN1cU9uQ05YejhMZ0NRc0dwbmNDeVJFckxZempnanBkRDNQVWRmOWxSQUxIbmEtSWJTWEFMUHV1dktNbzJ0VEtyZHNuLUZJMEh1QkRNc2RKUjUtQVB6V0xqYXpxSGd6TmpDbC0taFpBTDdHRDJUaDdNTmNjYnRyYksyZWVmWTJoNEtGakphRl8wc1lNbjd1dTIzU1RLTFdlRjVZa3pSUHF0V2hROFRwTTcxMkFVSWJoZ0tKcnQ2dzdtS20yeHI0eENGVjIwdFRaYlV0c0lDYURicGFOZmFSNlpxRTloM3Z0RzdFN3VrekRUSkbSAYICQVVfeXFMUEJ1bllDbTQ0S3k2VnA4aExYTVNuZmNTWjlaUFM5ZjZQNTNTWmdSRFR5Uk1HdDExSnQyX3B1UGsyZWtrWjNyTTRnR0VtcXdQbEVzRDE0T21WRXAxZDIyRjFJOEh1WV93TUs4SE9lbUM4VDA3a0hpaDNCY2syN0VrMXdjSlI5ZDBFNEJNcTFvaGNaUlpzc01LNmNDNFlOR3dZVzR2OXhlRTRyNmREVEFETWhkNE5qYzh3cFB2cXlfcFZ3UEtiYW5GbkhCVzNNVHF5ekNmWWExVUxONjFYUGpQYVdYbThncVpNNWUzOE5JQ2Rrd3Q3akkwZ2RWZUV5dmowMmJn?oc=5",
+     "src": "Moneycontrol.com",
+     "time": "2026-10-28T07:27:58+00:00"
     },
-    {
-     "label": "Order / contract win",
-     "title": "L&T secures ₹5,000 crore-plus orders for Dhaka Metro Line 1 systems",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbGs4amJyUGwwei1nbHJ4YkN3T0hsNVNsQktKNFlFeXlTWXJuZkY0UG1Yd3RIWThWVkZCRThnMTdiem9DMUtQZ2ZoUjFwc2FuRDdyMFViMVhRS2dGZWM2aktuNGxwSFktQmRwdzdHdk1xSzMtTHVyZW1iRDY0SG5xRXhlUFV5Y0hiWkZXaDBLWWsyaHRWRWltMFZPVkhJNklfTTBabFlTQUVUeUtWcms2VGlMZlZnUjZ1M3FMd21BaTU0XzlpUkgteNIBzgFBVV95cUxQUlQwMDluMWdDNS1MamVFOE9IeFQxWlNna3FpckZmbV9fYzVCMDlWcFpseDRidThsOFhhMXhvSndLdEthQ25uRjB6aVRqd1JPZUpIaGVDZUlvSDdHQW5uYUVaV2M0Z2ZscnZnandsdXVBLWM4NVlrT3JqV1R2UFpINzNHcWxtaFNTVmxtcmtGSWdHdDdMYXlPc2xPZDduVEdQUXJrR1JQZlpNV3Q3ZHZUSUxQLTROdl8wZ0lqTXp2bVhKX0FpUURWMTN4ZFRPQQ?oc=5",
-     "src": "Business Standard",
-     "time": "2026-10-27T08:16:40+00:00"
-    }
-   ],
-   "sector_reasons": [],
-   "today_chg": -0.4,
-   "two_day_chg": 0.5,
-   "vol_ratio": 0.77,
-   "close": 3665.1,
-   "close_date": "2026-10-27",
-   "layers": {
-    "news": 4.32,
-    "sector": 0.0,
-    "technical": -0.78,
-    "relative": 0.12,
-    "flow": 0.0,
-    "market": 0.0
-   },
-   "tech_notes": [
-    "downtrend (below 20 and 50-day averages)"
-   ],
-   "agree": 1,
-   "dir": "UP",
-   "confidence": "Low"
-  },
-  {
-   "sym": "ULTRACEMCO",
-   "sector": "INFRA",
-   "net": 3.14,
-   "event_score": 1.24,
-   "sector_score": 0.0,
-   "sources": 0,
-   "reasons": [
     {
      "label": "Beat / volume growth",
-     "title": "UltraTech Cement: Q2 FY27 Earnings Call Highlights Strong Volume Growth and Capacity Expansion",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVElXeGRPcUxaSXpRdjgwMHhMcTBJa2I2LXA3ZWJzZ3I5Z0FNeHhfRjdndnVCQ0RHNkw4WTdfNkJOTTJyRHlUWlRtWlRfRzBpT1BaMy1mYW5ka1BjUjFTUEhDZmFtRm5lWW1LQnRybGV0OVMxSEJpT3R2ZWI5MzljSERGNElacXBHZ2t2YmFseG1pMzREVTVJeEFUMA?oc=5",
-     "src": "InvestyWise",
-     "time": "2026-10-27T09:31:54+00:00"
+     "title": "India's Adani Ports logs higher quarterly profit on cargo volume growth",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWVCOU56RjlxYW5XakszRTByZmtld3p1TDBHaEdLOVFqZE5sbXlwbFNLUXYxYlFURXJNYkdSWUJHeVNuMkNUMzRyV3FwYkdDREh2SXdRdlZPZTFmYXdyV0dULTR2TzYtQjg0UWJESXl4Z2FqaXpLNGFPbHlOVW1SUDJCLVlDT0l4TzQ1M2RJaS1mZ0RjUXBzZlZxNzRFaFBPTzlfR19jcmF3WGNFa1ZSMVhGdWhOQQ?oc=5",
+     "src": "Reuters",
+     "time": "2026-10-28T07:55:27+00:00"
     },
     {
-     "label": "Strong results / margins",
-     "title": "UltraTech Cement Q2FY27 Results: Net profit up 41% YoY to ₹1,501 crore",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONmpnaGpwOFR6YXhUM0tVaEwxNlRrT0NTcE45WHozdWNnNzRUa3ZPVHJIamt6YWNZbVV6RFZ3WlBqT2lBcUVTelFpc09kcGpHUUdPM1NWZkFCY0hua3ZGQ0VBTkFKRHFNNW40MUVhekFGdEd3LVNvMnBiRmNNUnFmOXZ4UG9STy10THh6ekVmZFhobmFuYnhuRVYybnNIRjdtVzQwQjdSNUlfSEF0emtpbUU3ZGVDd0dBTlE?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-10-27T02:15:49+00:00"
+     "label": "Guidance raised",
+     "title": "Adani Ports' Strong Q2: Revenue Jumps 24%, FY27 Guidance Raised",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaU1hbzZYRlhYZzJqU1dIQUJlYkJCQ094Yk16TDdMWG1nVGlIMGtGWWszdzN1Tl94Q2tUN0VlR0NlMk5RMGVZLWszTXVUdURyVlBlSVN5dTdtOFZZMnlxOWpCVjZESTlRZnN0OEFHWDVoc2lmckFmdGxsUnJfbjJCOXA2Tlgya2ZwUXVWRGtkeTBIcFhiM0ozZFI0cTBENmZLWHB1UHpxU29pMHM20gGyAUFVX3lxTE42SXhScFFfWkkzcFVHVGlYQTJmQTlPajZMMnFqUlVEdUwxS0lqUkpDVVhXRkNuelAxeVdWTlVXR21mb2tsWVlUd21za2JXTm5ROE85LUdMcFoycFdlaXAyN2lMQTZVOGxTMjQwUGdOdENKVHVNOXMxRDhycFRrYVZLMC1SbUp4ZXlHcEpvNlNoTzdHOFlNQUVZeDJBZk9HeGFINERhLVQtWnVsNm96Z3BrVnc?oc=5",
+     "src": "Lokmat Times",
+     "time": "2026-10-28T07:56:10+00:00"
     }
    ],
    "sector_reasons": [],
-   "today_chg": -0.27,
-   "two_day_chg": 0.9,
-   "vol_ratio": 0.94,
-   "close": 11150.0,
-   "close_date": "2026-10-27",
+   "today_chg": 0.39,
+   "two_day_chg": 0.5,
+   "vol_ratio": 0.82,
+   "close": 1761.3,
+   "close_date": "2026-10-28",
    "layers": {
-    "news": 1.24,
+    "news": 5.09,
     "sector": 0.0,
-    "technical": 1.4,
-    "relative": 0.5,
+    "technical": 0.94,
+    "relative": 0.2,
     "flow": 0.0,
     "market": 0.0
    },
@@ -91,65 +54,110 @@
    "confidence": "Medium"
   },
   {
-   "sym": "KOTAKBANK",
-   "sector": "BANK",
-   "net": 1.68,
-   "event_score": 0.76,
+   "sym": "LT",
+   "sector": "INFRA",
+   "net": 5.69,
+   "event_score": 3.19,
+   "sector_score": 0.0,
+   "sources": 2,
+   "reasons": [
+    {
+     "label": "Strong results / margins",
+     "title": "L&T shares surge 6% as Q2 net profit rises to Rs 5,202 crore",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd0hDNTNlVUtVZ2x0VE01ckR1dUplenhtc0kzbDZvQVFLLW53d0w5ZGNXWHZ1Sm5Qd04xOHBTN0F2RkVHTlZUbThrTFRFTE1sdWpoQW9SdnMwcEdVNVRoZlVuOWVTcXlmVkJKYm9Hb3h6cENmU29aZUJvTXphY3ctVGFadnRVMkRRUDZDdi13TU5jcjNMUkhia0RuOGlzWW5GcFBfeWFIbUctXzdGYUxvTXJhLWkwaU92RmJZRFQtMXdpSkd0bHU4TWlVeUbSAcwBQVVfeXFMTXdIQzUzZVVLVWdsdFRNNXJEdXVKZXp4bXNJM2w2b0FRSy1ud3dMOWRjV1h2dUpuUHdOMThwUzdBdkZFR05WVG04a0xURUxNbHVqaEFvUnZzMHBHVTVUaGZVbjllU3F5ZlZCSmJvR294enBDZlNvWmVCb016YWN3LVRhWnZ0VTJEUVA2Q3Ytd01OY3IzTFJIYmtEbjhpc1luRnBQX3lhSG1HLV83RmFMb01yYS1pMGlPdkZiWURULTF3aUpHdGx1OE1pVXlG?oc=5",
+     "src": "Business Today",
+     "time": "2026-10-28T04:39:03+00:00"
+    },
+    {
+     "label": "Order / contract win",
+     "title": "L&T secures ₹5,000 crore-plus orders for Dhaka Metro Line 1 systems",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUlQwMDluMWdDNS1MamVFOE9IeFQxWlNna3FpckZmbV9fYzVCMDlWcFpseDRidThsOFhhMXhvSndLdEthQ25uRjB6aVRqd1JPZUpIaGVDZUlvSDdHQW5uYUVaV2M0Z2ZscnZnandsdXVBLWM4NVlrT3JqV1R2UFpINzNHcWxtaFNTVmxtcmtGSWdHdDdMYXlPc2xPZDduVEdQUXJrR1JQZlpNV3Q3ZHZUSUxQLTROdl8wZ0lqTXp2bVhKX0FpUURWMTN4ZFRPQdIBzgFBVV95cUxQUlQwMDluMWdDNS1MamVFOE9IeFQxWlNna3FpckZmbV9fYzVCMDlWcFpseDRidThsOFhhMXhvSndLdEthQ25uRjB6aVRqd1JPZUpIaGVDZUlvSDdHQW5uYUVaV2M0Z2ZscnZnandsdXVBLWM4NVlrT3JqV1R2UFpINzNHcWxtaFNTVmxtcmtGSWdHdDdMYXlPc2xPZDduVEdQUXJrR1JQZlpNV3Q3ZHZUSUxQLTROdl8wZ0lqTXp2bVhKX0FpUURWMTN4ZFRPQQ?oc=5",
+     "src": "Business Standard",
+     "time": "2026-10-27T08:16:40+00:00"
+    },
+    {
+     "label": "Broker upgrade",
+     "title": "Brokerage calls today: Jio Platforms initiations, L&T upgrade, Indus Towers split, Maruti and Bajaj Auto",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSHppS016WGFnVGZpRWwxelFsN2p0Mng0NzhGMDcza0NUM1BrNTBvVE1zM1JBeXhiR2JJZ1JreENPY25qUUM2U2JWMFBQQm0wOVZ3bFNXLUlNNGZrRGZaYW9aUndRM2U2cGR3YXU3U2VaWDhTc19mTElBTW5BbF95ZzlEVURyaFhxUmRVQXVCeDlEWHNfVDJ0S1J5aC10VjktbkRPTnA2VmlNYUw3S3EzQlZiN1FtMHZCTkNWRXI3aE5xamtfNHhZbk5Sc2lkV19SZld5dzNSMFdlOEVWU0F3UnRjTzhEZw?oc=5",
+     "src": "Business Upturn",
+     "time": "2026-10-28T03:10:05+00:00"
+    }
+   ],
+   "sector_reasons": [],
+   "today_chg": 3.72,
+   "two_day_chg": 3.3,
+   "vol_ratio": 3.2,
+   "close": 3801.3,
+   "close_date": "2026-10-28",
+   "layers": {
+    "news": 3.19,
+    "sector": 0.0,
+    "technical": 1.4,
+    "relative": 0.5,
+    "flow": 0.6,
+    "market": 0.0
+   },
+   "tech_notes": [
+    "20-day breakout on volume",
+    "volume 3.2x average on a +3.7% day"
+   ],
+   "agree": 4,
+   "dir": "UP",
+   "confidence": "High"
+  },
+  {
+   "sym": "ULTRACEMCO",
+   "sector": "INFRA",
+   "net": 3.56,
+   "event_score": 1.82,
    "sector_score": 0.0,
    "sources": 1,
    "reasons": [
     {
      "label": "Strong results / margins",
-     "title": "Kotak Mahindra Bank Q2 Profit Rises 29%; Net Interest Margin Falls To 4.31%",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0c3SmJ5cjVNMHl4aHZjaUJjYXJnUFpJeEh3SGhxRWg5M2hNeDBSaVVIeUpCcDFVa2JoU2VZanFsYVF4eU9XeHd1a0Y0dXBBcVV4TzA3ZHhSWG1wT2F0aVNtQjJudE8xSTZ2S1RrMnBpSzZIaHBKd1JDSmo0SHF0QlYzNGppNnRHRklneWVRTHk2Ul9JaXhiUXhJUlhCVDg3TlBzUWlERnM5emEzLUJlaWJmeFRTTDg?oc=5",
-     "src": "BW Businessworld",
-     "time": "2026-10-27T02:02:01+00:00"
+     "title": "UltraTech Cement Q2 Results: Net Profit Rises 21% To Rs 1,231 Crore, Revenue Grows 19% YoY",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdmJ6ZGZ0VjAtVHl5TFg0dDVoYlY1UlpsUzRHNXM3OVJEWFFfeUZ0UDNrVHBpUGxQTDV3LVVxV201cVlqaEx5dzl5Z01sc2hMYzhCVDhaXzVSYlltdF90eEN2a1B3U0xXUmNFQUI0dnl0Z0tpdlVYS3l6WnBKSldmWVBXMGZPb2lfR1pZM2tYX2F3aUlyc1o1akh6WUx4OVd0NzZXemxFTUpCbEpJeUHSAbYBQVVfeXFMT3NyNDhVSVFWTVkyQ25kb2RBOEZERGVjci1sUk5BWFNRbkxOZmJJRFNNSEZFRHdSME1ObWpnWm9RS0xyWkZtNFpRaFU4VjFYTHBPNU85WVoxTFRpS2oxalVOMW9xQUhjNC1iUko3RlZ4OW9iRWFkTEVYSWxyV05uejEtUXNueXJYdm84N1JBZC11ZERhNVFabUlXRW5HZXhDZkZHVFdudzBucnN6OEY1S1BpakVzdGc?oc=5",
+     "src": "NDTV Profit",
+     "time": "2026-10-28T01:03:38+00:00"
     },
     {
-     "label": "Broker upgrade",
-     "title": "Kotak Mahindra Bank stock jumps 2%, among top Nifty gainers after Q2 results; JPMorgan raises target price",
-     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONWRyOXZubWx4SVZGNms3T1R3Xy1DS0JkN0QtN1Y5NnJGUERNRHhWbFZIdTNOSUpjcjhRb3Z6cVc2bkpORWdZRnZSTFJVd2RDMTM1VkhRSExMLVZsRm1ZYU1jSmQ2aGxJWWFpWWdra3duMXlyMy1MTE5ORWZTakZxVzNDczI5b2luOFh5dTF3TWRNR0xyZ2NtUWgzNkZxY1cxVEFBLUwyRUpTc3Z6MWpKSGFsVnRtXzAwRDM0Nm1mYU03WVg3ZWNoT3NEckI5UzZCSFR6MEE4UjhLd2FsRDRvWkIzZDRQbXI2SUlTZm4wVzVLZ0FIUVhhcXl0TmLSAYICQVVfeXFMTnRVQnpiMkYwVXA5c0YtSlNac1poMXU1emh0eTFuOEkzdEFOX3Y4SFZvNy10RC1kdkxBa29UcWhENkxKb3lVM1RtUzhjeWJkZUpKek1vbFNOM3l1dWpqejNXRTYzTWhvTGV5N0hRNkR4TWdxeF9IZDhVMzVZX2NmZk9GZ09ZdnRUWXhPYUtycXRpNVFiR3ZlYUM1a01qLXJWenRWcEpuS0VWMVlZMjI1V0N4dnY2Qm12S2hxMXNIdlFac1o4OElKTDBTVXdsOUJNSWVjZ3JSRFpobjdRVWxYZ2RjZ01pQ0xuTFNVTTRnU0t3OXVXWkozNk1FT2J4elprZVZR?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-10-26T04:38:23+00:00"
-    },
-    {
-     "label": "Regulatory / legal action",
-     "title": "Why IRDAI And CBI Must Investigate Kotak For Insurance Fraud And Misselling?",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSmotdzF1Mm16bjNOekRVWlp4TTl4aEV4ZG83emE2TTQ5R1dtdlIyX1dtWGh5YXJnMVdKQUROaDRmNUpqQWJBMi0wLWNSdzNqM0xnS08wWEZwWXRJWmJEc2RhdmFsaWQ2T1dyTkRRTWwtYnhneVloWlF4dDA3eVFzWTlsYzRmT2dDZW16VUZzcGh6NmFuWWRDYkotc0tnclkyZ296UHZoWGtLeThHa2ZaZm1n?oc=5",
-     "src": "Inventiva",
-     "time": "2026-10-26T13:43:47+00:00"
+     "label": "Beat / volume growth",
+     "title": "UltraTech Cement: Q2 FY27 Earnings Call Highlights Strong Volume Growth and Capacity Expansion",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVElXeGRPcUxaSXpRdjgwMHhMcTBJa2I2LXA3ZWJzZ3I5Z0FNeHhfRjdndnVCQ0RHNkw4WTdfNkJOTTJyRHlUWlRtWlRfRzBpT1BaMy1mYW5ka1BjUjFTUEhDZmFtRm5lWW1LQnRybGV0OVMxSEJpT3R2ZWI5MzljSERGNElacXBHZ2t2YmFseG1pMzREVTVJeEFUMA?oc=5",
+     "src": "InvestyWise",
+     "time": "2026-10-27T09:31:54+00:00"
     }
    ],
    "sector_reasons": [],
-   "today_chg": 0.4,
-   "two_day_chg": 2.79,
-   "vol_ratio": 0.94,
-   "close": 442.5,
-   "close_date": "2026-10-27",
+   "today_chg": -0.41,
+   "two_day_chg": -0.68,
+   "vol_ratio": 0.69,
+   "close": 11104.0,
+   "close_date": "2026-10-28",
    "layers": {
-    "news": 0.76,
+    "news": 1.82,
     "sector": 0.0,
-    "technical": 0.81,
-    "relative": 0.11,
+    "technical": 1.27,
+    "relative": 0.47,
     "flow": 0.0,
     "market": 0.0
    },
    "tech_notes": [
     "uptrend (above 20 and 50-day averages)"
    ],
-   "agree": 2,
+   "agree": 3,
    "dir": "UP",
-   "confidence": "Low"
+   "confidence": "Medium"
   }
  ],
  "picks_down": [
   {
    "sym": "INFY",
    "sector": "IT",
-   "net": -5.3,
-   "event_score": -6.02,
-   "sector_score": -0.75,
-   "sources": 3,
+   "net": -4.25,
+   "event_score": -3.12,
+   "sector_score": -0.83,
+   "sources": 2,
    "reasons": [
     {
      "label": "Regulatory / legal action",
@@ -160,17 +168,17 @@
     },
     {
      "label": "Broker downgrade",
-     "title": "Infosys Draws Four Downgrades In A Day On Weaker Sales Outlook",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSnlWUHcxam1jdUtjSVZzZ1MtVjdxVmJMVmlaTVpmUXpHdUY4djVQQXhuVko4TEpuQ1Z0bW9HeVgzMG5xdHNGUkhhZ1A0SHp4YjBRd3U5T3g4RFhJbjVKNXF3cVVPZllDNS15SHA4bWlaZUpjRWZHZ29zRlFVcjFPMVl2NDk4c0tBR0pkWl9fRFFLaDQ5am1oM1F5VkpKb09OTDlDN3VlUzVMd9IBsgFBVV95cUxQdVVRUkJaZFV6U1RkbVEydmNYQ0RtNGhjNWU2Uml6aE5yM003cDV4UHVkclRNeHg5cG5pSjVfQTREMUtpZ0pmTTVuWVBkMmc5UmZWdjdpaWpWa1JzSWlYRF8xbW5zZ0I0WVVzQVRsZmJMTWVONkZiekVkZ3I1TThJem5Ub3hEU05FYjRycjk4MWZtTGNneGxjVEgzenlmYWw2LWxLR3pwV0JUQVVScEVMbXhB?oc=5",
-     "src": "NDTV Profit",
-     "time": "2026-10-27T07:33:11+00:00"
+     "title": "Infosys draws four downgrades in a day on weaker annual sales outlook",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQelFPWkFUTi1lLVdyTl84N1ppSkYwekFwLXBKQTJZSXpXZ3p1N3I4cTExYm1Dc2o0ZVVYb1BpY3RHeGh2UXVuMGo3R1F1Xy0wUDZiREY4dUo2MWI5aWk5S0RfZ1BIemZJdjVfWmZYOGRTd1lkblB1MXN3X2ZDd1pBbHlUc191SzBDOEJaaEdSZTlKcE1VREVRWjVaRUl0Z3pNckx4cERUSk1mTFQ3b2NtbWJMbi1DQkdFaEVKNVBhNGhFRnJWeWRvZkZLRkhfVnhSeUZTejZwSdIB1wFBVV95cUxQelFPWkFUTi1lLVdyTl84N1ppSkYwekFwLXBKQTJZSXpXZ3p1N3I4cTExYm1Dc2o0ZVVYb1BpY3RHeGh2UXVuMGo3R1F1Xy0wUDZiREY4dUo2MWI5aWk5S0RfZ1BIemZJdjVfWmZYOGRTd1lkblB1MXN3X2ZDd1pBbHlUc191SzBDOEJaaEdSZTlKcE1VREVRWjVaRUl0Z3pNckx4cERUSk1mTFQ3b2NtbWJMbi1DQkdFaEVKNVBhNGhFRnJWeWRvZkZLRkhfVnhSeUZTejZwSQ?oc=5",
+     "src": "Business Standard",
+     "time": "2026-10-27T18:26:10+00:00"
     },
     {
-     "label": "Guidance cut",
-     "title": "Infosys shares fall 4% after FY27 revenue growth guidance cut",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTXdHaG02WE9vTC1IYXIxRm1PMjN3aUhqaDY5WmtVcGU5YnZTOVJEUjRDRUdZU3ZqNXJzajFkaVFZcHF1bEl0ZlRxSTFxeUk4cXloVU82b0hROG5CWE1LNWFOSTB2cEdyZEZUdktHVnptRk9DYUlrOWxRdDFTNEFpSWx1anUtNWZTeThjdG5KTFdpSEJkZHFnVm9ySG81RGhIV3UwTmZjaTJNLXEzeFFDX2JFXzRTOGVvdU54MzIwQVkxODTSAcoBQVVfeXFMUHpxenlZMzg4REIzVGVVcC1abmU1THBGRHozeTNEYng2S2c1VXYtYzQyQ2NQU3JiUlJaYVRRQXNzZFEtSlA1aWpFRGFDTEMwZWVsV1dqN3B4Sjk0NmNqVXJSbjVwUVdxNE01VlgyVDFKcENPV0U3MnFjbEJzaWFDZEJxY2s2eTZjc09jYlE1a0g1eDY1cGxkbkZDWVRfZVczdFJ1QkZHd0ZpUUJPUERVY2oySTlGaE5MSVl4MWlmVE4wTnFiOFpqOVREdw?oc=5",
-     "src": "BusinessLine",
-     "time": "2026-10-26T04:55:48+00:00"
+     "label": "Weak results",
+     "title": "Infosys Q2FY27 Results: EPS $0.20 misses estimates; FY27 guidance cut",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRWxFQ3B3RmwwWHFmcXBxaEpFWGpsaHEyYW1ycWRKMHVVa0xJb2VYRW5JVXNVeUJfR19GbEtKRWJyREVwZHFYNEF6UVQwVGk3b1FvaHVkcTlXdjVLTVBlUDY0cGo1Q0FFU19BcFVMc1FqS0JHT2c5ZjlsR0o4SThKQl9KNHZTR0Rneko0ajBRYTNvYmJ2cmVxaEVhYTBFbElKSVRkRUM5Z1dTSW5jeXlvOWtHYi1RenNFT25RRg?oc=5",
+     "src": "scanx.trade",
+     "time": "2026-10-27T23:33:20+00:00"
     }
    ],
    "sector_reasons": [
@@ -183,139 +191,109 @@
     },
     {
      "label": "Rupee strengthening",
-     "title": "Rupee Gains Marginally vs. Dollar Amid High Oil Prices",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXp0Mld0MFlDUE91TjB5RFlETjBSdlEwTDk0Y2JzaUR5SERhSTBGZDZRQTNOS190OXR0NUhXTlhjRzBkckhqVWlGWURxUzd2cmZqSEFrR3MwdHNFZk9yLWdCRmk4YjlNSjRkc1ktVm45b3ZSS3ZuU2VkZ3VzaE90S1NJS3lTbWlFNEZBbmdpMjg2R21LS0NsLURaTnYtQjY3WGZIOVU5dkbSAa4BQVVfeXFMT01ZS1FHWnhyTDhISEw2QTBoaGJDV01yX0pCUDdOZi1CZTBoR09RX09TYzlFTTktZmN2S1IyWEpzbTIzb2JuYjFKVk55QzdJSGdLYmdVS1ZCWS1CNGhsVzMydnBrVk11aHBsRWNYeDZHMkxnY3k2S1RGcWtsc2ltNTh0dWd5T0d6d19aMUhXZnUwYVVEZ3NVc1g4NFFxd0ZuUEhPUHZENlJZTWVLSDJB?oc=5",
-     "src": "Rediff MoneyWiz",
-     "time": "2026-10-27T10:43:43+00:00"
-    }
-   ],
-   "today_chg": -0.26,
-   "two_day_chg": 0.8,
-   "vol_ratio": 1.26,
-   "close": 1163.0,
-   "close_date": "2026-10-27",
-   "layers": {
-    "news": -6.02,
-    "sector": -0.75,
-    "technical": 0.97,
-    "relative": 0.5,
-    "flow": 0.0,
-    "market": 0.0
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "RSI 75, overbought"
-   ],
-   "agree": 2,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "MARUTI",
-   "sector": "AUTO",
-   "net": -4.5,
-   "event_score": -3.12,
-   "sector_score": -1.41,
-   "sources": 2,
-   "reasons": [
-    {
-     "label": "Weak results",
-     "title": "Maruti Suzuki Q2 results: Net profit falls 26% to Rs 2,466 crore as West Asia conflict hits margins,...",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYjNKbTVIS0wxa0dvUXBsc0IwTU0wNmRSQTEzcHRWNzZvVElsUWZSZTRVbC04bU1yajdJZVlJeGxhdmhwV05yVklkQW1aUDEtX2J3WTBMR0ZxZnAwUVUzdW5Jc2F1N3pDRU4xWWFnTmdmZ0k2VnF4VldfZnNfTER4anFoN2U0ajVCQWxTakpNTDRhUU1ITDRIdElmV0FiQ0FyQUJPLUpMU0VWZm1rZk50SExyOFJWWTJFTlpDc2ZYQzJTV1E3R0F4YzFRRU1INUpHREEwV2dWUWtVZjNQNUVLVkxwYk40MnJyTzRZTXc2c0J6cmfSAfgBQVVfeXFMUHAyNllaTWx0QzBFX2g0ZTEyYlhpTEw1RE5OU0oxbEdRUjhVVzRHVTEzel9HNnB6QldRTUFpdVk4R2NYNmZ0czJjc3BPYVVzTWZlVjhYbU83aTZzTEVYS0hDZ1dHYVZfWEF2LWRZOFVXZ0tWQV9XaHhEU3lrNVRURk0wU0pTUVM5aUJRSmN4WFZNSFpNWUpuMmZTMVczNUdqSXl4UTlOdVZkSkpXNnIwU3BXa2JhTW1wN1RZbjFFOUxZa3dMOU5YSC1RTDl1U2ptOUV5UzlUZmhOQVdYQTh5OC1aOVFlWnNNRENhb2o1UmNmNDZaNnFEUlQ?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-10-27T10:06:26+00:00"
-    },
-    {
-     "label": "Cost pressure",
-     "title": "Maruti Suzuki flags West Asia-linked commodity costs as margins come under pressure",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU0c2S1p2bWZvOEo0dHJpVVZHbnM4V2Qxb2xBbU1RT3BPcUVuWFBLYmJYWkJ3b0NhOUVCMERYcHo1S3dQTEhNYktJMUI1b0dHSDdRVkhlZ0xqN2hkZWJqdnNJNXExUjBDR25Tdnp2TVFCTUxZR0EwcTlVREdfX3VFemI4ZmFPWmpSUGlFTmNYOE1DRzVtWkNhSkNaVnREaGE1RnU3NWFaVThkSGJxSk5NZllGLTRINjdpUDBIN21nSmdyYUZVMXZsMk1uQkJabnY4cmo1WFJMUHNYTDdLNzRpcjd0SmlsMFRXeTFIYWVaVlB3aVnSAfgBQVVfeXFMTS1FWUhNQXBNZEtHcTYyd1RmdzVheUlJYWd0TlBwNFVSb3F5N25Wdnc1R1NQckVVSVFZMFJqaXd2bmRrQUZ1SGhRVWxvNlNNa1IxNW8zbGUzTW9ONEpOTkV5RjdVY1lzSTNoaFAwSW9hdmlkYThGTlg5ZlE4YzY0cHFkbU5Tb19aVm84WlNDWXJYMkd0TW5zLWlweVFMOEdoY3Uyb2h5QW1YSXQtZ3FpRDM3ZDFMMmJsbm5sdF9pWm1NSjlCdGNLb2NoVEx2cl9aZlo2YjF6YndJNERQYzBDLTMwQmFtWm1NekxBdmpTZE0ydTAtRlVTOEs?oc=5",
+     "title": "Rupee rises 4 paise to 95.03 against US dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMHdfTEZwT0dFZGZIWnotV1lneS1CMmNiSkljZFZLUGM1UWNtRnlOUWd0dmZvUG9MdVNzMm51R2lwMDIySEt5cmpPdnFUd0EzWjYxOG9qRWdCbUY0RV92SlFIUWRQaHI2RldqYUZZNGxvYVN3NnlYazhGZ2h6Y0dVMjZyQ3FRVTFUaFdESnV5TzE3Zjh2bnE3UjVTZUhHOEwycXZjbXE2d3NuX2NkU1J5SXM3Nkhnai1NcW83Qkc0NDNMT3VsNnh2cdIBzgFBVV95cUxOOUFwaUpCbVdFam5qQ1hzQW12bjVIUU1TVW5QM05XdWtxSVFkRG9RZ2tXc1pUN0VxVG5DaFNSaHdZQWpfTlJCQ2N2Rlh1V0FDZXpnTWZVY1ZBcWQ4eXZpR196T0w3c1pZRzNXMVctTEhxTkpDUlVtdDZRTjZHazlSV2FZRzBiZXBWX2RUVWN4VnBTMERnUUJrcTM1VnRGeHBmcXhCMGQwNDV6LW8tU2pMUzQ5ODE4THN0amJEckIxVzRqN3hpVFFlaHh3NkdpZw?oc=5",
      "src": "The Economic Times",
-     "time": "2026-10-27T12:13:33+00:00"
-    },
-    {
-     "label": "Strong results / margins",
-     "title": "Maruti Suzuki India Q2 net profit falls 26.36%to Rs 2,466 crore; revenue rises on record sales",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWENUU2d4VjhZVkh3VUluYS0tYURuMm9vNVZIVE82TFpvd3E5TWR2NnJJRUpaOGt5bWdsX0tBZ1RjRFRKanpiX2E1WXo1Vmx3UUNYZmVHcWRoMjNlbmJ5V2FJZFJ0cS1rWFR4TjZ4MVpybERiOTEzUElkNWRCNlBNT0xJVGxnWUMtellFdnZad1dVTktROHp6NWNzWjRfNU9UYmNwWUpueE56VnNmMkpSaFFwcUhjWk8zalY4Q3BqSFFWOUxzRndrZkRibDlsUlNNWU1kVlgxTmx1NVROUlE4?oc=5",
-     "src": "Deccan Herald",
-     "time": "2026-10-27T12:39:04+00:00"
+     "time": "2026-10-28T04:15:05+00:00"
     }
    ],
-   "sector_reasons": [
-    {
-     "label": "Weak monsoon",
-     "title": "Maharashtra Cabinet Approves ₹5,000 Advance Aid for 1.5 Crore Drought-Hit Farmers",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUlQ0QzM1RUNyUUhRU1pTaDJCendUd3hGb0owbDVLU0ZMWW10dE9vXzN0Yy01cERXcVBuNndpOGpCXy13LS1ZRFhrbjIyMDVSLXpjdC15RGFKbl9nMmRtRUVQR0RmZGVELTY4cUtuNnZ4dmtKZ3Y4VzA2NFVtZmlxUm9DMXJHWjZVa19nZHk4SlFXcTVTMW1sTTFVeHhhaUY2R3BTY2VoNGlNclBjQUpWel90Q28?oc=5",
-     "src": "Revoi.in",
-     "time": "2026-10-27T11:30:23+00:00"
-    },
-    {
-     "label": "RBI rate hike",
-     "title": "Banks raise home loan rates after RBI repo rate hike: Want to move back to lower-interest loan? Know this hidden cost",
-     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOYVNVLXFCU3BGQXBFNTVaXzctaXZ1Wkc1UEIxUjBJdTdlZkZQMzFGZDdLMGNXbXA0cWpDbXRtcVpUeXBCZmlEcnNvYjJsSXRzeDdKblZyZVV0aDNxTnZ5TjRCWjFXdmttZTRhSXVKOC1oTzNaTTFuZGFjUzU3NEhYV3YxMTFXRnY3aG5FTFpnWmZkQkVjM29PLVk1MVVSRk1Zbk5PTHo1b0J1b0RQa0xuNWwwVUpBR3E1RVhkb2hYcmkzRGhwQ1VTcm1NeHhQOWNmbzkzaTBwNVVZOWVQazhPXy1PNkt1cFhGdWFIblZHdDlZeUQxbGNrMGtZQm9HRm5iZ1JyZnVvZ09pd0RpdGljRdIBlgJBVV95cUxPd3d4akRFdUlpNHZxS2NpaTBkWnRrVEJsVU4yZl9hUU1QZC1kTmo0V1hsZXlFa1ZZb3NSSm5RRXg2WGs4TV9HYTNtRXgyakV0Tk5pTy12QXZUTVVGR29saGY0UXN1dlZ1Ykk4SVB4U3NpeGFOWkgxT1Y4V1RFT1N3bzlBeGpGYWszcG80V2lOSXMzWFdVcWl3WlhiR1ZpWThiVnFvaGtiWlh0a2xiNUZRY0Q2RDZsNjZsZTBRSFg3Mm9hS2xNVDJWOWhETmVVM0ZCbUFsdUxiYVJiZWx2RmpScl9lcnhOOTIyS2lWTkljVTF5Z2V5SVNHZzR3bjBRcnlBN0ZaanRnWjQxQzRXSTRDX1lSVy1Wdw?oc=5",
-     "src": "Livemint",
-     "time": "2026-10-27T09:02:00+00:00"
-    }
-   ],
-   "today_chg": 2.05,
-   "two_day_chg": 1.96,
-   "vol_ratio": 0.91,
-   "close": 11450.0,
-   "close_date": "2026-10-27",
+   "today_chg": -3.43,
+   "two_day_chg": -3.67,
+   "vol_ratio": 0.95,
+   "close": 1123.15,
+   "close_date": "2026-10-28",
    "layers": {
     "news": -3.12,
-    "sector": -1.41,
-    "technical": -0.04,
-    "relative": 0.07,
-    "flow": 0.0,
-    "market": 0.0
-   },
-   "tech_notes": [],
-   "agree": 2,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "VEDL",
-   "sector": "METALS",
-   "net": -3.58,
-   "event_score": -2.0,
-   "sector_score": 0.72,
-   "sources": 1,
-   "reasons": [
-    {
-     "label": "Weak results",
-     "title": "Vedanta Iron Q2 Results: Loss narrows to Rs 324 crore, revenue declines 2% YoY",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMFJwSy1FVjJ0MndYQ3drZHFoOXcyR0xxTndhZUJGWjdNbDBLa1JlamxsQkZxMmtHdUZCMUc0OVZJSVJQczhGT3VaeWxTTm9RamJoWE9TQVVOb3lNV2E1aUZMdndya18xQTFtd255TTdtTVdLZEZoVXgtNUYyU0k1eHA3bmNyV0JwNjBCeVdpa0RETkQxSF9pdjdZaWJSNkNXbzMxMUVURUNDUjRRRWJpVXBiUzJsZGo3eDBGbnJSYkRXZVFVN0Z0WlV5R3Z1YXBXMkktRTBKUUEzZGNKMFZ1amhyTU12c1kx0gHuAUFVX3lxTE9HTnVXbWxWOHRkdVN0dG5mWEZTUE0td2szd0FsVm5VMkxzVG9YV3g4WXJqQVFPaXA4eXFOYm5FcV92bWJTemhrU0hobzNmMDR3cjBNQm1KWmtjZmJQcWl4TlRFLVQyVy1FV29NeEtzUkd5MVdFallsSWhoN2dCQURKMC1DZy1PVU1SUXZrdTlNODhBU2hLNVBxckpFYmIwMXV5WGUyVHVSQlp6aGJaUEI0b3lwWG5IUkx1UmRsNkFhckZHY2dUbzZpWGtONzAxaF9iRFlXNUthYmdvU0I1TXpVbXlyUmhIY0NadURSLUE?oc=5",
-     "src": "The Economic Times",
-     "time": "2026-10-27T12:16:33+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "Steel import duties",
-     "title": "India Reimposes Anti-Dumping Duty Of Up To $681 Per Tonne On Titanium Dioxide Imports From China",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaEkydWE0Z01zdGtKNjlkYUF4aDdrYmtybFU0RzQ2bTkxY3ZOTHRiUVZ0ZmxpT3NSeHdkc0l3YjVtdmZiQVk3SFRmMlpFaEZ4NXN6d2VlTmFoeXhCNEJ1dHVRNHB6SlYyZ1dVdDhXc2d5WUV3S0hkV3pPV25aaXlaemFwcUk5dzBDVEtXcnRCRlNQVDNPemZaZmY0c1RfelUwTFV5Z0lyeE1fMkhrM21oc3VRRkxocVNNcEJ0QzRqZk1Lai1vMVo3Z2dOdmFjM3Y3dkHSAdcBQVVfeXFMTzhvdDREWGk5MHFjaEd2cGNkR1ZWZHpUd0hwbDFVSUVTbFQ5NEg0enpmMDZBZ29GQ2doRnRpUkJabktpc1BSUUFYWk1FM0JIc3RPNWtoOFZtSWYxTlU4dmlpQ0k3T1NuTWVxVk80aVY2c20tNDgtN0JxYV9WZU4zNm5NUE1MTTdSY0h5dkgyc05acmktdXlMWXFkRlB2OFFLbWlyTlVTbWxZUDNMQkx6OGxSQTlkaTVLU3QxNE5POWdSNVFjZWxXZm85NU5oNDUwY3RFM2I0aWM?oc=5",
-     "src": "Free Press Journal",
-     "time": "2026-10-26T12:28:00+00:00"
-    }
-   ],
-   "today_chg": -0.84,
-   "two_day_chg": -0.4,
-   "vol_ratio": 1.4,
-   "close": 225.6,
-   "close_date": "2026-10-27",
-   "layers": {
-    "news": -2.0,
-    "sector": 0.72,
-    "technical": -1.8,
+    "sector": -0.83,
+    "technical": 0.2,
     "relative": -0.5,
     "flow": 0.0,
     "market": 0.0
    },
    "tech_notes": [
-    "downtrend (below 20 and 50-day averages)",
-    "20-day breakdown on volume",
-    "RSI 19, oversold (bounce risk)"
+    "uptrend (above 20 and 50-day averages)"
+   ],
+   "agree": 3,
+   "dir": "DOWN",
+   "confidence": "Medium"
+  },
+  {
+   "sym": "BRITANNIA",
+   "sector": "FMCG",
+   "net": -3.09,
+   "event_score": -0.56,
+   "sector_score": -0.9,
+   "sources": 0,
+   "reasons": [
+    {
+     "label": "Tax / debt / penalty",
+     "title": "Britannia fined Rs 1 lakh over 100% whole wheat bread claim; CCPA directs it to discontinue advt across media",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDJZZ2F0XzdhUVgzaXBRVzZJdmMxeG5oTjdvVzdjbkpVdmsxS2g2UUh3V3FjSmJSU05XQmUzWTV6MmVqRjJyYVBQZExsVTJUWk90U3Z2aHlfWnVaS2RLd09tbV9kRms4SmpyR0tGYTdiZVNqeDBCU1UycDAwWUNKWW55aWU5Tk5BakdVeXBQNmU3QnhKUEduNEg0cFJYU1l2TUE?oc=5",
+     "src": "Startup Pedia",
+     "time": "2026-10-28T08:16:04+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Weak monsoon",
+     "title": "How Gujarat’s brutal drought saved India’s salt supply: Threatened by fuel shortage in June, Agariyas acros...",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRXhQWXo5SGZpTldERkY5WG1sZlhReTdtUE9MaktnWUtwMlhjY3loM0xQVkdDS2tnY1FXVVBSMU54MHBZRlNhQUdrTmE4UlV2UWhyZ200Z2VFZ25RbEdiQ3QzM05TeEVjdGtQMGctRUtXNmVSelFqZDh2X0txcnhLU29Ma0lPMUVlazJ6akpKeWwyV09vWEhzQm9iT1Q3NjdIUy0zcGJLdFJCNXRYd25mOHBzX0o4NWtiRlFQeU9ReG9TVmxrWTBGM3U3aTVEbkpxc1VSYzlfOUhSbFNVaE530gHkAUFVX3lxTE9MdlFWSnV1Yjh3bUtxSW1lN1BUajNMNFo4X3JkZFJXWkJZY0g3QnNfTU44OTNEYXZjbTlOQnVZcXd3MmJCZlNjRjU2UEtOS0U4ZXg3SmVMakdKUkhuTWhFemIyS0ZLMWV0ZFpZY0ZiRnBEWm5JUUZoODlhVDdDa1R0b0xVLUJYX1VCZXowRUxjWVhtQ29yTDlTNzZacmdKc3Q5N0pZSExvTEFwLVZ4Zl92b3FjNzNBclFwYy04dGFaRW5scjJSRUN5NkNDRVBpVEoxZWE0d0JGVnhJTkJadWsxREY0YQ?oc=5",
+     "src": "Bhaskar English",
+     "time": "2026-10-28T02:36:34+00:00"
+    }
+   ],
+   "today_chg": 0.16,
+   "two_day_chg": -0.28,
+   "vol_ratio": 1.26,
+   "close": 4567.3,
+   "close_date": "2026-10-28",
+   "layers": {
+    "news": -0.56,
+    "sector": -0.9,
+    "technical": -1.3,
+    "relative": -0.33,
+    "flow": 0.0,
+    "market": 0.0
+   },
+   "tech_notes": [
+    "downtrend (below 20 and 50-day averages)"
+   ],
+   "agree": 4,
+   "dir": "DOWN",
+   "confidence": "Medium"
+  },
+  {
+   "sym": "NESTLEIND",
+   "sector": "FMCG",
+   "net": -2.8,
+   "event_score": 0.0,
+   "sector_score": -0.9,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
+    {
+     "label": "Weak monsoon",
+     "title": "How Gujarat’s brutal drought saved India’s salt supply: Threatened by fuel shortage in June, Agariyas acros...",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRXhQWXo5SGZpTldERkY5WG1sZlhReTdtUE9MaktnWUtwMlhjY3loM0xQVkdDS2tnY1FXVVBSMU54MHBZRlNhQUdrTmE4UlV2UWhyZ200Z2VFZ25RbEdiQ3QzM05TeEVjdGtQMGctRUtXNmVSelFqZDh2X0txcnhLU29Ma0lPMUVlazJ6akpKeWwyV09vWEhzQm9iT1Q3NjdIUy0zcGJLdFJCNXRYd25mOHBzX0o4NWtiRlFQeU9ReG9TVmxrWTBGM3U3aTVEbkpxc1VSYzlfOUhSbFNVaE530gHkAUFVX3lxTE9MdlFWSnV1Yjh3bUtxSW1lN1BUajNMNFo4X3JkZFJXWkJZY0g3QnNfTU44OTNEYXZjbTlOQnVZcXd3MmJCZlNjRjU2UEtOS0U4ZXg3SmVMakdKUkhuTWhFemIyS0ZLMWV0ZFpZY0ZiRnBEWm5JUUZoODlhVDdDa1R0b0xVLUJYX1VCZXowRUxjWVhtQ29yTDlTNzZacmdKc3Q5N0pZSExvTEFwLVZ4Zl92b3FjNzNBclFwYy04dGFaRW5scjJSRUN5NkNDRVBpVEoxZWE0d0JGVnhJTkJadWsxREY0YQ?oc=5",
+     "src": "Bhaskar English",
+     "time": "2026-10-28T02:36:34+00:00"
+    }
+   ],
+   "today_chg": -1.06,
+   "two_day_chg": -0.47,
+   "vol_ratio": 0.6,
+   "close": 1168.0,
+   "close_date": "2026-10-28",
+   "layers": {
+    "news": 0.0,
+    "sector": -0.9,
+    "technical": -1.4,
+    "relative": -0.5,
+    "flow": 0.0,
+    "market": 0.0
+   },
+   "tech_notes": [
+    "downtrend (below 20 and 50-day averages)"
    ],
    "agree": 3,
    "dir": "DOWN",
@@ -324,16 +302,16 @@
  ],
  "stats": {
   "all": {
-   "total": 9,
-   "hits": 7
+   "total": 15,
+   "hits": 9
   },
   "up": {
-   "total": 6,
-   "hits": 5
+   "total": 9,
+   "hits": 6
   },
   "down": {
-   "total": 3,
-   "hits": 2
+   "total": 6,
+   "hits": 3
   },
   "tiers": {
    "High": {
@@ -341,12 +319,12 @@
     "hits": 0
    },
    "Medium": {
-    "total": 7,
+    "total": 9,
     "hits": 5
    },
    "Low": {
-    "total": 2,
-    "hits": 2
+    "total": 6,
+    "hits": 4
    },
    "Weak signal": {
     "total": 0,
@@ -356,46 +334,118 @@
  },
  "recent": [
   {
+   "date": "2026-10-28",
+   "sym": "NESTLEIND",
+   "dir": "DOWN",
+   "net": -2.8,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-10-28",
+   "sym": "BRITANNIA",
+   "dir": "DOWN",
+   "net": -3.09,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-10-28",
+   "sym": "INFY",
+   "dir": "DOWN",
+   "net": -4.25,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-10-28",
+   "sym": "ULTRACEMCO",
+   "dir": "UP",
+   "net": 3.56,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-10-28",
+   "sym": "LT",
+   "dir": "UP",
+   "net": 5.69,
+   "confidence": "High"
+  },
+  {
+   "date": "2026-10-28",
+   "sym": "ADANIPORTS",
+   "dir": "UP",
+   "net": 6.23,
+   "confidence": "Medium"
+  },
+  {
    "date": "2026-10-27",
    "sym": "VEDL",
    "dir": "DOWN",
    "net": -3.58,
-   "confidence": "Medium"
+   "confidence": "Medium",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": 3.3,
+    "hit": false
+   }
   },
   {
    "date": "2026-10-27",
    "sym": "MARUTI",
    "dir": "DOWN",
    "net": -4.5,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": 1.13,
+    "hit": false
+   }
   },
   {
    "date": "2026-10-27",
    "sym": "INFY",
    "dir": "DOWN",
    "net": -5.3,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": -3.43,
+    "hit": true
+   }
   },
   {
    "date": "2026-10-27",
    "sym": "KOTAKBANK",
    "dir": "UP",
    "net": 1.68,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": -0.56,
+    "hit": false
+   }
   },
   {
    "date": "2026-10-27",
    "sym": "ULTRACEMCO",
    "dir": "UP",
    "net": 3.14,
-   "confidence": "Medium"
+   "confidence": "Medium",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": -0.41,
+    "hit": false
+   }
   },
   {
    "date": "2026-10-27",
    "sym": "LT",
    "dir": "UP",
    "net": 3.66,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-10-28",
+    "chg": 3.72,
+    "hit": true
+   }
   },
   {
    "date": "2026-10-26",
@@ -482,69 +532,17 @@
    "dir": "DOWN",
    "net": -3.5,
    "confidence": "Medium"
-  },
-  {
-   "date": "2026-10-24",
-   "sym": "GODREJPROP",
-   "dir": "DOWN",
-   "net": -4.59,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-10-24",
-   "sym": "KOTAKBANK",
-   "dir": "UP",
-   "net": 1.52,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-10-24",
-   "sym": "INDHOTEL",
-   "dir": "UP",
-   "net": 2.3,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-10-24",
-   "sym": "ICICIBANK",
-   "dir": "UP",
-   "net": 2.34,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-10-23",
-   "sym": "HAL",
-   "dir": "UP",
-   "net": 2.4,
-   "confidence": "Low",
-   "result": {
-    "next_date": "2026-10-26",
-    "chg": 1.06,
-    "hit": true
-   }
-  },
-  {
-   "date": "2026-10-23",
-   "sym": "TECHM",
-   "dir": "UP",
-   "net": 2.6,
-   "confidence": "Low",
-   "result": {
-    "next_date": "2026-10-26",
-    "chg": 0.28,
-    "hit": true
-   }
   }
  ],
  "scanned": 111,
  "market_regime": 0,
  "sector_effects": {
-  "DEFENCE": 1.28,
-  "IT": -0.94,
+  "DEFENCE": 2.0,
+  "IT": -1.04,
   "NEWAGE": -1.12,
-  "AUTO": -1.76,
-  "FMCG": -1.12,
-  "METALS": 0.9,
-  "REALTY": -1.44
+  "METALS": 1.44,
+  "REALTY": -1.44,
+  "AUTO": -2.0,
+  "FMCG": -1.12
  }
 }
