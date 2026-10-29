@@ -226,41 +226,113 @@
   "sym": "ADANIPORTS",
   "dir": "UP",
   "net": 6.23,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 6.29,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-28",
   "sym": "LT",
   "dir": "UP",
   "net": 5.69,
-  "confidence": "High"
+  "confidence": "High",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 0.94,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-28",
   "sym": "ULTRACEMCO",
   "dir": "UP",
   "net": 3.56,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 0.64,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-28",
   "sym": "INFY",
   "dir": "DOWN",
   "net": -4.25,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 2.08,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-28",
   "sym": "BRITANNIA",
   "dir": "DOWN",
   "net": -3.09,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 1.92,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-28",
   "sym": "NESTLEIND",
   "dir": "DOWN",
   "net": -2.8,
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-29",
+   "chg": 1.76,
+   "hit": false
+  }
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "TVSMOTOR",
+  "dir": "UP",
+  "net": 4.2,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "LT",
+  "dir": "UP",
+  "net": 3.38,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "JSWSTEEL",
+  "dir": "UP",
+  "net": 2.75,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "INDIGO",
+  "dir": "DOWN",
+  "net": -5.02,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "PIDILITIND",
+  "dir": "DOWN",
+  "net": -3.18,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-29",
+  "sym": "HEROMOTOCO",
+  "dir": "DOWN",
+  "net": -3.08,
   "confidence": "Medium"
  }
 ]
