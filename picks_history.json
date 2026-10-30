@@ -298,41 +298,113 @@
   "sym": "TVSMOTOR",
   "dir": "UP",
   "net": 4.2,
-  "confidence": "High"
+  "confidence": "High",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": -1.98,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-29",
   "sym": "LT",
   "dir": "UP",
   "net": 3.38,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": 0.9,
+   "hit": true
+  }
  },
  {
   "date": "2026-10-29",
   "sym": "JSWSTEEL",
   "dir": "UP",
   "net": 2.75,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": -0.75,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-29",
   "sym": "INDIGO",
   "dir": "DOWN",
   "net": -5.02,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": 4.33,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-29",
   "sym": "PIDILITIND",
   "dir": "DOWN",
   "net": -3.18,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": 2.78,
+   "hit": false
+  }
  },
  {
   "date": "2026-10-29",
   "sym": "HEROMOTOCO",
   "dir": "DOWN",
   "net": -3.08,
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-10-30",
+   "chg": 1.21,
+   "hit": false
+  }
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "BHARTIARTL",
+  "dir": "UP",
+  "net": 4.42,
   "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 3.67,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "VEDL",
+  "dir": "UP",
+  "net": 3.58,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "RECLTD",
+  "dir": "DOWN",
+  "net": -2.63,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "M&M",
+  "dir": "DOWN",
+  "net": -2.51,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-10-30",
+  "sym": "ASHOKLEY",
+  "dir": "DOWN",
+  "net": -2.27,
+  "confidence": "Low"
  }
 ]
