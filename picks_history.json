@@ -406,5 +406,47 @@
   "dir": "DOWN",
   "net": -2.27,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "LT",
+  "dir": "UP",
+  "net": 4.1,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "BANKBARODA",
+  "dir": "UP",
+  "net": 4.0,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "HAL",
+  "dir": "UP",
+  "net": 3.92,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "DIXON",
+  "dir": "DOWN",
+  "net": -2.72,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "ONGC",
+  "dir": "DOWN",
+  "net": -2.36,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-03",
+  "sym": "NESTLEIND",
+  "dir": "DOWN",
+  "net": -2.14,
+  "confidence": "Low"
  }
 ]
