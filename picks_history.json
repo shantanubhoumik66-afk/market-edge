@@ -520,5 +520,47 @@
   "dir": "DOWN",
   "net": -1.5,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 6.09,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "HDFCBANK",
+  "dir": "UP",
+  "net": 5.01,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "APOLLOHOSP",
+  "dir": "UP",
+  "net": 4.01,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "TCS",
+  "dir": "DOWN",
+  "net": -1.46,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "TECHM",
+  "dir": "DOWN",
+  "net": -1.45,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-05",
+  "sym": "LUPIN",
+  "dir": "DOWN",
+  "net": -1.42,
+  "confidence": "Weak signal"
  }
 ]
