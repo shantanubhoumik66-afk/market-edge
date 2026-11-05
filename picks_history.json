@@ -442,42 +442,72 @@
   "sym": "LT",
   "dir": "UP",
   "net": 4.1,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": -0.1,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-03",
   "sym": "BANKBARODA",
   "dir": "UP",
   "net": 4.0,
-  "confidence": "High"
+  "confidence": "High",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": 0.85,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-03",
   "sym": "HAL",
   "dir": "UP",
   "net": 3.92,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": 2.43,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-03",
   "sym": "DIXON",
   "dir": "DOWN",
   "net": -2.72,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": 0.16,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-03",
   "sym": "ONGC",
   "dir": "DOWN",
   "net": -2.36,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": 1.22,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-03",
   "sym": "NESTLEIND",
   "dir": "DOWN",
   "net": -2.14,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-04",
+   "chg": -0.03,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-04",
@@ -561,6 +591,48 @@
   "sym": "LUPIN",
   "dir": "DOWN",
   "net": -1.42,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "HAL",
+  "dir": "UP",
+  "net": 4.46,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "BHARTIARTL",
+  "dir": "UP",
+  "net": 3.18,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "BAJAJFINSV",
+  "dir": "UP",
+  "net": 3.12,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "LUPIN",
+  "dir": "DOWN",
+  "net": -2.31,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "ZYDUSLIFE",
+  "dir": "DOWN",
+  "net": -1.46,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-06",
+  "sym": "TATAMOTORS",
+  "dir": "DOWN",
+  "net": -1.13,
   "confidence": "Weak signal"
  }
 ]
