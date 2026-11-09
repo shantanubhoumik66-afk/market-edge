@@ -586,77 +586,132 @@
   "sym": "BEL",
   "dir": "UP",
   "net": 6.09,
-  "confidence": "High"
+  "confidence": "High",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 0.23,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-05",
   "sym": "HDFCBANK",
   "dir": "UP",
   "net": 5.01,
-  "confidence": "High"
+  "confidence": "High",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 3.72,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-05",
   "sym": "APOLLOHOSP",
   "dir": "UP",
   "net": 4.01,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 0.9,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-05",
   "sym": "TCS",
   "dir": "DOWN",
   "net": -1.46,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 0.11,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-05",
   "sym": "TECHM",
   "dir": "DOWN",
   "net": -1.45,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 0.46,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-05",
   "sym": "LUPIN",
   "dir": "DOWN",
   "net": -1.42,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-06",
+   "chg": 0.01,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-06",
   "sym": "HAL",
   "dir": "UP",
   "net": 4.46,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-09",
+   "chg": 0.38,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-06",
   "sym": "BHARTIARTL",
   "dir": "UP",
   "net": 3.18,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-09",
+   "chg": -1.67,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-06",
   "sym": "BAJAJFINSV",
   "dir": "UP",
   "net": 3.12,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-09",
+   "chg": -1.49,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-06",
   "sym": "LUPIN",
   "dir": "DOWN",
   "net": -2.31,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-09",
+   "chg": 1.86,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-06",
   "sym": "ZYDUSLIFE",
   "dir": "DOWN",
   "net": -1.46,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-09",
+   "chg": 1.5,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-06",
@@ -705,6 +760,48 @@
   "sym": "SBIN",
   "dir": "DOWN",
   "net": -0.96,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "HINDALCO",
+  "dir": "UP",
+  "net": 4.71,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "TATASTEEL",
+  "dir": "UP",
+  "net": 3.94,
+  "confidence": "High"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "ULTRACEMCO",
+  "dir": "UP",
+  "net": 3.75,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "MPHASIS",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "COFORGE",
+  "dir": "DOWN",
+  "net": -1.4,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-10",
+  "sym": "DABUR",
+  "dir": "DOWN",
+  "net": -1.38,
   "confidence": "Weak signal"
  }
 ]
