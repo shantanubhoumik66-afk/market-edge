@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-09T21:45:31.633520+00:00",
- "date": "2026-11-10",
+ "generated": "2026-11-10T19:04:17.038323+00:00",
+ "date": "2026-11-11",
  "picks_up": [
+  {
+   "sym": "MUTHOOTFIN",
+   "sector": "BANK",
+   "net": 3.7,
+   "event_score": 0.8,
+   "sector_score": 0.0,
+   "sources": 0,
+   "reasons": [
+    {
+     "label": "Strong results / margins",
+     "title": "Muthoot Capital Q2FY27 Results: Net profit up 56% to ₹440 lakh, AUM crosses ₹3,500 crore",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0lHYmdtTk1VQUVfWjktTUJFU0ZVZDdTemVxMXJZX1MxaG5VWElzdV84WXJSSmI0ZUsxVnlHRDNDOFJRSGVWSU1yQkFMcVgyMXpXWTZheWJ2cEtoRzY4UTlWcDVwSjVDOXVlMXNmNU9KMzg3c251QnlobGlVSjdfMmVxcmN0cTIyT2Jzalg4SURtR2FJcnRWS1Z3aUNlWlRXdGNsSnhuc2dJSzBRTE9VMnkxT0RYSEZXcXNn?oc=5",
+     "src": "scanx.trade",
+     "time": "2026-11-10T09:17:24+00:00"
+    }
+   ],
+   "sector_reasons": [],
+   "today_chg": 1.69,
+   "two_day_chg": 2.77,
+   "vol_ratio": 1.5,
+   "close": 2917.6,
+   "close_date": "2026-11-09",
+   "layers": {
+    "news": 0.8,
+    "sector": 0.0,
+    "technical": 2,
+    "relative": 0.5,
+    "flow": 0.0,
+    "market": 0.4
+   },
+   "tech_notes": [
+    "uptrend (above 20 and 50-day averages)",
+    "20-day breakout on volume"
+   ],
+   "agree": 4,
+   "dir": "UP",
+   "confidence": "Medium"
+  },
   {
    "sym": "HINDALCO",
    "sector": "METALS",
-   "net": 4.71,
-   "event_score": 2.09,
+   "net": 3.63,
+   "event_score": 0.76,
    "sector_score": 0.72,
-   "sources": 2,
+   "sources": 1,
    "reasons": [
     {
      "label": "Strong results / margins",
@@ -16,13 +54,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOejVaaGRXU285YTQ4OWZ0eTFDUHJPdVVGU2dPUVR5ZEd2RmxCc2Z3MmQzMjVBMk9NM3duVGgteG5CMHZMOXhBLVVubHBPLXctc3c5bkdMT3pneWhHM20tU2s0V0FuYm14WHpwN3Q2dTJ3ZnZabEJWY0xmbHhLQllyVXpiWXh3QkVoeWJ4REY4dWZoRm43Zml3U2pTUmhIRFNoU2NBd3NXb3VUaVBPMjE4Rk5RVlVrMkp4RmfSAcIBQVVfeXFMTWg3WXFRY2tENlpKYnI5YTZfUXJXTUlKemlkMzByOExud3A5cDhRV1pMR2ZiTU9JMU5QVFo2SVdOQzRpY1IyWlduMm44SVNvNld4LXNmbERUTkk5MjByVGhQeVJ2NTRSNHhncDk3QjVRUlVSSHBnSmhFelpHWTRmMElMRE5DeHJSeE5nZzd5UlhyTTBIMWtmUjVreXhHQnpZdTZEQ21TaVkwRllPcmhUaTRocWJvaXNNWUFrdmV0Z0JDckE?oc=5",
      "src": "NDTV Profit",
      "time": "2026-11-09T02:53:33+00:00"
-    },
-    {
-     "label": "Broker upgrade",
-     "title": "Tata Steel, Hindalco, Power Grid shares upgraded to 'Buy'; brokerage raises target prices",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVFY5SkRwVExpbU5rMzFtSGNPM0p0WDhVVHBHck52cXlhU3gwQVFTTnQzSzFlOHJZX1JxVDVOMGF4VlRYRk5tcW8zRzI1NHBOMG9CT01qZHFmODhPOVZVa1c4SHhjSEhVT3ZXam5vM0dmbWNURWlKdlRXVXN1TzQxZTJoZ1dXcFF1ZTVTcGg1aDBJRXc1SnEzRWVQOXY5VTZCM3I5Q0VJQ04xMnhkY010Q0poak1kREQ2UXN4ZEp6OS1KMVJZanozM3dtR1V2WTROUkRqQ01nZDkyRTBKZEtKSVpvMVZSVGs?oc=5",
-     "src": "Business Today",
-     "time": "2026-11-08T07:48:30+00:00"
     },
     {
      "label": "Broker downgrade",
@@ -47,10 +78,10 @@
    "close": 960.0,
    "close_date": "2026-11-09",
    "layers": {
-    "news": 2.09,
+    "news": 0.76,
     "sector": 0.72,
     "technical": 2,
-    "relative": -0.5,
+    "relative": -0.25,
     "flow": 0.0,
     "market": 0.4
    },
@@ -60,65 +91,13 @@
    ],
    "agree": 4,
    "dir": "UP",
-   "confidence": "High"
-  },
-  {
-   "sym": "TATASTEEL",
-   "sector": "METALS",
-   "net": 3.94,
-   "event_score": 1.92,
-   "sector_score": 0.72,
-   "sources": 2,
-   "reasons": [
-    {
-     "label": "Strong results / margins",
-     "title": "Tata Steel shares jump 3% after Q2 profit rises 16% YoY. Should you buy, sell or hold?",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMy0tWGw5VG5FNVg4Sjl3UVJURGkyaDM1M290MF9WN1NQT3R4U1dKZUdENTFMZFlXUjMzZ1FLbHhQa0szQ3Nra1NaWjVYZ3lGVGZwMFRlT0pUNmZOeE4teV82cU9aNzhrYUR3NGZoVnZ1SG1ubWZrR0E4Wnc2WlRLcTdPYXoyVThLYlVpc1g4TWdmVXpCVGFjYi04WEpUS3IydVNScm16RVNyUjhYQVRwVXo1eWZKWmU5bFZFQjdjVV96RzAxNmRBVkFRSXp4OXdCWEpWX1NSbkh6QjFLV2c4ZTJ3RHhETFM3VExF0gHwAUFVX3lxTE45MFUyYjlxUnpaOURIcGtBRnJ5LUFEU0JudVdTdE9wa3lELU5UWlU5aXBwRjhUdjNLN3dnREFzQUFOekR3OWRzeFFUd0NYdS1feXpfamN5VFFfSmcxQUwtbjJBckU3dlNOQ2hsbzVsX3h4b2tVMzZBNHR0X1FkZVBnYXd0SVFVTXNFV0tMS1lPZnZJU3lDbG15VnZVZ2ZSUEJWZVZxekIyMDlDTmJlbTZkemp6emRXNlpKQ0hlSHl1dnpJei1zcGh5TkRDSzhIcDVmYkhiUzlaNTk1U19YU0JZUWd3VVhlSjFmU19ZSXRGaw?oc=5",
-     "src": "The Economic Times",
-     "time": "2026-11-08T09:46:25+00:00"
-    },
-    {
-     "label": "Broker upgrade",
-     "title": "Tata Steel, Hindalco, Power Grid shares upgraded to 'Buy'; brokerage raises target prices",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVFY5SkRwVExpbU5rMzFtSGNPM0p0WDhVVHBHck52cXlhU3gwQVFTTnQzSzFlOHJZX1JxVDVOMGF4VlRYRk5tcW8zRzI1NHBOMG9CT01qZHFmODhPOVZVa1c4SHhjSEhVT3ZXam5vM0dmbWNURWlKdlRXVXN1TzQxZTJoZ1dXcFF1ZTVTcGg1aDBJRXc1SnEzRWVQOXY5VTZCM3I5Q0VJQ04xMnhkY010Q0poak1kREQ2UXN4ZEp6OS1KMVJZanozM3dtR1V2WTROUkRqQ01nZDkyRTBKZEtKSVpvMVZSVGs?oc=5",
-     "src": "Business Today",
-     "time": "2026-11-08T07:48:30+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "Steel import duties",
-     "title": "DGTR proposes anti-dumping duty of up to $565 on rubber glove imports",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ3pNaFI0SEZtckpRZ05YcHdaWkk4TkFiMjNaaDdiVW5UU1plYjJpd2xTY2xLbFR5RFo2cldXWXRMVkVuZ0lGX0xQdDZXQnhuSU5Mblo5V3VPcWhYYjdoZFNaYlEyTXNSRWJQT3JvNURFS1YxWVJleEpPLTRpR2EzZ0dIYmRFbXIweU9GVVNxdWpWV0xZZmFJTHJDRXg5WEhVdUFpSlY3YUltZlFyTG01SHRGVDRJX3NXQ1hnN0QzeU9hTjlUcXZhTHcwdURxVUlLdEHSAdcBQVVfeXFMT25FQjluMUNQbHJBWmpBeTh1cGs5dUQtRktCTlFxNDFGTlNKVS1ua2tfNm4wMVpVVVdtQm9xZXdxakY3V2szTDlGZHRsT3llYkJiNEliUnY1b25tYkExOHRZbDFhVFg1TFh6eDZOcDVxNWdrMklFTW9makUzRF9wWWpxbzdURThSV0trNXVZMzRYZDB6akZ2V2xNMlRBQmNlR0NfMUUyVXR3RTJtS1llY2NDakMyZ1lVVndjZnZwTTk3MGpsMzdsRkEzNU9HVU1mLWJSb1NTb28?oc=5",
-     "src": "Business Standard",
-     "time": "2026-11-09T08:42:12+00:00"
-    }
-   ],
-   "today_chg": -0.78,
-   "two_day_chg": 1.57,
-   "vol_ratio": 2.23,
-   "close": 184.85,
-   "close_date": "2026-11-09",
-   "layers": {
-    "news": 1.92,
-    "sector": 0.72,
-    "technical": 1.4,
-    "relative": -0.5,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)"
-   ],
-   "agree": 4,
-   "dir": "UP",
-   "confidence": "High"
+   "confidence": "Medium"
   },
   {
    "sym": "ULTRACEMCO",
    "sector": "INFRA",
-   "net": 3.75,
-   "event_score": 2.48,
+   "net": 3.38,
+   "event_score": 1.82,
    "sector_score": 0.0,
    "sources": 1,
    "reasons": [
@@ -144,10 +123,10 @@
    "close": 12275.0,
    "close_date": "2026-11-09",
    "layers": {
-    "news": 2.48,
+    "news": 1.82,
     "sector": 0.0,
     "technical": 1.0,
-    "relative": -0.13,
+    "relative": 0.16,
     "flow": 0.0,
     "market": 0.4
    },
@@ -155,7 +134,7 @@
     "uptrend (above 20 and 50-day averages)",
     "RSI 84, overbought"
    ],
-   "agree": 3,
+   "agree": 4,
    "dir": "UP",
    "confidence": "Medium"
   }
@@ -171,18 +150,18 @@
    "reasons": [],
    "sector_reasons": [
     {
-     "label": "Rupee strengthening",
-     "title": "Rupee gains 24 paise to 93.74 against US dollar as crude oil prices ease",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXpZZVZ3Z2NGZDkyQVB6ZDFIZkJIX0lsSjFyVEVJbEhScW4tV1lmX2RCNkxFNWFtRHlGczZnanhETGViLWVydFNvdC1Tc1M1cS01a0lNczNlU1BLcFFrczEyRW5xSUFjWTdodV93SEExOS1PMnVyNHNLSjV3VGMzaWE4Um1JOW5Kc1NKWEoteEw5UzdZV0Y1d2VsaFFiUWY4eG1Tb0lTOWt3ejV2ZUZOQnN6S1duZ9IBwwFBVV95cUxOQjdLZWdRZGhPMGgtWDFyVW5LZ09YZEV2a2V1VnRqbzR5d3FYSmZzRE1INlR3MGVYSmVfYXgyUGlSRFFsMk11UlpDWEZzZmN1cEJuS253bDdUejgzMUlCd01oNUQ4TEZ0bVE3TTM4LUY3aEF4cUdhZ3lOdjRqaUxaeDN0Q2MzUzBmYTJaV2hiOUxoS1lBNzJId1hpWUNUZW8yTDVFYVpqaTFOaG5HZ3l6REQ3RVRjRl9WQWQ1SEJRd1dQdTQ?oc=5",
-     "src": "PSU Watch",
-     "time": "2026-11-09T06:03:11+00:00"
+     "label": "Fed tightening / yields up",
+     "title": "Deutsche Bank expects Fed rate hike in January 2027 after hot inflation data - Euronext Markets: Real-time Stock Market Data | live",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlU4QzdMM0txWlN6OWZYR3Q0Z3VSeV94azhFVGQwMUVWOG1QZ21abHJXYUtuYTBLLXdMM1YwaDFQMS11UDhnUUFPQXQzc1hDMlYzQXc5a18tbm9xVktBVWE0NG5oeUJEZTBqUl90X0tGdmVMQ2d4RV9DbTJpNzI4emxFdFp4VHVNdnpGb1ktcHNjOXVlV2JoRGNRUjNRVlc1NzM1UXBDWmg2SnVMamVELWdLRGU1dFF0?oc=5",
+     "src": "Euronext Markets: Real-time Stock Market Data | live",
+     "time": "2026-11-10T16:40:38+00:00"
     },
     {
-     "label": "Fed tightening / yields up",
-     "title": "Stock markets trade marginally higher after US Fed rate hike; NSE IPO in focus",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjhEMjNJeEx2ckRNZnFTcEFOSFpQTjhwY21Pc0dEOGJ3dGNBVk5UZjkwYzBNbVFyNVpKUjBjNFAxa2E2ZlZ1SU9KcnlnaWM0ZTRkVVpDaXphaGJDMjUzNjB6YWpCR29yWjl3U2xjMUhhbk45MkxWaWMzTmN4RFBaSFM3SFhydzhxS05kT095dG9fVWQzc1ZCNllVZXFqWDhzVkwxajF3?oc=5",
-     "src": "DD News",
-     "time": "2026-11-09T13:34:55+00:00"
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdTdxaGhGME9EekFOUmZQN25WY0dWUE45d2JqSG96R09BZDlaWTEzV1UtdXI4S3pLR3VVQlpTeWhJTngzWXB6SEFtVGNtY1lCNlA5bGJjd2Mwc3E5T3BiQXJlLWl0d1ZNN1lYcjVYX0ZhT2lFWUY2MjB4bk1vWmotMkxrQURGOWVJc0FkaGdmN0xNZWd2ZFZYMURIdzdwZ0xWYjVtUEVoOHRXQW0yUUN6ellmMjBVeGpsNFVvenNPVFJEX0lBaUlj0gHHAUFVX3lxTE51N3FoaEYwT0R6QU5SZlA3blZjR1ZQTjl3YmpIb3pHT0FkOVpZMTNXVS11cjhLektHdVVCWlN5aElOeDNZcHpIQW1UY21jWUI2UDlsYmN3YzBzcTlPcGJBcmUtaXR3Vk03WVhyNVhfRmFPaUVZRjYyMHhuTW9aai0yTGtBREY5ZUlzQWRoZ2Y3TE1lZ3ZkVlgxREh3N3BnTFZiNW1QRWg4dFdBbTJRQ3p6WWYyMFV4amw0VW96c09UUkRfSUFpSWM?oc=5",
+     "src": "The Hindu",
+     "time": "2026-11-09T04:46:53+00:00"
     }
    ],
    "today_chg": -2.58,
@@ -213,18 +192,18 @@
    "reasons": [],
    "sector_reasons": [
     {
-     "label": "Rupee strengthening",
-     "title": "Rupee gains 24 paise to 93.74 against US dollar as crude oil prices ease",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXpZZVZ3Z2NGZDkyQVB6ZDFIZkJIX0lsSjFyVEVJbEhScW4tV1lmX2RCNkxFNWFtRHlGczZnanhETGViLWVydFNvdC1Tc1M1cS01a0lNczNlU1BLcFFrczEyRW5xSUFjWTdodV93SEExOS1PMnVyNHNLSjV3VGMzaWE4Um1JOW5Kc1NKWEoteEw5UzdZV0Y1d2VsaFFiUWY4eG1Tb0lTOWt3ejV2ZUZOQnN6S1duZ9IBwwFBVV95cUxOQjdLZWdRZGhPMGgtWDFyVW5LZ09YZEV2a2V1VnRqbzR5d3FYSmZzRE1INlR3MGVYSmVfYXgyUGlSRFFsMk11UlpDWEZzZmN1cEJuS253bDdUejgzMUlCd01oNUQ4TEZ0bVE3TTM4LUY3aEF4cUdhZ3lOdjRqaUxaeDN0Q2MzUzBmYTJaV2hiOUxoS1lBNzJId1hpWUNUZW8yTDVFYVpqaTFOaG5HZ3l6REQ3RVRjRl9WQWQ1SEJRd1dQdTQ?oc=5",
-     "src": "PSU Watch",
-     "time": "2026-11-09T06:03:11+00:00"
+     "label": "Fed tightening / yields up",
+     "title": "Deutsche Bank expects Fed rate hike in January 2027 after hot inflation data - Euronext Markets: Real-time Stock Market Data | live",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlU4QzdMM0txWlN6OWZYR3Q0Z3VSeV94azhFVGQwMUVWOG1QZ21abHJXYUtuYTBLLXdMM1YwaDFQMS11UDhnUUFPQXQzc1hDMlYzQXc5a18tbm9xVktBVWE0NG5oeUJEZTBqUl90X0tGdmVMQ2d4RV9DbTJpNzI4emxFdFp4VHVNdnpGb1ktcHNjOXVlV2JoRGNRUjNRVlc1NzM1UXBDWmg2SnVMamVELWdLRGU1dFF0?oc=5",
+     "src": "Euronext Markets: Real-time Stock Market Data | live",
+     "time": "2026-11-10T16:40:38+00:00"
     },
     {
-     "label": "Fed tightening / yields up",
-     "title": "Stock markets trade marginally higher after US Fed rate hike; NSE IPO in focus",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjhEMjNJeEx2ckRNZnFTcEFOSFpQTjhwY21Pc0dEOGJ3dGNBVk5UZjkwYzBNbVFyNVpKUjBjNFAxa2E2ZlZ1SU9KcnlnaWM0ZTRkVVpDaXphaGJDMjUzNjB6YWpCR29yWjl3U2xjMUhhbk45MkxWaWMzTmN4RFBaSFM3SFhydzhxS05kT095dG9fVWQzc1ZCNllVZXFqWDhzVkwxajF3?oc=5",
-     "src": "DD News",
-     "time": "2026-11-09T13:34:55+00:00"
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdTdxaGhGME9EekFOUmZQN25WY0dWUE45d2JqSG96R09BZDlaWTEzV1UtdXI4S3pLR3VVQlpTeWhJTngzWXB6SEFtVGNtY1lCNlA5bGJjd2Mwc3E5T3BiQXJlLWl0d1ZNN1lYcjVYX0ZhT2lFWUY2MjB4bk1vWmotMkxrQURGOWVJc0FkaGdmN0xNZWd2ZFZYMURIdzdwZ0xWYjVtUEVoOHRXQW0yUUN6ellmMjBVeGpsNFVvenNPVFJEX0lBaUlj0gHHAUFVX3lxTE51N3FoaEYwT0R6QU5SZlA3blZjR1ZQTjl3YmpIb3pHT0FkOVpZMTNXVS11cjhLektHdVVCWlN5aElOeDNZcHpIQW1UY21jWUI2UDlsYmN3YzBzcTlPcGJBcmUtaXR3Vk03WVhyNVhfRmFPaUVZRjYyMHhuTW9aai0yTGtBREY5ZUlzQWRoZ2Y3TE1lZ3ZkVlgxREh3N3BnTFZiNW1QRWg4dFdBbTJRQ3p6WWYyMFV4amw0VW96c09UUkRfSUFpSWM?oc=5",
+     "src": "The Hindu",
+     "time": "2026-11-09T04:46:53+00:00"
     }
    ],
    "today_chg": -1.4,
@@ -248,36 +227,45 @@
    "confidence": "Weak signal"
   },
   {
-   "sym": "DABUR",
-   "sector": "FMCG",
-   "net": -1.38,
-   "event_score": -1.35,
-   "sector_score": 0.0,
-   "sources": 1,
-   "reasons": [
+   "sym": "HCLTECH",
+   "sector": "IT",
+   "net": -1.28,
+   "event_score": 0.0,
+   "sector_score": -1.6,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
     {
-     "label": "USFDA / plant issue",
-     "title": "Dabur shares fall 2% as SEBI flags delay in disclosure of USFDA warning letter",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTllrYzYyRld3cDE0OXJwbVlLMmtlM1NmcUNfM1EwcEJyUW12OEstN05OSU1KWFBDT3I3Mjk4SURtYl9ZSE96dWI2M01BRHl3ZDVldUhoU1J0NHhEYVR6NjVDa1JXLVp2UzJ5Q29tTmxuSHlMWi1tYjFCTFlhUURvQTVtYkZlczN0Y0c0NjJoQ2s2T1hzcEQzNVJwQi1tcUFseGxSRkYxTHBzZTZsbEdzbVNDNTVSeUpIcXM4YnBtWVYwWDdQemxwUHRiWUZaWDlQYzFabDd5YnVDalNCaWfSAeMBQVVfeXFMTXlMdWhlX1BnUVhrOHhkQ2ZXQS13VUtrYTZ1anU1dEUxV3lJZEVjUl9GRFpRTG9fNkdIODROQXNmaXpGQS1JT1VhMFh3YU5KcEFPd194U2NkdjVKV0ppYTRVY09KVDl6N0hwSzVRX0k5ZWw2VXVIOGxfRE03NFVqV21HX211NVl6a0EtaUt0V296enhaSHRaTnh3NzJ1bjdGZFhzY2xUdWJLUkRIWG9WaFNGcWVjLWtrYkxyUHBGZE5JNGJjdmxXTWZib1FwX252cmRYZWRKaXNfSFpTc2tXR0FJTEk?oc=5",
-     "src": "Business Today",
-     "time": "2026-11-09T04:08:45+00:00"
+     "label": "Fed tightening / yields up",
+     "title": "Deutsche Bank expects Fed rate hike in January 2027 after hot inflation data - Euronext Markets: Real-time Stock Market Data | live",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlU4QzdMM0txWlN6OWZYR3Q0Z3VSeV94azhFVGQwMUVWOG1QZ21abHJXYUtuYTBLLXdMM1YwaDFQMS11UDhnUUFPQXQzc1hDMlYzQXc5a18tbm9xVktBVWE0NG5oeUJEZTBqUl90X0tGdmVMQ2d4RV9DbTJpNzI4emxFdFp4VHVNdnpGb1ktcHNjOXVlV2JoRGNRUjNRVlc1NzM1UXBDWmg2SnVMamVELWdLRGU1dFF0?oc=5",
+     "src": "Euronext Markets: Real-time Stock Market Data | live",
+     "time": "2026-11-10T16:40:38+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdTdxaGhGME9EekFOUmZQN25WY0dWUE45d2JqSG96R09BZDlaWTEzV1UtdXI4S3pLR3VVQlpTeWhJTngzWXB6SEFtVGNtY1lCNlA5bGJjd2Mwc3E5T3BiQXJlLWl0d1ZNN1lYcjVYX0ZhT2lFWUY2MjB4bk1vWmotMkxrQURGOWVJc0FkaGdmN0xNZWd2ZFZYMURIdzdwZ0xWYjVtUEVoOHRXQW0yUUN6ellmMjBVeGpsNFVvenNPVFJEX0lBaUlj0gHHAUFVX3lxTE51N3FoaEYwT0R6QU5SZlA3blZjR1ZQTjl3YmpIb3pHT0FkOVpZMTNXVS11cjhLektHdVVCWlN5aElOeDNZcHpIQW1UY21jWUI2UDlsYmN3YzBzcTlPcGJBcmUtaXR3Vk03WVhyNVhfRmFPaUVZRjYyMHhuTW9aai0yTGtBREY5ZUlzQWRoZ2Y3TE1lZ3ZkVlgxREh3N3BnTFZiNW1QRWg4dFdBbTJRQ3p6WWYyMFV4amw0VW96c09UUkRfSUFpSWM?oc=5",
+     "src": "The Hindu",
+     "time": "2026-11-09T04:46:53+00:00"
     }
    ],
-   "sector_reasons": [],
-   "today_chg": -1.34,
-   "two_day_chg": -2.53,
-   "vol_ratio": 1.22,
-   "close": 375.25,
+   "today_chg": -2.29,
+   "two_day_chg": -1.64,
+   "vol_ratio": 0.79,
+   "close": 1407.0,
    "close_date": "2026-11-09",
    "layers": {
-    "news": -1.35,
-    "sector": 0.0,
-    "technical": 0.07,
+    "news": 0.0,
+    "sector": -1.6,
+    "technical": 0.42,
     "relative": -0.5,
     "flow": 0.0,
     "market": 0.4
    },
-   "tech_notes": [],
+   "tech_notes": [
+    "uptrend (above 20 and 50-day averages)"
+   ],
    "agree": 2,
    "dir": "DOWN",
    "confidence": "Weak signal"
@@ -316,6 +304,48 @@
   }
  },
  "recent": [
+  {
+   "date": "2026-11-11",
+   "sym": "HCLTECH",
+   "dir": "DOWN",
+   "net": -1.28,
+   "confidence": "Weak signal"
+  },
+  {
+   "date": "2026-11-11",
+   "sym": "COFORGE",
+   "dir": "DOWN",
+   "net": -1.4,
+   "confidence": "Weak signal"
+  },
+  {
+   "date": "2026-11-11",
+   "sym": "MPHASIS",
+   "dir": "DOWN",
+   "net": -2.3,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-11",
+   "sym": "ULTRACEMCO",
+   "dir": "UP",
+   "net": 3.38,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-11",
+   "sym": "HINDALCO",
+   "dir": "UP",
+   "net": 3.63,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-11",
+   "sym": "MUTHOOTFIN",
+   "dir": "UP",
+   "net": 3.7,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-11-10",
    "sym": "DABUR",
@@ -418,89 +448,21 @@
     "chg": 1.5,
     "hit": false
    }
-  },
-  {
-   "date": "2026-11-06",
-   "sym": "LUPIN",
-   "dir": "DOWN",
-   "net": -2.31,
-   "confidence": "Low",
-   "result": {
-    "next_date": "2026-11-09",
-    "chg": 1.86,
-    "hit": false
-   }
-  },
-  {
-   "date": "2026-11-06",
-   "sym": "BAJAJFINSV",
-   "dir": "UP",
-   "net": 3.12,
-   "confidence": "Medium",
-   "result": {
-    "next_date": "2026-11-09",
-    "chg": -1.49,
-    "hit": false
-   }
-  },
-  {
-   "date": "2026-11-06",
-   "sym": "BHARTIARTL",
-   "dir": "UP",
-   "net": 3.18,
-   "confidence": "Medium",
-   "result": {
-    "next_date": "2026-11-09",
-    "chg": -1.67,
-    "hit": false
-   }
-  },
-  {
-   "date": "2026-11-06",
-   "sym": "HAL",
-   "dir": "UP",
-   "net": 4.46,
-   "confidence": "Medium",
-   "result": {
-    "next_date": "2026-11-09",
-    "chg": 0.38,
-    "hit": true
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "sym": "LUPIN",
-   "dir": "DOWN",
-   "net": -1.42,
-   "confidence": "Weak signal",
-   "result": {
-    "next_date": "2026-11-06",
-    "chg": 0.01,
-    "hit": false
-   }
-  },
-  {
-   "date": "2026-11-05",
-   "sym": "TECHM",
-   "dir": "DOWN",
-   "net": -1.45,
-   "confidence": "Weak signal",
-   "result": {
-    "next_date": "2026-11-06",
-    "chg": 0.46,
-    "hit": false
-   }
   }
  ],
  "scanned": 111,
  "market_regime": 1,
  "sector_effects": {
+  "OMC": 0.6,
+  "PAINT": 0.6,
+  "AVIATION": 0.6,
+  "UPSTREAM": -0.6,
   "DEFENCE": 1.28,
   "IT": -2.0,
-  "PHARMA": -0.96,
   "NEWAGE": -1.12,
+  "PHARMA": -0.96,
   "METALS": 0.9,
-  "REALTY": -0.9,
-  "AUTO": -0.9
+  "REALTY": -1.44,
+  "AUTO": -1.4
  }
 }

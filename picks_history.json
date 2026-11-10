@@ -803,5 +803,47 @@
   "dir": "DOWN",
   "net": -1.38,
   "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "MUTHOOTFIN",
+  "dir": "UP",
+  "net": 3.7,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "HINDALCO",
+  "dir": "UP",
+  "net": 3.63,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "ULTRACEMCO",
+  "dir": "UP",
+  "net": 3.38,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "MPHASIS",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "COFORGE",
+  "dir": "DOWN",
+  "net": -1.4,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-11",
+  "sym": "HCLTECH",
+  "dir": "DOWN",
+  "net": -1.28,
+  "confidence": "Weak signal"
  }
 ]
