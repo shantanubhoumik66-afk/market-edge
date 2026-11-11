@@ -845,5 +845,47 @@
   "dir": "DOWN",
   "net": -1.28,
   "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "LT",
+  "dir": "UP",
+  "net": 3.7,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "HINDALCO",
+  "dir": "UP",
+  "net": 3.45,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 3.06,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "MPHASIS",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "COFORGE",
+  "dir": "DOWN",
+  "net": -1.4,
+  "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-12",
+  "sym": "HCLTECH",
+  "dir": "DOWN",
+  "net": -1.28,
+  "confidence": "Weak signal"
  }
 ]
