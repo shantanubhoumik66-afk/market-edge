@@ -887,5 +887,47 @@
   "dir": "DOWN",
   "net": -1.28,
   "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 4.72,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "HAL",
+  "dir": "UP",
+  "net": 4.26,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "TATASTEEL",
+  "dir": "UP",
+  "net": 3.48,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "IDEA",
+  "dir": "DOWN",
+  "net": -2.17,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "HCLTECH",
+  "dir": "DOWN",
+  "net": -1.6,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-13",
+  "sym": "ICICIBANK",
+  "dir": "DOWN",
+  "net": -0.9,
+  "confidence": "Weak signal"
  }
 ]
