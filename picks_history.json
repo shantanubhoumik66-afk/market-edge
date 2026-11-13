@@ -809,42 +809,72 @@
   "sym": "MUTHOOTFIN",
   "dir": "UP",
   "net": 3.7,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": 1.13,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-11",
   "sym": "HINDALCO",
   "dir": "UP",
   "net": 3.63,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": 0.18,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-11",
   "sym": "ULTRACEMCO",
   "dir": "UP",
   "net": 3.38,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": -0.2,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-11",
   "sym": "MPHASIS",
   "dir": "DOWN",
   "net": -2.3,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": 0.84,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-11",
   "sym": "COFORGE",
   "dir": "DOWN",
   "net": -1.4,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": 0.82,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-11",
   "sym": "HCLTECH",
   "dir": "DOWN",
   "net": -1.28,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-12",
+   "chg": -1.02,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-12",
@@ -929,5 +959,47 @@
   "dir": "DOWN",
   "net": -0.9,
   "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "SAIL",
+  "dir": "UP",
+  "net": 3.49,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 3.2,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "PFC",
+  "dir": "UP",
+  "net": 3.16,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "IDEA",
+  "dir": "DOWN",
+  "net": -3.45,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "TATAMOTORS",
+  "dir": "DOWN",
+  "net": -2.51,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-14",
+  "sym": "ITC",
+  "dir": "DOWN",
+  "net": -2.17,
+  "confidence": "Low"
  }
 ]
