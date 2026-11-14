@@ -202,6 +202,30 @@ def yt_get(url, timeout=20):
         return r.read()
 
 
+def live_video(cid):
+    """Video id of the channel's current live stream, read from its /live page. None when it is not live now."""
+    try:
+        html = yt_get("https://www.youtube.com/channel/%s/live" % cid).decode("utf-8", "ignore")
+    except Exception as e:
+        print("live page failed:", cid, str(e)[:50])
+        return None
+    m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"', html)
+    return m.group(1) if m else None
+
+
+def embeddable(vid):
+    """True / False, or None when the check itself failed (then the player is simply tried)."""
+    import urllib.error
+    url = "https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote("https://www.youtube.com/watch?v=" + vid, safe="")
+    try:
+        yt_get(url, 15)
+        return True
+    except urllib.error.HTTPError as e:
+        return False if e.code in (401, 403, 404) else None
+    except Exception:
+        return None
+
+
 def resolve_channel(handle, fallback):
     """Returns (channel id, where it came from: 'handle' or 'fallback')."""
     try:
@@ -270,7 +294,7 @@ def build_videos():
         if v["id"] in seen:
             continue
         seen.add(v["id"])
-        if per.get(v["channel"], 0) < 2:
+        if per.get(v["channel"], 0) < 2 and embeddable(v["id"]) is not False:
             picked.append(v)
             per[v["channel"]] = per.get(v["channel"], 0) + 1
     return picked[:14], ok
@@ -286,6 +310,8 @@ LIVE = [
     ("ET Now", "ETNOWlive", "", r"et now|economic times"),
     ("Zee Business", "ZeeBusiness", "", r"zee business"),
     ("CNBC International", "CNBCInternational", "", r"cnbc"),
+    ("Moneycontrol", "moneycontrol", "", r"moneycontrol"),
+    ("NDTV Profit", "NDTVProfit", "", r"ndtv profit"),
 ]
 
 
@@ -307,8 +333,13 @@ def build_live():
         if not re.search(rx, author or "", re.I):
             debug.append({"name": name, "status": "name mismatch, skipped (%s)" % (author or "empty")})
             continue
-        out.append({"name": name, "id": cid, "verified": True})
-        debug.append({"name": name, "status": "ok"})
+        vid = live_video(cid)
+        if not vid:
+            debug.append({"name": name, "status": "not live right now"})
+            continue
+        emb = embeddable(vid)
+        out.append({"name": name, "id": cid, "video_id": vid, "embeddable": emb, "verified": True})
+        debug.append({"name": name, "status": "live, " + ("plays in the app" if emb is not False else "broadcaster blocks embedding: opens on YouTube")})
         time.sleep(0.3)
     return out, debug
 

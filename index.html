@@ -331,26 +331,40 @@ function openPlayer(i){
 }
 function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
 
-let LIVE=null,liveOpen=false;
+let LIVE=null,liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false;
+const BUILTIN=[{name:'Bloomberg TV',id:'UCIALMKvObZNtJ6AmdCLP7Lg'},{name:'CNBC TV (US)',id:'UCrp_UI8XtuYfpiqluWLD7Lw'},{name:'CNBC-TV18',id:'UCmRbHAgG2k2vDUvb3xsEunQ'},
+  {name:'CNBC Awaaz',id:'UCQIycDaLsBpMKjOCeaKUYVg'},{name:'Yahoo Finance',id:'UCEAZeUIeJs0IjQiqTCdVSIg'}];
 async function loadLive(){
-  if(LIVE) return;
-  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();LIVE=(d.live||[]).slice(0,6)}catch(e){LIVE=[]}
+  if(LIVE&&LIVE.length&&!LIVE_BUILTIN) return;
+  let l=[];
+  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();l=(d.live||[]).sort((a,b)=>(a.embeddable===false)-(b.embeddable===false)).slice(0,6);LIVE_DBG=d.live_debug||[];LIVE_OLD=!('live' in d)}catch(e){LIVE_DBG=[];LIVE_OLD=false}
+  LIVE_BUILTIN=!l.length;
+  LIVE=l.length?l:BUILTIN;
 }
+function livePoster(x){return '<div style="text-align:center">▶'+(x.embeddable===false?'<div style="font-size:11px;opacity:.85">opens on YouTube</div>':'')+'</div>'}
 async function toggleLive(){await loadLive();liveOpen=!liveOpen;renderLive()}
 function renderLive(){
   const g=$('liveGrid');
   if(!liveOpen){g.style.display='none';g.innerHTML='';$('globehint').textContent='Tap the globe for live share-market news';return}
   $('globehint').textContent='Live business news. Tap a window to play with sound.';
-  if(!LIVE.length){g.style.display='block';g.innerHTML='<div class="empty">No live channels found yet. Run the global-edge workflow (or python global_edge.py) once, then refresh.</div>';return}
   g.style.display='grid';
-  g.innerHTML=LIVE.map((x,i)=>`<div class="lw"><div class="lh"><b>${esc(x.name)}</b><span class="hi">LIVE</span></div><div class="lv" id="lv${i}" onclick="playLive(${i})">▶</div><div class="lh"><a class="meta" style="color:var(--saff)" href="https://www.youtube.com/channel/${esc(x.id)}/live" target="_blank" rel="noopener">Open on YouTube</a></div></div>`).join('');
+  let note='';
+  if(LIVE_BUILTIN){
+    note='<div class="note" style="grid-column:1/-1">Showing the built-in list of business channels, because the server list is empty. These channel ids are not verified today, so check the channel name inside the player. '+
+      (LIVE_OLD?'global.json is from the old script: upload the new global_edge.py and run the global-edge workflow again.':(LIVE_DBG.length?'Server notes: '+LIVE_DBG.map(x=>esc(x.name)+': '+esc(x.status)).join(' · '):'Run the global-edge workflow to build the verified list.'))+
+      ' <button class="ref" onclick="LIVE=null;liveOpen=false;toggleLive();setTimeout(toggleLive,50)">Retry</button></div>';
+  }
+  g.innerHTML=LIVE.map((x,i)=>`<div class="lw"><div class="lh"><b>${esc(x.name)}</b><span class="hi">LIVE</span></div><div class="lv" id="lv${i}" onclick="playLive(${i})">${livePoster(x)}</div><div class="lh"><a class="meta" style="color:var(--saff)" href="https://www.youtube.com/channel/${esc(x.id)}/live" target="_blank" rel="noopener">Open on YouTube</a></div></div>`).join('')+note;
 }
 function playLive(i){
   if(!LIVE||!LIVE[i]) return;
-  LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e&&k!==i)e.innerHTML='▶'});
-  $('lv'+i).innerHTML='<iframe src="https://www.youtube.com/embed/live_stream?channel='+encodeURIComponent(LIVE[i].id)+'&autoplay=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+  const x=LIVE[i];
+  if(x.embeddable===false){window.open(x.video_id?'https://www.youtube.com/watch?v='+x.video_id:'https://www.youtube.com/channel/'+x.id+'/live','_blank');return}
+  LIVE.forEach((y,k)=>{const e=$('lv'+k);if(e&&k!==i)e.innerHTML=livePoster(y)});
+  const src=x.video_id?'https://www.youtube.com/embed/'+encodeURIComponent(x.video_id)+'?autoplay=1&playsinline=1&rel=0':'https://www.youtube.com/embed/live_stream?channel='+encodeURIComponent(x.id)+'&autoplay=1&playsinline=1&rel=0';
+  $('lv'+i).innerHTML='<iframe src="'+src+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
 }
-function stopLive(){if(!LIVE)return;LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML='▶'})}
+function stopLive(){if(!LIVE)return;LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML=livePoster(x)})}
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
 </script>
 </body>
