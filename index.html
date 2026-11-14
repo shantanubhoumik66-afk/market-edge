@@ -332,6 +332,7 @@ function openPlayer(i){
 }
 function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
 
+let LIVE_FAIL={};
 let LIVE=null,liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false,SOUND=-1;
 const MAXLIVE=8;
 const BUILTIN=[{name:'Bloomberg TV',id:'UCIALMKvObZNtJ6AmdCLP7Lg'},{name:'CNBC TV (US)',id:'UCrp_UI8XtuYfpiqluWLD7Lw'},{name:'CNBC-TV18',id:'UCmRbHAgG2k2vDUvb3xsEunQ'},
@@ -366,8 +367,8 @@ function renderLive(){
   const g=$('liveGrid');
   if(!liveOpen){g.style.display='none';g.innerHTML='';$('globehint').textContent='Tap the globe for live share-market news';return}
   $('globehint').textContent='All live windows play muted. Tap "Tap for sound" under one window to hear it.';
-  g.style.display='grid';SOUND=-1;
-  let note='<div class="note" style="grid-column:1/-1">'+LIVE.length+' live business channels playing together, muted. This uses a lot of mobile data and battery. <button class="ref" onclick="stopLive()">⏸ Stop all</button> <button class="ref" onclick="renderLive()">▶ Play all</button></div>';
+  g.style.display='grid';SOUND=-1;LIVE_FAIL={};
+  let note='<div class="note" id="failnote" style="grid-column:1/-1;display:none"></div><div class="note" style="grid-column:1/-1">'+LIVE.length+' live business channels playing together, muted. This uses a lot of mobile data and battery. <button class="ref" onclick="stopLive()">⏸ Stop all</button> <button class="ref" onclick="renderLive()">▶ Play all</button></div>';
   if(!LIVE_BUILTIN&&LIVE.some(x=>x.extra)){
     note+='<div class="note" style="grid-column:1/-1">Windows marked unverified come from the built-in list, added to reach 6 windows. Check the channel name inside the player.</div>';
   }
@@ -378,8 +379,8 @@ function renderLive(){
   }
   g.innerHTML=note+LIVE.map((x,i)=>{
     const blocked=x.embeddable===false, yt=x.video_id?'https://www.youtube.com/watch?v='+esc(x.video_id):'https://www.youtube.com/channel/'+esc(x.id)+'/live';
-    return `<div class="lw"><div class="lh"><b>${esc(x.name)}</b>${x.extra?'<span class="hi md">unverified</span>':'<span class="hi">LIVE</span>'}</div><div class="lv" id="lv${i}" ${blocked?`onclick="window.open('${yt}','_blank')"`:`onclick="startOne(${i})"`}>${blocked?livePoster(x):liveFrame(x,i)}</div>
-      <div class="lh">${blocked?`<a class="meta" style="color:var(--saff)" href="${yt}" target="_blank" rel="noopener">Open on YouTube (sound)</a>`:`<button class="snd" id="snd${i}" onclick="toggleSound(${i})">🔇 Tap for sound</button>`}</div></div>`}).join('');
+    return `<div class="lw" id="lw${i}"><div class="lh"><b>${esc(x.name)}</b>${x.extra?'<span class="hi md">unverified</span>':'<span class="hi">LIVE</span>'}</div><div class="lv" id="lv${i}" ${blocked?`onclick="window.open('${yt}','_blank')"`:`onclick="startOne(${i})"`}>${blocked?livePoster(x):liveFrame(x,i)}</div>
+      <div class="lh" id="ft${i}">${blocked?`<a class="meta" style="color:var(--saff)" href="${yt}" target="_blank" rel="noopener">Open on YouTube (sound)</a>`:`<button class="snd" id="snd${i}" onclick="toggleSound(${i})">🔇 Tap for sound</button>`}</div></div>`}).join('');
 }
 function stopLive(){
   if(!LIVE)return;
@@ -387,6 +388,25 @@ function stopLive(){
   LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML=livePoster(x)});
   updateSnd();
 }
+
+function liveFailed(k){
+  if(!LIVE||!LIVE[k]||LIVE_FAIL[k])return;
+  LIVE_FAIL[k]=true;
+  const x=LIVE[k],yt=x.video_id?'https://www.youtube.com/watch?v='+x.video_id:'https://www.youtube.com/channel/'+x.id+'/live';
+  if(x.extra){const c=$('lw'+k);if(c)c.style.display='none'}
+  else{
+    const e=$('lv'+k);if(e){e.innerHTML='<div style="font-size:12px;padding:8px;text-align:center">Cannot play inside the app.<br>Tap to open on YouTube</div>';e.onclick=()=>window.open(yt,'_blank')}
+    const f=$('ft'+k);if(f)f.innerHTML='<a class="meta" style="color:var(--saff)" href="'+yt+'" target="_blank" rel="noopener">Open on YouTube (sound)</a>';
+  }
+  const names=Object.keys(LIVE_FAIL).map(i=>LIVE[i].name);
+  const n=$('failnote');
+  if(n){n.style.display='block';n.innerHTML=names.length+' window'+(names.length>1?'s':'')+' could not play here ('+names.map(esc).join(', ')+'). Unverified ones were hidden. Many broadcasters block live embedding or are not streaming right now.'}
+}
+if(window.addEventListener)window.addEventListener('message',ev=>{
+  if(typeof ev.data!=='string'||!/youtube/.test(ev.origin||''))return;
+  let d;try{d=JSON.parse(ev.data)}catch(e){return}
+  if(d&&d.event==='onError'&&d.id!==undefined)liveFailed(Number(d.id));
+});
 function startOne(i){const e=$('lv'+i);if(e&&LIVE&&LIVE[i]&&LIVE[i].embeddable!==false&&!e.querySelector('iframe'))e.innerHTML=liveFrame(LIVE[i],i)}
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
 </script>

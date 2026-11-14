@@ -210,7 +210,12 @@ def live_video(cid):
         print("live page failed:", cid, str(e)[:50])
         return None
     m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"', html)
-    return m.group(1) if m else None
+    if not m:
+        return None
+    live_now = '"isLiveNow":true' in html or '"isLive":true' in html
+    if '"isUpcoming":true' in html and not live_now:   # a scheduled stream that has not started: not live
+        return None
+    return m.group(1)
 
 
 def embeddable(vid):
