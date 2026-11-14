@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T10:04:59.463293+00:00",
+ "generated": "2026-11-14T14:18:37.064951+00:00",
  "bias": {
   "score": -4.72,
   "label": "Risk-off for India",
@@ -55,7 +55,7 @@
    "flag": "🇺🇸",
    "title": "Fed on Track to Raise Interest Rates Next Month And Maybe Again in January",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeXJmalVqcjF1WEgxXzRyZ2hNRTRMWXdCWGdpblhnaGwxY0ZDeFIwYTVnWENtQ2U2NFg3YkpUS21EdkNHaXlwVlVicGxWd2RJZnJqOXlySXJfZzdscXlqRFNJSkswUjZ0ZjFINC11aU9GMWdrMGR6SzdfYUlkN3pGaDZZci1NbnkxWmtoZ1lNa3E2MmxDcnFqRnN0MWpwUURLT05odHBpdVlhNXRjNUJOd3JGcnNCYzd6bjVqWQ?oc=5",
-   "src": "Bloomberg.com",
+   "src": "Bloomberg",
    "time": "2026-11-13T19:55:01+00:00",
    "level": "Medium",
    "score": 1.28,
@@ -63,7 +63,7 @@
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "Bloomberg.com"
+    "Bloomberg"
    ],
    "sectors": [
     {
@@ -147,39 +147,75 @@
  ],
  "videos": [
   {
-   "id": "bAFpjvR96GE",
-   "title": "HAD A LONG CALL WITH TRUMP: PM Mark Carney Sets Red Line For US Canada Trade Deal | Tariff War |N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-14T07:30:09+00:00",
-   "thumb": "https://i.ytimg.com/vi/bAFpjvR96GE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=bAFpjvR96GE",
-   "business": true
-  },
-  {
-   "id": "6HURMPTQ4Jk",
-   "title": "ASEAN SECURITY SUMMIT 2026: Philippines Sends Veiled Warning to China In Manila | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-14T07:19:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/6HURMPTQ4Jk/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=6HURMPTQ4Jk",
-   "business": true
-  },
-  {
-   "id": "2mIthc2y8jo",
-   "title": "INS CHILKA POP LIVE HIGHLIGHTS: Indian Navy Passing Out Parade at Chilka, Odisha | Full Ceremony",
-   "channel": "Moneycontrol",
-   "published": "2026-11-14T05:27:44+00:00",
-   "thumb": "https://i.ytimg.com/vi/2mIthc2y8jo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=2mIthc2y8jo",
-   "business": true
-  },
-  {
-   "id": "5jw4WtsMQqU",
-   "title": "Wall Street Week | Nvidia Shakeup, Midwest Stadium Bids, Care Work Gap, India’s Wedding Economy",
+   "id": "kohmZZntrZ4",
+   "title": "Trump Heads to China for Talks With Xi and Putin",
    "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-14T04:52:46+00:00",
-   "thumb": "https://i.ytimg.com/vi/5jw4WtsMQqU/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=5jw4WtsMQqU",
+   "published": "2026-11-14T14:10:19+00:00",
+   "thumb": "https://i.ytimg.com/vi/kohmZZntrZ4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=kohmZZntrZ4",
+   "business": true
+  },
+  {
+   "id": "CIjvpmKbcwQ",
+   "title": "Yahoo CEO: The first thing every AI agent asks is to be let into your email | Invest 2026",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-14T14:00:00+00:00",
+   "thumb": "https://i.ytimg.com/vi/CIjvpmKbcwQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=CIjvpmKbcwQ",
+   "business": true
+  },
+  {
+   "id": "o1_zGbhyOR0",
+   "title": "Inflation At 2-Year High: CPI Hits 6.09%, Food Inflation Surges To 8.51% | Indianomics",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-14T12:00:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/o1_zGbhyOR0/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=o1_zGbhyOR0",
+   "business": true
+  },
+  {
+   "id": "c85JaI200j8",
+   "title": "South China Sea Showdown: Philippines Drops Bombshell On 77% China Code Of Conduct Deal | ASEAN 2026",
+   "channel": "Moneycontrol",
+   "published": "2026-11-14T11:00:26+00:00",
+   "thumb": "https://i.ytimg.com/vi/c85JaI200j8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=c85JaI200j8",
+   "business": true
+  },
+  {
+   "id": "Qmc2vkHGVsM",
+   "title": "Why aren't new parents getting better feeding support? | Behind The Investigation",
+   "channel": "BBC News",
+   "published": "2026-11-14T11:00:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/Qmc2vkHGVsM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=Qmc2vkHGVsM",
+   "business": false
+  },
+  {
+   "id": "TEsz-xZM42g",
+   "title": "RAHUL GANDHI LIVE AT BHARAT Summit 2026 Hyderabad: Big Global Policy & India Warning | Breaking News",
+   "channel": "Moneycontrol",
+   "published": "2026-11-14T10:45:40+00:00",
+   "thumb": "https://i.ytimg.com/vi/TEsz-xZM42g/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=TEsz-xZM42g",
+   "business": true
+  },
+  {
+   "id": "eeHZp-UGzbk",
+   "title": "How Trump's threats and tariffs are bringing Canada and the EU closer | Focus on Europe",
+   "channel": "DW News",
+   "published": "2026-11-14T10:21:34+00:00",
+   "thumb": "https://i.ytimg.com/vi/eeHZp-UGzbk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=eeHZp-UGzbk",
+   "business": false
+  },
+  {
+   "id": "ogU99e2dfGo",
+   "title": "The Billion-Dollar Business of Virtual Public Schools",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-14T10:15:03+00:00",
+   "thumb": "https://i.ytimg.com/vi/ogU99e2dfGo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ogU99e2dfGo",
    "business": true
   },
   {
@@ -189,24 +225,6 @@
    "published": "2026-11-14T01:00:27+00:00",
    "thumb": "https://i.ytimg.com/vi/9_lEBrzpKLo/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=9_lEBrzpKLo",
-   "business": true
-  },
-  {
-   "id": "tn91wjhbFX8",
-   "title": "Nvidia’s Board CEO Hunt, Stocks Finish Week Higher, Retail in Focus",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-13T23:52:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/tn91wjhbFX8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=tn91wjhbFX8",
-   "business": true
-  },
-  {
-   "id": "p6drSZMm2NI",
-   "title": "Taylor Sheridan: I have a giant state park that I'm financing myself | Invest 2026",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-13T23:00:09+00:00",
-   "thumb": "https://i.ytimg.com/vi/p6drSZMm2NI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=p6drSZMm2NI",
    "business": true
   }
  ],
@@ -223,7 +241,15 @@
   "CNBC-TV18",
   "Moneycontrol"
  ],
- "live": [],
+ "live": [
+  {
+   "name": "Benzinga",
+   "id": "UCqQs28K2zj2dOsc5NfXUKEg",
+   "video_id": "RSw6oD2DWJg",
+   "embeddable": true,
+   "verified": true
+  }
+ ],
  "live_debug": [
   {
    "name": "Bloomberg TV",
@@ -264,6 +290,18 @@
   {
    "name": "NDTV Profit",
    "status": "could not find the channel id"
+  },
+  {
+   "name": "Fox Business",
+   "status": "not live right now"
+  },
+  {
+   "name": "Benzinga",
+   "status": "live, plays in the app"
+  },
+  {
+   "name": "Bloomberg Markets and Finance",
+   "status": "not live right now"
   }
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
