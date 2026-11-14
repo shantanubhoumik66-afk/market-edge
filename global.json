@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T02:56:57.980266+00:00",
+ "generated": "2026-11-14T02:58:50.030575+00:00",
  "bias": {
   "score": -1.96,
   "label": "Risk-off for India",
@@ -209,7 +209,7 @@
   {
    "name": "Yahoo Finance",
    "id": "UCEAZeUIeJs0IjQiqTCdVSIg",
-   "verified": true
+   "verified": false
   },
   {
    "name": "ET Now",
@@ -241,7 +241,7 @@
   },
   {
    "name": "Yahoo Finance",
-   "status": "ok"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "ET Now",
