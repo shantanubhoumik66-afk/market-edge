@@ -312,6 +312,9 @@ LIVE = [
     ("CNBC International", "CNBCInternational", "", r"cnbc"),
     ("Moneycontrol", "moneycontrol", "", r"moneycontrol"),
     ("NDTV Profit", "NDTVProfit", "", r"ndtv profit"),
+    ("Fox Business", "FoxBusiness", "", r"fox business"),
+    ("Benzinga", "Benzinga", "", r"benzinga"),
+    ("Bloomberg Markets and Finance", "markets", "UCrM7B7SL_g1edFOnmj-SDKg", r"bloomberg"),
 ]
 
 

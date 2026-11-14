@@ -68,6 +68,7 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
 .lh{padding:8px 10px;font-size:13px;display:flex;align-items:center;justify-content:space-between}
 .lv{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;display:grid;place-items:center;color:#fff;font-size:34px}
 .lv iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.snd{background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:12px;width:100%}
 </style>
 </head>
 <body>
@@ -177,7 +178,7 @@ const chg=q=>q&&q.chg!=null?`<span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+
 
 const TABS=['News','Macro data','RBI','Government','Stocks','🌐 Live news'];
 $('tabs').innerHTML=TABS.map((t,i)=>`<button class="tab ${i?'':'on'}" onclick="tab(${i})">${t}</button>`).join('');
-function tab(i){if(i!==5)stopLive();if(i===5)loadLive();document.querySelectorAll('#tabs .tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
+function tab(i){if(i!==5)stopLive();if(i===5)loadLive().then(()=>{if(liveOpen)renderLive()});document.querySelectorAll('#tabs .tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
 
 async function loadEdge(){
   $('stamp').textContent='Loading...';
@@ -331,40 +332,62 @@ function openPlayer(i){
 }
 function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
 
-let LIVE=null,liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false;
+let LIVE=null,liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false,SOUND=-1;
+const MAXLIVE=8;
 const BUILTIN=[{name:'Bloomberg TV',id:'UCIALMKvObZNtJ6AmdCLP7Lg'},{name:'CNBC TV (US)',id:'UCrp_UI8XtuYfpiqluWLD7Lw'},{name:'CNBC-TV18',id:'UCmRbHAgG2k2vDUvb3xsEunQ'},
-  {name:'CNBC Awaaz',id:'UCQIycDaLsBpMKjOCeaKUYVg'},{name:'Yahoo Finance',id:'UCEAZeUIeJs0IjQiqTCdVSIg'}];
+  {name:'CNBC Awaaz',id:'UCQIycDaLsBpMKjOCeaKUYVg'},{name:'Yahoo Finance',id:'UCEAZeUIeJs0IjQiqTCdVSIg'},{name:'Bloomberg Markets',id:'UCrM7B7SL_g1edFOnmj-SDKg'}];
+const MINLIVE=6;
 async function loadLive(){
   if(LIVE&&LIVE.length&&!LIVE_BUILTIN) return;
   let l=[];
-  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();l=(d.live||[]).sort((a,b)=>(a.embeddable===false)-(b.embeddable===false)).slice(0,6);LIVE_DBG=d.live_debug||[];LIVE_OLD=!('live' in d)}catch(e){LIVE_DBG=[];LIVE_OLD=false}
+  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();l=(d.live||[]).sort((a,b)=>(a.embeddable===false)-(b.embeddable===false)).slice(0,MAXLIVE);LIVE_DBG=d.live_debug||[];LIVE_OLD=!('live' in d)}catch(e){LIVE_DBG=[];LIVE_OLD=false}
   LIVE_BUILTIN=!l.length;
-  LIVE=l.length?l:BUILTIN;
+  const use=l.length?l.slice():[];
+  for(const b of BUILTIN){if(use.length>=MINLIVE)break;if(!use.some(u=>u.id===b.id))use.push({name:b.name,id:b.id,extra:true})}   // always at least 6 windows
+  LIVE=use;
 }
 function livePoster(x){return '<div style="text-align:center">▶'+(x.embeddable===false?'<div style="font-size:11px;opacity:.85">opens on YouTube</div>':'')+'</div>'}
-async function toggleLive(){await loadLive();liveOpen=!liveOpen;renderLive()}
+function liveSrc(x){
+  const o=(location.protocol.startsWith('http')?'&origin='+encodeURIComponent(location.origin):'');
+  const base='autoplay=1&mute=1&playsinline=1&rel=0&enablejsapi=1'+o;
+  return x.video_id?'https://www.youtube.com/embed/'+encodeURIComponent(x.video_id)+'?'+base:'https://www.youtube.com/embed/live_stream?channel='+encodeURIComponent(x.id)+'&'+base;
+}
+function liveFrame(x,i){return '<iframe id="lf'+i+'" src="'+liveSrc(x)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" onload="ytListen('+i+')"></iframe>'}
+function ytCmd(k,func,args){const f=$('lf'+k);if(f&&f.contentWindow)f.contentWindow.postMessage(JSON.stringify({event:'command',func:func,args:args||[]}),'*')}
+function ytListen(k){const f=$('lf'+k);if(f&&f.contentWindow)f.contentWindow.postMessage(JSON.stringify({event:'listening',id:k}),'*')}
+function updateSnd(){if(!LIVE)return;LIVE.forEach((x,k)=>{const b=$('snd'+k);if(b&&x.embeddable!==false)b.textContent=(SOUND===k)?'🔊 Sound on (tap to mute)':'🔇 Tap for sound'})}
+function toggleSound(i){
+  if(SOUND===i){ytCmd(i,'mute');SOUND=-1}
+  else{if(SOUND>=0)ytCmd(SOUND,'mute');ytCmd(i,'unMute');ytCmd(i,'setVolume',[80]);ytCmd(i,'playVideo');SOUND=i}
+  updateSnd();
+}
+async function toggleLive(){await loadLive();liveOpen=!liveOpen;if(!liveOpen)stopLive();renderLive()}
 function renderLive(){
   const g=$('liveGrid');
   if(!liveOpen){g.style.display='none';g.innerHTML='';$('globehint').textContent='Tap the globe for live share-market news';return}
-  $('globehint').textContent='Live business news. Tap a window to play with sound.';
-  g.style.display='grid';
-  let note='';
+  $('globehint').textContent='All live windows play muted. Tap "Tap for sound" under one window to hear it.';
+  g.style.display='grid';SOUND=-1;
+  let note='<div class="note" style="grid-column:1/-1">'+LIVE.length+' live business channels playing together, muted. This uses a lot of mobile data and battery. <button class="ref" onclick="stopLive()">⏸ Stop all</button> <button class="ref" onclick="renderLive()">▶ Play all</button></div>';
+  if(!LIVE_BUILTIN&&LIVE.some(x=>x.extra)){
+    note+='<div class="note" style="grid-column:1/-1">Windows marked unverified come from the built-in list, added to reach 6 windows. Check the channel name inside the player.</div>';
+  }
   if(LIVE_BUILTIN){
-    note='<div class="note" style="grid-column:1/-1">Showing the built-in list of business channels, because the server list is empty. These channel ids are not verified today, so check the channel name inside the player. '+
+    note+='<div class="note" style="grid-column:1/-1">Showing the built-in list of business channels, because the server list is empty. These channel ids are not verified today, so check the channel name inside the player. '+
       (LIVE_OLD?'global.json is from the old script: upload the new global_edge.py and run the global-edge workflow again.':(LIVE_DBG.length?'Server notes: '+LIVE_DBG.map(x=>esc(x.name)+': '+esc(x.status)).join(' · '):'Run the global-edge workflow to build the verified list.'))+
       ' <button class="ref" onclick="LIVE=null;liveOpen=false;toggleLive();setTimeout(toggleLive,50)">Retry</button></div>';
   }
-  g.innerHTML=LIVE.map((x,i)=>`<div class="lw"><div class="lh"><b>${esc(x.name)}</b><span class="hi">LIVE</span></div><div class="lv" id="lv${i}" onclick="playLive(${i})">${livePoster(x)}</div><div class="lh"><a class="meta" style="color:var(--saff)" href="https://www.youtube.com/channel/${esc(x.id)}/live" target="_blank" rel="noopener">Open on YouTube</a></div></div>`).join('')+note;
+  g.innerHTML=note+LIVE.map((x,i)=>{
+    const blocked=x.embeddable===false, yt=x.video_id?'https://www.youtube.com/watch?v='+esc(x.video_id):'https://www.youtube.com/channel/'+esc(x.id)+'/live';
+    return `<div class="lw"><div class="lh"><b>${esc(x.name)}</b>${x.extra?'<span class="hi md">unverified</span>':'<span class="hi">LIVE</span>'}</div><div class="lv" id="lv${i}" ${blocked?`onclick="window.open('${yt}','_blank')"`:`onclick="startOne(${i})"`}>${blocked?livePoster(x):liveFrame(x,i)}</div>
+      <div class="lh">${blocked?`<a class="meta" style="color:var(--saff)" href="${yt}" target="_blank" rel="noopener">Open on YouTube (sound)</a>`:`<button class="snd" id="snd${i}" onclick="toggleSound(${i})">🔇 Tap for sound</button>`}</div></div>`}).join('');
 }
-function playLive(i){
-  if(!LIVE||!LIVE[i]) return;
-  const x=LIVE[i];
-  if(x.embeddable===false){window.open(x.video_id?'https://www.youtube.com/watch?v='+x.video_id:'https://www.youtube.com/channel/'+x.id+'/live','_blank');return}
-  LIVE.forEach((y,k)=>{const e=$('lv'+k);if(e&&k!==i)e.innerHTML=livePoster(y)});
-  const src=x.video_id?'https://www.youtube.com/embed/'+encodeURIComponent(x.video_id)+'?autoplay=1&playsinline=1&rel=0':'https://www.youtube.com/embed/live_stream?channel='+encodeURIComponent(x.id)+'&autoplay=1&playsinline=1&rel=0';
-  $('lv'+i).innerHTML='<iframe src="'+src+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+function stopLive(){
+  if(!LIVE)return;
+  SOUND=-1;
+  LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML=livePoster(x)});
+  updateSnd();
 }
-function stopLive(){if(!LIVE)return;LIVE.forEach((x,k)=>{const e=$('lv'+k);if(e)e.innerHTML=livePoster(x)})}
+function startOne(i){const e=$('lv'+i);if(e&&LIVE&&LIVE[i]&&LIVE[i].embeddable!==false&&!e.querySelector('iframe'))e.innerHTML=liveFrame(LIVE[i],i)}
 setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
 </script>
 </body>
