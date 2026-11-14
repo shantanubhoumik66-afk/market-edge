@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-14T09:23:18.228483+00:00",
+ "generated": "2026-11-14T10:04:59.463293+00:00",
  "bias": {
-  "score": -3.44,
+  "score": -4.72,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -2.88,
+    "score": -4.16,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "IT",
-    "score": -1.44,
+    "score": -2.08,
     "stocks": "TCS, Infosys, Wipro"
    },
    {
@@ -107,39 +107,6 @@
    ]
   },
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUGR4RjIxVGFhUmhkcUNpa0F6VmJHVE8yekJkVDRXMVdPdkNjM282cjJvaWhqdnhqRFRFV1M4bHZEWWctRjhWMnBVV2FxU1ZpX2ZpbzNRM1BodE5DLVNXZWZVcndMWHphWngzWEdEWHNpYXU5OFEzbFYzSTNoV0toaHd3QU8wX2JTZ09HZi1JOXfSAZABQVVfeXFMT1BkeEYyMVRhYVJoZHFDaWtBelZiR1RPMnpCZFQ0VzFXT3ZDYzNvNnIyb2loanZ4akRURVdTOGx2RFlnLUY4VjJwVVdhcVNWaV9maW8zUTNQaHROQy1TV2VmVXJ3TFh6YVp4M1hHRFhzaWF1OThRM2xWM0kzaFdLaGh3d0FPMF9iU2dPR2YtSTl3?oc=5",
-   "src": "CNBC",
-   "time": "2026-11-13T10:00:26+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates easing",
-   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
-   "confirmed_by": 1,
-   "sources": [
-    "CNBC"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": 1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    },
-    {
-     "sector": "BANK",
-     "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
-    }
-   ]
-  },
-  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
@@ -195,15 +162,6 @@
    "published": "2026-11-14T07:19:10+00:00",
    "thumb": "https://i.ytimg.com/vi/6HURMPTQ4Jk/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=6HURMPTQ4Jk",
-   "business": true
-  },
-  {
-   "id": "kuu0ZCpbrh0",
-   "title": "Banks vs Gen Z: Two CMOs Admit What Is Not Working",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-14T06:30:07+00:00",
-   "thumb": "https://i.ytimg.com/vi/kuu0ZCpbrh0/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=kuu0ZCpbrh0",
    "business": true
   },
   {
