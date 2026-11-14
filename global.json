@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-14T14:25:06.847629+00:00",
+ "generated": "2026-11-14T16:42:19.930331+00:00",
  "bias": {
-  "score": -4.72,
+  "score": -4.16,
   "label": "Risk-off for India",
   "sectors": [
    {
@@ -13,11 +13,6 @@
     "sector": "IT",
     "score": -2.08,
     "stocks": "TCS, Infosys, Wipro"
-   },
-   {
-    "sector": "DEFENCE",
-    "score": 1.12,
-    "stocks": "HAL, BEL"
    }
   ]
  },
@@ -55,7 +50,7 @@
    "flag": "🇺🇸",
    "title": "Fed on Track to Raise Interest Rates Next Month And Maybe Again in January",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeXJmalVqcjF1WEgxXzRyZ2hNRTRMWXdCWGdpblhnaGwxY0ZDeFIwYTVnWENtQ2U2NFg3YkpUS21EdkNHaXlwVlVicGxWd2RJZnJqOXlySXJfZzdscXlqRFNJSkswUjZ0ZjFINC11aU9GMWdrMGR6SzdfYUlkN3pGaDZZci1NbnkxWmtoZ1lNa3E2MmxDcnFqRnN0MWpwUURLT05odHBpdVlhNXRjNUJOd3JGcnNCYzd6bjVqWQ?oc=5",
-   "src": "Bloomberg",
+   "src": "Bloomberg.com",
    "time": "2026-11-13T19:55:01+00:00",
    "level": "Medium",
    "score": 1.28,
@@ -63,7 +58,7 @@
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "Bloomberg"
+    "Bloomberg.com"
    ],
    "sectors": [
     {
@@ -105,54 +100,88 @@
      "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0IzNVR6Xzl2Q1NFaVdPY2xCWU11YzN4SWVTc0ZOV2FjRmV4QVZXQVctY2t4S2JJN3hKbWhfbjU5dV9qR2lxTGxZNVpFNTNlNEk3bm1PRGxOVjlrOFdMZE90cHFnU0xCMlFzci1Yc2c1SU9zMUEteUEyUjZ2YnV4M2hici1ZMmRDdzFqNjBuM05kNW1takVSYlg3Tm9NV3l3QllqdHRGRDNMUEVtYzBzbFAxb9IBuAFBVV95cUxQcDBLU1RQR0Etb2lQbm5kOEhlYVpseTJSazRLRWlWb1FIUjFLQ3YzY1p5Y0Jfbk13bU14a0Y2YVYwaW5vdkxEeTdwZ3dHMUdZSGhrNVpuSXAwWjdVTHdOSFg3MVhNMmFyZ2F4YUl3blRWbTN5SjhhcXJodVE0TjF6NlliUXlQV25kMFczalZvYmhINU00aWNNRkZNeGUwOWpLdkNOcHYxenJ5elU2dFpuRG83dW1oaGsx?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-11-13T16:25:38+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "Al Jazeera"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
   }
  ],
  "videos": [
   {
-   "id": "kohmZZntrZ4",
-   "title": "Trump Heads to China for Talks With Xi and Putin",
+   "id": "2YSHskNnm64",
+   "title": "NWSL Commissioner Jessica Berman on Why Investors Are Racing to Buy Teams",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-14T16:00:19+00:00",
+   "thumb": "https://i.ytimg.com/vi/2YSHskNnm64/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=2YSHskNnm64",
+   "business": true
+  },
+  {
+   "id": "8GBoid4JM_E",
+   "title": "Editors Playbook | FPIs Are Back With $7 Billion: Lasting Romance Or Another Market Fling?",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-14T16:00:07+00:00",
+   "thumb": "https://i.ytimg.com/vi/8GBoid4JM_E/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=8GBoid4JM_E",
+   "business": true
+  },
+  {
+   "id": "b5oQu_60ZdU",
+   "title": "Anthropic IPO Tests Investor Appetite for AI",
    "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-14T14:10:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/kohmZZntrZ4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=kohmZZntrZ4",
+   "published": "2026-11-14T15:53:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/b5oQu_60ZdU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=b5oQu_60ZdU",
+   "business": true
+  },
+  {
+   "id": "8gi95Qx_63A",
+   "title": "How China’s Intelligence Operations Target Tech",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-14T15:39:51+00:00",
+   "thumb": "https://i.ytimg.com/vi/8gi95Qx_63A/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=8gi95Qx_63A",
+   "business": true
+  },
+  {
+   "id": "71rLW3Z3pXY",
+   "title": "LAST BALL DRAMA! Mohita Ulva & Sehwag Shine As India Defeat Pakistan In Asia Cup U19 Finals",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-14T15:06:39+00:00",
+   "thumb": "https://i.ytimg.com/vi/71rLW3Z3pXY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=71rLW3Z3pXY",
+   "business": true
+  },
+  {
+   "id": "cXNzRfVPzx0",
+   "title": "India vs Pak, U19 Asia Cup Final: IND Defeats PAK By One Wicket, Lifts Title For Ninth Time",
+   "channel": "Moneycontrol",
+   "published": "2026-11-14T15:05:20+00:00",
+   "thumb": "https://i.ytimg.com/vi/cXNzRfVPzx0/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=cXNzRfVPzx0",
+   "business": true
+  },
+  {
+   "id": "vk198A0VrFI",
+   "title": "Could Democratic Gains Bring Tariff Relief For Canada?",
+   "channel": "CNBC",
+   "published": "2026-11-14T15:00:14+00:00",
+   "thumb": "https://i.ytimg.com/vi/vk198A0VrFI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=vk198A0VrFI",
+   "business": true
+  },
+  {
+   "id": "9zlFdAhHajg",
+   "title": "India's BJP defends restrictions on Gen-Z protest group | BBC News",
+   "channel": "BBC News",
+   "published": "2026-11-14T15:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/9zlFdAhHajg/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=9zlFdAhHajg",
+   "business": false
+  },
+  {
+   "id": "2mIthc2y8jo",
+   "title": "INS CHILKA POP LIVE HIGHLIGHTS: Indian Navy Passing Out Parade at Chilka, Odisha | Full Ceremony",
+   "channel": "Moneycontrol",
+   "published": "2026-11-14T14:59:51+00:00",
+   "thumb": "https://i.ytimg.com/vi/2mIthc2y8jo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=2mIthc2y8jo",
    "business": true
   },
   {
@@ -165,24 +194,6 @@
    "business": true
   },
   {
-   "id": "o1_zGbhyOR0",
-   "title": "Inflation At 2-Year High: CPI Hits 6.09%, Food Inflation Surges To 8.51% | Indianomics",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-14T12:00:09+00:00",
-   "thumb": "https://i.ytimg.com/vi/o1_zGbhyOR0/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=o1_zGbhyOR0",
-   "business": true
-  },
-  {
-   "id": "c85JaI200j8",
-   "title": "South China Sea Showdown: Philippines Drops Bombshell On 77% China Code Of Conduct Deal | ASEAN 2026",
-   "channel": "Moneycontrol",
-   "published": "2026-11-14T11:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/c85JaI200j8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=c85JaI200j8",
-   "business": true
-  },
-  {
    "id": "Qmc2vkHGVsM",
    "title": "Why aren't new parents getting better feeding support? | Behind The Investigation",
    "channel": "BBC News",
@@ -192,15 +203,6 @@
    "business": false
   },
   {
-   "id": "TEsz-xZM42g",
-   "title": "RAHUL GANDHI LIVE AT BHARAT Summit 2026 Hyderabad: Big Global Policy & India Warning | Breaking News",
-   "channel": "Moneycontrol",
-   "published": "2026-11-14T10:45:40+00:00",
-   "thumb": "https://i.ytimg.com/vi/TEsz-xZM42g/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=TEsz-xZM42g",
-   "business": true
-  },
-  {
    "id": "eeHZp-UGzbk",
    "title": "How Trump's threats and tariffs are bringing Canada and the EU closer | Focus on Europe",
    "channel": "DW News",
@@ -208,24 +210,6 @@
    "thumb": "https://i.ytimg.com/vi/eeHZp-UGzbk/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=eeHZp-UGzbk",
    "business": false
-  },
-  {
-   "id": "ogU99e2dfGo",
-   "title": "The Billion-Dollar Business of Virtual Public Schools",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-14T10:15:03+00:00",
-   "thumb": "https://i.ytimg.com/vi/ogU99e2dfGo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ogU99e2dfGo",
-   "business": true
-  },
-  {
-   "id": "9_lEBrzpKLo",
-   "title": "Chicago Fed President: We are failing on the inflation side of the dual mandate | Invest 2026",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-14T01:00:27+00:00",
-   "thumb": "https://i.ytimg.com/vi/9_lEBrzpKLo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=9_lEBrzpKLo",
-   "business": true
   }
  ],
  "channels_ok": [
