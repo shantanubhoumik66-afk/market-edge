@@ -1,13 +1,18 @@
 {
- "generated": "2026-11-14T21:17:49.225908+00:00",
+ "generated": "2026-11-15T01:15:44.796292+00:00",
  "bias": {
-  "score": -1.84,
+  "score": -2.36,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -1.28,
+    "score": -3.2,
     "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
+    "sector": "IT",
+    "score": -1.6,
+    "stocks": "TCS, Infosys, Wipro"
    },
    {
     "sector": "DEFENCE",
@@ -18,14 +23,14 @@
  },
  "news": [
   {
-   "region": "Japan",
-   "flag": "🇯🇵",
+   "region": "US",
+   "flag": "🇺🇸",
    "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5",
    "src": "WSJ",
-   "time": "2026-11-14T06:25:54+00:00",
-   "level": "Medium",
-   "score": 1.28,
+   "time": "2026-11-15T00:45:30+00:00",
+   "level": "High",
+   "score": 1.6,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
@@ -42,6 +47,57 @@
      "sector": "NEWAGE",
      "dir": -1,
      "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-14T17:03:05+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Foreign investors are buying Indian stocks again. 4 catalysts that could make them stay",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZDNxWlNwdWgxeDR2S082Q3FQdWNmXzdmNm1FUzNWTmxSbGVXYnJuMGVpOENfeWZSVTJBRVFzX19MUVFlT0ZSNzRvNjNiSC1sWmFkcWJ2a0pjSkVQNzJmZzUxZXJIUDRHVkNWN1AyZHNrUTY3NGhNQ0pWZW9JTzNUdV8tbTJZOHk4VnhnMGRyOTRkSDZMdmZTMVZDWmxfV1RDdEJNZnVPcFVubnJpd25xR1lMV0JFS3JQel9rWHVuYUhQUWV4MEp0eV8tSjRHM2JMR21XZEFwMHhRYWdGZWVZY3g1eFp6QnRGRU1IWtIB8wFBVV95cUxNQkk3ZktOQVhuc1BuTVZTUlBEb05za0kydjV6WXA1VWo1V2k2bzB5Rlk2OG9iNVN1NXV2ZkFsWFZlVV9QLU1MUVF6WnpBa0RWa1N6SURwMzlRbVRPZ3NBWW9MaERHVWxQS1Mzc0pqc2wzRUVKcTktekFqM0p1REdUWjBhOEZYZjVESGxZOVdHSlRiOHhMMTNvUVdGZnRneWdKZGo5bnlmczBleHN0eElWdm9IVThDS2FhSHVwbTRvTmF4VkZuSV83bzBXRnhkd2czYlNjQm16YldDZ0swTzJBOWMzaVk1Xzc3cjI5TS1vMDdwczA?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-15T00:00:00+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Foreign buying in India",
+   "why": "Foreign inflows support the Nifty, banks and large caps.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Financial Express"
+   ],
+   "sectors": [
+    {
+     "sector": "BANK",
+     "dir": 1,
+     "stocks": "HDFC Bank, ICICI Bank"
     }
    ]
   },
@@ -86,20 +142,52 @@
  ],
  "videos": [
   {
-   "id": "KQmqx23G9IY",
-   "title": "Iraqi PM Ali al-Zaidi sacks nine security officials in oil smuggling probe",
-   "channel": "Al Jazeera English",
-   "published": "2026-11-14T19:50:46+00:00",
-   "thumb": "https://i.ytimg.com/vi/KQmqx23G9IY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=KQmqx23G9IY",
+   "id": "kYjJvsYyXJU",
+   "title": "Hungarian investigators find cash during probe into Orban-era minister | DW News",
+   "channel": "DW News",
+   "published": "2026-11-14T22:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/kYjJvsYyXJU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=kYjJvsYyXJU",
+   "business": false
+  },
+  {
+   "id": "b5oQu_60ZdU",
+   "title": "Anthropic IPO Tests Investor Appetite for AI",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-14T15:53:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/b5oQu_60ZdU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=b5oQu_60ZdU",
+   "business": true
+  },
+  {
+   "id": "8gi95Qx_63A",
+   "title": "How China’s Intelligence Operations Target Tech",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-14T15:39:51+00:00",
+   "thumb": "https://i.ytimg.com/vi/8gi95Qx_63A/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=8gi95Qx_63A",
+   "business": true
+  },
+  {
+   "id": "eeHZp-UGzbk",
+   "title": "How Trump's threats and tariffs are bringing Canada and the EU closer | Focus on Europe",
+   "channel": "DW News",
+   "published": "2026-11-14T10:21:34+00:00",
+   "thumb": "https://i.ytimg.com/vi/eeHZp-UGzbk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=eeHZp-UGzbk",
    "business": false
   }
  ],
  "channels_ok": [
-  "Wall Street Journal",
-  "Al Jazeera English"
+  "Bloomberg Markets and Finance",
+  "DW News"
  ],
  "live": [
+  {
+   "name": "Bloomberg TV",
+   "id": "UCdK2BueKxC9VxXh7e1Ne4oQ",
+   "verified": false
+  },
   {
    "name": "CNBC TV (US)",
    "id": "UCrp_UI8XtuYfpiqluWLD7Lw",
@@ -113,6 +201,11 @@
   {
    "name": "CNBC Awaaz",
    "id": "UCQIycDaLsBpMKjOCeaKUYVg",
+   "verified": false
+  },
+  {
+   "name": "Yahoo Finance",
+   "id": "UCEAZeUIeJs0IjQiqTCdVSIg",
    "verified": false
   },
   {
@@ -149,11 +242,11 @@
  "live_debug": [
   {
    "name": "Bloomberg TV",
-   "status": "name mismatch, skipped (미소 다이어리 : 미소맘 계정)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC TV (US)",
-   "status": "feed check blocked, using channel-page id (HTTP Error 500: Internal Server Error)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC-TV18",
@@ -165,7 +258,7 @@
   },
   {
    "name": "Yahoo Finance",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "ET Now",
@@ -197,7 +290,7 @@
   },
   {
    "name": "Bloomberg Markets and Finance",
-   "status": "feed check blocked, using channel-page id (HTTP Error 500: Internal Server Error)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   }
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
