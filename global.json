@@ -1,42 +1,75 @@
 {
- "generated": "2026-11-15T15:49:41.598978+00:00",
+ "generated": "2026-11-15T20:58:27.642358+00:00",
  "bias": {
-  "score": -0.16,
-  "label": "Mixed / neutral",
+  "score": -3.02,
+  "label": "Risk-off for India",
   "sectors": [
    {
+    "sector": "NEWAGE",
+    "score": -2.88,
+    "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
     "sector": "DEFENCE",
-    "score": 2.8,
+    "score": 2.52,
     "stocks": "HAL, BEL"
    },
    {
     "sector": "OMC",
-    "score": -1.96,
+    "score": -1.76,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -1.96,
+    "score": -1.76,
     "stocks": "IndiGo"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 1.4,
-    "stocks": "ONGC, Oil India"
+    "sector": "IT",
+    "score": -1.44,
+    "stocks": "TCS, Infosys, Wipro"
    },
    {
-    "sector": "NEWAGE",
-    "score": -1.28,
-    "stocks": "Zomato, Paytm, Nykaa"
+    "sector": "UPSTREAM",
+    "score": 1.26,
+    "stocks": "ONGC, Oil India"
    }
   ]
  },
  "news": [
   {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-15T19:07:30+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "Opinion | A disastrous Iran war? The US is now a mover and shaker of oil markets",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0U5WXFycTZYNU9vRmw5X3MzNG9ObVFwY2VrelFsT2tNS3lQcTZ5SkhKTW53Z0doRnRpcEVNOUM2ZHdVVGpOTzQ5ZFhPM1ZRN0s1RWl5OEhKWkViS2RYdEJMbXhBOWw1blZadzlJQk94SWw4WklESExyVFNwbTNMSk00bjdXblI3SktNUENLTWc0a21WNTl2d196bG1XaWpRTHJSb2lXVks3X2pIR2EwMFNaaFfSAbQBQVVfeXFMUC01R1pHeXN5bWpyeS1TSGp1VGdIdjc1Y1duTVNBZWdhWmVOSi1rRngxaG1Fb0xVNzVKUnkzUHRGOEYyX2N6RmYzUmJCY0J5WTVCcFMwTFc1eFl6dGZFaEluamVmMmhneXFVX1MwS0JBVWZ5bXR2dTVUOWZqZDNaSUhpT3ZKenpKOU44YUp5Skc5RVVHcUI2bW9XSk9pWmpTZHpSaG9DNkJvZEhJbFBrU0dkc3li?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTVHWkd5c3ltanJ5LVNIanVUZ0h2NzVjV25NU0FlZ2FaZU5KLWtGeDFobUVvTFU3NUpSeTNQdEY4RjJfY3pGZjNSYkJjQnlZNUJwUzBMVzV4WXp0ZkVoSW5qZWYyaGd5cVVfUzBLQkFVZnltdHZ1NVQ5ZmpkM1pJSGlPdkp6eko5TjhhSnlKRzlFVUdxQjZtb1dKT2laalNkelJob0M2Qm9kSElsUGtTR2RzeWLSAbQBQVVfeXFMUC01R1pHeXN5bWpyeS1TSGp1VGdIdjc1Y1duTVNBZWdhWmVOSi1rRngxaG1Fb0xVNzVKUnkzUHRGOEYyX2N6RmYzUmJCY0J5WTVCcFMwTFc1eFl6dGZFaEluamVmMmhneXFVX1MwS0JBVWZ5bXR2dTVUOWZqZDNaSUhpT3ZKenpKOU44YUp5Skc5RVVHcUI2bW9XSk9pWmpTZHpSaG9DNkJvZEhJbFBrU0dkc3li?oc=5",
    "src": "South China Morning Post",
    "time": "2026-11-15T12:30:06+00:00",
    "level": "Medium",
@@ -71,6 +104,34 @@
    ]
   },
   {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-15T00:45:30+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions",
@@ -78,7 +139,7 @@
    "src": "The Economic Times",
    "time": "2026-11-15T06:43:13+00:00",
    "level": "Medium",
-   "score": 1.4,
+   "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
@@ -111,57 +172,6 @@
   {
    "region": "Global",
    "flag": "🌐",
-   "title": "Foreign investors turn buyers, inject Rs 84,290 crore into Indian stocks in 9 sessions",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcE9vRy1uNmh6Nk9FU3A0bnppdFFZVFEzdVpLMU5oWmV6cXJibjlORWszV09MSjJnbmJRMG9tVTB3NnpkVTFQSEU0eURHa2txRFlyam5XZ01sU2lFRzhqVlZKZ2ZDeGZzRDJ5NnJmUEJHQUZxNnRrOTl5eEJPNUU5R0txT1FJSGpKR0sxd1p3OGxUYTNxWEJESUloVk9seDBFWk1NQkRJSHgwOFVUeWFLUHVkaHAyVzhlWnBKX3U0WVBlazZCTU9GbjVMeGhoU09zNlE4LVlQV2VpYWxqUmtmZzE1eHbSAeoBQVVfeXFMT0xwbGh0cGlTN0l5S29pcXM1MmxuX0dGeXRBRU9IVGs5cFUzaEhpYmwyeTZ5T2hDeFlWNkpDXzd2aWt3UTFlWVFLczNHZlZheHVRcktPZ29sbUMzU252SERod0pJZFRaUFNKd0V6bzlrT1FzaGRpOUFGbXlRN19Oek9nWmQ0eXU2Q3hqOGJMUnBwLUlGaW0xZTl0bXAyVjRTVVo3d3lzb2V0WnFfS05hZ3dlMHktcmd2N18zR0s1ZXRYSjN0Q0pzYmMyUnI0X1BZUjBjY0kxazF4OGxHRjJVMWdBb0F4LW1GYUl3?oc=5",
-   "src": "Moneycontrol.com",
-   "time": "2026-11-15T06:16:32+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Foreign buying in India",
-   "why": "Foreign inflows support the Nifty, banks and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "Moneycontrol.com"
-   ],
-   "sectors": [
-    {
-     "sector": "BANK",
-     "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-15T00:45:30+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "WSJ"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
    "title": "Foreign investors are buying Indian stocks again. 4 catalysts that could make them stay",
    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZDNxWlNwdWgxeDR2S082Q3FQdWNmXzdmNm1FUzNWTmxSbGVXYnJuMGVpOENfeWZSVTJBRVFzX19MUVFlT0ZSNzRvNjNiSC1sWmFkcWJ2a0pjSkVQNzJmZzUxZXJIUDRHVkNWN1AyZHNrUTY3NGhNQ0pWZW9JTzNUdV8tbTJZOHk4VnhnMGRyOTRkSDZMdmZTMVZDWmxfV1RDdEJNZnVPcFVubnJpd25xR1lMV0JFS3JQel9rWHVuYUhQUWV4MEp0eV8tSjRHM2JMR21XZEFwMHhRYWdGZWVZY3g1eFp6QnRGRU1IWtIB8wFBVV95cUxNQkk3ZktOQVhuc1BuTVZTUlBEb05za0kydjV6WXA1VWo1V2k2bzB5Rlk2OG9iNVN1NXV2ZkFsWFZlVV9QLU1MUVF6WnpBa0RWa1N6SURwMzlRbVRPZ3NBWW9MaERHVWxQS1Mzc0pqc2wzRUVKcTktekFqM0p1REdUWjBhOEZYZjVESGxZOVdHSlRiOHhMMTNvUVdGZnRneWdKZGo5bnlmczBleHN0eElWdm9IVThDS2FhSHVwbTRvTmF4VkZuSV83bzBXRnhkd2czYlNjQm16YldDZ0swTzJBOWMzaVk1Xzc3cjI5TS1vMDdwczA?oc=5",
    "src": "The Financial Express",
@@ -185,6 +195,33 @@
  ],
  "videos": [
   {
+   "id": "J2OHGNJAH5w",
+   "title": "Market Gains For 3rd Straight Week, 1st Time Since June 2026 | Editors' Roundtable | Nifty",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-15T17:30:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/J2OHGNJAH5w/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=J2OHGNJAH5w",
+   "business": true
+  },
+  {
+   "id": "PNMBn-tPLIM",
+   "title": "Nvidia Fallout, FAA Router Failure, Next Mega IPO",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-15T16:52:02+00:00",
+   "thumb": "https://i.ytimg.com/vi/PNMBn-tPLIM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=PNMBn-tPLIM",
+   "business": true
+  },
+  {
+   "id": "EKuN14LY-fE",
+   "title": "Airtel Payments Bank Is A Sleeping Giant: Sunil Bharti Mittal | EXCLUSIVE",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-15T16:30:08+00:00",
+   "thumb": "https://i.ytimg.com/vi/EKuN14LY-fE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=EKuN14LY-fE",
+   "business": true
+  },
+  {
    "id": "jBV8DeEuL-I",
    "title": "White House Braces for Democratic Investigations",
    "channel": "Bloomberg Markets and Finance",
@@ -203,15 +240,6 @@
    "business": true
   },
   {
-   "id": "4V1-9GleooI",
-   "title": "Inside India’s $130 Billion Wedding Economy",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-15T15:00:01+00:00",
-   "thumb": "https://i.ytimg.com/vi/4V1-9GleooI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=4V1-9GleooI",
-   "business": true
-  },
-  {
    "id": "JvcQti5hfTg",
    "title": "Nasa’s Golden Record: A message to aliens | BBC News",
    "channel": "BBC News",
@@ -219,24 +247,6 @@
    "thumb": "https://i.ytimg.com/vi/JvcQti5hfTg/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=JvcQti5hfTg",
    "business": false
-  },
-  {
-   "id": "tqZ7MCjeXB4",
-   "title": "Strait Of Hormuz Crisis | Two Oil Tankers Catch Fire After Hitting Naval Mines, Claims IRGC | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-15T13:42:54+00:00",
-   "thumb": "https://i.ytimg.com/vi/tqZ7MCjeXB4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=tqZ7MCjeXB4",
-   "business": true
-  },
-  {
-   "id": "ZRcAzfLQ0zc",
-   "title": "Market Masters | Hunting For Multibaggers: Where Are The Biggest Opportunities?| CNBC TV18",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-15T13:30:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/ZRcAzfLQ0zc/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ZRcAzfLQ0zc",
-   "business": true
   },
   {
    "id": "Va7fRp5eMHo",
