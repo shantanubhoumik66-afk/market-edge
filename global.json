@@ -1,38 +1,23 @@
 {
- "generated": "2026-11-15T20:58:27.642358+00:00",
+ "generated": "2026-11-16T00:56:23.422403+00:00",
  "bias": {
-  "score": -3.02,
+  "score": -3.76,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -2.88,
+    "score": -3.2,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
-    "sector": "DEFENCE",
-    "score": 2.52,
-    "stocks": "HAL, BEL"
-   },
-   {
-    "sector": "OMC",
-    "score": -1.76,
-    "stocks": "BPCL, IOC, HPCL"
-   },
-   {
-    "sector": "AVIATION",
-    "score": -1.76,
-    "stocks": "IndiGo"
-   },
-   {
     "sector": "IT",
-    "score": -1.44,
+    "score": -1.6,
     "stocks": "TCS, Infosys, Wipro"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 1.26,
-    "stocks": "ONGC, Oil India"
+    "sector": "DEFENCE",
+    "score": 1.12,
+    "stocks": "HAL, BEL"
    }
   ]
  },
@@ -40,10 +25,10 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
+   "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5",
    "src": "WSJ",
-   "time": "2026-11-15T19:07:30+00:00",
+   "time": "2026-11-15T23:14:03+00:00",
    "level": "High",
    "score": 1.6,
    "label": "US rates / yields rising",
@@ -66,52 +51,14 @@
    ]
   },
   {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Opinion | A disastrous Iran war? The US is now a mover and shaker of oil markets",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTVHWkd5c3ltanJ5LVNIanVUZ0h2NzVjV25NU0FlZ2FaZU5KLWtGeDFobUVvTFU3NUpSeTNQdEY4RjJfY3pGZjNSYkJjQnlZNUJwUzBMVzV4WXp0ZkVoSW5qZWYyaGd5cVVfUzBLQkFVZnltdHZ1NVQ5ZmpkM1pJSGlPdkp6eko5TjhhSnlKRzlFVUdxQjZtb1dKT2laalNkelJob0M2Qm9kSElsUGtTR2RzeWLSAbQBQVVfeXFMUC01R1pHeXN5bWpyeS1TSGp1VGdIdjc1Y1duTVNBZWdhWmVOSi1rRngxaG1Fb0xVNzVKUnkzUHRGOEYyX2N6RmYzUmJCY0J5WTVCcFMwTFc1eFl6dGZFaEluamVmMmhneXFVX1MwS0JBVWZ5bXR2dTVUOWZqZDNaSUhpT3ZKenpKOU44YUp5Skc5RVVHcUI2bW9XSk9pWmpTZHpSaG9DNkJvZEhJbFBrU0dkc3li?oc=5",
-   "src": "South China Morning Post",
-   "time": "2026-11-15T12:30:06+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "South China Morning Post"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5",
+   "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
    "src": "WSJ",
-   "time": "2026-11-15T00:45:30+00:00",
-   "level": "Medium",
-   "score": 1.28,
+   "time": "2026-11-15T19:07:30+00:00",
+   "level": "High",
+   "score": 1.6,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
@@ -168,191 +115,117 @@
      "stocks": "ONGC, Oil India"
     }
    ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Foreign investors are buying Indian stocks again. 4 catalysts that could make them stay",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZDNxWlNwdWgxeDR2S082Q3FQdWNmXzdmNm1FUzNWTmxSbGVXYnJuMGVpOENfeWZSVTJBRVFzX19MUVFlT0ZSNzRvNjNiSC1sWmFkcWJ2a0pjSkVQNzJmZzUxZXJIUDRHVkNWN1AyZHNrUTY3NGhNQ0pWZW9JTzNUdV8tbTJZOHk4VnhnMGRyOTRkSDZMdmZTMVZDWmxfV1RDdEJNZnVPcFVubnJpd25xR1lMV0JFS3JQel9rWHVuYUhQUWV4MEp0eV8tSjRHM2JMR21XZEFwMHhRYWdGZWVZY3g1eFp6QnRGRU1IWtIB8wFBVV95cUxNQkk3ZktOQVhuc1BuTVZTUlBEb05za0kydjV6WXA1VWo1V2k2bzB5Rlk2OG9iNVN1NXV2ZkFsWFZlVV9QLU1MUVF6WnpBa0RWa1N6SURwMzlRbVRPZ3NBWW9MaERHVWxQS1Mzc0pqc2wzRUVKcTktekFqM0p1REdUWjBhOEZYZjVESGxZOVdHSlRiOHhMMTNvUVdGZnRneWdKZGo5bnlmczBleHN0eElWdm9IVThDS2FhSHVwbTRvTmF4VkZuSV83bzBXRnhkd2czYlNjQm16YldDZ0swTzJBOWMzaVk1Xzc3cjI5TS1vMDdwczA?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-15T00:00:00+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Foreign buying in India",
-   "why": "Foreign inflows support the Nifty, banks and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "BANK",
-     "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
-    }
-   ]
   }
  ],
  "videos": [
   {
-   "id": "J2OHGNJAH5w",
-   "title": "Market Gains For 3rd Straight Week, 1st Time Since June 2026 | Editors' Roundtable | Nifty",
+   "id": "x2_iAu3v2tw",
+   "title": "Sara Duterte Impeachment Trial LIVE: Defense Presents Witnesses To Counter High-Stakes Trial | N18G",
    "channel": "CNBC-TV18",
-   "published": "2026-11-15T17:30:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/J2OHGNJAH5w/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=J2OHGNJAH5w",
+   "published": "2026-11-15T18:16:19+00:00",
+   "thumb": "https://i.ytimg.com/vi/x2_iAu3v2tw/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=x2_iAu3v2tw",
    "business": true
   },
   {
-   "id": "PNMBn-tPLIM",
-   "title": "Nvidia Fallout, FAA Router Failure, Next Mega IPO",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-15T16:52:02+00:00",
-   "thumb": "https://i.ytimg.com/vi/PNMBn-tPLIM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=PNMBn-tPLIM",
-   "business": true
-  },
-  {
-   "id": "EKuN14LY-fE",
-   "title": "Airtel Payments Bank Is A Sleeping Giant: Sunil Bharti Mittal | EXCLUSIVE",
+   "id": "AX7xQRjOFoI",
+   "title": "🔴England Vs Spain LIVE: 2026 UEFA Nations League Match | Harry Kane vs Yamal | Bellingham | N18G",
    "channel": "CNBC-TV18",
-   "published": "2026-11-15T16:30:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/EKuN14LY-fE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=EKuN14LY-fE",
-   "business": true
-  },
-  {
-   "id": "jBV8DeEuL-I",
-   "title": "White House Braces for Democratic Investigations",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-15T15:13:25+00:00",
-   "thumb": "https://i.ytimg.com/vi/jBV8DeEuL-I/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=jBV8DeEuL-I",
-   "business": true
-  },
-  {
-   "id": "_19PHik8_Jg",
-   "title": "GTA 6's Billion-Dollar Hype Machine",
-   "channel": "CNBC",
-   "published": "2026-11-15T15:00:31+00:00",
-   "thumb": "https://i.ytimg.com/vi/_19PHik8_Jg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_19PHik8_Jg",
-   "business": true
-  },
-  {
-   "id": "JvcQti5hfTg",
-   "title": "Nasa’s Golden Record: A message to aliens | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-15T14:00:12+00:00",
-   "thumb": "https://i.ytimg.com/vi/JvcQti5hfTg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=JvcQti5hfTg",
-   "business": false
-  },
-  {
-   "id": "Va7fRp5eMHo",
-   "title": "SOUTH CHINA SEA SHOWDOWN: ASEAN & China Near Historic Deal in Manila | ASEAN Summit 2026 | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-15T13:30:06+00:00",
-   "thumb": "https://i.ytimg.com/vi/Va7fRp5eMHo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Va7fRp5eMHo",
-   "business": true
-  },
-  {
-   "id": "KwvT0ZFx9Bo",
-   "title": "Trump's ASEAN Play: The new front in the US-China chip war | The Dip Podcast",
-   "channel": "DW News",
-   "published": "2026-11-15T11:30:31+00:00",
-   "thumb": "https://i.ytimg.com/vi/KwvT0ZFx9Bo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=KwvT0ZFx9Bo",
-   "business": false
-  },
-  {
-   "id": "2YSHskNnm64",
-   "title": "NWSL Commissioner Jessica Berman on Why Investors Are Racing to Buy Teams",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-14T16:00:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/2YSHskNnm64/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=2YSHskNnm64",
-   "business": true
-  },
-  {
-   "id": "vk198A0VrFI",
-   "title": "Will A Democratic Congress Ease U.S. Tariffs On Canada?",
-   "channel": "CNBC",
-   "published": "2026-11-14T15:00:14+00:00",
-   "thumb": "https://i.ytimg.com/vi/vk198A0VrFI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=vk198A0VrFI",
-   "business": true
-  },
-  {
-   "id": "9zlFdAhHajg",
-   "title": "India's BJP defends restrictions on Gen-Z protest group | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-14T15:00:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/9zlFdAhHajg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=9zlFdAhHajg",
-   "business": false
-  },
-  {
-   "id": "CIjvpmKbcwQ",
-   "title": "Yahoo CEO: The first thing every AI agent asks is to be let into your email | Invest 2026",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-14T14:00:00+00:00",
-   "thumb": "https://i.ytimg.com/vi/CIjvpmKbcwQ/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=CIjvpmKbcwQ",
+   "published": "2026-11-15T18:12:57+00:00",
+   "thumb": "https://i.ytimg.com/vi/AX7xQRjOFoI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=AX7xQRjOFoI",
    "business": true
   }
  ],
  "channels_ok": [
-  "CNBC",
-  "Bloomberg Markets and Finance",
-  "Reuters",
   "Financial Times",
-  "Wall Street Journal",
-  "Al Jazeera English",
-  "BBC News",
-  "DW News",
-  "Yahoo Finance",
-  "CNBC-TV18",
-  "Moneycontrol"
+  "CNBC-TV18"
  ],
  "live": [
   {
+   "name": "Bloomberg TV",
+   "id": "UCdK2BueKxC9VxXh7e1Ne4oQ",
+   "verified": false
+  },
+  {
+   "name": "CNBC TV (US)",
+   "id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "verified": false
+  },
+  {
+   "name": "CNBC-TV18",
+   "id": "UCmRbHAgG2k2vDUvb3xsEunQ",
+   "verified": false
+  },
+  {
+   "name": "CNBC Awaaz",
+   "id": "UCQIycDaLsBpMKjOCeaKUYVg",
+   "verified": false
+  },
+  {
+   "name": "Yahoo Finance",
+   "id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+   "verified": false
+  },
+  {
+   "name": "ET Now",
+   "id": "UCWmUOYVa7ETRkJ63YaZRhhA",
+   "verified": false
+  },
+  {
+   "name": "Zee Business",
+   "id": "UCkXopQ3ubd-rnXnStZqCl2w",
+   "verified": false
+  },
+  {
+   "name": "Moneycontrol",
+   "id": "UChftTVI0QJmyXkajQYt2tiQ",
+   "verified": false
+  },
+  {
+   "name": "Fox Business",
+   "id": "UCCXoCcu9Rp7NPbTzIvogpZg",
+   "verified": false
+  },
+  {
    "name": "Benzinga",
    "id": "UCqQs28K2zj2dOsc5NfXUKEg",
-   "video_id": "RSw6oD2DWJg",
-   "embeddable": true,
-   "verified": true
+   "verified": false
+  },
+  {
+   "name": "Bloomberg Markets and Finance",
+   "id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+   "verified": false
   }
  ],
  "live_debug": [
   {
    "name": "Bloomberg TV",
-   "status": "name mismatch, skipped (미소 다이어리 : 미소맘 계정)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC TV (US)",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC-TV18",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC Awaaz",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "Yahoo Finance",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "ET Now",
-   "status": "name mismatch, skipped (etnowlive)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "Zee Business",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "CNBC International",
@@ -360,7 +233,7 @@
   },
   {
    "name": "Moneycontrol",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "NDTV Profit",
@@ -368,15 +241,15 @@
   },
   {
    "name": "Fox Business",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "Benzinga",
-   "status": "live, plays in the app"
+   "status": "feed check blocked, using channel-page id (HTTP Error 500: Internal Server Error)"
   },
   {
    "name": "Bloomberg Markets and Finance",
-   "status": "not live right now"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   }
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
