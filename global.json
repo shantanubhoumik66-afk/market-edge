@@ -1,27 +1,98 @@
 {
- "generated": "2026-11-16T00:56:23.422403+00:00",
+ "generated": "2026-11-16T07:52:02.498689+00:00",
  "bias": {
-  "score": -3.76,
+  "score": -4.05,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -3.2,
+    "score": -4.8,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "IT",
-    "score": -1.6,
+    "score": -2.4,
     "stocks": "TCS, Infosys, Wipro"
    },
    {
-    "sector": "DEFENCE",
-    "score": 1.12,
-    "stocks": "HAL, BEL"
+    "sector": "OMC",
+    "score": 1.5,
+    "stocks": "BPCL, IOC, HPCL"
+   },
+   {
+    "sector": "PAINT",
+    "score": 1.5,
+    "stocks": "Asian Paints"
+   },
+   {
+    "sector": "AVIATION",
+    "score": 1.5,
+    "stocks": "IndiGo"
+   },
+   {
+    "sector": "UPSTREAM",
+    "score": -1.5,
+    "stocks": "ONGC, Oil India"
    }
   ]
  },
  "news": [
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-16T07:29:00+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Silver ETFs slide up to 5% as Fed rate hike fears weigh on prices. Should investors buy, hold or exit?",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNlQyTHpXdEhoLTNmeGYwYlBwWG9fZDdmWWcxRE9qMlFBSkUzeThrVVZJRmVpVEoyM3ViQk9TMUxHTHdPX1ViNmQxN3Q1d2hLbWRWOVZjc2xaR3RVeGF4YXd4V2R2SVRkOUtZeDV2Yy04LVFFTXRSTEFObDlfejdoREQ4VWd5b201TDFKUWY1WUpOeTRMOEtHaVY5bU1Qb2d2VzBUcEtjeTBwTjFUYnZRek1xMnFDcHloMkk0LTIyTzFIVHV3RkZuR3ZXMnhLR2pUQmZ6Q1Zpc0ZMbFlBbUY2cTJTYnc3d3RzSUV2WDVEZFZCN2hoVnfSAfsBQVVfeXFMTjNLZG1wLUh0WWlSMDRnYlkycHhQVXpGV05EdmlwVW9RWlg1S0Y4T2p0N21pNHNJaDFOYU5nZTFtSUlWNFBzRkdSbGxVZWZ1MDByeFRFQ0tCTnFiY0Vqd0EwakxFRUZONkpMZEl1NzZUVHM1a3dqY0t1b1lUTzZZLXZKckxQVE16VHBBQm1vV3IweHktTUFLblRCZVFVRlBRZmxpaXNWVWUzZ0hEUjU0QUJzdEM1eE9VM0RvUS1hbk9pbWZPNnc1blBnZ05zWWFBMlgzTVR1d05UVi1Ic21GUk5oZkFZT1pqQzF3RXRJUklQNW51dUx0eHdXRUE?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-16T05:31:53+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
   {
    "region": "US",
    "flag": "🇺🇸",
@@ -51,96 +122,46 @@
    ]
   },
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-15T19:07:30+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "WSJ"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3dDbTZlcHo5dlpoNDJsVG81MEpfZ1ZnMlJCVmRNV1FUSkZsZEh5UjRZcjNuOUJGbV9aT0RzSUlRWVd0eXRwRjktWkh3Y25PVGE5TG5nY2dtQU1falVaaXZhMUphV1ZmdXZxa2R3NGFZZnJ6RXlSSFlJYTRNenBZZGFkSEMyTTJuRERnS1JfcVV2cWR3QlZzSVdDR0l6cW9qMGE4cGpBRXJEb2lBaWE4Wml0Q3VYUlFMdDdWOXpLSW9hU29kRHFzTWpCM3dGNWJOZngxOTRScGNhN3g1XzA00gHkAUFVX3lxTE9ycDdHWTJQcU1zMlJyeS14aWl5Y2tZX21NMmp4Mm9xWHFVa2hBcGtqaU0zT0RoSEdObFNIZjc4MWZhb2VZUTB5c1NVTDdvZ0VPZDNDU0N6YTQ3X2M1S3c5WTdLWEwzOWhxSWtMRTRMSG16RXlKMnlIb3dFbkNSNHo3MnlkcWIxVUxBSC01VEUycGp5QThGRU9pd0RyNU0yTTRhYlNyRkQ1VWNZZWg1Tk45WW1uV1B3M2k3MjVRU3dGS2N4eVhRbjRIZUFHSGVrT1ZDVWhTMUhtaDBMaUw4cHNtWXVVag?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-15T06:43:13+00:00",
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Crude oil prices slip on expectations of coming supply surplus; Brent falls below $95, WTI at $86",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORXdYZ0Q0WU00eHBQZmdxTTBaZHhGZ1VoZVdKNThxUldDN1N2V2M5WHJfRmU5S2ZSYkNPQ2lkZWZDRTJTQmtlTFVDRnVHWk1ocFl1UzRlNU0zdUozUjRpZHpmcFpFdl9rNld5eUF2QVUwSDZSX0EzYmc3UjYwOWJNVEc3RzU1YkxBTThSU0hxZ3R4Rk9SMkVabmpkWURYaXVIVEx1cm55dkVaUW9fWmZKNGNjbkNaTVV2Z3REd3FDYmhEbGdoczY1Mmh1Ri03TUUxRTRNcEJxaEJWamxxdnBxenFadmQtWlRmeVROWUVhb9IB9AFBVV95cUxPZzJPVHJCb0Zrdl9vZ3J3UkpWTHdEZ2d4a2lWMWRnU1pSQUFNOXNlZmxqQkhfSzgwd0x4NWl4R1RVNjhDNGp6b21kamc4V3hsVXE4Q0tMTnZReVJ3LWZkWjA1RGlhcDFORDJSWk9SeFcyU1F3bUxPclAxNjFYSXRzeXU3YlA4U3ZGb3ZhdEN6MGt2aVRXVlBpdERiWWhyWFg0cEM3VnY2WU1sYWZLc3p5SWxWaVFSMjVsV3VNRm16VkV4NUdtOXh5SzJoM2hzM0p4NmEtWHU2dDBZZG5GU1hDS0E0Tlg1RDVsNWFrTDhyeWlEYUox?oc=5",
+   "src": "Moneycontrol.com",
+   "time": "2026-11-16T04:13:58+00:00",
    "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "score": 1.5,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
    "sources": [
-    "The Economic Times"
+    "Moneycontrol.com"
    ],
    "sectors": [
     {
      "sector": "OMC",
-     "dir": -1,
+     "dir": 1,
      "stocks": "BPCL, IOC, HPCL"
     },
     {
+     "sector": "PAINT",
+     "dir": 1,
+     "stocks": "Asian Paints"
+    },
+    {
      "sector": "AVIATION",
-     "dir": -1,
+     "dir": 1,
      "stocks": "IndiGo"
     },
     {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
      "sector": "UPSTREAM",
-     "dir": 1,
+     "dir": -1,
      "stocks": "ONGC, Oil India"
     }
    ]
   }
  ],
- "videos": [
-  {
-   "id": "x2_iAu3v2tw",
-   "title": "Sara Duterte Impeachment Trial LIVE: Defense Presents Witnesses To Counter High-Stakes Trial | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-15T18:16:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/x2_iAu3v2tw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=x2_iAu3v2tw",
-   "business": true
-  },
-  {
-   "id": "AX7xQRjOFoI",
-   "title": "🔴England Vs Spain LIVE: 2026 UEFA Nations League Match | Harry Kane vs Yamal | Bellingham | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-15T18:12:57+00:00",
-   "thumb": "https://i.ytimg.com/vi/AX7xQRjOFoI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=AX7xQRjOFoI",
-   "business": true
-  }
- ],
- "channels_ok": [
-  "Financial Times",
-  "CNBC-TV18"
- ],
+ "videos": [],
+ "channels_ok": [],
  "live": [
   {
    "name": "Bloomberg TV",
@@ -245,7 +266,7 @@
   },
   {
    "name": "Benzinga",
-   "status": "feed check blocked, using channel-page id (HTTP Error 500: Internal Server Error)"
+   "status": "feed check blocked, using channel-page id (HTTP Error 404: Not Found)"
   },
   {
    "name": "Bloomberg Markets and Finance",
