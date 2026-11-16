@@ -1,273 +1,56 @@
 {
- "generated": "2026-11-13T18:57:08.738336+00:00",
- "date": "2026-11-14",
+ "generated": "2026-11-16T21:25:58.647709+00:00",
+ "date": "2026-11-17",
  "picks_up": [
-  {
-   "sym": "SAIL",
-   "sector": "METALS",
-   "net": 3.49,
-   "event_score": 0.0,
-   "sector_score": 0.72,
-   "sources": 0,
-   "reasons": [],
-   "sector_reasons": [
-    {
-     "label": "Steel import duties",
-     "title": "Centre Imposes Anti-Dumping Duty On Stainless Steel Tube Imports From China",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRkhNX0RkQ3A2ZXBPWUlQRlJjdTRlUDhNV09WSkFpTzVCZ1Bja3RrQ1p6c0I0dWhfTm5saEs3ZWVxblA2MlB0Q2swcHA5Tl9xRERULTBXaHpGT2RmdF9VazR6N0Nydi1QMTZQbXdLZ0lma3NFSVVlVkdIQTNwdXNpbGVsdVBmbmVPYnJyTVV0ZVg1RUFUcFNOZy1sY0xvQktiUjFMWW9qc3ZhUzZpLWluUmFnZ1dVWlN6NUEzWFVlenZScHNUc1kw0gHHAUFVX3lxTE1GSE1fRGRDcDZlcE9ZSVBGUmN1NGVQOE1XT1ZKQWlPNUJnUGNrdGtDWnpzQjR1aF9ObmxoSzdlZXFuUDYyUHRDazBwcDlOX3FERFQtMFdoekZPZGZ0X1VrNHo3Q3J2LVAxNlBtd0tnSWZrc0VJVWVWR0hBM3B1c2lsZWx1UGZuZU9icnJNVXRlWDVFQVRwU05nLWxjTG9CS2JSMUxZb2pzdmFTNmktaW5SYWdnV1VaU3o1QTNYVWV6dlJwc1RzWTA?oc=5",
-     "src": "NDTV Profit",
-     "time": "2026-11-12T20:49:25+00:00"
-    }
-   ],
-   "today_chg": 1.27,
-   "two_day_chg": 4.78,
-   "vol_ratio": 1.87,
-   "close": 177.7,
-   "close_date": "2026-11-12",
-   "layers": {
-    "news": 0.0,
-    "sector": 0.72,
-    "technical": 2,
-    "relative": -0.23,
-    "flow": 0.6,
-    "market": 0.4
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "20-day breakout on volume",
-    "volume 1.9x average on a +1.3% day"
-   ],
-   "agree": 4,
-   "dir": "UP",
-   "confidence": "Medium"
-  },
   {
    "sym": "BEL",
    "sector": "DEFENCE",
-   "net": 3.2,
-   "event_score": 1.54,
-   "sector_score": 1.02,
+   "net": 4.32,
+   "event_score": 1.8,
+   "sector_score": 1.6,
    "sources": 1,
    "reasons": [
     {
-     "label": "Broker upgrade",
-     "title": "PL Capital upgrades Hitachi Energy, Thermax; stays positive on L&T and Bharat Electronics",
-     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWlRpQ0RXbUliMmlmYjkxWE9aVG5pdnJsT2ZkMnlKNkVRX2Q3RGpubzBybnF3d3VCUzJ4REYyd2RnTWg5ZmJNR3BLaGFzcXA0UWdjSmIzb3FGWXBJOTlIVENGODRudklHNVFzWkFCQ0pCdVdGenJfLWQ3eTRwZV9ISXRpWFFRSEszLUo2NTFOOFdIdjNHYlNSYWpxTW0wNkxQVzZ1cEtsdkpPV3FBMEQ1eVBOT0RDeGJ3SGdRYmRFa0thZFp2c1VKRTlUVE5GaXg0cFNVYkVjNDdVTnZWdUU0MkJwRlh5ZFk1b3ZieklnejV3WnJQX3VzbUMwT253NXM10gGGAkFVX3lxTFAyNFZLcld1VGhtX0s3ZVR4T0NDZDFTQkk4YUg3ZmV6NGJPT0pFamt2Zmc1UlhxSkNSQzkyWjE5d2NSOVFkT3V4bTlBdm54aHdpRXl6aWVES3ZfN0ZseEhwcGVoOHZjaDYxTXhEcVdvekJyUHZsSFgwQTBscU9iNGJOOHRIVzA1b2NrV0l1alBWQ05iZmdyWjZHYzhlSll4b21YdGtLNWhaakxaSnByb1JKam54cjZtQlVXamYwQm0xSEl2c05TdWItaVdtcXB5cFEwcVA0VWFGVUwtNnh5enNpV2EtMGI1Wmp1OFVtYUhfY3QtdFBTSUtUeVpyd2VGSFo5ajE3Q0E?oc=5",
-     "src": "CNBC TV18",
-     "time": "2026-11-13T05:18:03+00:00"
+     "label": "Order / contract win",
+     "title": "BEL share price: Defence PSU stock in focus on Rs 619 crore order win; key details",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcDJOWURmd0N1UDBJSGktTG04QnBWRTI1WGljWVVUcFkyb0FvdUFLNEhpXzFrZFc0THMtM0RieWdUTnNDTXNxTzBmYzFFMFd4ZnNVSUFiNkRkV1dlVDhPcXlIUUh1RE1DQWxWWGFMRFFrOC1udVplSDJiMzVUOEx1T0h6bFdvTTI2QUhDakZWdkVha3ZJandNNlc1QnhEdmRWdmhwa0FvUjJvOWdVZ0NDalUySmdsWTM4WjJ3M1BoUGtqNW1CdHpDaE1qXzMzVF81YWl6aklpMXRCb2NEbWN5RDh3?oc=5",
+     "src": "Business Today",
+     "time": "2026-11-16T02:47:04+00:00"
     },
     {
-     "label": "Order / contract win",
-     "title": "Bharat Electronics stock wins INR 619 crore defence orders - ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeHRRT01vZUs1ek9aOU5pTlI4RGlKY0hiQXZiNS14a2NBVmJFc3NXSHV5VlYwRlBYZ3JyckxTbDlRUzU3ZDRNRkoxQnBhcGRaSllTaV9JeUxJM0h2R3pMZ1BlYW92b2xMUld0elNSOXdSU1JNaXQ2Vm1LSHY4Yjl3aGVGcXpMcVFkUVd2bTYxX1BUNHJZUFQzRW5YeF9CRFNzdk96ck94SlljU3NSRUNOSWhjWFduSUVSdHVDTG9B?oc=5",
-     "src": "ad-hoc-news.de",
-     "time": "2026-11-13T15:51:26+00:00"
+     "label": "Strong results / margins",
+     "title": "Weekly Recap: BEL revenue beats estimates and UBS raises target to ₹550",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXVtT2NlX29qRS1Zb3pWYVotVXpLVkFXZTkzUDZCVGlHTWhyWEVmWWdrYTcxMm5SVF82ZVZkLXY0M3BCWG16T0NkdHdMWDc3VVZoeTZ5RThKdFRqMzJkNklPZ2tuSnFzeURPVUF2al9rUTNIREZucWc1Y21kTDAwbTVMbzhRbVRaQWExMGNjY3NEeEtpdE5LWnRqRjFhNnJjMjB6ZEs1QTYwRXYwSkY2TnhYd1FuZ3pnMURyUDRZWUtDRFJ2YWpmQm43UQ?oc=5",
+     "src": "TradingView",
+     "time": "2026-11-16T01:00:00+00:00"
     }
    ],
    "sector_reasons": [
     {
      "label": "Geopolitical tension",
-     "title": "Oil Prices Up Over Unresolved US-Iran War, Brent Tops $96",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTmRHWm9jR2lGU29rOHItYmgwTzgzS2duQ3FTdVI2MEpiUlJDdXJheDE5LVMxLXdZVWJVc1Vqd2xibWpPaURJMk1xS2JUUVRweERadFIxanVEZjVMbUdUVGEyclkzUnpNTDN1cmVIZHZGRkh0VzVFbEFSRWZfMnpPZl9GQ2hkY280enc?oc=5",
-     "src": "MarketForces Africa",
-     "time": "2026-11-13T12:55:53+00:00"
-    }
-   ],
-   "today_chg": 1.45,
-   "two_day_chg": 2.6,
-   "vol_ratio": 1.05,
-   "close": 404.8,
-   "close_date": "2026-11-12",
-   "layers": {
-    "news": 1.54,
-    "sector": 1.02,
-    "technical": 0.74,
-    "relative": -0.5,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "RSI 81, overbought"
-   ],
-   "agree": 4,
-   "dir": "UP",
-   "confidence": "Medium"
-  },
-  {
-   "sym": "PFC",
-   "sector": "BANK",
-   "net": 3.16,
-   "event_score": 1.44,
-   "sector_score": 0.0,
-   "sources": 1,
-   "reasons": [
-    {
-     "label": "Capital return",
-     "title": "Rs 231.80 Dividend, 1:10 Stock Split, 1 Buyback: 31 stocks to trade ex-date next week—MRF, Oil India, PFC on list",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdFBsVXJLcEcwYm50dXlkdHp1ZkhzVUlxbS1nRjBDRTlVaEh3OUtSWHVXQndVT2VIOENDZEQxT3duMXZFbUVCWnFkRjB0aUgxQ0tGQnZVNEk5YS11M0s0aEZtbGVHWE1WU1FaZEd5RTVSMmlZZU5HWVU2ZnVRbnI0ZVZ2ZFBlRnpXektTVnNKOXJLeGNnNWl6WmJXalFITkdfdDdGSi0tSkdWX3ljQlpwV01wS2RGZ2ZfWnA1SThfRVRTVldjV2hWN1IxUXJwY0lScDMxa1FfQ3hMcjdBTHQzM1RqSGp2eW5n?oc=5",
-     "src": "Zee Business",
-     "time": "2026-11-13T12:32:38+00:00"
+     "title": "Iran war live: Third US aircraft carrier arrives in Middle East",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+     "src": "Arabian Business",
+     "time": "2026-11-16T04:59:46+00:00"
     },
     {
-     "label": "Merger / restructuring",
-     "title": "REC stock in focus as India reviews PFC merger structure - ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeXAwZ3VWa09IZk4yUXB0c3BUeng4MVE5VFp6dVdMU2I0MXFGUk5Lbjh2ay1lZHdySW9zaktSY3BYYlpDSnlCY3NyaUdzNDRIM1Q2NTJJMmd1bkdsZ2I1Y3FKTGNzcTdLcGJ5cW5IRnFPOVVrbmg2Y2lCYW5Ga1g5OGQ4bDZkMVBkeFU1X0FEaTI2TkNubmNsaWxMN0J4SmRsbVJyNmk4NHRobXFmcG1Hekk4NHJjZw?oc=5",
-     "src": "ad-hoc-news.de",
-     "time": "2026-11-13T02:23:12+00:00"
+     "label": "Defence orders / approvals",
+     "title": "India's Bharat Electronics wins new defence orders",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXNkVDU0ZkJ2QVN2cWlCODN0dm43SkFaRzVhWHd4YmNxNXlaWlY1b09ocDVwSzBhRlhzclN0VHpoM3pyQUU4QlNFNUJENEF0cXNxVzZselJTZnhHMkIwaWlSZGhnemZFYUtuTHpCTVJNUTJfZW9IWGNfZDdmcUNzSnFHbmVpcHlGbmdabmYxUUZ4OXdnVENDRmd3QkY4TzN2VWhBVDVTYWFYWUE?oc=5",
+     "src": "TradingView",
+     "time": "2026-11-16T02:54:00+00:00"
     }
    ],
-   "sector_reasons": [],
-   "today_chg": -1.58,
-   "two_day_chg": 0.21,
-   "vol_ratio": 0.65,
-   "close": 339.0,
-   "close_date": "2026-11-12",
+   "today_chg": -0.98,
+   "two_day_chg": 0.46,
+   "vol_ratio": 0.68,
+   "close": 400.85,
+   "close_date": "2026-11-13",
    "layers": {
-    "news": 1.44,
-    "sector": 0.0,
-    "technical": 1.4,
-    "relative": -0.08,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)"
-   ],
-   "agree": 3,
-   "dir": "UP",
-   "confidence": "Medium"
-  }
- ],
- "picks_down": [
-  {
-   "sym": "IDEA",
-   "sector": "TELECOM",
-   "net": -3.45,
-   "event_score": -4.08,
-   "sector_score": 0.0,
-   "sources": 2,
-   "reasons": [
-    {
-     "label": "Losses widening",
-     "title": "Vodafone Idea shares fall 3% after Q2 loss widens to Rs 5,975 crore on exceptional charges, ARPU rises to",
-     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNaGVDMmVEZ0dkUmR4MGVxOXZQUXY2NFRyTU9Yb1BBUHdWOVdmdmRLb0pudzRxQ3ZVeThraHZwT19RZDIxdWFsUlBQZVoyS3BzQW1TT2laYXNmVFh5X1lkN0M3WVJxTXRraktnLTQ0LVNialV1R01YUlpXc2x4Sy1nQ2pUaEJ1dGZUa3ppWEFWY1JWOVZlcUhudE9ZSVRrLVN2V2M5X3NiWTdsbmhST3E3ZEhvVmF0Q2J3a2tPVU1WZkZ4aUJLWHBRRmJZLTRfOXR2cVJjSE5handwZ0liM2VtY2NoZGp2X2ZWQmktM1FMYVVNcmZRSC1IX3RqQnBZb1dzRFhwVDV2Uk9admhQcElfWtIBlgJBVV95cUxQM1A2ZzNHNl95emxtck85TW1kb19IaTllbEdmd2JMZVlDQkVkXzVDTDdxS3Q4Z0N6SEhRYWI1SktBQkhhSHVjWTM2SkVORi1JR2FSRGtZYnVHVElmZXFWYXdRT2ZWQklkbjRiWkdCbHZCLTV1dl83LXpiWFZQUV91c2U2dWs0VVV5TWc2NEhsUFd0ZnFjWDVJdUpyZjBBTlRNaU42UVFqNURjbll3MHBleGdWU2xGNFVkTlVkV1BjZXlsaC1fX2txakZyX1VzSEs2cEQyOFAxN2hDLUR3cW56QTRGYW1zR09WNk5oWEk5MlZQVHFGR1FEeEliREw0RkNvOU13RmJiRjJTU0tGTmozSzhYWVJNQQ?oc=5",
-     "src": "The Economic Times",
-     "time": "2026-11-13T04:00:16+00:00"
-    },
-    {
-     "label": "Margin pressure",
-     "title": "Vodafone Idea shares fall 2% after Q2 results; Nomura flags margin pressure, weak ARPU growth",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdHNWWV9zZGVZWS1MbVJuQ0xkTHdfLTdnX0RkUVFucXVkZ3kwOHY3bE9lLWNGcmhWUHNWQUdvMTBRNUtpc0lDYWY2MkJFWEJhY1ZKclVIeGRkQmgyWl9nNDEyTTBRT2NCNWl5WXlPRHdFd3lZQU4zSGhxQ3l4VWZ1bjRRaTZ4bUxfSXNKTnYtT3A0U3Q5clZGUzM1STNub01XV0MtREFhUVdUWlZlVDhxQ252WUczc3Rhb3RwTjdWY1dNSmtfWGh6b2YyQldxRFVEMjM4dVpLM1FhUXY0OFZiSmxjSFRlbWNQWktJ0gHwAUFVX3lxTE9QenIyeC1RUERWYXlFTFlNTm14bmc0bUI1M05PZjNHVUVEZW9feURPSjJYTGVlbEoxcXlfRGhlWUZxZWliNWhPUDZ0R0JiSG94aFJlOWQ3RjZLbEpyaFRnT0ZPSElFM0I2WEZDMzFOTElIaHA0NlU5MC1ial9VN2k4bWZrb2ZwajVVeEdBXy1EeEUyWTdDM0g5VXdiNHFQMEVxYlZTT3Y4YmF1WFBvckhyOGx4X1BrQ1laU2piQmwtck43aEJhVWc5QmVqMEtBZWhlM1dZWWxJRjlkTkVQaEdYTjFoUWhqdmwwZVlXaGhPeg?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-11-13T05:19:26+00:00"
-    },
-    {
-     "label": "Weak results",
-     "title": "Vodafone Idea Q2FY27 Results: EBITDA misses estimates, margins fall 120bps",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd05PT1J2NVh0dFZ1WEZyZWZGNmMxRDhUVmJGdU0zTWhYUTd2dzR0ck9mM21scnkwWnpJTFhVR243eFdzVjBCMkRHQ3pCWlZUOUZWZGRfbEVFSU5SbGk3dkFDVVd6NWlyREQwZFh4TVNMcHBVSGtQa3dSOFNSUDd2a2xxc2lNcVJUXzF2aFVIVXVfSWhtVFFpbFA2bjZuMUdnbWhOVFZheVlPR1Ywa0lqOHRJQUFKc2J3UWdONw?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-11-12T17:01:56+00:00"
-    }
-   ],
-   "sector_reasons": [],
-   "today_chg": 0.7,
-   "two_day_chg": 2.37,
-   "vol_ratio": 1.08,
-   "close": 12.97,
-   "close_date": "2026-11-12",
-   "layers": {
-    "news": -4.08,
-    "sector": 0.0,
-    "technical": 0.6,
-    "relative": -0.37,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [],
-   "agree": 2,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "TATAMOTORS",
-   "sector": "AUTO",
-   "net": -2.51,
-   "event_score": -1.76,
-   "sector_score": -1.15,
-   "sources": 1,
-   "reasons": [
-    {
-     "label": "Weak results",
-     "title": "Tata Motors PV posts Rs 5,531-crore net loss in Q2 as JLR restructuring costs bite",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1RzUWI2TXNmTnRxUjJSWmF1TG83RDdxUVZEYzllRk5Da042NC1xSnVySW9tVzBETmF2ZnNXSmtmRXdNSWFkdW5hcTZ4eGFualNqdklrWmNIblM3UGwtN1VTOWtzQVMtZElTTWVQZEcyaTZLSGJtUlJacWFmZEREWUgtaWxmYm1iRXZXSWxoczRrVkQ5U3dqWUJPV0pLNEVSTUFzUDdhcTlWNGNtazRpbmhoR2lwZjDSAbwBQVVfeXFMTVVNVFZCLVFQNnNXRElST1BRTzBuRk1JUlFjX1JSUnJUWEY0RWhmVV9BSS1EQkU4WW92QVJ3V3hIQ3NvZEk3RUh5R1hRVnlncFZleUdtTk9rS1VSSUI0NDJCSHgyMUdNN2tMb00wMm1pNWJVNTdyUER6cHM1ZDg4WHB3bC1mdUY4QVctclo1dFRMMzlUTm5KZnFuU2dsZEVxMlg4NTNGVWVHNDdjRzNuUlljMWQxNk9zWi1nVDc?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-11-13T10:57:21+00:00"
-    },
-    {
-     "label": "Capital return",
-     "title": "Tata Motors partners with Turno to offer financing and buyback support for electric commercial vehicles",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZndfREFaYWZoMTZWNDgzbTNfY3ZZRVVWRzBlVDVwd1psbzliRHZxak9UWVNReXpOc0JEZDNucWxPZl94YjFINHQ0Z2JXSkltR3llaHpHMDk5cWh3emljRG5EeERkc3JBemtSNXljV2VZUy0za1ZDWURxSmozMk1XeDFucU9VU05sdzVqOUNHanIwejlFRnpmX21Iak1obDBwX090V0Z1Q0EwUS1QU2VQU2pqYW5vajBpTWxNaHU2dXNFNG1JQ2JwaDA2aw?oc=5",
-     "src": "BioEnergy Times",
-     "time": "2026-11-12T09:52:32+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "RBI rate hike",
-     "title": "Major Banks Raise Fixed Deposit Rates Following RBI's Repo Rate Hike",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGJzRkF2cjE2cnFhUG9ka0tfQThQVGRBck9nVEx3ckduRmEyc0dPbU5tZWJTNUNEZi1hLUQwYzdWRmdlOUpMc28wbWUtYmE3dzlobnNCWnI5SDNwWjcwQWVuY21Zemx3M2VYWmJLOVppV2Mxc1pPb3BlcGFPZ3ZYZWZRWXExVnNXVWhVejZIM2M0b1pGZUxLQThVeE1fZThiSlpsTm1RaVJIWEVlSUp2a25xdVZta1h00gG7AUFVX3lxTE5FNjFCZnhKM3pmSFdFMmJadHJ2SnNlWTRyVUV2c1hETmR2M0U3LVVySDlPeXo3cnZLOFRlMl94dmFVcS1WbmJXdFV0OFJqRlZYUU1KT19GNlNIR2haQUgxZHlLRkNoMm9BdnhsbEE2WllCQlFwSVVsMFpfVlRxQ0pVSnY4cUpPNXdLQmlkS0lCSHVNYk81N0R6MjdUdU1SejVKX1NsUTVUYUFsUlZIUUZ4QmN6YjF4QVVRSjQ?oc=5",
-     "src": "Rediff",
-     "time": "2026-11-13T10:08:52+00:00"
-    }
-   ],
-   "layers": {
-    "news": -1.76,
-    "sector": -1.15,
-    "technical": 0,
-    "relative": 0,
-    "flow": 0,
-    "market": 0.4
-   },
-   "tech_notes": [],
-   "agree": 2,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "ITC",
-   "sector": "FMCG",
-   "net": -2.17,
-   "event_score": -2.76,
-   "sector_score": 0.0,
-   "sources": 1,
-   "reasons": [
-    {
-     "label": "Regulatory / legal action",
-     "title": "Cockroaches, rodents, spoiled food: Why Biryani By Kilo, ITC Aashirwad were among 8 outlets shut in Hyderabad raids",
-     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPemJhV0tHeklTVEloSFFzODlYRVA1aEFuOTFwdXZWbVBjWld6N3UtVVNMMFZ4aWZQVG5ZQ0stbmRKczljMHpMcUtWVXZoMUlxV0RoODBPWHNaTWxZNHFLVU0tYXNkWWZkb1ZvUVR3T3VDMGFLUE0yWHk2YndpbXZOeWNtdW96b19WT2xxTHlaamhyRDd1NWtmd3pvOGIyRFFRVEJzR2M5b0gwT0xEajY3SkxPZW5fZDJzSlhkQWFaUUVXRTZQZVZ5NUoyUkRuaWotdlQxclBxTUlGbGt3eEJFWmVJYXM2SE5pa2ZSem9RbjRWWUtIX0hPNmtBV3pBajJE0gGGAkFVX3lxTFBGbHJDbFZVb1kwc3IwcjF4Q01FUEc4NjRpVUp2UGpWaVhIaU5FeTFGM1d5RFBUTV9jNFVGSWthY0hybGFnY0VtRjgwOWZ1UDlsLV9CMzRSeTdmM3N1NXJ5WDFJSDlxa1RqLXhndjNvVjhxRTF2MDhJSXd1a2dueTVLdEFhZERyUEdwbVpwV2xWRXRLTWVfOHUzQ1p3N1V3SXhOQjc4ZTZMaXE0RUh5cTdoY1FhS0NpeXl3ZVRFckdFUFhDYlF2MWhWdEExc1lURW9QT2N4cnhMUE1pNnhJMktCMTVYeDh5UV9oaXVZakllajZwRzZzQUxzb0V6VkFGdUQ1Rks4U1E?oc=5",
-     "src": "Livemint",
-     "time": "2026-11-13T12:42:21+00:00"
-    },
-    {
-     "label": "Tax / debt / penalty",
-     "title": "Invoices, E-Way Bills Alone Can’t Prove Receipt From Non-Existent Supplier: GSTAT Upholds ITC Demand And Equal Penalty",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFdmaTdRaXVWaWp2cFBaSXUtMVRqMFE4OUlMQm11dUNOd3pld09HbmxZYmh4UERreXNMa1JqX09PS3ZBbUthOXkzMkFkYmktMVhTUl8zblFuRWtyRzhqaGp0WnNjRHV0LWFDOGFSZDVlcktMZDJVQTlsay1yNWplRE1ySldxdjA?oc=5",
-     "src": "Juris Hour",
-     "time": "2026-11-13T11:34:09+00:00"
-    }
-   ],
-   "sector_reasons": [],
-   "today_chg": -0.33,
-   "two_day_chg": 1.88,
-   "vol_ratio": 0.91,
-   "close": 284.05,
-   "close_date": "2026-11-12",
-   "layers": {
-    "news": -2.76,
-    "sector": 0.0,
+    "news": 1.8,
+    "sector": 1.6,
     "technical": 0.69,
-    "relative": -0.5,
+    "relative": -0.17,
     "flow": 0.0,
     "market": 0.4
    },
@@ -275,23 +58,265 @@
     "uptrend (above 20 and 50-day averages)",
     "RSI 79, overbought"
    ],
-   "agree": 2,
+   "agree": 4,
+   "dir": "UP",
+   "confidence": "Medium"
+  },
+  {
+   "sym": "ABB",
+   "sector": null,
+   "net": 4.26,
+   "event_score": 0.96,
+   "sector_score": 0,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Broker upgrade",
+     "title": "ABB India share price: Motilal Oswal upgrades to 'buy' but HSBC stays cautious",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUFHenFZb2tKY1JMUFZ1VkFWOTFXM3ZYdmFLX1lJc1Q5QjYyUDZtaEFZb0FRbDE5c2xjSVJVM0NyLUpBYXRpMUFBclpQdDJ4dnlGMm9lYUFrUEhyWlJNQVY3VW0zbUhkbjgxTHlSNWZBNC1MdTY4YUhPWjFRSjdWUmI1QmkxZS1QMHVoNTIxcG9wdi1qQ2RCckZKT2J6MDlUaldrNmpGMk1ZWFNLRVNhcXM4X213ZURtLVd0TVJqdFN1WkVjQmfSAcsBQVVfeXFMT092LVFiRndXOHc5WlZnVW8yRjI4SEgyRURjdzBDT200T25mMGZKc3NVUDNaY1RtU0RWdzFZcnFHdnkwY25zYzFnbDNLNDRUODJKRWl4ZHd4VTNCZDFod250c0Q4cHV2Q2tFSEFuUGZsR1RlU3lWSUVrOWZxRk9ua0NCb1ZwSDZSVjIyd29IR1lCblZuenFpdm8tb0NUbHY3SHRXQ3c4aVdLRGdRUUdjZ3VyVEVRVlFlWnRTU1kxZXZneHBzX0RFTHhrOTg?oc=5",
+     "src": "CNBC TV18",
+     "time": "2026-11-16T02:59:08+00:00"
+    },
+    {
+     "label": "Strong results / margins",
+     "title": "ABB India PAT rises 10% to Rs 4.4 billion in Q3 CY2026",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3VNY1lObmdMeWVRbEhmWllvY01sNHRSOFVOa3RLVDlmVFNMdG1ocjJGcGJHejN2ZXlwMHQ0VlBGSFg2c2V0b19OZDhwNUFKb0lydUV0LXVVMUFxRFI5UkhGajNDUE5ad3daelpNUDI4OEZQQlZwb2d5NGVJeUluaW44dUNiUVdSU0tDbEN4aVVRdzRrLUtSbkhOUUJSaTZ3YWtPNEJ0TTdFS3I0MU5aQ2RVa2FOcGRSZGJ5a1FvQVNiMzhqU0E?oc=5",
+     "src": "Construction World",
+     "time": "2026-11-16T07:21:29+00:00"
+    },
+    {
+     "label": "Margin pressure",
+     "title": "ABB India Q3 2026 slides: order surge masks margin pressure",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcV85X0VEMDJ4dVFVOGNMMXdaVWd0UlhzekxUN1E5YnhCVGNIWTZoQ2dMQlFDWC1LTjdGbVh1cTRNZi1sMlpFY2wxYS1raGJlLUYteF8tQjk3aXZVNV9SOUQ4RURUaWZmMHl3VDhhU3NTeFptaDVKMUNfZFZEVlVMQnVPWDllcUxkMFpweW11dUJKeV9RWXdibmY4YUJFd1pDUWJub2NpNW11OE00aDgxbkliTVhnOWYxMW9V?oc=5",
+     "src": "Investing.com India",
+     "time": "2026-11-16T08:56:09+00:00"
+    }
+   ],
+   "sector_reasons": [],
+   "today_chg": 1.9,
+   "two_day_chg": 1.31,
+   "vol_ratio": 1.66,
+   "close": 7054.5,
+   "close_date": "2026-11-13",
+   "layers": {
+    "news": 0.96,
+    "sector": 0,
+    "technical": 1.8,
+    "relative": 0.5,
+    "flow": 0.6,
+    "market": 0.4
+   },
+   "tech_notes": [
+    "uptrend (above 20 and 50-day averages)",
+    "20-day breakout on volume",
+    "RSI 78, overbought",
+    "volume 1.7x average on a +1.9% day"
+   ],
+   "agree": 5,
+   "dir": "UP",
+   "confidence": "Medium"
+  },
+  {
+   "sym": "TATASTEEL",
+   "sector": "METALS",
+   "net": 3.8,
+   "event_score": 1.32,
+   "sector_score": 1.15,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Order / contract win",
+     "title": "Artson wins Rs 16.07 crore work order from Tata Steel for shell supply",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWlAwXzBrVWNmN0J6ZWZUSnRETkNFSEZmb01mVFdQdVlPMWdOV2VKZkVxVUlpdFctZ0cxaGdKVE51elhGTEJLcWFWTld0MldKZ1ZLR0VrNDFBYVEwWnJGSml6NndpWTJLQlFYc2hzMXNMVG5LZjZpd09iNHN3Qm5JQTdFN1VGUzNQWlhLXy1QZExOY3BkSW9SNllNVWpXaEJQaVhiVTY2S1ZfLWE1MTdia0hKX1dYMmhhSUE?oc=5",
+     "src": "scanx.trade",
+     "time": "2026-11-16T14:10:17+00:00"
+    },
+    {
+     "label": "Merger / restructuring",
+     "title": "Tata Steel targets NINL amalgamation completion by fiscal-end: CFO",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRmNUaG9hU3VJQVdBOUJIREVfWkdkMVVOLWV2UG9jbm5lZ3J0Z25zZFMwLXByVm44cktfcTk3em95TUdCaHE1cFRpTG90SmVnUTFaam1IbXNWakI2cXp6eU9WWEVMNER5WjN3Z2JaMXlhemVSVzIydjhxY1dsUVVnU3dmTG1rUVd4dGkxZGxodnVraF9vYXZoRlJDRFV3QkhmdWFRbHFnZ3BTcHRXbjM3NlhqeG1FMVQ0NHJSS0kwNjFkYU0tM2tNMTVzR0zSAdMBQVVfeXFMT3ZGRTJVbVhuSmxFdVMzWnVnUy16OFl2ZjBvV2xmMVppY1NfeXZnbmV3aTNneE9HSzBSOTN2N3JmTEhlNVBjZ1NKV0FTVXQ0bVdYbVZQRzJoRWUxdnlUa1hMYzNkNjV3SHp5aVlTTWJ2SnRLSkFKNVZYd2tnTktrZEJSWmVKZF92V0ZrcHh5N2x4YUZIVG5ZXzdVOVZmR1ROd2FYU1dISVN6SUwzTFJMRGk5VGxib0ZQYWZPeW9RQ1ViLXhuR2c0SGtJeG0xTEFvLXdZMA?oc=5",
+     "src": "BusinessLine",
+     "time": "2026-11-15T07:17:43+00:00"
+    },
+    {
+     "label": "Regulatory approval",
+     "title": "Tata Steel eyes NINL merger this fiscal; Rs 40,000 crore expansion awaits clearance",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVnRRcDVRNG45Mk94WGhOcThXTEg4VVZnNDJEd1ZNaDItWGc5dWRaVnZBREZYeGg4VkVPU2dtZEdYOU05NXlNdFNNdEUzLVNxSkNhcHMtdThSWS05U28xaEhlY0dPY3FCQmRkbXFZeFRNMmZnSXZzamp3aGlXV2swRHZKUHlaNHU3UVhVcmZiQXhJR0o2b0dBbGZ4WGdPUHpUeVRRMkxqZkpZSTRvSGE3SjNJM1lhMzR0UWZ2OFBudVFpRk85Z0hrbGtpOFFPTlhQQkdPOXVsbmJvUVpObUVESlpaeXpCRFpDai1LQV9wUVVFMXNDUkFSVFRiRdIBgAJBVV95cUxQcVVIalJ0WTBjUXBDQm9KRmlSMWFIbXVLUlQtdlo5a1ZGbU5wdzRSMGZydnNMaklFTGZ3NUdQeElfM1NEWDd4VUJGeDdTczEyU09iemtxLTB4cEtpUENMRTVpQ2dubVdnTWNrUUNXLWU0QW5VdWJVWWpldGN2UVdsMXVOMGNfaFl4Ymc0OWkwSlFmS2tHZlFyRGRsa2R0QmlvNjhINERMWTRPekpIZHhMcHg5MzNXYkhnWUs2T1hkRjV1bWhtWHNYaFMxRDFla3JlRnZWTjlfc0dxUS1HZEE5U1Vfc3ZyazNwZUlxMHdfTExuSUpvQnE2MXpFd3dPNEVa?oc=5",
+     "src": "The Times of India",
+     "time": "2026-11-15T09:31:00+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Steel import duties",
+     "title": "EU Imposes 9.5% Anti-Dumping Duty on Indian Steel Product",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSVF1UE5LcFF4YWxUWTVDWXdFZmxpZWdqaWZWMTBxUnh6bkpTcElCMkl4X3VEQmQ4MHU0OW1sV2V4dVlodmlqUGRIOWdiY1E2YXhfUk5nRXlrVjNzYTRxbHo1STBTakNfY1JLY1BrNnRYS19zdEhkLVlZbzNjel9vaXlia3IybGVtd0ZrelVsWGhyTG93?oc=5",
+     "src": "India Business Trade",
+     "time": "2026-11-16T17:32:03+00:00"
+    }
+   ],
+   "today_chg": -0.7,
+   "two_day_chg": -1.37,
+   "vol_ratio": 0.53,
+   "close": 186.68,
+   "close_date": "2026-11-13",
+   "layers": {
+    "news": 1.32,
+    "sector": 1.15,
+    "technical": 0.91,
+    "relative": 0.02,
+    "flow": 0.0,
+    "market": 0.4
+   },
+   "tech_notes": [
+    "uptrend (above 20 and 50-day averages)",
+    "RSI 75, overbought"
+   ],
+   "agree": 4,
+   "dir": "UP",
+   "confidence": "Medium"
+  }
+ ],
+ "picks_down": [
+  {
+   "sym": "TCS",
+   "sector": "IT",
+   "net": -2.08,
+   "event_score": 0.0,
+   "sector_score": -1.38,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
+    {
+     "label": "Fed tightening / yields up",
+     "title": "Gold hangs near YTD low as Fed rate hike bets and Middle East tensions support USD",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdjlBakdISzB2eWROenFUVUFkd2ZPYkNuanAtVWVVYVRhUzNHNlJMR3lkUFJJOXBXY0trU0pnMC1jVTNsNmZMS0pWcldSMk9SdEJ6M2ZIWlY5NWp0ZkV3ejlZT1RVT29QVUZPVUYzT1hDamdSMTB0aXBXc2xMNm0wczlPVEhwY2g4ZTkzWjdmOXF4VEZGbHd0WmF6bk1QUi1zVlpoV2d2R2VJaFNPVWQ1Q2pTUV9ZYlVkR3BoSUx1RERuTnNmOGpxMG14TEpYUXlvemVuU20wWUcxenVtTTRZdGdn?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-16T05:52:51+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 6 paise to 94.13 against US dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHROLXFSVTJIZ3VrZXBCYU1EemZFdUVXQjlMNEctOXJFdFZiUEo0SmtCNVdndUI1X2J5NEp0cWltMEY4U0t1R0xqd0ltWllKc1FxQkJjT0dhSVlyZEszNzc4ZXpDSVZDYzRQcmk3Wm56dndmZ1FmU3YxNW92VXUtcmpnSHZZamR2TlBFTV9odGxyT05KVWtfOHhmNTY4NTRxdEthdTRadU0xQzVoaG5RYXNyLTEyNTNXRFg1MFhQa9IBxAFBVV95cUxQSE45QnduTlJlTGJiWDdMZGFMR0tmUWJMRlZmblRLandQdEdmZHhfQTVkdG1pd3hyakhzSnlzelRTYVdSWlk3WGJienJQSTNxVjljOXpNR09TZXVTSEFiRUZtVlNUbGlnaEFFdkIxQTk3bTZvazd6ZV9LamxxQUZneGNRMll6X3cxeXpQcEptbUVZOElxU3VHTFA0eXZSa2R1QmQzdGwtaGJtOXY0dFdfX0p6VTlxajlVMjRfU1lTNXJ3aWk0?oc=5",
+     "src": "bfsi.economictimes.indiatimes.com",
+     "time": "2026-11-16T04:32:57+00:00"
+    }
+   ],
+   "today_chg": -1.43,
+   "two_day_chg": -2.61,
+   "vol_ratio": 0.63,
+   "close": 2407.5,
+   "close_date": "2026-11-13",
+   "layers": {
+    "news": 0.0,
+    "sector": -1.38,
+    "technical": -0.6,
+    "relative": -0.5,
+    "flow": 0.0,
+    "market": 0.4
+   },
+   "tech_notes": [],
+   "agree": 3,
+   "dir": "DOWN",
+   "confidence": "Low"
+  },
+  {
+   "sym": "HCLTECH",
+   "sector": "IT",
+   "net": -2.08,
+   "event_score": 0.0,
+   "sector_score": -1.38,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
+    {
+     "label": "Fed tightening / yields up",
+     "title": "Gold hangs near YTD low as Fed rate hike bets and Middle East tensions support USD",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdjlBakdISzB2eWROenFUVUFkd2ZPYkNuanAtVWVVYVRhUzNHNlJMR3lkUFJJOXBXY0trU0pnMC1jVTNsNmZMS0pWcldSMk9SdEJ6M2ZIWlY5NWp0ZkV3ejlZT1RVT29QVUZPVUYzT1hDamdSMTB0aXBXc2xMNm0wczlPVEhwY2g4ZTkzWjdmOXF4VEZGbHd0WmF6bk1QUi1zVlpoV2d2R2VJaFNPVWQ1Q2pTUV9ZYlVkR3BoSUx1RERuTnNmOGpxMG14TEpYUXlvemVuU20wWUcxenVtTTRZdGdn?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-16T05:52:51+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 6 paise to 94.13 against US dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHROLXFSVTJIZ3VrZXBCYU1EemZFdUVXQjlMNEctOXJFdFZiUEo0SmtCNVdndUI1X2J5NEp0cWltMEY4U0t1R0xqd0ltWllKc1FxQkJjT0dhSVlyZEszNzc4ZXpDSVZDYzRQcmk3Wm56dndmZ1FmU3YxNW92VXUtcmpnSHZZamR2TlBFTV9odGxyT05KVWtfOHhmNTY4NTRxdEthdTRadU0xQzVoaG5RYXNyLTEyNTNXRFg1MFhQa9IBxAFBVV95cUxQSE45QnduTlJlTGJiWDdMZGFMR0tmUWJMRlZmblRLandQdEdmZHhfQTVkdG1pd3hyakhzSnlzelRTYVdSWlk3WGJienJQSTNxVjljOXpNR09TZXVTSEFiRUZtVlNUbGlnaEFFdkIxQTk3bTZvazd6ZV9LamxxQUZneGNRMll6X3cxeXpQcEptbUVZOElxU3VHTFA0eXZSa2R1QmQzdGwtaGJtOXY0dFdfX0p6VTlxajlVMjRfU1lTNXJ3aWk0?oc=5",
+     "src": "bfsi.economictimes.indiatimes.com",
+     "time": "2026-11-16T04:32:57+00:00"
+    }
+   ],
+   "today_chg": -0.2,
+   "two_day_chg": -1.22,
+   "vol_ratio": 0.51,
+   "close": 1378.0,
+   "close_date": "2026-11-13",
+   "layers": {
+    "news": 0.0,
+    "sector": -1.38,
+    "technical": -0.6,
+    "relative": -0.5,
+    "flow": 0.0,
+    "market": 0.4
+   },
+   "tech_notes": [],
+   "agree": 3,
+   "dir": "DOWN",
+   "confidence": "Low"
+  },
+  {
+   "sym": "TECHM",
+   "sector": "IT",
+   "net": -2.08,
+   "event_score": 0.0,
+   "sector_score": -1.38,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
+    {
+     "label": "Fed tightening / yields up",
+     "title": "Gold hangs near YTD low as Fed rate hike bets and Middle East tensions support USD",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdjlBakdISzB2eWROenFUVUFkd2ZPYkNuanAtVWVVYVRhUzNHNlJMR3lkUFJJOXBXY0trU0pnMC1jVTNsNmZMS0pWcldSMk9SdEJ6M2ZIWlY5NWp0ZkV3ejlZT1RVT29QVUZPVUYzT1hDamdSMTB0aXBXc2xMNm0wczlPVEhwY2g4ZTkzWjdmOXF4VEZGbHd0WmF6bk1QUi1zVlpoV2d2R2VJaFNPVWQ1Q2pTUV9ZYlVkR3BoSUx1RERuTnNmOGpxMG14TEpYUXlvemVuU20wWUcxenVtTTRZdGdn?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-16T05:52:51+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Rupee rises 6 paise to 94.13 against US dollar in early trade",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHROLXFSVTJIZ3VrZXBCYU1EemZFdUVXQjlMNEctOXJFdFZiUEo0SmtCNVdndUI1X2J5NEp0cWltMEY4U0t1R0xqd0ltWllKc1FxQkJjT0dhSVlyZEszNzc4ZXpDSVZDYzRQcmk3Wm56dndmZ1FmU3YxNW92VXUtcmpnSHZZamR2TlBFTV9odGxyT05KVWtfOHhmNTY4NTRxdEthdTRadU0xQzVoaG5RYXNyLTEyNTNXRFg1MFhQa9IBxAFBVV95cUxQSE45QnduTlJlTGJiWDdMZGFMR0tmUWJMRlZmblRLandQdEdmZHhfQTVkdG1pd3hyakhzSnlzelRTYVdSWlk3WGJienJQSTNxVjljOXpNR09TZXVTSEFiRUZtVlNUbGlnaEFFdkIxQTk3bTZvazd6ZV9LamxxQUZneGNRMll6X3cxeXpQcEptbUVZOElxU3VHTFA0eXZSa2R1QmQzdGwtaGJtOXY0dFdfX0p6VTlxajlVMjRfU1lTNXJ3aWk0?oc=5",
+     "src": "bfsi.economictimes.indiatimes.com",
+     "time": "2026-11-16T04:32:57+00:00"
+    }
+   ],
+   "today_chg": -0.56,
+   "two_day_chg": -1.37,
+   "vol_ratio": 0.32,
+   "close": 1764.0,
+   "close_date": "2026-11-13",
+   "layers": {
+    "news": 0.0,
+    "sector": -1.38,
+    "technical": -0.6,
+    "relative": -0.5,
+    "flow": 0.0,
+    "market": 0.4
+   },
+   "tech_notes": [],
+   "agree": 3,
    "dir": "DOWN",
    "confidence": "Low"
   }
  ],
  "stats": {
   "all": {
-   "total": 62,
-   "hits": 28
+   "total": 68,
+   "hits": 30
   },
   "up": {
-   "total": 33,
+   "total": 36,
    "hits": 22
   },
   "down": {
-   "total": 29,
-   "hits": 6
+   "total": 32,
+   "hits": 8
   },
   "tiers": {
    "High": {
@@ -299,20 +324,62 @@
     "hits": 6
    },
    "Medium": {
-    "total": 34,
+    "total": 37,
     "hits": 15
    },
    "Low": {
-    "total": 15,
+    "total": 16,
     "hits": 6
    },
    "Weak signal": {
-    "total": 6,
-    "hits": 1
+    "total": 8,
+    "hits": 3
    }
   }
  },
  "recent": [
+  {
+   "date": "2026-11-17",
+   "sym": "TECHM",
+   "dir": "DOWN",
+   "net": -2.08,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-17",
+   "sym": "HCLTECH",
+   "dir": "DOWN",
+   "net": -2.08,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-17",
+   "sym": "TCS",
+   "dir": "DOWN",
+   "net": -2.08,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-17",
+   "sym": "TATASTEEL",
+   "dir": "UP",
+   "net": 3.8,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-17",
+   "sym": "ABB",
+   "dir": "UP",
+   "net": 4.26,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-17",
+   "sym": "BEL",
+   "dir": "UP",
+   "net": 4.32,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-11-14",
    "sym": "ITC",
@@ -402,74 +469,35 @@
    "sym": "HCLTECH",
    "dir": "DOWN",
    "net": -1.28,
-   "confidence": "Weak signal"
-  },
-  {
-   "date": "2026-11-12",
-   "sym": "COFORGE",
-   "dir": "DOWN",
-   "net": -1.4,
-   "confidence": "Weak signal"
-  },
-  {
-   "date": "2026-11-12",
-   "sym": "MPHASIS",
-   "dir": "DOWN",
-   "net": -2.3,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-12",
-   "sym": "BEL",
-   "dir": "UP",
-   "net": 3.06,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-12",
-   "sym": "HINDALCO",
-   "dir": "UP",
-   "net": 3.45,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-12",
-   "sym": "LT",
-   "dir": "UP",
-   "net": 3.7,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-11",
-   "sym": "HCLTECH",
-   "dir": "DOWN",
-   "net": -1.28,
    "confidence": "Weak signal",
    "result": {
-    "next_date": "2026-11-12",
-    "chg": -1.02,
+    "next_date": "2026-11-13",
+    "chg": -0.2,
     "hit": true
    }
   },
   {
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "sym": "COFORGE",
    "dir": "DOWN",
    "net": -1.4,
    "confidence": "Weak signal",
    "result": {
-    "next_date": "2026-11-12",
-    "chg": 0.82,
-    "hit": false
+    "next_date": "2026-11-13",
+    "chg": -0.29,
+    "hit": true
    }
   }
  ],
  "scanned": 111,
  "market_regime": 1,
  "sector_effects": {
-  "DEFENCE": 1.28,
-  "METALS": 0.9,
-  "REALTY": -1.44,
-  "AUTO": -1.44
+  "IT": -1.72,
+  "NEWAGE": -1.12,
+  "DEFENCE": 2.0,
+  "PHARMA": -0.6,
+  "METALS": 1.44,
+  "REALTY": -1.17,
+  "AUTO": -1.17
  }
 }
