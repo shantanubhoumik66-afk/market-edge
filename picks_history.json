@@ -953,42 +953,72 @@
   "sym": "BEL",
   "dir": "UP",
   "net": 4.72,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": 0.14,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-13",
   "sym": "HAL",
   "dir": "UP",
   "net": 4.26,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": -0.43,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-13",
   "sym": "TATASTEEL",
   "dir": "UP",
   "net": 3.48,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": -2.37,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-13",
   "sym": "IDEA",
   "dir": "DOWN",
   "net": -2.17,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": -0.32,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-13",
   "sym": "HCLTECH",
   "dir": "DOWN",
   "net": -1.6,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": 0.48,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-13",
   "sym": "ICICIBANK",
   "dir": "DOWN",
   "net": -0.9,
-  "confidence": "Weak signal"
+  "confidence": "Weak signal",
+  "result": {
+   "next_date": "2026-11-16",
+   "chg": 0.09,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-14",
@@ -1072,6 +1102,48 @@
   "sym": "TECHM",
   "dir": "DOWN",
   "net": -2.08,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "BHARTIARTL",
+  "dir": "UP",
+  "net": 4.39,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 3.92,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "SBIN",
+  "dir": "UP",
+  "net": 3.5,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "ASHOKLEY",
+  "dir": "DOWN",
+  "net": -2.32,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "TCS",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-18",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -2.3,
   "confidence": "Low"
  }
 ]
