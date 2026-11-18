@@ -1145,5 +1145,47 @@
   "dir": "DOWN",
   "net": -2.3,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "BHARTIARTL",
+  "dir": "UP",
+  "net": 3.14,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "ASIANPAINT",
+  "dir": "UP",
+  "net": 2.98,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "DIXON",
+  "dir": "UP",
+  "net": 2.6,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "BRITANNIA",
+  "dir": "DOWN",
+  "net": -2.56,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "WIPRO",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-19",
+  "sym": "TATAELXSI",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
  }
 ]
