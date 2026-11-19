@@ -1,150 +1,207 @@
 {
- "generated": "2026-11-18T19:45:08.256977+00:00",
- "date": "2026-11-19",
+ "generated": "2026-11-19T19:45:55.889229+00:00",
+ "date": "2026-11-20",
  "picks_up": [
   {
-   "sym": "BHARTIARTL",
-   "sector": "TELECOM",
-   "net": 3.14,
-   "event_score": 1.04,
+   "sym": "PNB",
+   "sector": "BANK",
+   "net": 2.6,
+   "event_score": 1.1,
    "sector_score": 0.0,
    "sources": 1,
    "reasons": [
     {
-     "label": "Strong results / margins",
-     "title": "Airtel Payments Bank Q2 net profit jumps 139%, annualised revenue crosses Rs 3,500 crore",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeHptXy1RSFFMT1RtSjBrMi0wTk9HQnhpYmRycXlGZkdmQmRhZFlHQTBEZDVHN2xBWE5mWTA2ai1IUGk0bldrejgzSmw1YUZsQzVucTgxUDh5eU5pVFhPV2xSbXNQTzNybXJfaU9kX21FVHh6NEFRcjEyWk91RVAxUWFHWEhocU5GVDZNN0xobjhLSjdRVnFuX1lDTzN4aGJPTEhGY2wxRFJ0S0twYk9DRmg1MUo5d050MXBTZGh4QlZUY3A1elZ4Vm1qY1I1RmJWUUh5MWROa2xPQdIB4wFBVV95cUxPaWZIQ0h4NU5xX080blNQVGViNTZtWk0xVHdzTlplWTR4NjBfakZfVUJxRGtMR3RuR3pEdVc1UXNBXzlfNHNud0ZaVWdFVU9sMUkwTnZFT1h0OUFFMEdKQjFMRGIzdU45V0x0MkJsODFaUVlVd2JCMUhDVlRfOEdhamFUb1A4Q0w3ZFo1OFFRTEg2NDdzQ0JtdWNJY0w4V0doakRrNTR1VVZrX2ZPTHpoUFpEQ1lqV0J3blZxYkoyN0Z6MFl2RDdDWDk5UzRRRWRuREwxWDJkWVBhTlVrbkMyUmdMNA?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-11-17T09:39:59+00:00"
-    },
-    {
-     "label": "Order / contract win",
-     "title": "Acs Technologies wins Rs 18.07 crore work order from Bharti Airtel",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEh6RTJEaXZoM0pUYTQyY3daclVSN093YWVsUFdJQnREMHUwUS1YejEtUEFfZWlWMGI2ZGtnS2tORWZYd1JRZExVd0RMVkF5YmJqempHVzlFTW5QVi1WTXp4VFhFM3NGV0k5SzI0ZjRYWHYtWDNEX1pNazFhVWRnMGhMaVAtWW1QazBEWmEyV05xYmU5ejI5NlRUSS1VY2NlQ3pRaUVWLU8?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-11-16T21:35:47+00:00"
+     "label": "Broker upgrade",
+     "title": "Moody's upgrades PNB's credit assessment on better asset quality, profits",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYndCRUxIYVRTT2JUZG9XLXd4NzRiZjM4RzkzdHRBQ0M0ZUU0T0RmOWxsSGU4N2lWS2hkdUVZYXJPSXlJS0NXdFRkQkhOQWRQVjBDNi1wOUd3QUV2UktSdmRXa3EzV2g3cTFFRWJYRzFjU1lwZGxtS2FSX19maVdCZURjUWp3OHktRmxtRVNMSmttYk11dGVJQzVpVnFOVGhZdjdNMGpGSWRDajVITmJLbndNaVhZUVdIa3ctZEJnWkhlUzFNbHFSQlN5WjA2Y3Bia2QzZ3RlMGduUEnSAeABQVVfeXFMT21WZXppWHFPZzVEbFE5TEZTbXRveXJaZExvRlljV2dLSjc3MVNPbTdMWFFyUmxrVFNCalF6NVNrOHN3eDBLaFpZaUdUWFN1bTNaOWx1Zi11M19LTGUwMjRBejAzcm5FNTNRRzJ2akM1QkZON3VIeHBScWRjS3Z0Y3lCQ0ZDcnJORGZXNkk2aG1Zbk14aXZpWnVPQ1NDT3N3Z0FWTWRxd1MtbW9Ha01aMVVZX3JKbHd2U2w4Ri1SdkpGX0psb0hUemhlSmRfTU5DMW1NWlM5XzV5Q1ZxM0Y3RTQ?oc=5",
+     "src": "Business Standard",
+     "time": "2026-11-19T11:25:16+00:00"
     },
     {
      "label": "Tax / debt / penalty",
-     "title": "Bharti Airtel (NSE:BHARTIARTL) Gets ₹13.72 Lakh DoT Penalty Notice",
-     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxONk0wSy1ncm1jdUlFOXBpa0tqSkdkZzJobWdzbWZQNEMzODRFMmhGanVlYjhrN2dWcGhheUVvNjhlWGgzOXZvN01Oek5yOGlHVzQ1aTJHQ3IxWVhNeGlxZXdMaWlyTTJqUjVEcmpxT1RjTWlMalQ4ZzNwRTFtX1RRZWV3TTM5czBXN0NRVEN1V3YtZTVXcG1BQndiVVZkbWpYcXNyc2d4M05YZ3A1dDhmUkQ1bExRQXJCNy1Kbm1FNDFDZjRCSFdsRHZsUzEzeldrdWE2RzJmT1l3cGprenVtQTZXRTZNWW1nOUdXT0lOUk95QXNlaFZlZm5tUTMxTEYwalJJNFhhQmpnVzdTRVVMR0prc3dfNms?oc=5",
-     "src": "Kalkine India",
-     "time": "2026-11-17T09:58:00+00:00"
+     "title": "Punjab National Bank Gets ₹1.24 Lakh RBI Penalty Over Currency Chest Violations; Shares Rise 3.63%",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVkg0eEg2VmRwWE1fa1N3dlNtNVVIU293MW5aa1BsejMydXJzaFQ3RTc2RHhWZUp2WVNwV205Nm9LdVBkRnJwZmVLME5US0ptV1BFR3J1cnVkYjdlLTV2TUs4ZnBDclhNR0puZl9ORHZTU2xpQ2NHVzhCaTVEN1RjME5sX3lHQUl0MkFPSkdvSzZzalhkVHZlOU83R21zZ3pLZXBjNUowd1M?oc=5",
+     "src": "HDFC Sky",
+     "time": "2026-11-19T05:58:50+00:00"
+    },
+    {
+     "label": "Order / contract win",
+     "title": "Punjab National Bank Receives RBI Penalty Order For 123,850 Rupees",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS1diZjVrY3JwUldiaUVfWnJLUml2MTdGcmU3bW44Q21KN213ci1EemcxaWlDeVUyQ05kakpSVnZ6bzIwWE04ejFyN0tISlFlTVA2RUxMX0RQa1Q5VUlCclhCeTZUWWxyeUh4c2EtUlVsMzJhUnB4RXEyZUxrU3VzbVF2ZzVtQ05FVWZaMTViWlRleElFakZUN2pORWctUTItOE9fSVF1U01Ld0hZR0pKRWJsR000dWttVm14RHdQTEh2TS1uNnpsV2VTQzMyVVVEMkE?oc=5",
+     "src": "TradingView",
+     "time": "2026-11-18T14:34:02+00:00"
     }
    ],
    "sector_reasons": [],
-   "today_chg": -0.71,
-   "two_day_chg": 1.53,
-   "vol_ratio": 0.66,
-   "close": 2138.3,
-   "close_date": "2026-11-17",
+   "today_chg": -0.29,
+   "two_day_chg": 3.44,
+   "vol_ratio": 0.99,
+   "close": 149.57,
+   "close_date": "2026-11-18",
    "layers": {
-    "news": 1.04,
+    "news": 1.1,
     "sector": 0.0,
-    "technical": 1.4,
-    "relative": 0.3,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)"
-   ],
-   "agree": 4,
-   "dir": "UP",
-   "confidence": "Medium"
-  },
-  {
-   "sym": "ASIANPAINT",
-   "sector": "PAINT",
-   "net": 2.98,
-   "event_score": 0.6,
-   "sector_score": 0.48,
-   "sources": 1,
-   "reasons": [
-    {
-     "label": "Broker upgrade",
-     "title": "Is there more upside in Asian Paints shares amid crude fall? Goldman Sachs double-upgrades paintmaker",
-     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZVFlaFVSc2hNN1ZQRmJRYW9xcTQzcUhGTnhjd0tXVnZybWhHWVNzUC1VTkU1UHBkYjVGbUxTRDktVUc3c3pIY0J3blgxWjB6ZVhWOGdCeUVoMGRLejg0eDdLRy15Rld5ckw1cF9ndVlZNWItNXd1NFZ4MmZreGg1ZjFrRjhBT29BMmtzUXRXLUt5VG9jcnppcElwXzdMYTc4WEtSWmphMm5iamRIdWs4MFJrdm1LZzVQa0dDVFc4Y3EtcnlWVW5wM1JPaWZvdXVkTWNnTXRIM1l0U181WXJQeXpueDduTUlHOGdNSVdOeUZxR0x3ZjdqZzFfMU1EX2lYSExyYUljMUJmVldxNGF4a2UzblRldw?oc=5",
-     "src": "Zee Business",
-     "time": "2026-11-17T09:12:01+00:00"
-    }
-   ],
-   "sector_reasons": [
-    {
-     "label": "Crude oil falling",
-     "title": "Crude Oil Falls as US Stockpiles Rise, Hormuz Risks Persist",
-     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNd3lMMXZrckNPekozRjExbno3aWdDRGt4dmVQdHE0UTBaZnpoNFExUFAyMFlqSzd2eGdQR1JpczdCbHRlVVVsLVJqZ3BxeDM3WTZGY0tPN2lwOFdQUGNVT2UtX1hZNnN0Y0Jpbk9HY0tSczBLOEVTYjVEdXNZOHpBc2ctaUV1NDY3cjJyd3JqdUIyUmdpSTF6RFF5QkpVZ3RSNGEwUEJPTXQ2RW1zMkcxYUVQSnc2ei16a0x0bmVjelU4VlM5bXY3STlrUkRCOV9LVHE1a25lWmdjaGVQM2ZOQnpjeE1rLWxyaHFSa3hkcG1rZlZVeHlnNTNWRkEzZmZWRGlzSEVn?oc=5",
-     "src": "HDFC Sky",
-     "time": "2026-11-18T04:40:42+00:00"
-    }
-   ],
-   "today_chg": 2.02,
-   "two_day_chg": 2.94,
-   "vol_ratio": 1.29,
-   "close": 2625.0,
-   "close_date": "2026-11-17",
-   "layers": {
-    "news": 0.6,
-    "sector": 0.48,
     "technical": 1.0,
     "relative": 0.5,
     "flow": 0.0,
-    "market": 0.4
+    "market": 0.0
    },
    "tech_notes": [
     "uptrend (above 20 and 50-day averages)",
-    "RSI 85, overbought"
+    "RSI 90, overbought"
    ],
-   "agree": 5,
+   "agree": 3,
    "dir": "UP",
    "confidence": "Medium"
   },
   {
-   "sym": "DIXON",
+   "sym": "ABB",
    "sector": null,
-   "net": 2.6,
-   "event_score": 0.8,
+   "net": 1.83,
+   "event_score": 2.4,
    "sector_score": 0,
    "sources": 1,
    "reasons": [
     {
-     "label": "Beat / volume growth",
-     "title": "Video | Dixon Technologies Expects Strong FY28 Volume Growth Led By Vivo: Saurabh Gupta",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdnFCVnRZMEtkSEpiaEE0SXFocDVCN0tZcEpYZFdaNHh1T0ZlZ2NWY2ZQODZKX0QtWGxJaUZwWTk0Q3kyVEZsQU1nUFVzS1FOMHlUU0dXSFZkRTRYbllkdThxSHIwTFNuNEE1TU83dHhFQVZSS2VGdl9PY3hLNXVxZXpzdVIyVkNYLVJWZHZkeDBPTVZMQUdPRHBUYUk5TWpfOEI5cDNJUV9RNHlqcVV0ajRzNnVXRW9JY1pwOWkycjdvX29pRDJ1Sw?oc=5",
-     "src": "NDTV Profit",
-     "time": "2026-11-17T06:23:50+00:00"
+     "label": "Order / contract win",
+     "title": "ABB India’s margin recovery in spotlight amid record order inflow",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbmRldUppUzg0YTVlM0FSSEx2WkQ3Rm84UzRTSDBLcWNFRmJaSlZUNklxUDlEMV9iNGxWcUFnSktTcWZsVUpzS0IzdXhuS3FYRVhTRWE3c1ZMTWxEQjJTN2dQbEpvcndnM1lWWGlkbWFZajh0NFNmNFJiaXZKcnV2b0tJZ2U4b3ZtMVFhcmlTYXZDSEF3aUw2RmFoZENYWTFIaU4yZ19PSk1WQ29HM243dUJBeTNWZDFEdTdNNWxNbHg3eEhT0gHKAUFVX3lxTFB1OU9NejB3OFpPUmlTTTNnVWVNWC1tSG1TUXN2ckZ4OFBiVVBVUjJHX1N1T0Y5YnJpX3RLQnJDRGRGMXVYNXhuVmlXWXFQNktpZE1YUHd3b19hVGtqYWFUdWVia2M2aGdUM0wxZkU1OU45SkpqYUZnY3hRSmx1U1V2elFRMTRJVFA1dUtmTUZPeVVOLU1FRnR6NmdTMGlaZnhKcVVtckQyS3ZWNzFLSGhENi1QX19iZzdlbEdzVUZVODFRLVZLT2ZhWHc?oc=5",
+     "src": "Livemint",
+     "time": "2026-11-19T08:14:03+00:00"
+    },
+    {
+     "label": "Strong results / margins",
+     "title": "⁠ABB India PAT Rises 10 Per Cent To Rs 440 Crore; Record Orders For Q3 CY2026",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSHI2REc0TlZtODdzVTRERENROEdKMTBEWE9RbTdIbnJKOXdIMndYSWFDb3hqQzNsZXdadkhZMEw3dGtiTzNxUXU2c2tzekNYVUMzWlNHM0dfcGRfWEdQMVlhdTJ1cUZJd004Nm95ZjlsWmpKRzhaYW1PZS1rbU9KVzJBcmV0bHMtd1ZoRTB6eDJLZFdYYmVFbWZvV29RT0ROTG9CdHB5OXlwbVlOVDdRSUQxMTNpR1dQbjQzN0530gHEAUFVX3lxTE1hODh1OUxDVkFGUDdvNjhlcTVlR1BwOFllZk5GUjJXRkhQanQwT2dVR1RoRkM1MFNYWWJMcHJIaVpQVEthOUM0ZEozZ0hZdERrWVhndldWTnFYNl9RalN4elFjbW93YmZJT3p0MEE5ZjcxLUpMSVFCRTlnYlZPcGo1RnVzTTRtZVJVOWR0NUtJQ3FFLThTU2xUQ192UHp1eE9sX3l0RlVhQW5aUGlYOFRPQUlVSE5rMThCODRLVjUzeTVFVlQ?oc=5",
+     "src": "The Daily Jagran",
+     "time": "2026-11-19T08:58:00+00:00"
     }
    ],
    "sector_reasons": [],
-   "today_chg": 1.48,
-   "two_day_chg": 2.21,
-   "vol_ratio": 0.97,
-   "close": 13081.0,
-   "close_date": "2026-11-17",
+   "today_chg": -1.04,
+   "two_day_chg": -0.64,
+   "vol_ratio": 1.14,
+   "close": 6851.0,
+   "close_date": "2026-11-18",
    "layers": {
-    "news": 0.8,
+    "news": 2.4,
     "sector": 0,
-    "technical": 1.0,
-    "relative": 0.4,
+    "technical": -0.32,
+    "relative": -0.25,
     "flow": 0.0,
-    "market": 0.4
+    "market": 0.0
+   },
+   "tech_notes": [],
+   "agree": 1,
+   "dir": "UP",
+   "confidence": "Low"
+  },
+  {
+   "sym": "BEL",
+   "sector": "DEFENCE",
+   "net": 1.5,
+   "event_score": 0.36,
+   "sector_score": 1.02,
+   "sources": 0,
+   "reasons": [
+    {
+     "label": "Broker upgrade",
+     "title": "BEL, BDL Share Prices in Focus Today After India Signs ₹1,976 Crore Barak Missile Upgrade Deal With Israel",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWFBibEdSd0JDYTRiWjQxUy1kZEpSdWtEUGNrSWVEODlJY21TQlBUbThFSFUwYUJnYlZGVWRobi0wVVVRRmlxSjF0Z0s4b1ZVNFF6TmlTLXZOOUtHS09lNEdEajVIUUt1V20ydkJhMUZRdzJMVWwyYlZwU2txQjN5cFgzRS1zVHlWVjdPRHdGZHNoc3E1UjRsanJ3MC1EVUhucDZNcGt5MHFDWnU1WkNzclNWb2I4MnY4RS1nWGVSYmhIMGlfTHF6VXA4clk3MElX?oc=5",
+     "src": "Kotak Neo",
+     "time": "2026-11-19T04:38:25+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Geopolitical tension",
+     "title": "Crude oil prices surge nearly 2% as US-Iran conflict escalates",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMnBLUlcwR1FuNWZZaklWcWJjTFZuaWlVbUNZTVQ4ZUp5MjFNeXV6MmdpbXBqV0ZyY1Z4UGJ6anIwN1hKMm5fTnMwZTcxMUw3OWRDbDBIMU82dVBfM0xLczRva21VUkJOSWtjTEpMSVNLNzBGOXhLMWFuTTlaNldrLTF5dWg0SkFLZ0N6NEFSSWg?oc=5",
+     "src": "DD News",
+     "time": "2026-11-19T08:23:07+00:00"
+    }
+   ],
+   "today_chg": -0.94,
+   "two_day_chg": -1.4,
+   "vol_ratio": 0.62,
+   "close": 395.8,
+   "close_date": "2026-11-18",
+   "layers": {
+    "news": 0.36,
+    "sector": 1.02,
+    "technical": 0.24,
+    "relative": -0.12,
+    "flow": 0.0,
+    "market": 0.0
    },
    "tech_notes": [
     "uptrend (above 20 and 50-day averages)",
-    "RSI 77, overbought"
+    "RSI 76, overbought"
    ],
-   "agree": 4,
+   "agree": 3,
    "dir": "UP",
-   "confidence": "Medium"
+   "confidence": "Low"
   }
  ],
  "picks_down": [
   {
+   "sym": "VEDL",
+   "sector": "METALS",
+   "net": -2.94,
+   "event_score": -1.36,
+   "sector_score": 0.32,
+   "sources": 0,
+   "reasons": [
+    {
+     "label": "Regulatory / legal action",
+     "title": "India probes aluminium dumping by China, Malaysia, Vietnam, Thailand; Vedanta, Hindalco shares eyed",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWm9fRGlzcGhFSzNzNC1kU09BN0F2WmJaR1A0VVhRdzN5Q2RSb0N5b1I3dk5ObHl1cENwaG1EMEhLbWhNZS00Y3JMU3M0bUlhdFphR2ZPbGxvdW5lc0RKVGlOelJVRjJJZTF4NUd3U2o2RFlDOUZoSDJQNVlwZTVGU2Jzb3BWU0FRRW4tME1rcE9FQl90NVdVZWZfRTJEOC00NmxaSmY4SVlRcm1RYkhwSmlZNlJsVG1JLWU3YlJEZGx0VW9teThGVmhERQ?oc=5",
+     "src": "AL Circle",
+     "time": "2026-11-19T11:15:00+00:00"
+    },
+    {
+     "label": "Broker downgrade",
+     "title": "Vedanta Oil and Gas Ltd Downgraded to Strong Sell Amid Deteriorating Fundamentals",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTNmM2pFcXlCUDg2MlF2X0tsX2hQVGQxUTNVazU3UWdBck51VnVyVzk0dlpXNDZVOUs0ZkhNZkhHNDNnaFhsajd5ZzBTeThabENjQjJpUTNyTGF4eF9JdHpLWDdza2Y5LW1Sb3hNSWUzWmFCQ3Z2cUdJNjNxQUVvRTVfbG9WN1dnb2ZJQ3h3MmdzaFVPNWtEQ0pIcWtNSUpwRWc2TXFpY09lTndiWlpHR0NmVkhhY2poWnlKNnoxYnp3QlNsSDR3Z1Z3TGZqVTJRd1QtT095QzNmVVk?oc=5",
+     "src": "MarketsMojo",
+     "time": "2026-11-19T15:43:44+00:00"
+    }
+   ],
+   "sector_reasons": [
+    {
+     "label": "Steel import duties",
+     "title": "EU applies anti-dumping duty on Vietnamese cold-rolled steel products",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb3BEU0Z1c2YzMFBCVW9vLTFWSThJNVlPUDVxQjZUTGVBU1oxN1hMdGIxclVMRnlKckxkbjZzdkFaOEVRQVFYWU5CeldpdURfSWF5eE82R1BRNmRqdlJNSHFHcGljakR4SDRRX0phdGpUNjA4VURSMmhNSFg2RTBiQnA0c0gyQzZDRGxneFh0MkVlcDZuNzd5cTBKN2kxdw?oc=5",
+     "src": "Vietnam Economic Times",
+     "time": "2026-11-18T10:00:00+00:00"
+    }
+   ],
+   "today_chg": -3.78,
+   "two_day_chg": -3.0,
+   "vol_ratio": 0.93,
+   "close": 245.4,
+   "close_date": "2026-11-18",
+   "layers": {
+    "news": -1.36,
+    "sector": 0.32,
+    "technical": -1.4,
+    "relative": -0.5,
+    "flow": 0.0,
+    "market": 0.0
+   },
+   "tech_notes": [
+    "downtrend (below 20 and 50-day averages)"
+   ],
+   "agree": 3,
+   "dir": "DOWN",
+   "confidence": "Medium"
+  },
+  {
    "sym": "BRITANNIA",
    "sector": "FMCG",
-   "net": -2.56,
-   "event_score": -0.72,
-   "sector_score": -0.56,
+   "net": -2.67,
+   "event_score": -0.36,
+   "sector_score": -0.42,
    "sources": 0,
    "reasons": [
     {
@@ -158,24 +215,24 @@
    "sector_reasons": [
     {
      "label": "Weak monsoon",
-     "title": "State stares at another deficient monsoon",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmhyN19CM2FWWkdmVzA3QU5FeXNuQ1hvYkdlUi1wdFNJeGpqeVkySzExZGJQc1Fqd09RbGlaWVgzcXBxekFaVkowOFlSNXZPbHV6TmgzUjVMS2N1ckxwNnBxaklyVTIwMHZ5NnJPaW82TXdNWGJCU1pTTER1bVMtQk9KZFlaNnE4S2xIbGV5SkdXX3BJdU5tcGF5cTFJR1QwSU5fd0NvQVlnemVsMDJzT01hR2vSAboBQVVfeXFMT3pYMFRySzZ6Q3oteFlpVlpaeUdsdzFUVHB5MER1ZXFNN21tZlhRanFOc2ViZmxvdWZSVGdadm83a29hZjFMcjN5YUxhY2UtdWRFSjJzYzhBRllkcVRyM05mN2thT1pIY3ZtV2c4ZHlSZThIUjJBQ284X21qTWNRN1YwazY2MEFnRnB0ZV8wb29aNW5hMmdCNkJWVV9TMGI4c2JHMEdmTHcwNnZ2cGppQUg2Q1lYb001cmlB?oc=5",
-     "src": "The Times of India",
-     "time": "2026-11-18T15:28:00+00:00"
+     "title": "Super El Nino, below-normal monsoon: How Keralam is bracing for weather extremes",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcEY5dzNqWlZXdVhpUzNIOWozY0JleUpnRGU4eUlDdURuSFJKWXhseVVGT3pSMXdtRDJhN01PVHh6Mnk2ZW9jYjFIajE3aUdackdSa3RmNEJHeE1Ga2R2QXk3d01QUndoajVUUHB1RlNZQTNIZmtVMld6YTVabFV4WE1fUDY4OW9sLTctMklyU3ZhTU15cmVpemszeVJTYlI5Tkl6M0dPQnZYZjRaOWVFODgtT04?oc=5",
+     "src": "Onmanorama",
+     "time": "2026-11-19T10:11:18+00:00"
     }
    ],
-   "today_chg": -1.14,
-   "two_day_chg": -1.06,
-   "vol_ratio": 0.85,
-   "close": 4700.0,
-   "close_date": "2026-11-17",
+   "today_chg": -0.57,
+   "two_day_chg": -1.7,
+   "vol_ratio": 0.82,
+   "close": 4673.2,
+   "close_date": "2026-11-18",
    "layers": {
-    "news": -0.72,
-    "sector": -0.56,
-    "technical": -1.18,
-    "relative": -0.5,
+    "news": -0.36,
+    "sector": -0.42,
+    "technical": -1.4,
+    "relative": -0.49,
     "flow": 0.0,
-    "market": 0.4
+    "market": 0.0
    },
    "tech_notes": [
     "downtrend (below 20 and 50-day averages)"
@@ -185,83 +242,41 @@
    "confidence": "Medium"
   },
   {
-   "sym": "WIPRO",
+   "sym": "HCLTECH",
    "sector": "IT",
-   "net": -2.3,
+   "net": -2.22,
    "event_score": 0.0,
-   "sector_score": -1.6,
+   "sector_score": -1.12,
    "sources": 0,
    "reasons": [],
    "sector_reasons": [
     {
      "label": "Fed tightening / yields up",
-     "title": "Gold plunges to 14-month low, silver tumbles as Fed rate hike bets intensify - Kitco AM Report",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ1lPTzhpcGxNNEc1UnNNUl95N0tVaWhyM21jaHlsY1BkWFlKM25DclBGZXBoaDFZaWJNbzNubU9FZTV4UzgzMW52Tm1TUkVkRVRfbjlrekhKVmxzcWdHT19zTXJpbjdiaGNDTU5XenB2bWo2aXd1cHh4emdfR0xmaVU2MmtZdjB0akt3MHhnSXNUeGNVemRCZHVWN3lmS0h4Mm9QbGVBdHlUUndrSVpDVDV0VDl6RmFyYjJENkRB?oc=5",
-     "src": "Kitco",
-     "time": "2026-11-18T14:06:27+00:00"
+     "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5",
+     "src": "Reuters",
+     "time": "2026-11-19T13:41:47+00:00"
     },
     {
      "label": "Rupee strengthening",
-     "title": "Rupee rises 24 paise to 93.27 against US dollar in early trade",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdjhfZGR1YjVtckQ0dG1sT3FtRGdSalJnRy1MNVA1eGtfa002cU96TjVBVXJhQW5OUW9TdDJoMkhmb0ZFQi1fbjRHRkM4YWhjeGFRMUVFM0ZUbS1TaTFUbVFsZVRoMVItSmd6cFJvdjJUXzhuQXpLUmtadlVZWWwzZnowMGRXaWFwaVVvUFZnOERsZUN4YjF6dWk4WFNxMnNMcVozZEkwMV94SWZCT0JIZjdWeEtzcFcwYXZtN096dUJKamxvM0NUYUxQZXLSAdMBQVVfeXFMTkNGckRJUDctZlMxenVBeW5DWTUwYjY1Q2NjTXJlWG5ac0lreTllZkpQSVFrWm1DSG83dTBGdlFsRjNQdFlMdnFuTzA4M1VIX25PRElJTU1Ld3dqbUpXNkdGRmNyb3lJZGxtcENORi1MUi1VNzZMeU9mOUhXM2k1TTQySWZERGN5NGlUaE4zOVF2WGdsd210dTdJeTdCR3VNZVp6Q0YtbF92WmFVX3ZWYl9CQlV1cjZwQjlJMlI2OENsU2ZMZUF4dkY0djVQbzV0VWtTRQ?oc=5",
-     "src": "BusinessLine",
-     "time": "2026-11-18T04:15:55+00:00"
+     "title": "Rupee Rises 5 Paise to 93.36 Against US Dollar",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUdOUEdVd1JBRkxXZFlNMkc1NFc2TUd1Z1ZjUHlyZnd1cllLNE12THZ5TVNlZ2dLS0pHV3FaaWkxbTFkaFpDWGlhbGxBd3o5QXh5MVlpMEcyajFfYlY4Zy1Mbkx1X1N3MmZ1bFZ5by10WW5NSzllUnJudTVucC1xOFo4dThLM3BOTGhoOVZQRzJ5cHVUa05RWThUMjRoZkhBU3lRamdFQXA?oc=5",
+     "src": "HDFC Sky",
+     "time": "2026-11-19T10:51:11+00:00"
     }
    ],
-   "today_chg": -1.89,
-   "two_day_chg": -2.42,
-   "vol_ratio": 0.83,
-   "close": 189.89,
-   "close_date": "2026-11-17",
+   "today_chg": -0.81,
+   "two_day_chg": -2.88,
+   "vol_ratio": 0.52,
+   "close": 1344.7,
+   "close_date": "2026-11-18",
    "layers": {
     "news": 0.0,
-    "sector": -1.6,
+    "sector": -1.12,
     "technical": -0.6,
     "relative": -0.5,
     "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [],
-   "agree": 3,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "TATAELXSI",
-   "sector": "IT",
-   "net": -2.3,
-   "event_score": 0.0,
-   "sector_score": -1.6,
-   "sources": 0,
-   "reasons": [],
-   "sector_reasons": [
-    {
-     "label": "Fed tightening / yields up",
-     "title": "Gold plunges to 14-month low, silver tumbles as Fed rate hike bets intensify - Kitco AM Report",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ1lPTzhpcGxNNEc1UnNNUl95N0tVaWhyM21jaHlsY1BkWFlKM25DclBGZXBoaDFZaWJNbzNubU9FZTV4UzgzMW52Tm1TUkVkRVRfbjlrekhKVmxzcWdHT19zTXJpbjdiaGNDTU5XenB2bWo2aXd1cHh4emdfR0xmaVU2MmtZdjB0akt3MHhnSXNUeGNVemRCZHVWN3lmS0h4Mm9QbGVBdHlUUndrSVpDVDV0VDl6RmFyYjJENkRB?oc=5",
-     "src": "Kitco",
-     "time": "2026-11-18T14:06:27+00:00"
-    },
-    {
-     "label": "Rupee strengthening",
-     "title": "Rupee rises 24 paise to 93.27 against US dollar in early trade",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdjhfZGR1YjVtckQ0dG1sT3FtRGdSalJnRy1MNVA1eGtfa002cU96TjVBVXJhQW5OUW9TdDJoMkhmb0ZFQi1fbjRHRkM4YWhjeGFRMUVFM0ZUbS1TaTFUbVFsZVRoMVItSmd6cFJvdjJUXzhuQXpLUmtadlVZWWwzZnowMGRXaWFwaVVvUFZnOERsZUN4YjF6dWk4WFNxMnNMcVozZEkwMV94SWZCT0JIZjdWeEtzcFcwYXZtN096dUJKamxvM0NUYUxQZXLSAdMBQVVfeXFMTkNGckRJUDctZlMxenVBeW5DWTUwYjY1Q2NjTXJlWG5ac0lreTllZkpQSVFrWm1DSG83dTBGdlFsRjNQdFlMdnFuTzA4M1VIX25PRElJTU1Ld3dqbUpXNkdGRmNyb3lJZGxtcENORi1MUi1VNzZMeU9mOUhXM2k1TTQySWZERGN5NGlUaE4zOVF2WGdsd210dTdJeTdCR3VNZVp6Q0YtbF92WmFVX3ZWYl9CQlV1cjZwQjlJMlI2OENsU2ZMZUF4dkY0djVQbzV0VWtTRQ?oc=5",
-     "src": "BusinessLine",
-     "time": "2026-11-18T04:15:55+00:00"
-    }
-   ],
-   "today_chg": -1.05,
-   "two_day_chg": -3.24,
-   "vol_ratio": 0.35,
-   "close": 3710.7,
-   "close_date": "2026-11-17",
-   "layers": {
-    "news": 0.0,
-    "sector": -1.6,
-    "technical": -0.6,
-    "relative": -0.5,
-    "flow": 0.0,
-    "market": 0.4
+    "market": 0.0
    },
    "tech_notes": [],
    "agree": 3,
@@ -271,16 +286,16 @@
  ],
  "stats": {
   "all": {
-   "total": 74,
-   "hits": 32
+   "total": 80,
+   "hits": 35
   },
   "up": {
-   "total": 39,
+   "total": 42,
    "hits": 23
   },
   "down": {
-   "total": 35,
-   "hits": 9
+   "total": 38,
+   "hits": 12
   },
   "tiers": {
    "High": {
@@ -288,12 +303,12 @@
     "hits": 6
    },
    "Medium": {
-    "total": 40,
+    "total": 43,
     "hits": 16
    },
    "Low": {
-    "total": 18,
-    "hits": 7
+    "total": 21,
+    "hits": 10
    },
    "Weak signal": {
     "total": 9,
@@ -302,6 +317,48 @@
   }
  },
  "recent": [
+  {
+   "date": "2026-11-20",
+   "sym": "HCLTECH",
+   "dir": "DOWN",
+   "net": -2.22,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-20",
+   "sym": "BRITANNIA",
+   "dir": "DOWN",
+   "net": -2.67,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-20",
+   "sym": "VEDL",
+   "dir": "DOWN",
+   "net": -2.94,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-20",
+   "sym": "BEL",
+   "dir": "UP",
+   "net": 1.5,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-20",
+   "sym": "ABB",
+   "dir": "UP",
+   "net": 1.83,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-20",
+   "sym": "PNB",
+   "dir": "UP",
+   "net": 2.6,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-11-19",
    "sym": "TATAELXSI",
@@ -391,71 +448,33 @@
    "sym": "TECHM",
    "dir": "DOWN",
    "net": -2.08,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-11-18",
+    "chg": -0.68,
+    "hit": true
+   }
   },
   {
    "date": "2026-11-17",
    "sym": "HCLTECH",
    "dir": "DOWN",
    "net": -2.08,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-17",
-   "sym": "TCS",
-   "dir": "DOWN",
-   "net": -2.08,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-17",
-   "sym": "TATASTEEL",
-   "dir": "UP",
-   "net": 3.8,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-17",
-   "sym": "ABB",
-   "dir": "UP",
-   "net": 4.26,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-17",
-   "sym": "BEL",
-   "dir": "UP",
-   "net": 4.32,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-14",
-   "sym": "ITC",
-   "dir": "DOWN",
-   "net": -2.17,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-14",
-   "sym": "TATAMOTORS",
-   "dir": "DOWN",
-   "net": -2.51,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-11-18",
+    "chg": -0.81,
+    "hit": true
+   }
   }
  ],
  "scanned": 111,
- "market_regime": 1,
+ "market_regime": 0,
  "sector_effects": {
-  "OMC": 0.6,
-  "PAINT": 0.6,
-  "AVIATION": 0.6,
-  "UPSTREAM": -0.6,
   "DEFENCE": 1.28,
-  "IT": -2.0,
+  "IT": -1.4,
   "NEWAGE": -1.12,
-  "PHARMA": -0.96,
-  "REALTY": -1.44,
-  "AUTO": -2.0,
-  "FMCG": -0.7
+  "FMCG": -0.52,
+  "AUTO": -0.52
  }
 }

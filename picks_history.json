@@ -1067,42 +1067,72 @@
   "sym": "BEL",
   "dir": "UP",
   "net": 4.32,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -0.94,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-17",
   "sym": "ABB",
   "dir": "UP",
   "net": 4.26,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -1.04,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-17",
   "sym": "TATASTEEL",
   "dir": "UP",
   "net": 3.8,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -1.38,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-17",
   "sym": "TCS",
   "dir": "DOWN",
   "net": -2.08,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -1.13,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-17",
   "sym": "HCLTECH",
   "dir": "DOWN",
   "net": -2.08,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -0.81,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-17",
   "sym": "TECHM",
   "dir": "DOWN",
   "net": -2.08,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-18",
+   "chg": -0.68,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-18",
@@ -1186,6 +1216,48 @@
   "sym": "TATAELXSI",
   "dir": "DOWN",
   "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "PNB",
+  "dir": "UP",
+  "net": 2.6,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "ABB",
+  "dir": "UP",
+  "net": 1.83,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 1.5,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "VEDL",
+  "dir": "DOWN",
+  "net": -2.94,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "BRITANNIA",
+  "dir": "DOWN",
+  "net": -2.67,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-20",
+  "sym": "HCLTECH",
+  "dir": "DOWN",
+  "net": -2.22,
   "confidence": "Low"
  }
 ]
