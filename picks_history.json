@@ -1139,42 +1139,72 @@
   "sym": "BHARTIARTL",
   "dir": "UP",
   "net": 4.39,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": 0.56,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-18",
   "sym": "BEL",
   "dir": "UP",
   "net": 3.92,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": 2.12,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-18",
   "sym": "SBIN",
   "dir": "UP",
   "net": 3.5,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": 1.85,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-18",
   "sym": "ASHOKLEY",
   "dir": "DOWN",
   "net": -2.32,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": 2.28,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-18",
   "sym": "TCS",
   "dir": "DOWN",
   "net": -2.3,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": -1.55,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-18",
   "sym": "INFY",
   "dir": "DOWN",
   "net": -2.3,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-19",
+   "chg": -1.52,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-19",
@@ -1258,6 +1288,48 @@
   "sym": "HCLTECH",
   "dir": "DOWN",
   "net": -2.22,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "APOLLOHOSP",
+  "dir": "UP",
+  "net": 2.92,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "POWERGRID",
+  "dir": "UP",
+  "net": 2.49,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 2.44,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "SWIGGY",
+  "dir": "DOWN",
+  "net": -2.82,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "POLYCAB",
+  "dir": "DOWN",
+  "net": -2.7,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "MPHASIS",
+  "dir": "DOWN",
+  "net": -2.47,
   "confidence": "Low"
  }
 ]
