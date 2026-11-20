@@ -1,43 +1,38 @@
 {
- "generated": "2026-11-19T18:35:36.157504+00:00",
+ "generated": "2026-11-20T01:10:32.128063+00:00",
  "bias": {
-  "score": -3.12,
+  "score": -7.59,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -3.44,
+    "score": -4.36,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
+    "sector": "DEFENCE",
+    "score": 3.36,
+    "stocks": "HAL, BEL"
+   },
+   {
+    "sector": "IT",
+    "score": -2.3,
+    "stocks": "TCS, Infosys, Wipro"
+   },
+   {
     "sector": "PAINT",
-    "score": 2.43,
+    "score": 1.42,
     "stocks": "Asian Paints"
    },
    {
-    "sector": "UPSTREAM",
-    "score": -1.87,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "OMC",
-    "score": 1.65,
+    "score": -0.93,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": 1.65,
+    "score": -0.93,
     "stocks": "IndiGo"
-   },
-   {
-    "sector": "IT",
-    "score": -1.44,
-    "stocks": "TCS, Infosys, Wipro"
-   },
-   {
-    "sector": "DEFENCE",
-    "score": 1.12,
-    "stocks": "HAL, BEL"
    }
   ]
  },
@@ -48,7 +43,7 @@
    "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5",
    "src": "Reuters",
-   "time": "2026-11-19T13:41:47+00:00",
+   "time": "2026-11-19T18:53:15+00:00",
    "level": "High",
    "score": 1.6,
    "label": "US rates / yields rising",
@@ -56,6 +51,62 @@
    "confirmed_by": 1,
    "sources": [
     "Reuters"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Global Market Today: Asian stocks slide as AI fears trigger selloff",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYzhkZ1FmVFFlWm5acy12LW9rR1JSbmQ1Q0hiUUlGWFg3OUxJa0NIV2piX053Wk9GTVo3ZEtERndibjRQZXl4akRTenVmR1h3eGZSZkRQd0syMmNwZVpFX0ZXWlpvNGttaEd1QzdzblNyVE9SSjhLckYtU1RlNm1sbGg2M25PSHByelhDaHh1UHRoWlk1OEVrcEt1VHRrUkIyTjJ5akpyYlhsM1NsLUR4LUdQRU10ZVM1MUxJdkEtOWtsLUxyNHpHM3RmZHJVYVVsMGs3SUJ2SEE0RWfSAeABQVVfeXFMTnM4bGNrWDdUWDVGS1JyWmhkaGJjdGgtUzZsQjhrTWtibXpsY0Y1Vy1IN2pZWjIxVFJ0em43bzJxN0lYTTNzQzJoLVVQLTRObXRxdUVtTWR3UlMyLV9kT1hRWDNkYlV0aDV1R0s0eTRsMDlKYjQwc2xJb3BBV28zVU9XR0NZSTFWeDFQaEJmUFZKY2stck9odEtnbmNOTzFSWjNQR2ZkRWlxMHZfUnRreHdVaEZDNUhZRngzOTFZMm1pb0lXV1I4RWRFdzUzVHdveV9oWjhrLVEzZ1M2cjhmYVA?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-20T01:02:17+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Anthropic shares jump 17% in record Nasdaq debut despite Wall Street sell-off and AI bubble fears",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRHJaREh0Mlh0TEVLXzlUMmt3WWZEd21yODJ4aHpUc3M5N3Y3U290VUJKYlFFWHBQU19sbG81d0tnV1JwT19rbE1KYTRHekl6ZEVSTDZ2ZlJ6RURKaEZfeFQ0UUtYdEw2ZzQ2MUxHT3RIMGhNQXp6bnBob2VCWGVXaENSa2Q4Zl9TQTV4clRkbE5Md01UZlVkQ1hOVFU3aEotRlpIRkVYNFJpOUg5TEJ2NUFwbUZCZHVkdTZlNjBiZHRiRERQZDhiREdENFpxNGNQMzAxWmZrNTlRMEFLaVVSNmZFZDNFaHFUV2JKTEJNc1g0Z1HSAfgBQVVfeXFMTTNyNHU1OWhtbzdDWjktWVBCUXNoOVRaNjd2MTFFbzJoZXE0ejRkSW9CQlQ2WlctOERQeVJULUx4ekRCX2FaZERlamU5T3lnRk5qTldJbmZ0X1pIMnYtRG8ybWNld2VxeTZheHVfcVlfblkwMTNxVzZqVG91Q3pMUEtWVmJaRHUyN3ZsbTA0bE9zQ2VLay1KTlllX2t3QmQweUdEd01tMzB6ZmFGcVJud2F0ZkZVNVF1c0NCVmJUNTNNak0xNHRtLThDQ2ozVzlUcV9IZ00wVzJ3Tm1vbFpmVXlFNGpMZTY1dU5JRVhFOU1RaDNQQXg2eW8?oc=5",
+   "src": "Moneycontrol.com",
+   "time": "2026-11-19T22:35:58+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "Moneycontrol.com"
    ],
    "sectors": [
     {
@@ -109,20 +160,42 @@
    ]
   },
   {
+   "region": "Japan",
+   "flag": "🇯🇵",
+   "title": "BOJ's ambiguity on rate hike path could tempt yen bears",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0J6NDQ5LVFYcXhIRWVSVmstMzNMUldQS2JUai1YNlVKWHVnd09WVzBKVXhNX21jc3pLNGw3R01lT21paGZKWUNiZ1gzUmsxb1h2b3BCX2FjaC1NTzZNYlRiTUxjUUR5TmhlVFIybE1SZm1ZamdwRVhIT3BBV2E4RFpUdGRIOGNuOVpENWcxZFpsTWtUT0NjaWctY2p6aWdReENwNUdfNA?oc=5",
+   "src": "Reuters",
+   "time": "2026-11-20T00:45:00+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Yen carry-trade risk",
+   "why": "Sudden yen strength has caused global selloffs before, hitting emerging markets like India.",
+   "confirmed_by": 1,
+   "sources": [
+    "Reuters"
+   ],
+   "sectors": [
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
    "region": "Global",
    "flag": "🌐",
-   "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
-   "src": "Reuters",
-   "time": "2026-11-19T03:19:00+00:00",
+   "title": "Oil Price Today (November 19): Brent crude rises to $93 as Trump likely weighs fresh Iran attacks. What are experts saying?",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQa0pBeEZWM1VzcmFpZ3VyQkY4Sk1BWFRBbFcwY2tyaFVkWHMwNjJpclp1c2xlOHhfVXZNUDkxQjBiM1haZjk4d2YwNUNPYWtOOGtrZ0hyMmZkZXQweGV0c0YyUElLV1RHQllTRnlvSWdJcmFnZUNZLXI0UjhfY3dkMmgtQXB5SmlCY2pjRXhfcDhONU1ENG9GbXVlSG9UUm5WX2ljZ09JMEp2dmdYZkFyZFdWZmg4TVY5SGpDTHNtSlljLWt5bkdLbFYyVW1ERG16U0JhekdJaVNZZ0ZMODlTOG9mWUpnb2pWSzczQ0MybzRqQzFfc3k4cjlLcnR5T2RVZ1FFd1l0Z1Bza0RHQ2ZpbmZOQV9xZUhBR3cwbU1YRV9NZw?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-19T02:14:18+00:00",
    "level": "Medium",
-   "score": 1.47,
+   "score": 1.28,
    "label": "Crude oil rising",
    "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
-   "confirmed_by": 2,
+   "confirmed_by": 1,
    "sources": [
-    "CNBC",
-    "Reuters"
+    "The Economic Times"
    ],
    "sectors": [
     {
@@ -144,34 +217,6 @@
      "sector": "UPSTREAM",
      "dir": 1,
      "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91OXNXQ0tPMEw4dmRsaGVzS2ZoSXNmS1pOMWxRbWpMRlhPR0h6bHdVWWZaQS0xeXJZNTV4RUlFMTdHNFpyaEY1bkFHYTN1RWV2WTNXOG9KTDNzTTZCbDFIZzF6aDd6Zm5McGJtS09R0gFzQVVfeXFMTW1hd2NYMG1mYzRnUUxHVHBLMXNVT0dyQTVVUHM2LUpsOWdHYXdfRDRKM2UweUdDbUlaNzZnQ2YxU19ha1o2R3BsUHA5MUFkQ1JwTGpwb0d0Z2hjNDZ3Rk44OVZUbVE3clJrT2VmenhEQjBfUQ?oc=5",
-   "src": "CNBC",
-   "time": "2026-11-18T19:00:50+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "CNBC"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
@@ -214,39 +259,39 @@
    ]
   },
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Oil Prices Fall Amid Supply Surplus Expectations, Middle East Tensions",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFCTV9zN1pVaFoteGpWam5uX3pGOXp4X3gwOVVqOVk5Yy1xdkdkc0w3MlFmWkNZWXA2Sms4OHhLMk5iNUExb3NYc3lJQW53dVJUQlkzVlNIX0FCWlM0cVpab0tQT2l1dzM0a3FlQmlqQ0NoQzB6WWs4Um9vbHY4LTFTMUc1Q3E5NnJYbVZSUzZ1czhPdXBkUjZMWXpKa2IxU1hqenFDc1RhRVV3bTJIdUtNWEJjZ2VsTUE?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-18T21:02:00+00:00",
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "There is no going back 'to the way it was before' the Iran war's energy shock, IEA says",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlk1RlpfN2RjQkJrVmtJdVFpNmFJTkpRUmxWaWo1aWxrU0dpNDVJQ1FzUzg4VFBMS0M1bzhlZzVfRVRpRHZ1UVdzSnUzTS03OFhtNWxXRGliQ1U5Y0lYa18xS21Ta0FRd0M2TU0xX3ZRQ1ZMcFlJSDFHbVk4MkFsTGZNR0l2emUtYnEtblVQMmhsQ0x5azREckIzTTN3VDBRNGxnaU1MVGpjZjdiWE1YcU5QaHRrQ0JBbWkxVTNCUnp2Z3RxZ3I2ZGNiN2xZS1VR?oc=5",
+   "src": "BNN Bloomberg",
+   "time": "2026-11-19T11:45:51+00:00",
    "level": "Medium",
-   "score": 1.2,
-   "label": "Crude oil falling",
-   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "WSJ"
+    "BNN Bloomberg"
    ],
    "sectors": [
     {
      "sector": "OMC",
-     "dir": 1,
+     "dir": -1,
      "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "PAINT",
-     "dir": 1,
-     "stocks": "Asian Paints"
-    },
-    {
      "sector": "AVIATION",
-     "dir": 1,
+     "dir": -1,
      "stocks": "IndiGo"
     },
     {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
      "sector": "UPSTREAM",
-     "dir": -1,
+     "dir": 1,
      "stocks": "ONGC, Oil India"
     }
    ]
@@ -275,19 +320,57 @@
    ]
   },
   {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran attacks US military radar system in Bahrain despite talks with mediators",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFg4ZVlablBic3hLR3NxVVoyTXBUSGtRZlYydzBfVm9zcjJXUnZlRU5Va2NCUWFUZGxURmtGVk1lXzRlTzZzQXR1VmwyMkRSVEltSElmbl9ZMS01SEtnUE5ZTW9wYjM3ODUzeU9nQUF3MDFHMEZaU2s4SWJjT0Y2dnc1Nkw2alQ2YUF3WXBCOXU3Ml9URVl2enp4c250VzhfUXhIcWliOGRRZ000MlRfUS1wYlVYbk4xVEVGaThfdw?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-11-18T18:56:23+00:00",
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Oil steady as supply surplus softens sentiment though Gulf war supports",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcGtjY3RBN1o0ZzFORUtWa0lSYzBWZHI4WlpQZklJcl9hbkx0WGxwc0dPTUxGTW9xNUV6VHBOY2NyZGp6YThJdFh5Vzh5c0NoMTFKVXhEOHNiRzhvV25uMjVuNW9LWjR0dXJJTWItb3NscU9CcndZUnhhN0gyeWt1MzZjS3RMdnRBVnhhZVNsTFpyWHIwZGc5eUdXYTF5QUtDazJZdm5yVjNPLWNEeURTX3l1X2RMbDlBSC1fVk1DbDNCSFNfbnlSNHh0XzNhay1teGdkZEZsS3pkbFUzZmfSAeMBQVVfeXFMT3RFOWIzMnNzQnQxZDRCTE9SU2dTaU4yWklOckZwMTlqZGpra3hPTlRSam9QV3ZZaU1DTnRvdmFfem5pTlkxa3NicS1fUFJWRnM4eDlieW9jUlhFempHMFJ4WlhWYlFDRmltX1lneGI4WlRFUWpjRGQtRDEyVVptQmlnSFNsRFFydGxMYWRhamVZd3ZHZHJ3cDhlbXZSbjB6NUFrWUsxWnVuc3dWczN6WTlocVlYbC1iY0pXUmtYS2p2aVhCZDUtMGQ5dW1qVnFXUTE4SkFFSmtZVTFwVnM1V0hqajA?oc=5",
+   "src": "Business Standard",
+   "time": "2026-11-19T04:44:21+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "The Business Standard"
+    "Business Standard"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Oil settles flat as Hormuz disruptions offset global surplus fears",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+   "src": "Reuters",
+   "time": "2026-11-19T02:47:00+00:00",
+   "level": "Medium",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Reuters"
    ],
    "sectors": [
     {
@@ -315,84 +398,102 @@
  ],
  "videos": [
   {
-   "id": "bnkZlT1BWT8",
-   "title": "Anthropic Begins Trading on Nasdaq at $111.50",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-19T18:18:37+00:00",
-   "thumb": "https://i.ytimg.com/vi/bnkZlT1BWT8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=bnkZlT1BWT8",
-   "business": true
-  },
-  {
-   "id": "GBLqMXWXh0Q",
-   "title": "Nvidia is 'Biggest Case of Industrial Espionage' in US Stock Market History, Says George Noble",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-19T18:17:03+00:00",
-   "thumb": "https://i.ytimg.com/vi/GBLqMXWXh0Q/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=GBLqMXWXh0Q",
-   "business": true
-  },
-  {
-   "id": "dZyllfb0DJ8",
-   "title": "Anthropic Hits $2 Trillion Valuation In Blockbuster Market Debut",
-   "channel": "Moneycontrol",
-   "published": "2026-11-19T18:15:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/dZyllfb0DJ8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=dZyllfb0DJ8",
-   "business": true
-  },
-  {
-   "id": "RgqsTiXZzg4",
-   "title": "MUST WATCH: Dhanush's Sons Reveal Their Favourite Dad Movies | CNN-News18 Indian Of The Year 2026",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-19T17:39:21+00:00",
-   "thumb": "https://i.ytimg.com/vi/RgqsTiXZzg4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=RgqsTiXZzg4",
-   "business": true
-  },
-  {
-   "id": "n_LzbClEeyE",
-   "title": "Anthropic IPO LIVE: The biggest listing in history opens",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-19T17:34:54+00:00",
-   "thumb": "https://i.ytimg.com/vi/n_LzbClEeyE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=n_LzbClEeyE",
-   "business": true
-  },
-  {
-   "id": "ZaNu0OIE_oI",
-   "title": "Macro Matters: The housing market's 'rate-less' revival",
+   "id": "ga9sg5iCWS4",
+   "title": "Market Talk: 'No rush' to buy Anthropic as shares may underperform",
    "channel": "Reuters",
-   "published": "2026-11-19T17:17:32+00:00",
-   "thumb": "https://i.ytimg.com/vi/ZaNu0OIE_oI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ZaNu0OIE_oI",
+   "published": "2026-11-20T00:45:57+00:00",
+   "thumb": "https://i.ytimg.com/vi/ga9sg5iCWS4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ga9sg5iCWS4",
    "business": false
   },
   {
-   "id": "kWZs4uZzd1Y",
-   "title": "Xi, Putin and Trump hold historic summit in China but offer few concrete steps towards peace",
-   "channel": "Al Jazeera English",
-   "published": "2026-11-19T17:14:47+00:00",
-   "thumb": "https://i.ytimg.com/vi/kWZs4uZzd1Y/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=kWZs4uZzd1Y",
-   "business": false
-  },
-  {
-   "id": "wQcwoCueRUw",
-   "title": "WATCH LIVE: Trump, XI, Putin Trilateral Meeting | World Leaders Gather in Shenzhen, China | N18G",
+   "id": "SUzNx1qus9s",
+   "title": "Newscentre | Trump, Putin & Xi Jinping Historic Summit In China | Nuclear War, Ukraine On Agenda",
    "channel": "CNBC-TV18",
-   "published": "2026-11-19T17:13:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/wQcwoCueRUw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=wQcwoCueRUw",
+   "published": "2026-11-20T00:07:45+00:00",
+   "thumb": "https://i.ytimg.com/vi/SUzNx1qus9s/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=SUzNx1qus9s",
    "business": true
   },
   {
-   "id": "4WXVbljGAjQ",
-   "title": "Rep. Dan Goldman Grills DNI Jay Clayton In Heated Exchange",
+   "id": "vNiNewJGAes",
+   "title": "US, China, Russia hold unprecedented trilateral summit: Making history or just headlines? | DW News",
+   "channel": "DW News",
+   "published": "2026-11-20T00:00:00+00:00",
+   "thumb": "https://i.ytimg.com/vi/vNiNewJGAes/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=vNiNewJGAes",
+   "business": false
+  },
+  {
+   "id": "vXcfEzfw_o4",
+   "title": "Vogel: Anthropic IPO Brings New Scrutiny to AI",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-19T23:29:02+00:00",
+   "thumb": "https://i.ytimg.com/vi/vXcfEzfw_o4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=vXcfEzfw_o4",
+   "business": true
+  },
+  {
+   "id": "nXJO_KXIfe8",
+   "title": "Anthropic IPO: AI Giant Set To Make Major Wall Street Debut",
    "channel": "Moneycontrol",
-   "published": "2026-11-19T17:00:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/4WXVbljGAjQ/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=4WXVbljGAjQ",
+   "published": "2026-11-19T23:04:28+00:00",
+   "thumb": "https://i.ytimg.com/vi/nXJO_KXIfe8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=nXJO_KXIfe8",
+   "business": true
+  },
+  {
+   "id": "eBeXNLoskHk",
+   "title": "Anthropic’s Historic IPO Debuts",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-19T23:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/eBeXNLoskHk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=eBeXNLoskHk",
+   "business": true
+  },
+  {
+   "id": "GIxx7H6LqBk",
+   "title": "“INVEST IN FAMILIES, NOT WARS!” Patty Murray Makes Powerful Senate Statement | N18G",
+   "channel": "Moneycontrol",
+   "published": "2026-11-19T22:15:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/GIxx7H6LqBk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=GIxx7H6LqBk",
+   "business": true
+  },
+  {
+   "id": "SPIe2nv1GQM",
+   "title": "LIVE: Anthropic debuts on NASDAQ following record IPO",
+   "channel": "Reuters",
+   "published": "2026-11-19T22:08:18+00:00",
+   "thumb": "https://i.ytimg.com/vi/SPIe2nv1GQM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=SPIe2nv1GQM",
+   "business": false
+  },
+  {
+   "id": "_rEGIdZOXEQ",
+   "title": "What the Biggest IPO in History Means for AI | Deirdre Bosa Live",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-19T22:04:56+00:00",
+   "thumb": "https://i.ytimg.com/vi/_rEGIdZOXEQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_rEGIdZOXEQ",
+   "business": true
+  },
+  {
+   "id": "ELIak2hnqts",
+   "title": "Now that Anthropic is public, is Dario Amodei out as CEO? | Market Hang",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-19T22:00:03+00:00",
+   "thumb": "https://i.ytimg.com/vi/ELIak2hnqts/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ELIak2hnqts",
+   "business": true
+  },
+  {
+   "id": "OsBHG8TIDKQ",
+   "title": "WATCH LIVE: Trump, Xi & Putin's Historic High-Stakes Trilateral Meeting in China | APEC Summit |N18G",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-19T21:41:22+00:00",
+   "thumb": "https://i.ytimg.com/vi/OsBHG8TIDKQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=OsBHG8TIDKQ",
    "business": true
   },
   {
@@ -405,24 +506,6 @@
    "business": false
   },
   {
-   "id": "jbUUl3bm5Tg",
-   "title": "LIVE: Protest outside NASDAQ as Anthropic debuts",
-   "channel": "Reuters",
-   "published": "2026-11-19T16:40:36+00:00",
-   "thumb": "https://i.ytimg.com/vi/jbUUl3bm5Tg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=jbUUl3bm5Tg",
-   "business": false
-  },
-  {
-   "id": "BmKazF-ob1w",
-   "title": "What nobody tells you about an IPO",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-19T15:30:34+00:00",
-   "thumb": "https://i.ytimg.com/vi/BmKazF-ob1w/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=BmKazF-ob1w",
-   "business": true
-  },
-  {
    "id": "avOcx9LXJNs",
    "title": "Breaking down China's unexpected call to 'comprehensively ban' nuclear weapons | BBC News",
    "channel": "BBC News",
@@ -432,13 +515,13 @@
    "business": false
   },
   {
-   "id": "JgIhHOtIvOA",
-   "title": "Oil interests and climate promises collide at the COP31 summit | DW News",
-   "channel": "DW News",
-   "published": "2026-11-18T19:00:04+00:00",
-   "thumb": "https://i.ytimg.com/vi/JgIhHOtIvOA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=JgIhHOtIvOA",
-   "business": false
+   "id": "YYNTzUHobU0",
+   "title": "Why Retail Investors Are Divided Over Anthropic’s $1.4 Trillion IPO",
+   "channel": "CNBC",
+   "published": "2026-11-18T15:00:07+00:00",
+   "thumb": "https://i.ytimg.com/vi/YYNTzUHobU0/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=YYNTzUHobU0",
+   "business": true
   }
  ],
  "channels_ok": [
