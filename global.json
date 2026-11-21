@@ -1,62 +1,77 @@
 {
- "generated": "2026-11-21T15:15:25.015657+00:00",
+ "generated": "2026-11-21T21:02:09.898639+00:00",
  "bias": {
-  "score": -1.53,
-  "label": "Risk-off for India",
+  "score": -0.05,
+  "label": "Mixed / neutral",
   "sectors": [
+   {
+    "sector": "PAINT",
+    "score": 2.7,
+    "stocks": "Asian Paints"
+   },
    {
     "sector": "DEFENCE",
     "score": 2.52,
     "stocks": "HAL, BEL"
    },
    {
-    "sector": "PAINT",
-    "score": 1.5,
-    "stocks": "Asian Paints"
-   },
-   {
-    "sector": "BANK",
-    "score": 1.25,
-    "stocks": "HDFC Bank, ICICI Bank"
+    "sector": "UPSTREAM",
+    "score": -1.44,
+    "stocks": "ONGC, Oil India"
    },
    {
     "sector": "NEWAGE",
-    "score": 0.93,
+    "score": 1.21,
     "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
+    "sector": "OMC",
+    "score": 0.94,
+    "stocks": "BPCL, IOC, HPCL"
+   },
+   {
+    "sector": "AVIATION",
+    "score": 0.94,
+    "stocks": "IndiGo"
    }
   ]
  },
  "news": [
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Treasury Yields Fall, German Bunds’ Tick Higher",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Oil Prices Fall Amid Supply Surplus Expectations, Middle East Tensions",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFCTV9zN1pVaFoteGpWam5uX3pGOXp4X3gwOVVqOVk5Yy1xdkdkc0w3MlFmWkNZWXA2Sms4OHhLMk5iNUExb3NYc3lJQW53dVJUQlkzVlNIX0FCWlM0cVpab0tQT2l1dzM0a3FlQmlqQ0NoQzB6WWs4Um9vbHY4LTFTMUc1Q3E5NnJYbVZSUzZ1czhPdXBkUjZMWXpKa2IxU1hqenFDc1RhRVV3bTJIdUtNWEJjZ2VsTUE?oc=5",
    "src": "WSJ",
-   "time": "2026-11-21T08:19:59+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates easing",
-   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "time": "2026-11-21T16:39:04+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
    "sources": [
     "WSJ"
    ],
    "sectors": [
     {
-     "sector": "IT",
+     "sector": "OMC",
      "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
+     "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "NEWAGE",
+     "sector": "PAINT",
      "dir": 1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "stocks": "Asian Paints"
     },
     {
-     "sector": "BANK",
+     "sector": "AVIATION",
      "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": -1,
+     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -91,55 +106,17 @@
   {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-21T06:04:20+00:00",
-   "level": "Medium",
-   "score": 1.5,
-   "label": "Crude oil falling",
-   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": 1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": 1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": 1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": -1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Russia",
-   "flag": "🇷🇺",
-   "title": "Iran fuel crisis deepens amid war and sanctions",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
-   "src": "DW.com",
-   "time": "2026-11-21T05:38:17+00:00",
+   "title": "Iran strikes three oil tankers as it unveils new missile launcher",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM0MtUEhyd0J0Y3dueE1WRy0wOVhPOXlRc3VZQml2X1h2cEJyeVJYdVYwazlQSkNGMEhQUmctQ3dkTnFXdzhzZFFYZEZJRlJzUXdKdFlaSnRkcnd0cUk1cGsyNU9jM1ZYMWY3NnIwNk5mNm9ZYkJQcDVrS2xLbDItaU5lNy1aWE10S0U1eUpkR3czbFBTRDNxOTlJOXNHU0dUUHFrc3ozSlRQTlR2ZlE5V05DRndXdw?oc=5",
+   "src": "The Business Standard",
+   "time": "2026-11-21T17:55:00+00:00",
    "level": "Medium",
    "score": 1.4,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "DW.com"
+    "The Business Standard"
    ],
    "sectors": [
     {
@@ -167,8 +144,41 @@
   {
    "region": "US",
    "flag": "🇺🇸",
+   "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNT25seVpzNlFTZ3puUGhOYXN0LUNqdllXdFZUWGNBQUF1QWpKbndvNE4yRFJWQUg4LUVZVllvcTRBLXc3NWJmN0tMZ242aGx5Q1VwUkJNV2FlOU9aNWxlZ3BZODRUYUhtQ0Z0ZVpBN19HeWdKd2pjUjYxR1dmWjdubklaS3ZjM191aG1VMk5nVlNQWVF5a0t0WWdlWGljRGNGVzc3aEFaemVGanJMRmdKaGZESnZCYmtyUUFOby1za1JuNHpUOWZzWjVlLXhONUZEdmxtaU4zalFuZFI10gHiAUFVX3lxTFBWOW1jRWNxWFpuaS14SzVOSUdSSXI3X3lnSjJBYUtkMk5xTk1DSTRzclBmYXhJZnJERXk1aFJKZ2gzeEh4REstWU84N0pZelZnejA1X0pjTUM5UTh1eXRPNEE1NVlQdVNXNXlsZm03ejFYeUhUQXhXX2hWUnFtTzdyOEIzcndqOVlpMEVJV2NMV0RCQUJxclgya0lmSjljTHZ5V2R3eFlCRFg3a25xQTJab0ZTeG5yQUowMlNTS1BEa1ZRaVRjQWR3bEhxZ3hmZ09HTFdYM0ZVNGZFb0tDVldtOHc?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-21T05:20:04+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates easing",
+   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": 1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": 1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    },
+    {
+     "sector": "BANK",
+     "dir": 1,
+     "stocks": "HDFC Bank, ICICI Bank"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
    "title": "'Look at India': Trump cites 7% GDP growth, says US could hit 20% if Fed cuts interest rates",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXgyNTFrRHItQzNYQVRlSUp1ZmxtV01jcHk1d0hCdnZic1dMbHlocmVZRWU0MVdTWHBrdVV1ZVpBR0N4N3BOTF90Rjg3ZzlxSTI2ZlhKN19ld3g5LWk5LWFyaThzZ1ZZME10ZTNscmVwVFJ0MHJldmtUY1kzOWU1YlJlRk1SQ2pOR216TzMxajhJWm4wU09kOGZQenNydXVUUmwzYUN3ZjZJLUJWM0g0X1lJOXZhMzlOcDdxVERvM2tYTDFlT1Y5Z0F4VG1hUU14Z09DUVRLQ1p5dTDSAeABQVVfeXFMTlp3ZkhvQW1WRFFUZnR3U1pCZjdDN29ULXM2RzlJanRoQmpweUM5YWxPMjRqZ2JrXy14WGVERjdvVHhVWjZ3UXdVdjRIWFBaMjR0SmJzY2t5UjNlbl9USGtHdGQxNS1qeDVOV2NhUUtxdDVSc1lDOWFiMWxaUThMNU03YWxwUkNYZ3Z1dFZXMkluY1hjVUtUOXJHWnNaSlZuejE5VjJDZzF4VWN3OUs3TVpBZW8yaG5aNXZfMlNfY3gteXpHcW9FbkFKaTlFVVRYQ0Utd1dwbjZwVWxqSnJqVWY?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0pvSE82Mk5vRHRsQkRSWFNlbmZKMEw0Y2ZUTWNKSF9WU3luaS1sLWpwdW4yYy1qTThxUjVaR2JCbWg5b1RBZHJQQ2xPZ1J2dVU1UTZRUWl5X3cwUkZES2E0Sl9hclhrN2JRUldwWHlIVmdSWG8yS2pJTTZsWnJtS0szV0xqdFFIZ28xTEo5SE02eVdjWGFCb1Q1bldTbnJlLXlVLU9jeHQ3SFlzRWJIbVhPQmswbjFMb2lyLVlUYkNpdl9CaVpVNzJRVXU5M2tZRThwRmZTUdIB4AFBVV95cUxOWndmSG9BbVZEUVRmdHdTWkJmN0M3b1QtczZHOUlqdGhCanB5QzlhbE8yNGpnYmtfLXhYZURGN29UeFVaNndRd1V2NEhYUFoyNHRKYnNja3lSM2VuX1RIa0d0ZDE1LWp4NU5XY2FRS3F0NVJzWUM5YWIxbFpROEw1TTdhbHBSQ1hndnV0VlcySW5jWGNVS1Q5ckdac1pKVm56MTlWMkNnMXhVY3c5SzdNWkFlbzJoblo1dl8yU19jeC15ekdxb0VuQUppOUVVVFhDRS13V3BuNnBVbGpKcmpVZg?oc=5",
    "src": "Moneycontrol.com",
    "time": "2026-11-21T02:02:55+00:00",
    "level": "Medium",
@@ -198,63 +208,40 @@
    ]
   },
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLUpNM3d6ODkyMm1Bcl9VV2RjQS1ta2FldVpreVZVTzg5V0FmOG5jUkJsY3VOZVRNNElrQXMtZ0J1TjhyVkZVSG40a3VUXzlFT29YNVV1eUxiZ1l5V1g1VW9paEdrM1RHTUMxU3pVZVJpMVIzNWlGYlR0T19GT2duRkFqd3RBR3RIbGY0c2lOZU1tMWhud2JNeXU1SG5KcXdhNzh3VEJtYVVUeDRYeWMxWGlCSFE5OU9u0gG-AUFVX3lxTFAyMzFqZ2Z1Ny1BdkFkNWVad3BiVmc3aVhIUWsySTN3dENzYURtakxPQ3dvd0dybDZpcWdtRzJha0FUbkNhamM2aFZOYnpRdkh6c3dNVXpvSFNUT0xwd1pYbkE2UktkbFp6cERBaUdGTjNmMVVfY2UyZmd6SWdGZkNUbUE2SmtnazNMdF80ZS1qQzExdG1rcW00UDF5S21sUlRjMVZudUs4Y05HYlJYUm83bkhSLXNJNzZfS28tR2c?oc=5",
-   "src": "Livemint",
-   "time": "2026-11-20T20:09:14+00:00",
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-21T06:04:20+00:00",
    "level": "Medium",
-   "score": 1.28,
-   "label": "US rates easing",
-   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "score": 1.2,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
    "sources": [
-    "Livemint"
+    "The Financial Express"
    ],
    "sectors": [
     {
-     "sector": "IT",
+     "sector": "OMC",
      "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
+     "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "NEWAGE",
+     "sector": "PAINT",
      "dir": 1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "stocks": "Asian Paints"
     },
     {
-     "sector": "BANK",
+     "sector": "AVIATION",
      "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Fed's Cook says rate hikes needed to lower high inflation",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV0pwMURCc1diYXRGTmtCaC0tNnZac3RIMEtTT1BCMGxpZ093OTRFdVJpRGx4TW5YRENNTWxpN0dYLTZpQ0ZXOC1sby1jNUtYbVNseHFWN2J3MGFuQjNwa3lOR2F4S1JicENRMzQ1ZWlDMkRyRzk5eG5IcVFpQXkyS0kzYU15a1RCWXNwWERBVFRmbUFZbE80WHhKUmVoejA?oc=5",
-   "src": "Reuters",
-   "time": "2026-11-20T17:19:43+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Reuters"
-   ],
-   "sectors": [
+     "stocks": "IndiGo"
+    },
     {
-     "sector": "IT",
+     "sector": "UPSTREAM",
      "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -287,47 +274,19 @@
    ]
   },
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Nasdaq turns negative for 2026 as AI sell-off deepens",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeE1VemhuNFRqYkdwNXpBTHRQNjlMTHlkUUtxZ1hIcFZhb3I0TzdySTBJblZFZXJSYlFpU3VYelF2eGVycU4yRTA5T2VuSk1PWEx1NVhoQWJRZ05zUjV3Z0lOT2Voc1JSeFJrUnBlR2doOEtkVlVRSXdZcXRYNjRlTDQ4c3NfYkpQWndfREIwbDhHV053cjdrOGxZZWlNNmNsdm5mYlpzMUFDUVBUcEJpMFpPREtvSENn0gG_AUFVX3lxTE51UzlGbV9QeDAwUUVxalFTRFJaeFMySDlpRlRiUnB4RUkwYW1yaG1VWFJza1lWWjhkWksyTmtwZlVtNkxSakZXNW82ZF9pakI3M3BlQWhIU19BeWxHLTkxRS1iMEtTQUhXeUd1Zmozb2hLNVE1N2dERUt2X1ZRNklPOHJuVXZhV192NkFHWDJfRDVwT3c5X1VwckkwOUhVVWN4RXlTTS1QdlE5OWlwOWRpM08xMHZwSTJUai1YLVIw?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-20T18:09:31+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran attacks US military radar system in Bahrain despite talks with mediators",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFg4ZVlablBic3hLR3NxVVoyTXBUSGtRZlYydzBfVm9zcjJXUnZlRU5Va2NCUWFUZGxURmtGVk1lXzRlTzZzQXR1VmwyMkRSVEltSElmbl9ZMS01SEtnUE5ZTW9wYjM3ODUzeU9nQUF3MDFHMEZaU2s4SWJjT0Y2dnc1Nkw2alQ2YUF3WXBCOXU3Ml9URVl2enp4c250VzhfUXhIcWliOGRRZ000MlRfUS1wYlVYbk4xVEVGaThfdw?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-11-20T20:46:41+00:00",
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "Iran fuel crisis deepens amid war and sanctions",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
+   "src": "DW.com",
+   "time": "2026-11-21T05:38:17+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "The Business Standard"
+    "DW.com"
    ],
    "sectors": [
     {
@@ -354,6 +313,33 @@
   }
  ],
  "videos": [
+  {
+   "id": "vKTvDzUYJo8",
+   "title": "India Has Interest Rates & 7% GDP, USA Can Have 20% GDP: Donald Trump | N18G | CNBC-TV18",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-21T17:30:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/vKTvDzUYJo8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=vKTvDzUYJo8",
+   "business": true
+  },
+  {
+   "id": "7AkWiMDPAio",
+   "title": "Anthropic IPO Fails to Halt AI Selloff, Ditching the Kitchen for Thanksgiving",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-21T17:02:13+00:00",
+   "thumb": "https://i.ytimg.com/vi/7AkWiMDPAio/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=7AkWiMDPAio",
+   "business": true
+  },
+  {
+   "id": "3zy1aHp57iY",
+   "title": "Top Bureaucrats On Markets, Growth, Budget Prep & More At The FICCI Annual Meet | Exclusive",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-21T16:30:07+00:00",
+   "thumb": "https://i.ytimg.com/vi/3zy1aHp57iY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=3zy1aHp57iY",
+   "business": true
+  },
   {
    "id": "sxtXz24odps",
    "title": "A First Look Inside The Fed’s New AI Task Force",
@@ -382,33 +368,6 @@
    "business": false
   },
   {
-   "id": "Eysw86angVc",
-   "title": "DIPAM Secretary Arunish Chawla On Mahanadi Coal IPO, SECL Listing & Disinvestment Plans | Exclusive",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-21T14:30:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/Eysw86angVc/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Eysw86angVc",
-   "business": true
-  },
-  {
-   "id": "DiDp9-JKulY",
-   "title": "Where Is India’s Bond Market Headed? | Anurag Mittal, UTI AMC | Bond Street",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-21T14:09:49+00:00",
-   "thumb": "https://i.ytimg.com/vi/DiDp9-JKulY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=DiDp9-JKulY",
-   "business": true
-  },
-  {
-   "id": "LrNXCyK6FCQ",
-   "title": "Anthropic IPO Fails to Calm AI Jitters",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-21T13:41:47+00:00",
-   "thumb": "https://i.ytimg.com/vi/LrNXCyK6FCQ/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=LrNXCyK6FCQ",
-   "business": true
-  },
-  {
    "id": "YKS34sswxbg",
    "title": "AI that builds itself: Golden age or time to panic? | BBC News",
    "channel": "BBC News",
@@ -424,15 +383,6 @@
    "published": "2026-11-21T11:52:59+00:00",
    "thumb": "https://i.ytimg.com/vi/rLHaKjzCJ44/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=rLHaKjzCJ44",
-   "business": true
-  },
-  {
-   "id": "zOX9nKoyP9A",
-   "title": "BULGARIA BACKS INDIA TO End Black Sea War After Ship Attacks | S. Jaishankar Live | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-21T10:30:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/zOX9nKoyP9A/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=zOX9nKoyP9A",
    "business": true
   },
   {
