@@ -1211,42 +1211,72 @@
   "sym": "BHARTIARTL",
   "dir": "UP",
   "net": 3.14,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 0.83,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-19",
   "sym": "ASIANPAINT",
   "dir": "UP",
   "net": 2.98,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 0.51,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-19",
   "sym": "DIXON",
   "dir": "UP",
   "net": 2.6,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 0.51,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-19",
   "sym": "BRITANNIA",
   "dir": "DOWN",
   "net": -2.56,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 0.66,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-19",
   "sym": "WIPRO",
   "dir": "DOWN",
   "net": -2.3,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 0.96,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-19",
   "sym": "TATAELXSI",
   "dir": "DOWN",
   "net": -2.3,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-20",
+   "chg": 3.36,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-20",
@@ -1292,44 +1322,44 @@
  },
  {
   "date": "2026-11-21",
-  "sym": "APOLLOHOSP",
+  "sym": "POWERGRID",
   "dir": "UP",
-  "net": 2.92,
+  "net": 2.71,
   "confidence": "Medium"
  },
  {
   "date": "2026-11-21",
-  "sym": "POWERGRID",
+  "sym": "PNB",
   "dir": "UP",
-  "net": 2.49,
-  "confidence": "Low"
+  "net": 2.5,
+  "confidence": "Medium"
  },
  {
   "date": "2026-11-21",
   "sym": "BEL",
   "dir": "UP",
-  "net": 2.44,
+  "net": 1.89,
   "confidence": "Low"
- },
- {
-  "date": "2026-11-21",
-  "sym": "SWIGGY",
-  "dir": "DOWN",
-  "net": -2.82,
-  "confidence": "Medium"
  },
  {
   "date": "2026-11-21",
   "sym": "POLYCAB",
   "dir": "DOWN",
-  "net": -2.7,
+  "net": -2.85,
   "confidence": "Medium"
  },
  {
   "date": "2026-11-21",
-  "sym": "MPHASIS",
+  "sym": "SWIGGY",
   "dir": "DOWN",
-  "net": -2.47,
+  "net": -2.4,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-21",
+  "sym": "WIPRO",
+  "dir": "DOWN",
+  "net": -1.8,
   "confidence": "Low"
  }
 ]
