@@ -1,15 +1,22 @@
 {
- "generated": "2026-11-21T08:40:10.459876+00:00",
+ "generated": "2026-11-21T08:45:31.247330+00:00",
  "date": "2026-11-21",
  "picks_up": [
   {
    "sym": "POWERGRID",
    "sector": "POWER",
-   "net": 2.71,
-   "event_score": 0.6,
+   "net": 3.19,
+   "event_score": 1.08,
    "sector_score": 0.0,
    "sources": 0,
    "reasons": [
+    {
+     "label": "Order / contract win",
+     "title": "Texas power grid CEO secures multimillion-dollar contract extension, angering Dan Patrick",
+     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNzZmMnVnbUtoN3NqRWNTc25qOE80MEZKc09ld1lQZFRQVUhIbF8zSG91bkIxWlBGSjg2a2d5ZGk1ZDd2VFVmaU1iOVhlN3Z5MFlWTEczNXgzMWI3NTJmeS1neVhhSzRHaXNJX3JMRl9rQy1jYko2b2ZTRkRuc1AzODJEeTRSY1k2aHhsd0VkTXlmLWpUbVFyeHlGWnpCOXd6ZkdxQWM0U2pPUVNUbno5ay1HMHdVbjR0T2VBb1RJb2VhWklDNVpsdVcwRGFCYnVMaEtjMEF2VnZvWE8wbTZ1NXdtNmJiQTZrRW0xUS1jV1NqWThoemduY0kzeFp1Qm9lRXpXYXpjaTcyZm14WmE4NndSUHU?oc=5",
+     "src": "crossroadstoday.com",
+     "time": "2026-11-20T11:30:00+00:00"
+    },
     {
      "label": "Capital return",
      "title": "China Southern Power Grid Energy Storage's Chairperson Proposed A-Share Buyback",
@@ -32,7 +39,7 @@
    "close": 269.0,
    "close_date": "2026-11-20",
    "layers": {
-    "news": 0.6,
+    "news": 1.08,
     "sector": 0.0,
     "technical": 1.4,
     "relative": 0.31,
@@ -95,10 +102,10 @@
    "sector_reasons": [
     {
      "label": "Geopolitical tension",
-     "title": "Oil prices rise on renewed fears of escalation in the Middle East",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9qQVZfUllfdTN5Wnd3MW1aUlBpYnVmZVBTdlR0Nm5jRWVCeU5UYWFadmlsbDJ4NDRJQUt2d1Q0LTlxaGRaY0ZrNWpJZjQ?oc=5",
-     "src": "سانا",
-     "time": "2026-11-21T07:07:27+00:00"
+     "title": "Crude oil prices surge nearly 2% as US-Iran conflict escalates",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMnBLUlcwR1FuNWZZaklWcWJjTFZuaWlVbUNZTVQ4ZUp5MjFNeXV6MmdpbXBqV0ZyY1Z4UGJ6anIwN1hKMm5fTnMwZTcxMUw3OWRDbDBIMU82dVBfM0xLczRva21VUkJOSWtjTEpMSVNLNzBGOXhLMWFuTTlaNldrLTF5dWg0SkFLZ0N6NEFSSWg?oc=5",
+     "src": "DD News",
+     "time": "2026-11-20T11:43:41+00:00"
     }
    ],
    "today_chg": -0.54,
@@ -320,7 +327,7 @@
    "date": "2026-11-21",
    "sym": "POWERGRID",
    "dir": "UP",
-   "net": 2.71,
+   "net": 3.19,
    "confidence": "Medium"
   },
   {
