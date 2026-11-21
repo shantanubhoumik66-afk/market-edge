@@ -3,9 +3,9 @@ Scores news per stock (results, margins, orders, management, legal, brokers),
 adds sector effects from global / government / geopolitical news,
 picks the top 3 for next day, and tracks its own hit rate in picks_history.json.
 Standard library only."""
-import json, re, time, urllib.parse
+import json, re, urllib.parse
 from datetime import datetime, timezone, timedelta
-from fetch_data import get, parse_rss
+from fetch_data import get, parse_rss, pmap
 
 IST = timezone(timedelta(hours=5, minutes=30))
 NOW = datetime.now(timezone.utc)
@@ -23,7 +23,7 @@ UNIVERSE = [
  ("MARUTI","Maruti Suzuki","Maruti","AUTO"),("M&M","Mahindra and Mahindra","M&M|Mahindra & Mahindra","AUTO"),
  ("TATAMOTORS","Tata Motors","Tata Motors","AUTO"),("BAJAJ-AUTO","Bajaj Auto","Bajaj Auto","AUTO"),
  ("EICHERMOT","Eicher Motors","Eicher|Royal Enfield","AUTO"),("HEROMOTOCO","Hero MotoCorp","Hero MotoCorp","AUTO"),
- ("BPCL","BPCL","BPCL|Bharat Petroleum","OMC"),("IOC","Indian Oil","Indian Oil|IOC","OMC"),
+ ("BPCL","BPCL","BPCL|Bharat Petroleum","OMC"),("IOC","Indian Oil",r"Indian Oil|\bIOCL?\b","OMC"),
  ("HINDPETRO","HPCL","HPCL|Hindustan Petroleum","OMC"),("ONGC","ONGC","ONGC","UPSTREAM"),
  ("OIL","Oil India","Oil India","UPSTREAM"),("ASIANPAINT","Asian Paints","Asian Paints","PAINT"),
  ("INDIGO","IndiGo InterGlobe Aviation","IndiGo|InterGlobe","AVIATION"),
@@ -34,9 +34,9 @@ UNIVERSE = [
  ("DIVISLAB","Divi's Laboratories","Divi","PHARMA"),("LUPIN","Lupin","Lupin","PHARMA"),
  ("APOLLOHOSP","Apollo Hospitals","Apollo Hospitals","PHARMA"),
  ("HINDUNILVR","Hindustan Unilever","HUL|Hindustan Unilever","FMCG"),("ITC","ITC","\\bITC\\b","FMCG"),
- ("NESTLEIND","Nestle India","Nestle","FMCG"),("BRITANNIA","Britannia","Britannia","FMCG"),
+ ("NESTLEIND","Nestle India","Nestle India","FMCG"),("BRITANNIA","Britannia","Britannia","FMCG"),
  ("TATACONSUM","Tata Consumer","Tata Consumer","FMCG"),("NTPC","NTPC","NTPC","POWER"),
- ("POWERGRID","Power Grid","Power Grid","POWER"),("TATAPOWER","Tata Power","Tata Power","POWER"),
+ ("POWERGRID","Power Grid Corporation",r"POWERGRID|Power ?Grid (Corp|shares|stock|Q[1-4])","POWER"),("TATAPOWER","Tata Power","Tata Power","POWER"),
  ("ADANIGREEN","Adani Green","Adani Green","POWER"),("ADANIPORTS","Adani Ports","Adani Ports","INFRA"),
  ("LT","Larsen & Toubro","L&T|Larsen","INFRA"),("ULTRACEMCO","UltraTech Cement","UltraTech","INFRA"),
  ("GRASIM","Grasim","Grasim","INFRA"),("HAL","Hindustan Aeronautics","\\bHAL\\b|Hindustan Aeronautics","DEFENCE"),
@@ -47,7 +47,7 @@ UNIVERSE = [
  ("SBILIFE","SBI Life","SBI Life",None),("HDFCLIFE","HDFC Life","HDFC Life",None),
  ("IRCTC","IRCTC","IRCTC",None),("TRENT","Trent Tata","\\bTrent\\b",None),
  ("DMART","Avenue Supermarts DMart","DMart|Avenue Supermarts",None),("PIDILITIND","Pidilite","Pidilite",None),
- ("SWIGGY","Swiggy","Swiggy","NEWAGE"),("ETERNAL","Zomato Eternal","Zomato|Eternal","NEWAGE"),
+ ("SWIGGY","Swiggy","Swiggy","NEWAGE"),("ETERNAL","Zomato Eternal",r"Zomato|Blinkit|Eternal (Ltd|shares|stock|Q[1-4])","NEWAGE"),
  ("COLPAL","Colgate-Palmolive India","Colgate","FMCG"),("JINDALSTEL","Jindal Steel and Power","Jindal Steel","METALS"),
  ("PAYTM","Paytm One97","Paytm","NEWAGE"),("NYKAA","Nykaa FSN E-Commerce","Nykaa|FSN","NEWAGE"),
  ("PAGEIND","Page Industries Jockey","Page Industries",None),("DABUR","Dabur","Dabur","FMCG"),
@@ -57,12 +57,12 @@ UNIVERSE = [
  ("BANDHANBNK","Bandhan Bank","Bandhan","BANK"),("PNB","Punjab National Bank","PNB|Punjab National","BANK"),
  ("BANKBARODA","Bank of Baroda","Bank of Baroda","BANK"),("CANBK","Canara Bank","Canara","BANK"),
  ("TVSMOTOR","TVS Motor","TVS Motor","AUTO"),("ASHOKLEY","Ashok Leyland","Ashok Leyland","AUTO"),
- ("MOTHERSON","Samvardhana Motherson","Motherson","AUTO"),("SAIL","SAIL Steel Authority","SAIL|Steel Authority","METALS"),
+ ("MOTHERSON","Samvardhana Motherson","Motherson","AUTO"),("SAIL","SAIL Steel Authority",r"\bSAIL\b|Steel Authority","METALS"),
  ("NMDC","NMDC","NMDC","METALS"),("AUROPHARMA","Aurobindo Pharma","Aurobindo","PHARMA"),
  ("ZYDUSLIFE","Zydus Lifesciences","Zydus","PHARMA"),("TORNTPHARM","Torrent Pharma","Torrent Pharma","PHARMA"),
  ("IRFC","IRFC","IRFC",None),("RVNL","Rail Vikas Nigam","RVNL|Rail Vikas",None),
  ("PFC","Power Finance Corporation","Power Finance|\\bPFC\\b","BANK"),("RECLTD","REC Limited","\\bREC\\b","BANK"),
- ("SIEMENS","Siemens India","Siemens",None),("ABB","ABB India","ABB India",None),
+ ("SIEMENS","Siemens India",r"Siemens (India|Ltd|shares|stock)",None),("ABB","ABB India","ABB India",None),
  ("HAVELLS","Havells","Havells",None),("POLYCAB","Polycab","Polycab",None),
  ("CHOLAFIN","Cholamandalam Investment","Chola","BANK"),("MUTHOOTFIN","Muthoot Finance","Muthoot","BANK"),
  ("SHRIRAMFIN","Shriram Finance","Shriram Finance","BANK"),("BOSCHLTD","Bosch","Bosch",None),
@@ -150,8 +150,14 @@ def fresh(iso):
     return 1.0 if h <= 12 else 0.75 if h <= 24 else 0.5 if h <= 48 else 0.0
 
 
-def series(sym, suffix=".NS", rng="3mo"):
-    """Daily closes and volumes: list of (IST date, close, volume)."""
+_BARS = {}
+
+
+def bars(sym, suffix=".NS", rng="3mo"):
+    """Daily bars: list of (IST date, open, close, volume). Cached per run, retried, both Yahoo hosts."""
+    key = (sym, suffix, rng)
+    if key in _BARS:
+        return _BARS[key]
     path = "/v8/finance/chart/" + urllib.parse.quote(sym, safe="") + suffix + "?interval=1d&range=" + rng
     for host in ("query1", "query2"):
         try:
@@ -159,26 +165,31 @@ def series(sym, suffix=".NS", rng="3mo"):
             r = j["chart"]["result"][0]
             q = r["indicators"]["quote"][0]
             out = []
-            for t, c, v in zip(r["timestamp"], q["close"], q["volume"]):
+            for t, o, c, v in zip(r["timestamp"], q["open"], q["close"], q["volume"]):
                 if c is not None:
-                    out.append((datetime.fromtimestamp(t, IST).strftime("%Y-%m-%d"), c, v or 0))
+                    out.append((datetime.fromtimestamp(t, IST).strftime("%Y-%m-%d"), o, c, v or 0))
+            _BARS[key] = out
             return out
         except Exception:
             continue
     return []
 
 
+def series(sym, suffix=".NS", rng="3mo"):
+    """Daily closes and volumes: list of (IST date, close, volume)."""
+    return [(d, c, v) for d, _, c, v in bars(sym, suffix, rng)]
+
+
 def global_overlay():
     hits = {}  # label -> [rule, items]
-    for q in GLOBAL_QUERIES:
-        for it in news(q):
+    for found in pmap(news, GLOBAL_QUERIES, 6):
+        for it in found:
             f = fresh(it["time"]) * src_mult(it["src"])
             if f == 0:
                 continue
             for rx, sec, w, label in OVERLAY:
                 if rx.search(it["title"]):
                     hits.setdefault(label, [(sec, w), []])[1].append(it)
-        time.sleep(0.3)
     sector, why = {}, {}
     for label, ((sec, w), items) in hits.items():
         n = min(len({i["title"] for i in items}), 3)
@@ -210,7 +221,6 @@ def score_stock(sym, name, alias, sector, overlay, why_sector):
         val = found[0] * f
         if found[1] not in best or abs(val) > abs(best[found[1]][0]):
             best[found[1]] = (val, it)
-    time.sleep(0.3)
     top = sorted(best.items(), key=lambda kv: abs(kv[1][0]), reverse=True)[:3]
     total = sum(v for _, (v, _) in top)
     sign = 1 if total >= 0 else -1
@@ -226,17 +236,33 @@ def score_stock(sym, name, alias, sector, overlay, why_sector):
 
 
 def evaluate(history):
-    today = NOW.astimezone(IST).strftime("%Y-%m-%d")
+    """Scores every finished pick against the trading session after the close it was built on.
+
+    Picks are keyed by base_date (the last market close the engine saw). Older entries only have 'date',
+    which was the wall-clock IST date of the run: GitHub often starts the 5:30 PM job hours late, so a
+    Friday run could be stamped Saturday and was never scored. For those, the last trading day on or
+    before the stamped date is used, which recovers them.
+    'chg'/'hit' = close to next close (kept for continuity). 'oc_chg'/'oc_hit' = next open to next close,
+    the trade you can actually take after reading the picks in the evening."""
     for h in history:
-        if "result" in h or h["date"] >= today:
+        if "result" in h:
             continue
-        s = series(h["sym"])
-        dates = [d for d, _, _ in s]
-        if h["date"] in dates:
-            i = dates.index(h["date"])
-            if i + 1 < len(s):
-                chg = (s[i + 1][1] / s[i][1] - 1) * 100
-                h["result"] = {"next_date": s[i + 1][0], "chg": round(chg, 2), "hit": (chg > 0) == (h["dir"] == "UP")}
+        base = h.get("base_date") or h["date"]
+        s = bars(h["sym"])
+        if not s:
+            continue
+        dates = [d for d, _, _, _ in s]
+        i = max((k for k, d in enumerate(dates) if d <= base), default=None)
+        if i is None or i + 1 >= len(s):
+            continue
+        sign = 1 if h["dir"] == "UP" else -1
+        chg = (s[i + 1][2] / s[i][2] - 1) * 100
+        res = {"base_date": dates[i], "next_date": dates[i + 1], "chg": round(chg, 2), "hit": chg * sign > 0}
+        o = s[i + 1][1]
+        if o:
+            oc = (s[i + 1][2] / o - 1) * 100
+            res.update({"oc_chg": round(oc, 2), "oc_hit": oc * sign > 0})
+        h["result"] = res
 
 
 def sgn(x):
@@ -307,14 +333,23 @@ def main():
         history = []
     evaluate(history)
 
+    nser = series("^NSEI", suffix="")
+    regime = market_regime(nser)
+    now_ist = NOW.astimezone(IST)
+    today = now_ist.strftime("%Y-%m-%d")
+    # The session these picks are built on = the last Nifty close, not the clock date of the run.
+    base_date = nser[-1][0] if nser else today
+    intraday = base_date == today and (now_ist.hour, now_ist.minute) < (15, 45)
+    if intraday:
+        print("warning: run during market hours, today's bar is not final")
+
     overlay, why_sector = global_overlay()
-    scored = [score_stock(*u, overlay, why_sector) for u in UNIVERSE]
+    # stocks are scored in parallel (each needs 2 news searches): minutes instead of tens of minutes
+    scored = pmap(lambda u: score_stock(*u, overlay, why_sector), UNIVERSE, 6)
     ups = sorted([s for s in scored if s["net"] >= 0.6], key=lambda s: s["net"], reverse=True)[:20]
     downs = sorted([s for s in scored if s["net"] <= -0.6], key=lambda s: s["net"])[:20]
 
-    nser = series("^NSEI", suffix="")
-    regime = market_regime(nser)
-
+    pmap(series, [c["sym"] for c in ups + downs], 8)   # warm the price cache in parallel
     for c in ups + downs:
         ser = series(c["sym"])
         news_net = c["net"]
@@ -345,7 +380,6 @@ def main():
         c["net"] = sum(layers.values())
         d = sgn(c["net"])
         c["agree"] = sum(1 for v in layers.values() if v * d > 0.15)
-        time.sleep(0.3)
 
     def confidence(p):
         a, d, t = abs(p["net"]), sgn(p["net"]), p["layers"]["technical"]
@@ -369,21 +403,51 @@ def main():
     picks_down = finish([c for c in pool if c["net"] < 0], "DOWN")
     picks = picks_up + picks_down
 
-    today = NOW.astimezone(IST).strftime("%Y-%m-%d")
-    history = [h for h in history if h["date"] != today]
+    # A re-run for the same close replaces that session's picks (also covers a delayed run after midnight).
+    # Only new-format entries (with base_date) are replaced; old entries are kept and scored as they are.
+    history = [h for h in history if h.get("base_date") != base_date or "result" in h]
     for p in picks:
-        history.append({"date": today, "sym": p["sym"], "dir": p["dir"], "net": p["net"], "confidence": p["confidence"]})
-    history = history[-400:]
+        history.append({"date": base_date, "base_date": base_date, "run_date": today, "sym": p["sym"], "dir": p["dir"],
+                        "net": p["net"], "confidence": p["confidence"], "sector": p.get("sector"), "regime": regime,
+                        "layers": p.get("layers", {})})
+    history = history[-1500:]
     done = [h for h in history if "result" in h]
 
     def st(f):
         x = [h for h in done if f(h)]
-        return {"total": len(x), "hits": sum(1 for h in x if h["result"]["hit"])}
+        oc = [h for h in x if "oc_hit" in h["result"]]
+        sign = lambda h: 1 if h["dir"] == "UP" else -1
+        out = {"total": len(x), "hits": sum(1 for h in x if h["result"]["hit"])}
+        if x:
+            out["avg_pct"] = round(sum(h["result"]["chg"] * sign(h) for h in x) / len(x), 3)
+            # z-score against a coin flip: |z| < 2 means the hit rate could easily be luck
+            out["z"] = round((out["hits"] - len(x) / 2) / ((len(x) / 4) ** 0.5), 2)
+        if oc:
+            out["oc_total"] = len(oc)
+            out["oc_hits"] = sum(1 for h in oc if h["result"]["oc_hit"])
+            out["oc_avg_pct"] = round(sum(h["result"]["oc_chg"] * sign(h) for h in oc) / len(oc), 3)
+        return out
+
+    def layer_accuracy():
+        """For each layer: how often its own sign matched the next-day move, on picks where it had an opinion."""
+        acc = {}
+        for h in done:
+            for k, v in (h.get("layers") or {}).items():
+                if abs(v) < 0.15:
+                    continue
+                a = acc.setdefault(k, {"total": 0, "hits": 0})
+                a["total"] += 1
+                a["hits"] += 1 if (v > 0) == (h["result"]["chg"] > 0) else 0
+        return acc
 
     stats = {"all": st(lambda h: True), "up": st(lambda h: h["dir"] == "UP"), "down": st(lambda h: h["dir"] == "DOWN"),
-             "tiers": {t: st(lambda h, t=t: h.get("confidence") == t) for t in ("High", "Medium", "Low", "Weak signal")}}
+             "tiers": {t: st(lambda h, t=t: h.get("confidence") == t) for t in ("High", "Medium", "Low", "Weak signal")},
+             "with_trend": st(lambda h: "regime" in h and h["regime"] != 0 and (h["regime"] > 0) == (h["dir"] == "UP")),
+             "against_trend": st(lambda h: "regime" in h and h["regime"] != 0 and (h["regime"] > 0) != (h["dir"] == "UP")),
+             "layers": layer_accuracy()}
 
-    out = {"generated": NOW.isoformat(), "date": today, "picks_up": picks_up, "picks_down": picks_down,
+    out = {"generated": NOW.isoformat(), "date": base_date, "base_date": base_date, "intraday": intraday,
+           "picks_up": picks_up, "picks_down": picks_down,
            "stats": stats, "recent": history[-20:][::-1], "scanned": len(UNIVERSE),
            "market_regime": regime, "sector_effects": {k: round(v, 2) for k, v in overlay.items() if abs(v) >= 0.5}}
     json.dump(out, open("picks.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

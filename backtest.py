@@ -4,10 +4,10 @@ over about 5 years of daily data, replaying every past day using only data avail
 The news layers cannot be backtested with free data: free feeds keep only a few days of headlines, and using
 today's knowledge of old news would give fake results. News is tested live through picks_history.json instead.
 Standard library only."""
-import json, time, urllib.parse
+import json, urllib.parse
 from datetime import datetime, timezone
 from statistics import mean, median, pstdev
-from fetch_data import get
+from fetch_data import get, pmap
 from pick_engine import UNIVERSE, price_layers, market_regime, sgn, IST
 
 COST = 0.10      # percent per trade (brokerage, taxes, slippage), subtracted from every trade
@@ -84,11 +84,10 @@ def main():
     nser = [(d, c, v) for d, o, c, v in nifty]
 
     stocks = {}
-    for sym, *_ in UNIVERSE:
-        rows = load(sym)
+    syms = [u[0] for u in UNIVERSE]
+    for sym, rows in zip(syms, pmap(load, syms, 6)):   # 5-year histories downloaded in parallel
         if len(rows) >= 200:
             stocks[sym] = (rows, {r[0]: k for k, r in enumerate(rows)})
-        time.sleep(0.25)
     print("loaded", len(stocks), "stocks,", len(nifty), "index days")
 
     trades, up_days, total = [], 0, 0

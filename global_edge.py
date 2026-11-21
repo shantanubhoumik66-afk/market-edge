@@ -6,10 +6,10 @@ Each story shows how many trusted outlets carried it, why it matters for India, 
 
 Videos: only the official YouTube channels of well-known news and business broadcasters, market-related titles only.
 Standard library only."""
-import json, re, time, urllib.parse
+import json, re, urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from fetch_data import get, parse_rss
+from fetch_data import get, parse_rss, pmap
 
 NOW = datetime.now(timezone.utc)
 
@@ -118,30 +118,29 @@ def same_story(a, b):
 
 def build_news():
     stories = []   # each: dict with title, link, time, region, flag, sources set, rule, ...
-    for region, flag, queries in REGIONS:
-        for q in queries:
-            for it in search(q):
-                if not TRUSTED.search(it["src"] or "") or BLOCK.search(it["title"]):
-                    continue
-                w = age_weight(it["time"])
-                if w == 0:
-                    continue
-                best = None
-                for rule in RULES:
-                    if rule[0].search(it["title"]) and (best is None or rule[1] > best[1]):
-                        best = rule
-                if not best:
-                    continue      # not an impact story for Indian shares: dropped
-                for s in stories:
-                    if same_story(s["title"], it["title"]):
-                        s["sources"].add(it["src"])
-                        if it["time"] > s["time"]:
-                            s["time"] = it["time"]
-                        break
-                else:
-                    stories.append({"title": it["title"], "link": it["link"], "src": it["src"], "time": it["time"], "region": region,
-                                    "flag": flag, "sources": {it["src"]}, "rule": best, "w": w})
-            time.sleep(0.3)
+    jobs = [(region, flag, q) for region, flag, queries in REGIONS for q in queries]
+    for (region, flag, q), found in zip(jobs, pmap(lambda j: search(j[2]), jobs, 6)):
+        for it in found:
+            if not TRUSTED.search(it["src"] or "") or BLOCK.search(it["title"]):
+                continue
+            w = age_weight(it["time"])
+            if w == 0:
+                continue
+            best = None
+            for rule in RULES:
+                if rule[0].search(it["title"]) and (best is None or rule[1] > best[1]):
+                    best = rule
+            if not best:
+                continue      # not an impact story for Indian shares: dropped
+            for s in stories:
+                if same_story(s["title"], it["title"]):
+                    s["sources"].add(it["src"])
+                    if it["time"] > s["time"]:
+                        s["time"] = it["time"]
+                    break
+            else:
+                stories.append({"title": it["title"], "link": it["link"], "src": it["src"], "time": it["time"], "region": region,
+                                "flag": flag, "sources": {it["src"]}, "rule": best, "w": w})
     items = []
     for s in stories:
         _, weight, label, why, sec, broad = s["rule"]
@@ -283,12 +282,10 @@ def channel_videos(display, handle, fallback, name_re):
 
 def build_videos():
     allv, ok = [], []
-    for display, handle, fb, rx in CHANNELS:
-        v = channel_videos(display, handle, fb, rx)
+    for (display, *_), v in zip(CHANNELS, pmap(lambda c: channel_videos(*c), CHANNELS, 6)):
         if v:
             ok.append(display)
         allv += v
-        time.sleep(0.3)
     good = [v for v in allv if MARKETY.search(v["title"]) and not BLOCK.search(v["title"])]
     if len(good) < 6:     # relax: any non-blocked video from the business channels
         extra = [v for v in allv if v["business"] and not BLOCK.search(v["title"]) and v not in good]
@@ -312,7 +309,7 @@ LIVE = [
     ("CNBC-TV18", "cnbc-tv18", "UCmRbHAgG2k2vDUvb3xsEunQ", r"cnbc"),
     ("CNBC Awaaz", "CNBCAwaaz", "UCQIycDaLsBpMKjOCeaKUYVg", r"cnbc"),
     ("Yahoo Finance", "YahooFinance", "UCEAZeUIeJs0IjQiqTCdVSIg", r"yahoo"),
-    ("ET Now", "ETNOWlive", "", r"et now|economic times"),
+    ("ET Now", "ETNOWlive", "", r"et\s?now|economic times"),
     ("Zee Business", "ZeeBusiness", "", r"zee business"),
     ("CNBC International", "CNBCInternational", "", r"cnbc"),
     ("Moneycontrol", "moneycontrol", "", r"moneycontrol"),
@@ -323,33 +320,41 @@ LIVE = [
 ]
 
 
+def feed_author(cid):
+    root = ET.fromstring(yt_get("https://www.youtube.com/feeds/videos.xml?channel_id=" + cid))
+    return root.findtext("a:author/a:name", default="", namespaces=NS) or ""
+
+
+def check_live(ch):
+    """One live channel -> (entry or None, debug note). Run in parallel for all channels."""
+    name, handle, fb, rx = ch
+    cid, src = resolve_channel(handle, fb)
+    if not cid:
+        return None, {"name": name, "status": "could not find the channel id"}
+    try:   # make sure the channel really belongs to the named broadcaster
+        author = feed_author(cid)
+        # A handle page can mention other channels, so its id may be wrong: then try the built-in id
+        if not re.search(rx, author, re.I) and fb and fb != cid:
+            alt = feed_author(fb)
+            if re.search(rx, alt, re.I):
+                cid, author = fb, alt
+    except Exception as e:
+        # feed blocked: an id read from the channel's own page (or the built-in id) is still used, marked unverified
+        return ({"name": name, "id": cid, "verified": False},
+                {"name": name, "status": "feed check blocked, using %s id (%s)" % ("channel-page" if src == "handle" else "built-in", str(e)[:40])})
+    if not re.search(rx, author, re.I):
+        return None, {"name": name, "status": "name mismatch, skipped (%s)" % (author or "empty")}
+    vid = live_video(cid)
+    if not vid:
+        return None, {"name": name, "status": "not live right now"}
+    emb = embeddable(vid)
+    return ({"name": name, "id": cid, "video_id": vid, "embeddable": emb, "verified": True},
+            {"name": name, "status": "live, " + ("plays in the app" if emb is not False else "broadcaster blocks embedding: opens on YouTube")})
+
+
 def build_live():
-    out, debug = [], []
-    for name, handle, fb, rx in LIVE:
-        cid, src = resolve_channel(handle, fb)
-        if not cid:
-            debug.append({"name": name, "status": "could not find the channel id"})
-            continue
-        try:   # make sure the channel really belongs to the named broadcaster
-            root = ET.fromstring(yt_get("https://www.youtube.com/feeds/videos.xml?channel_id=" + cid))
-            author = root.findtext("a:author/a:name", default="", namespaces=NS)
-        except Exception as e:
-            # feed blocked: an id read from the channel's own page (or the built-in id) is still used, marked unverified
-            out.append({"name": name, "id": cid, "verified": False})
-            debug.append({"name": name, "status": "feed check blocked, using %s id (%s)" % ("channel-page" if src == "handle" else "built-in", str(e)[:40])})
-            continue
-        if not re.search(rx, author or "", re.I):
-            debug.append({"name": name, "status": "name mismatch, skipped (%s)" % (author or "empty")})
-            continue
-        vid = live_video(cid)
-        if not vid:
-            debug.append({"name": name, "status": "not live right now"})
-            continue
-        emb = embeddable(vid)
-        out.append({"name": name, "id": cid, "video_id": vid, "embeddable": emb, "verified": True})
-        debug.append({"name": name, "status": "live, " + ("plays in the app" if emb is not False else "broadcaster blocks embedding: opens on YouTube")})
-        time.sleep(0.3)
-    return out, debug
+    res = pmap(check_live, LIVE, 6)
+    return [e for e, _ in res if e], [d for _, d in res]
 
 
 def main():

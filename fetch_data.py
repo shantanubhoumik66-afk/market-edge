@@ -1,17 +1,40 @@
 """India_edge data fetcher. Runs on GitHub Actions, writes data.json.
 Uses only Python standard library, so nothing needs to be installed."""
-import json, re, urllib.request, urllib.parse
+import json, re, urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
 
-def get(url, timeout=25):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def get(url, timeout=25, tries=2):
+    """HTTP GET with one retry: Google News and Yahoo often fail once and then answer."""
+    import time
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 401, 403, 404) or k == tries - 1:
+                raise
+        except Exception:
+            if k == tries - 1:
+                raise
+        time.sleep(2)
+
+
+def pmap(fn, items, workers=8):
+    """Run fn over items in parallel threads, results in the same order.
+    The scripts are network-bound, so this cuts run time several times over.
+    A small worker count keeps Google News and Yahoo from rate-limiting us."""
+    items = list(items)
+    if not items:
+        return []
+    with ThreadPoolExecutor(max_workers=min(workers, len(items))) as ex:
+        return list(ex.map(fn, items))
 
 
 def parse_rss(xml_bytes):
@@ -63,14 +86,25 @@ def uniq(items):
     return out
 
 
-def quote(sym):
-    path = "/v8/finance/chart/" + urllib.parse.quote(sym) + "?interval=1d&range=1d"
+def quote(sym, spark=False):
+    """Last price and day change. spark=True also returns the last 7 daily closes (same single request)."""
+    # safe="" so "M&M" becomes M%26M once (it used to be encoded twice, so M&M never got a price)
+    path = "/v8/finance/chart/" + urllib.parse.quote(sym, safe="") + "?interval=1d&range=" + ("10d" if spark else "1d")
     for host in ("query1", "query2"):
         try:
             j = json.loads(get("https://%s.finance.yahoo.com%s" % (host, path), 15))
-            m = j["chart"]["result"][0]["meta"]
-            p, prev = m["regularMarketPrice"], m["chartPreviousClose"]
-            return {"price": round(p, 2), "chg": round((p / prev - 1) * 100, 2)}
+            r = j["chart"]["result"][0]
+            m = r["meta"]
+            p = m["regularMarketPrice"]
+            closes = [round(c, 2) for c in (r.get("indicators", {}).get("quote", [{}])[0].get("close") or []) if c is not None]
+            # with range=1d chartPreviousClose is yesterday; with a longer range use the second-last close
+            prev = closes[-2] if spark and len(closes) >= 2 else m["chartPreviousClose"]
+            out = {"price": round(p, 2), "chg": round((p / prev - 1) * 100, 2)}
+            if spark:
+                if closes:
+                    closes[-1] = round(p, 2)
+                out["spark"] = closes[-7:]
+            return out
         except Exception:
             continue
     return None
@@ -123,7 +157,7 @@ def impact(items):
 
 
 def main():
-    news = uniq(gnews("Sensex Nifty India stocks market moving") + gnews("India economy data release stocks react"))[:15]
+    from pick_engine import UNIVERSE   # imported here: pick_engine imports this file
 
     MACRO = [("CPI inflation", "India CPI retail inflation MoSPI"), ("WPI inflation", "India WPI wholesale inflation"),
              ("PMI", "India manufacturing services PMI HSBC S&P Global"), ("IIP", "India IIP industrial production"),
@@ -133,31 +167,38 @@ def main():
            ("SEBI rules", "SEBI circular new rules"), ("Duties, PLI and tariffs", "India import duty OR PLI scheme OR anti-dumping notification")]
     RBI = [("RBI official press releases", None), ("Policy and rates", "RBI repo rate MPC governor"),
            ("Liquidity, rupee and banks", "RBI liquidity rupee forex banks")]
+    HEAD = ["Sensex Nifty India stocks market moving", "India economy data release stocks react"]
+    IDX = [("^NSEI", "Nifty 50"), ("^BSESN", "Sensex"), ("^NSEBANK", "Bank Nifty"), ("^CNXIT", "Nifty IT"), ("^INDIAVIX", "India VIX"), ("INR=X", "USD/INR")]
 
-    macro = [{"name": n, "items": uniq(gnews(q))[:4]} for n, q in MACRO]
-    gov = [{"name": n, "items": uniq(gnews(q))[:6]} for n, q in GOV]
-    rbi = [{"name": n, "items": uniq(rbi_official() if q is None else gnews(q))[:6]} for n, q in RBI]
+    # every news search in one parallel batch
+    queries = HEAD + [q for _, q in MACRO] + [q for _, q in GOV] + [q for _, q in RBI if q]
+    res = dict(zip(queries, pmap(gnews, queries)))
+    news = uniq(sum((res[q] for q in HEAD), []))[:15]
+    macro = [{"name": n, "items": uniq(res[q])[:4]} for n, q in MACRO]
+    gov = [{"name": n, "items": uniq(res[q])[:6]} for n, q in GOV]
+    rbi = [{"name": n, "items": uniq(rbi_official() if q is None else res[q])[:6]} for n, q in RBI]
 
-    indices = []
-    for sym, name in [("^NSEI", "Nifty 50"), ("^BSESN", "Sensex"), ("^NSEBANK", "Bank Nifty"), ("INR=X", "USD/INR")]:
-        q = quote(sym)
-        indices.append({"name": name, **(q or {"price": None, "chg": None})})
+    # all prices in one parallel batch: indices + the whole stock universe (for movers, sector heat, watchlist)
+    syms = [s for s, _ in IDX] + [u[0] + ".NS" for u in UNIVERSE]
+    qt = dict(zip(syms, pmap(lambda s: quote(s, spark=True), syms, workers=10)))
+    indices = [{"name": name, **(qt[sym] or {"price": None, "chg": None})} for sym, name in IDX]
+    market = [{"sym": u[0], "name": u[1], "sector": u[3] or "OTHER", **qt[u[0] + ".NS"]} for u in UNIVERSE if qt[u[0] + ".NS"]]
 
     pool = uniq(news + [i for m in macro for i in m["items"]] + [i for g in gov for i in g["items"]] + [i for r in rbi for i in r["items"]])
-    stocks = []
-    for x in impact(pool):
-        stocks.append({
-            "why": x["why"], "score": x["score"],
-            "stocks": [{"sym": s, **(quote(urllib.parse.quote(s, safe="") + ".NS") or {"price": None, "chg": None})} for s in x["stocks"]],
-            "hits": x["hits"][:3],
-        })
+    themes = impact(pool)
+    need = sorted({s + ".NS" for x in themes for s in x["stocks"]} - set(qt))
+    qt.update(zip(need, pmap(quote, need)))
+    stocks = [{"why": x["why"], "score": x["score"],
+               "stocks": [{"sym": s, **(qt.get(s + ".NS") or {"price": None, "chg": None})} for s in x["stocks"]],
+               "hits": x["hits"][:3]} for x in themes]
 
+    wb = pmap(world_bank, ["FP.CPI.TOTL.ZG", "NY.GDP.MKTP.KD.ZG"], 2)
     data = {"generated": datetime.now(timezone.utc).isoformat(), "news": news, "macro": macro, "rbi": rbi, "gov": gov,
-            "indices": indices, "wb": {"cpi": world_bank("FP.CPI.TOTL.ZG"), "gdp": world_bank("NY.GDP.MKTP.KD.ZG")},
-            "stocks": stocks}
+            "indices": indices, "wb": {"cpi": wb[0], "gdp": wb[1]}, "stocks": stocks, "market": market,
+            "pool": [{"title": i["title"], "link": i["link"], "src": i["src"], "time": i["time"]} for i in pool[:120]]}
     with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
-    print("data.json written:", len(news), "news,", len(stocks), "stock themes")
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print("data.json written:", len(news), "news,", len(stocks), "stock themes,", len(market), "stock prices")
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@
 :root{--bg:#0e1a2b;--bg2:#16273f;--ink:#eef2f7;--mute:#93a3ba;--line:#26395a;--saff:#ff9933;--green:#2fbf71;--red:#ff5c5c;--card:#13233a}
 *{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
-body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+body{background:var(--bg) radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%) no-repeat fixed;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
 .view{display:none;min-height:100%;padding:18px 16px 40px}
 .view.on{display:block}
 #clock{font-size:64px;font-weight:300;letter-spacing:-2px;margin-top:28px}
@@ -46,7 +46,7 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
 .empty{color:var(--mute);font-size:13px;padding:6px 0}
 .pick{border-left:5px solid var(--mute)}.pick.up{border-left-color:var(--green)}.pick.down{border-left-color:var(--red)}
 .pick h2{font-size:20px;display:flex;justify-content:space-between;align-items:center}
-.badge{font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.badge{display:inline-block;white-space:nowrap;margin-bottom:4px;font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
 .dir{font-weight:700}.why{font-size:13px;color:var(--mute);margin:8px 0 2px}
 .why b{color:var(--ink)}
 .vgrid{display:grid;gap:14px}.vcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer}
@@ -68,6 +68,20 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
 .lh{padding:8px 10px;font-size:13px;display:flex;align-items:center;justify-content:space-between}
 .lv{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;display:grid;place-items:center;color:#fff;font-size:34px}
 .lv iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.warn{display:block;background:#ff993318;border:1px solid #ff993355;color:var(--saff);border-radius:10px;padding:8px 10px;font-size:12px;line-height:1.4;margin:6px 0 10px}
+.verdict{font-size:15px;font-weight:700;margin:2px 0 6px}
+.tw{overflow-x:auto;margin:0 -4px}.ltab{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}.ltab td,.ltab th{padding:5px 4px;border-top:1px solid var(--line);text-align:left}.ltab th{color:var(--mute);font-weight:500;border-top:0}
+#offline{display:none;position:fixed;left:50%;transform:translateX(-50%);bottom:calc(12px + env(safe-area-inset-bottom,0px));background:#2a1d0a;border:1px solid var(--saff);color:var(--saff);padding:7px 14px;border-radius:999px;font-size:12px;z-index:60}
+.heat{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px;margin-top:4px}
+.heat div{border-radius:10px;padding:8px;font-size:12px;border:1px solid var(--line)}.heat b{display:block;font-size:14px;margin-top:2px}
+.breadth{display:flex;height:10px;border-radius:999px;overflow:hidden;background:var(--line);margin:8px 0 4px}
+.breadth i{display:block;height:100%}
+.row{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.row:first-of-type{border-top:0}.row .nm{flex:1;min-width:0}.row .nm span{display:block;font-size:11px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .px{text-align:right;min-width:74px}.row .px span{display:block;font-size:12px}
+.star{background:none;border:0;font-size:20px;color:var(--mute);padding:2px 4px;cursor:pointer;line-height:1}.star.on{color:var(--saff)}
+.search{width:100%;background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:10px 12px;font-size:15px;margin-bottom:10px}
+.wn{font-size:12px;margin-top:4px}.wn a{color:var(--ink);text-decoration:none;display:block;padding:3px 0}
 .snd{background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:12px;width:100%}
 </style>
 </head>
@@ -83,11 +97,12 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div class="top">
     <button class="back" onclick="go('home')">Back</button>
     <h1>India_edge</h1>
-    <button class="ref" onclick="loadEdge()">Refresh</button>
+    <button class="ref" onclick="loadEdge(true)">Refresh</button>
   </div>
   <div id="stamp">Loading...</div>
   <div class="tabs" id="tabs"></div>
   <div id="p0" class="panel on"></div>
+  <div id="pm" class="panel"></div>
   <div id="p1" class="panel"></div>
   <div id="p2" class="panel"></div>
   <div id="p3" class="panel"></div>
@@ -116,7 +131,7 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div class="top">
     <button class="back" onclick="go('home')">Back</button>
     <h1>Evening picks</h1>
-    <button class="ref" onclick="loadPicks()">Refresh</button>
+    <button class="ref" onclick="loadPicks(true)">Refresh</button>
   </div>
   <div id="pstamp" class="meta" style="margin-bottom:10px">Loading...</div>
   <div id="pbody"></div>
@@ -126,17 +141,29 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div class="top">
     <button class="back" onclick="go('home')">Back</button>
     <h1>Backtest</h1>
-    <button class="ref" onclick="loadBT()">Refresh</button>
+    <button class="ref" onclick="loadBT(true)">Refresh</button>
   </div>
   <div id="btstamp" class="meta" style="margin-bottom:10px">Loading...</div>
   <div id="btbody"></div>
+</section>
+
+<section id="watch" class="view">
+  <div class="top">
+    <button class="back" onclick="go('home')">Back</button>
+    <h1>Watchlist</h1>
+    <button class="ref" onclick="loadWatch(true)">Refresh</button>
+  </div>
+  <div id="wstamp" class="meta" style="margin-bottom:10px">Loading...</div>
+  <div id="wbody"></div>
+  <input id="wq" class="search" type="search" placeholder="Search stocks to add (name, symbol or sector)" oninput="renderWatchAll()" autocomplete="off">
+  <div id="wall"></div>
 </section>
 
 <section id="global" class="view">
   <div class="top">
     <button class="back" onclick="go('home')">Back</button>
     <h1>Global_edge</h1>
-    <button class="ref" onclick="loadGlobal()">Refresh</button>
+    <button class="ref" onclick="loadGlobal(true)">Refresh</button>
   </div>
   <div id="gstamp" class="meta" style="margin-bottom:10px">Loading...</div>
   <div class="tabs">
@@ -152,6 +179,7 @@ body{background:radial-gradient(120% 80% at 50% 0%,#1d3557 0%,var(--bg) 60%);col
   <div id="pnext" style="padding:0 14px 30px"></div>
 </div>
 
+<div id="offline">Offline: showing the last saved data</div>
 <script>
 /* Home screen buttons - add new apps here */
 const APPS = [
@@ -159,13 +187,80 @@ const APPS = [
   {name:'Evening_picks', icon:'🎯', color:'#e11d48', page:'picks'},
   {name:'Backtest', icon:'🧪', color:'#0ea5e9', page:'bt'},
   {name:'Global_edge', icon:'🌍', color:'#3b82f6', page:'global'},
-  {name:'Watchlist', icon:'📈', color:'#2fbf71', soon:true},
+  {name:'Watchlist', icon:'📈', color:'#2fbf71', page:'watch'},
   {name:'Crypto', icon:'₿', color:'#f59e0b', soon:true},
   {name:'Notes', icon:'📝', color:'#a855f7', soon:true},
   {name:'Files', icon:'📁', color:'#06b6d4', soon:true},
 ];
 const $ = id => document.getElementById(id);
-function go(v){stopLive();document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT();if(v==='global')loadGlobal()}
+/* Navigation uses the URL hash, so the phone's Back button and shared links (…/#picks) work */
+const VIEWS=['home','edge','picks','bt','global','watch'];
+let CUR='home';
+function show(v){
+  if(!VIEWS.includes(v))v='home';
+  stopLive();if($('player').classList.contains('on'))closePlayer(true);
+  document.querySelectorAll('.view').forEach(e=>e.classList.remove('on'));$(v).classList.add('on');window.scrollTo(0,0);CUR=v;
+  if(v==='edge')loadEdge();if(v==='picks')loadPicks();if(v==='bt')loadBT();if(v==='global')loadGlobal();if(v==='watch')loadWatch();
+}
+function go(v){
+  if(v==='home'&&history.state&&history.state.inApp){history.back();return}
+  const h=v==='home'?location.pathname+location.search:'#'+v;
+  if(('#'+v)!==location.hash||v==='home')history.pushState({inApp:v!=='home'},'',h);
+  show(v);
+}
+let skipPop=false;
+window.addEventListener('popstate',e=>{
+  if(skipPop){skipPop=false;return}
+  if($('player').classList.contains('on')&&!(e.state&&e.state.player)){closePlayer(true);return}
+  show(location.hash.slice(1)||'home');
+});
+
+/* One place to load JSON: shared between screens, kept for 60 s, works offline through the service worker */
+const JC={},INFLIGHT={};
+async function getJSON(name,force){
+  const c=JC[name];
+  if(!force&&c&&Date.now()-c.at<60000)return c.data;
+  if(INFLIGHT[name])return INFLIGHT[name];   // two screens asking at once share one download
+  return INFLIGHT[name]=(async()=>{
+    try{
+      const r=await fetch(name+'?t='+Date.now(),{cache:'no-store'});
+      if(!r.ok)throw new Error(name+' '+r.status);
+      const data=await r.json();JC[name]={at:Date.now(),data};return data;
+    }finally{delete INFLIGHT[name]}
+  })();
+}
+/* Auto-refresh only redraws a screen when the file really changed, so scroll position and open players are kept */
+const DRAWN={};
+const fresh=(key,d,force)=>{const g=d&&d.generated;if(!force&&g&&DRAWN[key]===g)return false;DRAWN[key]=g;return true};
+/* Watchlist is saved on this phone only */
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let WATCH=store.get('edge.watch',[]);
+const isW=s=>WATCH.includes(s);
+function toggleWatch(s,ev){
+  if(ev)ev.stopPropagation();
+  WATCH=isW(s)?WATCH.filter(x=>x!==s):[...WATCH,s];store.set('edge.watch',WATCH);
+  document.querySelectorAll('.star[data-s="'+CSS.escape(s)+'"]').forEach(b=>{b.classList.toggle('on',isW(s));b.textContent=isW(s)?'★':'☆'});
+  if(CUR==='watch')renderWatch();
+}
+const starBtn=s=>`<button class="star ${isW(s)?'on':''}" data-s="${esc(s)}" onclick="toggleWatch('${esc(s)}',event)" aria-label="Add to watchlist">${isW(s)?'★':'☆'}</button>`;
+/* Tiny 7-day price line */
+function spark(a,w=64,h=22){
+  if(!a||a.length<2)return '';
+  const lo=Math.min(...a),hi=Math.max(...a),r=hi-lo||1;
+  const pts=a.map((v,i)=>(i*(w-2)/(a.length-1)+1).toFixed(1)+','+(h-1-(v-lo)/r*(h-2)).toFixed(1)).join(' ');
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="${a[a.length-1]>=a[0]?'var(--green)':'var(--red)'}" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+}
+const SECT={BANK:'Banks & finance',IT:'IT',AUTO:'Auto',OMC:'Oil marketing',UPSTREAM:'Oil & gas',PAINT:'Paints',AVIATION:'Aviation',METALS:'Metals',FMCG:'FMCG',NEWAGE:'New-age tech',INFRA:'Infra',POWER:'Power',PHARMA:'Pharma',DEFENCE:'Defence',REALTY:'Realty',TELECOM:'Telecom',OTHER:'Other'};
+const secName=s=>SECT[s]||(s?s.charAt(0)+s.slice(1).toLowerCase():'Other');
+function stockRow(s,extra){
+  return `<div class="row">${starBtn(s.sym)}<div class="nm"><b>${esc(s.sym)}</b><span>${esc(s.name||'')} · ${esc(secName(s.sector))}</span></div>${spark(s.spark)}<div class="px">${s.price!=null?s.price.toLocaleString('en-IN',{maximumFractionDigits:2}):'n/a'}${chg(s)}</div></div>${extra||''}`;
+}
+/* Warn when a file is older than its workflow should allow */
+function staleNote(iso,maxMin,wf){
+  const m=(Date.now()-new Date(iso))/60000;
+  if(!(m>maxMin))return '';
+  return `<span class="warn">This data is ${ago(iso).replace(' ago','')} old. GitHub runs scheduled jobs late at busy times. To refresh now: GitHub → Actions → <b>${wf}</b> → Run workflow.</span>`;
+}
 $('apps').innerHTML = APPS.map(a=>`<button class="app ${a.soon?'soon':''}" ${a.soon?'':`onclick="go('${a.page}')"`}><div class="ico" style="background:${a.color}">${a.icon}</div>${a.name}</button>`).join('');
 function tick(){const d=new Date();$('clock').textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});$('date').textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'long'})}
 tick();setInterval(tick,20000);
@@ -176,16 +271,39 @@ const list=(items,n=6)=>items&&items.length?items.slice(0,n).map(i=>`<a class="n
 const card=(h,b)=>`<div class="card"><h3>${h}</h3>${b}</div>`;
 const chg=q=>q&&q.chg!=null?`<span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+':''}${q.chg.toFixed(2)}%</span>`:'';
 
-const TABS=['News','Macro data','RBI','Government','Stocks','🌐 Live news'];
-$('tabs').innerHTML=TABS.map((t,i)=>`<button class="tab ${i?'':'on'}" onclick="tab(${i})">${t}</button>`).join('');
-function tab(i){if(i!==5)stopLive();if(i===5)loadLive().then(()=>{if(liveOpen)renderLive()});document.querySelectorAll('#tabs .tab').forEach((e,k)=>e.classList.toggle('on',k===i));document.querySelectorAll('.panel').forEach((e,k)=>e.classList.toggle('on',k===i))}
+const TABS=[['News','p0'],['Market','pm'],['Macro data','p1'],['RBI','p2'],['Government','p3'],['Stocks','p4'],['🌐 Live news','p5']];
+$('tabs').innerHTML=TABS.map(([t,p],i)=>`<button class="tab ${i?'':'on'}" onclick="tab('${p}')">${t}</button>`).join('');
+function tab(p){
+  if(p!=='p5')stopLive();else loadLive().then(()=>{if(liveOpen)renderLive()});
+  document.querySelectorAll('#tabs .tab').forEach((e,k)=>e.classList.toggle('on',TABS[k][1]===p));
+  document.querySelectorAll('#edge .panel').forEach(e=>e.classList.toggle('on',e.id===p));
+}
+/* Market tab: breadth, sector heat and top movers across the stocks the engine follows */
+function renderMarket(d){
+  const M=(d.market||[]).filter(s=>s.chg!=null);
+  if(!M.length){$('pm').innerHTML=card('Market','<div class="empty">Stock prices appear after the next update-data run with the new fetch_data.py.</div>');return}
+  const up=M.filter(s=>s.chg>0).length,dn=M.filter(s=>s.chg<0).length,fl=M.length-up-dn;
+  const avg=M.reduce((a,s)=>a+s.chg,0)/M.length;
+  let h=card('Breadth',`<div style="display:flex;justify-content:space-between;font-size:13px"><span class="pos">▲ ${up} up</span><span class="meta" style="margin:0">${fl} flat</span><span class="neg">${dn} down ▼</span></div>
+    <div class="breadth"><i style="width:${100*up/M.length}%;background:var(--green)"></i><i style="width:${100*fl/M.length}%;background:var(--mute)"></i><i style="width:${100*dn/M.length}%;background:var(--red)"></i></div>
+    <div class="meta">Average move of ${M.length} large stocks: ${chg({chg:avg})}. ${up>dn*2?'Broad buying.':dn>up*2?'Broad selling.':'Mixed market.'}</div>`);
+  const by={};M.forEach(s=>(by[s.sector]=by[s.sector]||[]).push(s));
+  const secs=Object.entries(by).map(([k,v])=>({k,n:v.length,a:v.reduce((x,s)=>x+s.chg,0)/v.length})).sort((a,b)=>b.a-a.a);
+  const tint=a=>{const t=Math.min(1,Math.abs(a)/2.5);return a>=0?`rgba(47,191,113,${.12+.45*t})`:`rgba(255,92,92,${.12+.45*t})`};
+  h+=card('Sector heat (average day move)','<div class="heat">'+secs.map(x=>`<div style="background:${tint(x.a)}">${esc(secName(x.k))}<b>${x.a>=0?'+':''}${x.a.toFixed(2)}%</b><span class="meta" style="margin:0">${x.n} stock${x.n>1?'s':''}</span></div>`).join('')+'</div>');
+  const srt=M.slice().sort((a,b)=>b.chg-a.chg);
+  h+=card('Top gainers',srt.slice(0,5).map(s=>stockRow(s)).join(''));
+  h+=card('Top losers',srt.slice(-5).reverse().map(s=>stockRow(s)).join(''));
+  h+='<div class="note">Tap ☆ to add a stock to your Watchlist. Lines show the last 7 sessions. Prices from Yahoo Finance, may be delayed.</div>';
+  $('pm').innerHTML=h;
+}
 
-async function loadEdge(){
+async function loadEdge(force){
   $('stamp').textContent='Loading...';
   try{
-    const r=await fetch('data.json?t='+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    const d=await r.json();
+    const d=await getJSON('data.json',force);
+    if(!fresh('edge',d,force)){$('stamp').innerHTML='Data updated '+ago(d.generated)+' (server refreshes about every 15 min)'+staleNote(d.generated,75,'update-data');return}
+    renderMarket(d);
     $('p0').innerHTML=card('Top market-moving headlines',list(d.news,12));
 
     const t=d.indices.map(q=>`<div><span>${esc(q.name)}</span><b>${q.price!=null?q.price.toLocaleString('en-IN',{maximumFractionDigits:2}):'n/a'}</b>${chg(q)}</div>`).join('');
@@ -203,7 +321,7 @@ async function loadEdge(){
       return `<div class="card stock ${lean[0]}"><h3>${esc(x.why)}</h3><div style="font-size:14px;margin:4px 0 8px">${pr}</div><div class="meta" style="margin-bottom:6px">${lean[1]} · ${x.hits.length} headline${x.hits.length>1?'s':''}</div>${list(x.hits,2)}</div>`}).join(''):'<div class="empty">No clear stock links in current headlines.</div>')+
       '<div class="note">Keyword-based filter, not a prediction. It links headline themes to sectors that usually react and scores the wording as positive or negative. Check the linked source and the chart. Not investment advice.</div>';
 
-    $('stamp').textContent='Data updated '+ago(d.generated)+' (server refreshes about every 15 min)';
+    $('stamp').innerHTML='Data updated '+ago(d.generated)+' (server refreshes about every 15 min)'+staleNote(d.generated,75,'update-data');
   }catch(e){
     $('stamp').textContent='Could not load data.json. Open this page from your GitHub Pages link, not as a local file.';
   }
@@ -215,42 +333,71 @@ function pickCard(p){
   const link=x=>`<a class="n" href="${esc(x.link)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b>: ${esc(x.title)}<span class="meta">${esc(x.src)} · ${ago(x.time)}${x.when?' · <b class="'+(x.when==='after close'?'pos':'')+'">'+esc(x.when)+'</b>':''}</span></a>`;
   const rs=p.reasons.map(link).join('');
   const sr=p.sector_reasons.map(x=>link({...x,label:p.sector+' sector, '+x.label})).join('');
-  return `<div class="card pick ${up?'up':'down'}"><h2>${esc(p.sym)}<span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
+  return `<div class="card pick ${up?'up':'down'}"><h2><span>${starBtn(p.sym)}${esc(p.sym)}</span><span class="dir ${up?'pos':'neg'}">${up?'▲ UP bias':'▼ DOWN bias'}</span></h2>
     <div style="margin:6px 0"><span class="badge">Confidence: ${esc(p.confidence)}</span> <span class="badge">Score ${p.net}</span> <span class="badge">${p.sources} trusted source${p.sources==1?'':'s'}</span></div>
     <div class="meta">${esc(price)}</div>${p.flag?`<div class="meta neg">${esc(p.flag)}</div>`:''}${p.chart_note?`<div class="meta">${esc(p.chart_note)}</div>`:''}
-    <div class="why"><b>Layers</b> (agree ${p.agree} of 6): ${Object.entries(p.layers||{}).map(([k,v])=>`${k} <span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v}</span>`).join(' · ')}</div>${(p.tech_notes&&p.tech_notes.length)?`<div class="meta">Chart and flow: ${esc(p.tech_notes.join('; '))}</div>`:''}</div>${rs}${sr}</div>`;
+    <div class="why"><b>Layers</b> (agree ${p.agree} of 6): ${Object.entries(p.layers||{}).map(([k,v])=>`${k} <span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v}</span>`).join(' · ')}</div>${(p.tech_notes&&p.tech_notes.length)?`<div class="meta">Chart and flow: ${esc(p.tech_notes.join('; '))}</div>`:''}${rs}${sr}</div>`;
 }
-async function loadPicks(){
+/* Plain-language verdict on a hit rate: is it better than a coin flip, or could it be luck? */
+function verdict(x){
+  if(!x||!x.total)return '';
+  if(x.total<30)return '<span class="meta">Too few results to judge yet (needs about 30).</span>';
+  if(x.z>=2)return '<span class="pos">Better than a coin flip so far</span>';
+  if(x.z<=-2)return '<span class="neg">Worse than a coin flip so far</span>';
+  return '<span class="meta">Not clearly different from a coin flip yet</span>';
+}
+const pct=(h,t)=>t?Math.round(100*h/t)+'%':'-';
+const sgnp=v=>v==null?'-':`<span class="${v>=0?'pos':'neg'}">${v>=0?'+':''}${v}%</span>`;
+function trackRecord(S){
+  const row=(n,x)=>x&&x.total?`<tr><td>${n}</td><td>${x.total}</td><td>${pct(x.hits,x.total)}</td><td>${x.oc_total?pct(x.oc_hits,x.oc_total):'-'}</td><td>${sgnp(x.avg_pct)}</td></tr>`:'';
+  const tiers=S.tiers?Object.entries(S.tiers).map(([k,v])=>row(k,v)).join(''):'';
+  let h=`<div class="verdict">${verdict(S.all)}</div>
+    <div class="tw"><table class="ltab"><tr><th>Group</th><th>Picks</th><th>Hit close→close</th><th>Hit open→close</th><th>Avg move</th></tr>
+    ${row('All',S.all)}${row('▲ Up',S.up)}${row('▼ Down',S.down)}${row('With trend',S.with_trend)}${row('Against trend',S.against_trend)}${tiers}</table></div>
+    <div class="meta" style="margin-top:6px"><b>Open→close</b> is the trade you can really take after reading the picks in the evening (buy at the next open, sell at the close). <b>Avg move</b> is in the pick's direction, before costs (about 0.1% per trade).</div>`;
+  if(S.down&&S.down.total>=30&&S.down.z<=-2)h+=`<span class="warn">Down picks have been right only ${pct(S.down.hits,S.down.total)} of the time. Treat them as a watch list, not as short trades.</span>`;
+  const L=S.layers||{};const names={news:'Company news',sector:'Sector news',technical:'Chart trend',relative:'Strength vs Nifty',flow:'Volume',market:'Market trend'};
+  const lk=Object.keys(L).filter(k=>L[k].total);
+  if(lk.length)h+=`<h3 style="margin:12px 0 2px;font-size:14px">Which layers actually predict?</h3><table class="ltab"><tr><th>Layer</th><th>Times it had a view</th><th>Right</th></tr>${lk.sort((a,b)=>L[b].hits/L[b].total-L[a].hits/L[a].total).map(k=>`<tr><td>${names[k]||esc(k)}</td><td>${L[k].total}</td><td class="${L[k].hits/L[k].total>=.55?'pos':L[k].hits/L[k].total<=.45?'neg':''}">${pct(L[k].hits,L[k].total)}</td></tr>`).join('')}</table><div class="meta" style="margin-top:4px">A layer stuck near 50% after 100+ views adds noise. That is a good candidate to give less weight in pick_engine.py.</div>`;
+  else h+='<div class="meta" style="margin-top:6px">Per-layer accuracy appears once new picks (saved with their layers) have results.</div>';
+  return h;
+}
+async function loadPicks(force){
   $('pstamp').textContent='Loading...';
   try{
-    const r=await fetch('picks.json?t='+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    const d=await r.json();
-    const rate=x=>x&&x.total?Math.round(100*x.hits/x.total)+'% ('+x.hits+' of '+x.total+')':'no results yet';
+    const d=await getJSON('picks.json',force);
+    if(!fresh('picks',d,force)){$('pstamp').innerHTML='For the next session after the '+(d.base_date||d.date)+' close · generated '+ago(d.generated)+staleNote(d.generated,60*24*4,'evening-picks');return}
     const sec=(t,arr,e)=>`<h3 style="margin:14px 0 8px;font-size:16px">${t}</h3>`+(arr.length?arr.map(pickCard).join(''):card('None today','<div class="empty">'+e+'</div>'));
     const cu=(d.cues||[]).map(q=>`<div style="display:flex;justify-content:space-between;padding:4px 0;font-size:13px"><span>${esc(q.name)}</span><span>${q.price} <span class="${q.chg>=0?'pos':'neg'}">${q.chg>=0?'+':''}${q.chg}%</span></span></div>`).join('');
-    let h=(cu?card('Global cues (last close)',cu+'<div class="meta" style="margin-top:6px">US markets close after this evening run. For intraday, re-check these at about 8:30 AM India time: if they moved sharply overnight, treat the picks with caution. News tagged <b class="pos">after close</b> has not traded yet; news tagged before close is mostly priced in.</div>'):'')+sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
-    h+=card('Track record (live)','<div style="font-size:15px">All: <b>'+rate(d.stats.all)+'</b><br>Up picks: <b>'+rate(d.stats.up)+'</b><br>Down picks: <b>'+rate(d.stats.down)+'</b>'+(d.stats.tiers?'<br>By confidence: '+Object.entries(d.stats.tiers).map(([k,v])=>k+' <b>'+rate(v)+'</b>').join(' · '):'')+'</div><div class="meta">A hit means the next close moved in the predicted direction. Judge each confidence level only after 30 to 50 picks. These numbers, not a promise, show the real accuracy.</div>'+
-      (d.recent.length?d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%)':'pending'}</div>`).join(''):''));
-    h+='<div class="note">Scanned '+d.scanned+' stocks after market close, weighting news from Reuters, Bloomberg, Economic Times, Business Standard, Mint, Moneycontrol, CNBC-TV18 and similar outlets more than unknown sources. A news-scoring engine, not a prediction or advice. A high score means strong, fresh news, not that the stock must move. Use a stop-loss and small position size, and paper trade first.</div>';
+    const reg=d.market_regime>0?'<span class="pos">Nifty in an uptrend</span>':d.market_regime<0?'<span class="neg">Nifty in a downtrend</span>':'Nifty trend mixed';
+    let h=(d.intraday?'<span class="warn">These picks were made during market hours, so today\'s prices were not final.</span>':'')+
+      (cu?card('Global cues (last close)',cu+'<div class="meta" style="margin-top:6px">US markets close after this evening run. For intraday, re-check these at about 8:30 AM India time: if they moved sharply overnight, treat the picks with caution. News tagged <b class="pos">after close</b> has not traded yet; news tagged before close is mostly priced in.</div>'):'')+
+      `<div class="meta" style="margin:4px 0">Market backdrop: ${reg}</div>`+
+      sec('▲ Up bias (top 3)',d.picks_up,'No stock scored high enough on positive news.')+sec('▼ Down bias (top 3)',d.picks_down,'No stock scored high enough on negative news.');
+    h+=card('Track record (live)',trackRecord(d.stats)+
+      (d.recent.length?'<h3 style="margin:12px 0 2px;font-size:14px">Latest picks</h3>'+d.recent.map(x=>`<div class="meta" style="margin-top:6px">${x.base_date||x.date} · ${esc(x.sym)} ${x.dir} · ${x.result?(x.result.hit?'<span class="pos">hit</span>':'<span class="neg">miss</span>')+' ('+(x.result.chg>=0?'+':'')+x.result.chg+'%'+(x.result.oc_chg!=null?', open→close '+(x.result.oc_chg>=0?'+':'')+x.result.oc_chg+'%':'')+')':'pending'}</div>`).join(''):''));
+    h+='<div class="note">Scanned '+d.scanned+' stocks after market close, weighting news from Reuters, Bloomberg, Economic Times, Business Standard, Mint, Moneycontrol, CNBC-TV18 and similar outlets more than unknown sources. A news-scoring engine, not a prediction or advice. A high score means strong, fresh news, not that the stock must move. Use a stop-loss and small position size, and paper trade first. Not SEBI-registered investment advice.</div>';
     $('pbody').innerHTML=h;
-    setBadge(d.picks_up.length,d.picks_down.length);$('pstamp').textContent='Picks for '+d.date+', generated '+ago(d.generated);
+    setBadge(d.picks_up.length,d.picks_down.length);
+    const base=d.base_date||d.date;
+    $('pstamp').innerHTML='For the next session after the '+base+' close · generated '+ago(d.generated)+staleNote(d.generated,60*24*4,'evening-picks');
   }catch(e){
-    $('pstamp').textContent='No picks yet. The engine runs on weekdays at 5:30 PM India time, or run it manually from GitHub Actions.';
+    $('pstamp').textContent='No picks yet. The engine runs on weekdays at about 4:45 PM India time, or run it manually from GitHub Actions.';
     $('pbody').innerHTML='';
   }
 }
 
-async function loadBT(){
+async function loadBT(force){
   $('btstamp').textContent='Loading...';
   try{
-    const r=await fetch('backtest.json?t='+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    const d=await r.json(), P=d.params;
+    const d=await getJSON('backtest.json',force), P=d.params;
     const row=(n,x)=>x&&x.n?`<tr><td>${n}</td><td>${x.n}</td><td>${x.hit_rate}%</td><td class="${x.avg_net_pct>=0?'pos':'neg'}">${x.avg_net_pct}%</td><td>${x.profit_factor==null?'-':x.profit_factor}</td></tr>`:`<tr><td>${n}</td><td colspan="4">no trades</td></tr>`;
     const tbl=rows=>`<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:13px"><tr style="color:var(--mute);text-align:left"><th>Group</th><th>Trades</th><th>Hit rate</th><th>Avg net / trade</th><th>Profit factor</th></tr>${rows}</table></div>`;
     const eq=(n,x)=>x&&x.days?`<div class="meta" style="margin-top:6px">${n}: ${x.days} days, total ${x.total_return_pct}%, max drawdown ${x.max_drawdown_pct}%, Sharpe ${x.sharpe}</div>`:'';
-    let h=card('Realistic case: enter next open, exit next close, after costs',tbl(row('All, whole period',d.all.oc)+row('Older 60% (used to design rules)',d.in_sample.oc)+row('Newest 40% (not used to design)',d.out_of_sample.oc)+row('UP picks',d.up.oc)+row('DOWN picks',d.down.oc))+eq('Newest 40%',d.equity.out_of_sample.oc)+eq('Older 60%',d.equity.in_sample.oc));
+    const O=d.out_of_sample.oc||{};
+    const edge=O.n&&O.avg_net_pct>0&&O.hit_rate>50&&(O.profit_factor||0)>1.1;
+    let h=card('Verdict',`<div class="verdict ${edge?'pos':'neg'}">${edge?'The price layers show an edge on unseen data':'No tradable edge from the price layers on unseen data'}</div><div class="meta">Newest 40% of days, realistic entry, after costs: hit rate ${O.hit_rate??'-'}%, average ${O.avg_net_pct??'-'}% per trade, profit factor ${O.profit_factor??'-'}. ${edge?'Keep watching the live track record to confirm.':'The chart, volume and trend layers do not beat costs on their own. Any edge has to come from the news layers, so judge the live track record on the picks screen.'}</div>`);
+    h+=card('Realistic case: enter next open, exit next close, after costs',tbl(row('All, whole period',d.all.oc)+row('Older 60% (used to design rules)',d.in_sample.oc)+row('Newest 40% (not used to design)',d.out_of_sample.oc)+row('UP picks',d.up.oc)+row('DOWN picks',d.down.oc))+eq('Newest 40%',d.equity.out_of_sample.oc)+eq('Older 60%',d.equity.in_sample.oc));
     h+=card('By confidence, realistic case',tbl(['High','Medium','Low'].map(k=>row(k+' (all)',d.tiers[k].all.oc)+row(k+' (newest 40%)',d.tiers[k].out_of_sample.oc)).join('')));
     h+=card('Enter at the close, exit next close (not tradable after picks)',tbl(row('All',d.all.cc)+row('Newest 40%',d.out_of_sample.cc)));
     h+=card('How to read it','<div class="meta">Baseline: on '+d.baseline.stock_days+' stock-days, '+d.baseline.pct_days_up+'% closed up. A real edge needs a hit rate clearly above 50% AND a positive average net return after costs, mainly in the newest 40%. Profit factor above 1.2 is worth attention. Each trade cost '+P.cost_pct_per_trade+'%.</div>');
@@ -278,17 +425,16 @@ function setBadge(up,down){
     document.title='Edge ▲'+up+' ▼'+down;
   }catch(e){}
 }
-fetch('picks.json?t='+Date.now()).then(r=>r.json()).then(d=>setBadge(d.picks_up.length,d.picks_down.length)).catch(()=>{});
+getJSON('picks.json').then(d=>setBadge(d.picks_up.length,d.picks_down.length)).catch(()=>{});
 
 let GL=null,glRegion=0,glMed=false,glTab='news',GR=['All'];
-async function loadGlobal(){
+async function loadGlobal(force){
   $('gstamp').textContent='Loading...';
   try{
-    const r=await fetch('global.json?t='+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    GL=await r.json();
-    $('gstamp').textContent='Updated '+ago(GL.generated)+' · trusted outlets only';
-    renderGlobal();
+    const nd=await getJSON('global.json',force);
+    const ch=fresh('global',nd,force);GL=nd;
+    $('gstamp').innerHTML='Updated '+ago(GL.generated)+' · trusted outlets only'+staleNote(GL.generated,150,'global-edge');
+    if(ch)renderGlobal();
   }catch(e){
     $('gstamp').textContent='No global data yet. Run the global-edge workflow from GitHub Actions.';
     $('gbody').innerHTML='';
@@ -328,24 +474,75 @@ function openPlayer(i){
   $('pframe').src='https://www.youtube-nocookie.com/embed/'+v.id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';
   $('pyt').href=v.url;
   $('pnext').innerHTML='<h3 style="margin:10px 0 8px;font-size:15px">Up next</h3>'+GL.videos.map((x,k)=>k===i?'':`<div class="vcard" style="margin-bottom:10px" onclick="openPlayer(${k})"><div class="th"><img loading="lazy" src="${esc(x.thumb)}" alt=""><div class="pl">▶</div></div><div class="vt">${esc(x.title)}<span class="meta">${esc(x.channel)} · ${ago(x.published)}</span></div></div>`).join('');
+  if(!$('player').classList.contains('on'))history.pushState({inApp:true,player:true},'',location.hash||'#global');
   $('player').classList.add('on');$('player').scrollTop=0;
 }
-function closePlayer(){$('pframe').src='';$('player').classList.remove('on')}
+/* fromBack: the Back button already removed the history entry */
+function closePlayer(fromBack){
+  $('pframe').src='';$('player').classList.remove('on');
+  if(!fromBack&&history.state&&history.state.player){skipPop=true;history.back()}
+}
+
+/* ---------- Watchlist ---------- */
+let WD=null,WP=null;
+async function loadWatch(force){
+  $('wstamp').textContent='Loading...';
+  try{WD=await getJSON('data.json',force)}catch(e){WD=null}
+  try{WP=await getJSON('picks.json',force)}catch(e){WP=null}
+  if(!WD){$('wstamp').textContent='Could not load data.json.';return}
+  $('wstamp').innerHTML=(WD.market&&WD.market.length?WD.market.length+' stocks · prices updated '+ago(WD.generated):'Prices appear after the next update-data run.')+staleNote(WD.generated,75,'update-data');
+  renderWatch();renderWatchAll();
+}
+const WRX={};
+function wNews(s){
+  const rx=WRX[s.sym]||(WRX[s.sym]=new RegExp('\\b('+[s.sym,(s.name||'').split(' ').slice(0,2).join(' ')].filter(Boolean).map(x=>x.replace(/[.*+?^${}()|[\]\\&]/g,'\\$&')).join('|')+')\\b','i'));
+  return (WD.pool||[]).filter(n=>rx.test(n.title)).slice(0,2);
+}
+function wPick(sym){
+  if(!WP)return '';
+  const u=(WP.picks_up||[]).find(p=>p.sym===sym),d=(WP.picks_down||[]).find(p=>p.sym===sym);
+  const p=u||d;return p?`<span class="hi ${u?'':'md'}" style="${u?'background:#2fbf7122;color:var(--green)':''}">${u?'▲':'▼'} Evening pick · ${esc(p.confidence)}</span>`:'';
+}
+function renderWatch(){
+  if(!WD)return;
+  const M=WD.market||[],mine=WATCH.map(s=>M.find(m=>m.sym===s)||{sym:s,price:null,chg:null});
+  if(!mine.length){$('wbody').innerHTML=card('Your watchlist is empty','<div class="empty">Tap ☆ next to a stock below, on the Market tab, or on an evening pick. The list is saved on this phone.</div>');return}
+  const a=mine.filter(s=>s.chg!=null),avg=a.length?a.reduce((x,s)=>x+s.chg,0)/a.length:null;
+  $('wbody').innerHTML=card(`My stocks (${mine.length})${avg!=null?' · avg '+chg({chg:avg}):''}`,mine.map(s=>{
+    const nw=wNews(s),pk=wPick(s.sym);
+    return stockRow(s,(pk||nw.length)?`<div class="wn">${pk}${nw.map(n=>`<a href="${esc(n.link)}" target="_blank" rel="noopener">📰 ${esc(n.title)} <span class="meta" style="display:inline">${esc(n.src)} · ${ago(n.time)}</span></a>`).join('')}</div>`:'');
+  }).join(''));
+}
+function renderWatchAll(){
+  if(!WD)return;
+  const q=($('wq').value||'').trim().toLowerCase();
+  const M=(WD.market||[]).filter(s=>!q||(s.sym+' '+s.name+' '+secName(s.sector)).toLowerCase().includes(q));
+  $('wall').innerHTML=M.length?card(q?'Matches':'All stocks the engine follows',M.map(s=>stockRow(s)).join('')):'<div class="empty">No match.</div>';
+}
 
 let LIVE_FAIL={};
-let LIVE=null,liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false,SOUND=-1;
-const MAXLIVE=8;
-const BUILTIN=[{name:'Bloomberg TV',id:'UCIALMKvObZNtJ6AmdCLP7Lg'},{name:'CNBC TV (US)',id:'UCrp_UI8XtuYfpiqluWLD7Lw'},{name:'CNBC-TV18',id:'UCmRbHAgG2k2vDUvb3xsEunQ'},
-  {name:'CNBC Awaaz',id:'UCQIycDaLsBpMKjOCeaKUYVg'},{name:'Yahoo Finance',id:'UCEAZeUIeJs0IjQiqTCdVSIg'},{name:'Bloomberg Markets',id:'UCrM7B7SL_g1edFOnmj-SDKg'}];
-const MINLIVE=6;
+let LIVE=null,POOL=[],liveOpen=false,LIVE_DBG=[],LIVE_OLD=false,LIVE_BUILTIN=false,SOUND=-1;
+const SHOW=6;   // the globe always shows 6 windows
+const BUILTIN=[{name:'CNBC-TV18',id:'UCmRbHAgG2k2vDUvb3xsEunQ'},{name:'CNBC Awaaz',id:'UCQIycDaLsBpMKjOCeaKUYVg'},{name:'CNBC TV (US)',id:'UCrp_UI8XtuYfpiqluWLD7Lw'},
+  {name:'Yahoo Finance',id:'UCEAZeUIeJs0IjQiqTCdVSIg'},{name:'Bloomberg Markets',id:'UCrM7B7SL_g1edFOnmj-SDKg'}];
+/* Windows are filled in this order, and a window that fails is refilled from the same list instead of disappearing:
+   1. channels the server found live now  2. the latest market videos (always play, e.g. on weekends when most channels are off air)
+   3. built-in channel list (unverified)  */
 async function loadLive(){
-  if(LIVE&&LIVE.length&&!LIVE_BUILTIN) return;
-  let l=[];
-  try{const r=await fetch('global.json?t='+Date.now());const d=await r.json();l=(d.live||[]).sort((a,b)=>(a.embeddable===false)-(b.embeddable===false)).slice(0,MAXLIVE);LIVE_DBG=d.live_debug||[];LIVE_OLD=!('live' in d)}catch(e){LIVE_DBG=[];LIVE_OLD=false}
+  let l=[],vids=[];
+  try{const d=await getJSON('global.json');
+    l=(d.live||[]).filter(x=>x.video_id).sort((a,b)=>(a.embeddable===false)-(b.embeddable===false));
+    vids=(d.videos||[]).filter(v=>v.id&&v.business!==false).concat((d.videos||[]).filter(v=>v.id&&v.business===false));
+    LIVE_DBG=d.live_debug||[];LIVE_OLD=!('live' in d)}catch(e){LIVE_DBG=[];LIVE_OLD=false}
   LIVE_BUILTIN=!l.length;
-  const use=l.length?l.slice():[];
-  for(const b of BUILTIN){if(use.length>=MINLIVE)break;if(!use.some(u=>u.id===b.id))use.push({name:b.name,id:b.id,extra:true})}   // always at least 6 windows
-  LIVE=use;
+  const all=[],seen=new Set();
+  const add=x=>{const k=x.video_id||x.id;if(!seen.has(k)){seen.add(k);all.push(x)}};
+  l.forEach(x=>add({...x,kind:'live'}));
+  // one video per channel first, then second ones, so the 6 windows are varied
+  const rounds=[],cnt={};vids.forEach(v=>{const r=cnt[v.channel]=(cnt[v.channel]||0)+1;(rounds[r-1]=rounds[r-1]||[]).push(v)});
+  rounds.flat().forEach(v=>add({name:v.channel,video_id:v.id,title:v.title,kind:'video'}));
+  BUILTIN.forEach(b=>{if(!l.some(x=>x.id===b.id))add({name:b.name,id:b.id,kind:'channel',extra:true})});
+  LIVE=all.slice(0,SHOW);POOL=all.slice(SHOW);
 }
 function livePoster(x){return '<div style="text-align:center">▶'+(x.embeddable===false?'<div style="font-size:11px;opacity:.85">opens on YouTube</div>':'')+'</div>'}
 function liveSrc(x){
@@ -362,25 +559,23 @@ function toggleSound(i){
   else{if(SOUND>=0)ytCmd(SOUND,'mute');ytCmd(i,'unMute');ytCmd(i,'setVolume',[80]);ytCmd(i,'playVideo');SOUND=i}
   updateSnd();
 }
-async function toggleLive(){await loadLive();liveOpen=!liveOpen;if(!liveOpen)stopLive();renderLive()}
+async function toggleLive(){if(!liveOpen)await loadLive();liveOpen=!liveOpen;if(!liveOpen)stopLive();renderLive()}
 function renderLive(){
   const g=$('liveGrid');
   if(!liveOpen){g.style.display='none';g.innerHTML='';$('globehint').textContent='Tap the globe for live share-market news';return}
   $('globehint').textContent='All live windows play muted. Tap "Tap for sound" under one window to hear it.';
   g.style.display='grid';SOUND=-1;LIVE_FAIL={};
-  let note='<div class="note" id="failnote" style="grid-column:1/-1;display:none"></div><div class="note" style="grid-column:1/-1">'+LIVE.length+' live business channels playing together, muted. This uses a lot of mobile data and battery. <button class="ref" onclick="stopLive()">⏸ Stop all</button> <button class="ref" onclick="renderLive()">▶ Play all</button></div>';
-  if(!LIVE_BUILTIN&&LIVE.some(x=>x.extra)){
-    note+='<div class="note" style="grid-column:1/-1">Windows marked unverified come from the built-in list, added to reach 6 windows. Check the channel name inside the player.</div>';
-  }
-  if(LIVE_BUILTIN){
-    note+='<div class="note" style="grid-column:1/-1">Showing the built-in list of business channels, because the server list is empty. These channel ids are not verified today, so check the channel name inside the player. '+
-      (LIVE_OLD?'global.json is from the old script: upload the new global_edge.py and run the global-edge workflow again.':(LIVE_DBG.length?'Server notes: '+LIVE_DBG.map(x=>esc(x.name)+': '+esc(x.status)).join(' · '):'Run the global-edge workflow to build the verified list.'))+
-      ' <button class="ref" onclick="LIVE=null;liveOpen=false;toggleLive();setTimeout(toggleLive,50)">Retry</button></div>';
-  }
-  g.innerHTML=note+LIVE.map((x,i)=>{
-    const blocked=x.embeddable===false, yt=x.video_id?'https://www.youtube.com/watch?v='+esc(x.video_id):'https://www.youtube.com/channel/'+esc(x.id)+'/live';
-    return `<div class="lw" id="lw${i}"><div class="lh"><b>${esc(x.name)}</b>${x.extra?'<span class="hi md">unverified</span>':'<span class="hi">LIVE</span>'}</div><div class="lv" id="lv${i}" ${blocked?`onclick="window.open('${yt}','_blank')"`:`onclick="startOne(${i})"`}>${blocked?livePoster(x):liveFrame(x,i)}</div>
-      <div class="lh" id="ft${i}">${blocked?`<a class="meta" style="color:var(--saff)" href="${yt}" target="_blank" rel="noopener">Open on YouTube (sound)</a>`:`<button class="snd" id="snd${i}" onclick="toggleSound(${i})">🔇 Tap for sound</button>`}</div></div>`}).join('');
+  let note='<div class="note" id="failnote" style="grid-column:1/-1;display:none"></div><div class="note" style="grid-column:1/-1">'+LIVE.length+' windows playing together, muted. This uses a lot of mobile data and battery. <button class="ref" onclick="stopLive()">⏸ Stop all</button> <button class="ref" onclick="renderLive()">▶ Play all</button></div>';
+  const nLive=LIVE.filter(x=>x.kind==='live').length;
+  if(nLive<SHOW)note+='<div class="note" style="grid-column:1/-1">'+(nLive?nLive+' channel'+(nLive>1?'s are':' is')+' live right now.':'No business channel is live right now.')+' The other windows show the <b>latest</b> market videos'+(LIVE.some(x=>x.extra)?' or channels from the built-in list (unverified)':'')+'. Business channels are often off air on weekends and holidays. If a window can\'t play, it switches to another stream.</div>';
+  if(LIVE_OLD)note+='<div class="note" style="grid-column:1/-1">global.json is from an old script: upload the new global_edge.py and run the global-edge workflow.</div>';
+  g.innerHTML=note+LIVE.map((x,i)=>`<div class="lw" id="lw${i}">${liveCell(x,i)}</div>`).join('');
+}
+function liveCell(x,i){
+  const blocked=x.embeddable===false, yt=x.video_id?'https://www.youtube.com/watch?v='+esc(x.video_id):'https://www.youtube.com/channel/'+esc(x.id)+'/live';
+  const tag=x.kind==='live'?'<span class="hi">LIVE</span>':x.kind==='video'?'<span class="hi md">LATEST</span>':'<span class="hi md">unverified</span>';
+  return `<div class="lh"><b>${esc(x.name)}</b>${tag}</div>${x.title?`<div class="meta" style="font-size:11px;line-height:1.3;margin:-2px 0 4px;padding:0 10px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical">${esc(x.title)}</div>`:''}<div class="lv" id="lv${i}" ${blocked?`onclick="window.open('${yt}','_blank')"`:`onclick="startOne(${i})"`}>${blocked?livePoster(x):liveFrame(x,i)}</div>
+      <div class="lh" id="ft${i}">${blocked?`<a class="meta" style="color:var(--saff)" href="${yt}" target="_blank" rel="noopener">Open on YouTube (sound)</a>`:`<button class="snd" id="snd${i}" onclick="toggleSound(${i})">🔇 Tap for sound</button>`}</div>`;
 }
 function stopLive(){
   if(!LIVE)return;
@@ -390,17 +585,17 @@ function stopLive(){
 }
 
 function liveFailed(k){
-  if(!LIVE||!LIVE[k]||LIVE_FAIL[k])return;
-  LIVE_FAIL[k]=true;
-  const x=LIVE[k],yt=x.video_id?'https://www.youtube.com/watch?v='+x.video_id:'https://www.youtube.com/channel/'+x.id+'/live';
-  if(x.extra){const c=$('lw'+k);if(c)c.style.display='none'}
-  else{
-    const e=$('lv'+k);if(e){e.innerHTML='<div style="font-size:12px;padding:8px;text-align:center">Cannot play inside the app.<br>Tap to open on YouTube</div>';e.onclick=()=>window.open(yt,'_blank')}
-    const f=$('ft'+k);if(f)f.innerHTML='<a class="meta" style="color:var(--saff)" href="'+yt+'" target="_blank" rel="noopener">Open on YouTube (sound)</a>';
+  if(!LIVE||!LIVE[k]||LIVE_FAIL[k+':'+(LIVE[k].video_id||LIVE[k].id)])return;
+  LIVE_FAIL[k+':'+(LIVE[k].video_id||LIVE[k].id)]=true;
+  const x=LIVE[k],c=$('lw'+k);
+  const next=POOL.shift();
+  if(next&&c){          // swap in the next stream or video, keep 6 windows
+    if(SOUND===k)SOUND=-1;
+    LIVE[k]=next;c.innerHTML=liveCell(next,k);return;
   }
-  const names=Object.keys(LIVE_FAIL).map(i=>LIVE[i].name);
-  const n=$('failnote');
-  if(n){n.style.display='block';n.innerHTML=names.length+' window'+(names.length>1?'s':'')+' could not play here ('+names.map(esc).join(', ')+'). Unverified ones were hidden. Many broadcasters block live embedding or are not streaming right now.'}
+  const yt=x.video_id?'https://www.youtube.com/watch?v='+x.video_id:'https://www.youtube.com/channel/'+x.id+'/live';
+  const e=$('lv'+k);if(e){e.innerHTML='<div style="font-size:12px;padding:8px;text-align:center">Not playing here right now.<br>Tap to open on YouTube</div>';e.onclick=()=>window.open(yt,'_blank')}
+  const f=$('ft'+k);if(f)f.innerHTML='<a class="meta" style="color:var(--saff)" href="'+yt+'" target="_blank" rel="noopener">Open on YouTube (sound)</a>';
 }
 if(window.addEventListener)window.addEventListener('message',ev=>{
   if(typeof ev.data!=='string'||!/youtube/.test(ev.origin||''))return;
@@ -408,7 +603,17 @@ if(window.addEventListener)window.addEventListener('message',ev=>{
   if(d&&d.event==='onError'&&d.id!==undefined)liveFailed(Number(d.id));
 });
 function startOne(i){const e=$('lv'+i);if(e&&LIVE&&LIVE[i]&&LIVE[i].embeddable!==false&&!e.querySelector('iframe'))e.innerHTML=liveFrame(LIVE[i],i)}
-setInterval(()=>{if($('edge').classList.contains('on'))loadEdge()},300000);
+/* Keep the open screen fresh: every 5 min while visible, and right away when you come back to the app */
+/* soft refresh: download again, but redraw only if the file changed */
+const soft=name=>{delete JC[name]};
+const RELOAD={edge:()=>{soft('data.json');if(!$('p5').classList.contains('on'))loadEdge()},picks:()=>{soft('picks.json');loadPicks()},
+  global:()=>{if(glTab!=='videos'){soft('global.json');loadGlobal()}},watch:()=>{soft('data.json');loadWatch()}};
+setInterval(()=>{if(!document.hidden&&RELOAD[CUR])RELOAD[CUR]()},300000);
+let hiddenAt=0;
+document.addEventListener('visibilitychange',()=>{if(document.hidden){hiddenAt=Date.now();return}if(Date.now()-hiddenAt>120000&&RELOAD[CUR])RELOAD[CUR]()});
+const net=()=>{$('offline').style.display=navigator.onLine?'none':'block'};addEventListener('online',net);addEventListener('offline',net);net();
+if('serviceWorker' in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js').catch(()=>{});
+show(location.hash.slice(1)||'home');
 </script>
 </body>
 </html>
