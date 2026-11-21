@@ -1,32 +1,32 @@
 {
- "generated": "2026-11-21T06:54:49.486906+00:00",
+ "generated": "2026-11-21T08:57:48.483394+00:00",
  "bias": {
-  "score": -1.62,
+  "score": -1.63,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "DEFENCE",
-    "score": 3.92,
+    "score": 2.24,
     "stocks": "HAL, BEL"
    },
    {
-    "sector": "OMC",
-    "score": -2.74,
-    "stocks": "BPCL, IOC, HPCL"
+    "sector": "PAINT",
+    "score": 1.5,
+    "stocks": "Asian Paints"
    },
    {
-    "sector": "AVIATION",
-    "score": -2.74,
-    "stocks": "IndiGo"
+    "sector": "IT",
+    "score": -1.19,
+    "stocks": "TCS, Infosys, Wipro"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 1.96,
-    "stocks": "ONGC, Oil India"
+    "sector": "NEWAGE",
+    "score": -1.03,
+    "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "BANK",
-    "score": 1.3,
+    "score": 0.82,
     "stocks": "HDFC Bank, ICICI Bank"
    }
   ]
@@ -36,7 +36,7 @@
    "region": "US",
    "flag": "🇺🇸",
    "title": "'Look at India': Trump cites 7% GDP growth, says US could hit 20% if Fed cuts interest rates",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXgyNTFrRHItQzNYQVRlSUp1ZmxtV01jcHk1d0hCdnZic1dMbHlocmVZRWU0MVdTWHBrdVV1ZVpBR0N4N3BOTF90Rjg3ZzlxSTI2ZlhKN19ld3g5LWk5LWFyaThzZ1ZZME10ZTNscmVwVFJ0MHJldmtUY1kzOWU1YlJlRk1SQ2pOR216TzMxajhJWm4wU09kOGZQenNydXVUUmwzYUN3ZjZJLUJWM0g0X1lJOXZhMzlOcDdxVERvM2tYTDFlT1Y5Z0F4VG1hUU14Z09DUVRLQ1p5dTDSAeABQVVfeXFMTlp3ZkhvQW1WRFFUZnR3U1pCZjdDN29ULXM2RzlJanRoQmpweUM5YWxPMjRqZ2JrXy14WGVERjdvVHhVWjZ3UXdVdjRIWFBaMjR0SmJzY2t5UjNlbl9USGtHdGQxNS1qeDVOV2NhUUtxdDVSc1lDOWFiMWxaUThMNU03YWxwUkNYZ3Z1dFZXMkluY1hjVUtUOXJHWnNaSlZuejE5VjJDZzF4VWN3OUs3TVpBZW8yaG5aNXZfMlNfY3gteXpHcW9FbkFKaTlFVVRYQ0Utd1dwbjZwVWxqSnJqVWY?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXgyNTFrRHItQzNYQVRlSUp1ZmxtV01jcHk1d0hCdnZic1dMbHlocmVZRWU0MVdTWHBrdVV1ZVpBR0N4N3BOTF90Rjg3ZzlxSTI2ZlhKN19ld3g5LWk5LWFyaThzZ1ZZME10ZTNscmVwVFJ0MHJldmtUY1kzOWU1YlJlRk1SQ2pOR216TzMxajhJWm4wU09kOGZQenNydXVUUmwzYUN3ZjZJLUJWM0g0X1lJOXZhMzlOcDdxVERvM2tYTDFlT1Y5Z0F4VG1hUU14Z09DUVRLQ1p5dTA?oc=5",
    "src": "Moneycontrol.com",
    "time": "2026-11-21T02:02:55+00:00",
    "level": "High",
@@ -66,35 +66,40 @@
    ]
   },
   {
-   "region": "Japan",
-   "flag": "🇯🇵",
-   "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLUpNM3d6ODkyMm1Bcl9VV2RjQS1ta2FldVpreVZVTzg5V0FmOG5jUkJsY3VOZVRNNElrQXMtZ0J1TjhyVkZVSG40a3VUXzlFT29YNVV1eUxiZ1l5V1g1VW9paEdrM1RHTUMxU3pVZVJpMVIzNWlGYlR0T19GT2duRkFqd3RBR3RIbGY0c2lOZU1tMWhud2JNeXU1SG5KcXdhNzh3VEJtYVVUeDRYeWMxWGlCSFE5OU9u0gG-AUFVX3lxTFAyMzFqZ2Z1Ny1BdkFkNWVad3BiVmc3aVhIUWsySTN3dENzYURtakxPQ3dvd0dybDZpcWdtRzJha0FUbkNhamM2aFZOYnpRdkh6c3dNVXpvSFNUT0xwd1pYbkE2UktkbFp6cERBaUdGTjNmMVVfY2UyZmd6SWdGZkNUbUE2SmtnazNMdF80ZS1qQzExdG1rcW00UDF5S21sUlRjMVZudUs4Y05HYlJYUm83bkhSLXNJNzZfS28tR2c?oc=5",
-   "src": "Livemint",
-   "time": "2026-11-20T20:09:14+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates easing",
-   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-21T06:04:20+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
    "sources": [
-    "Livemint"
+    "The Financial Express"
    ],
    "sectors": [
     {
-     "sector": "IT",
+     "sector": "OMC",
      "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
+     "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "NEWAGE",
+     "sector": "PAINT",
      "dir": 1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "stocks": "Asian Paints"
     },
     {
-     "sector": "BANK",
+     "sector": "AVIATION",
      "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": -1,
+     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -123,82 +128,6 @@
      "sector": "NEWAGE",
      "dir": -1,
      "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran attacks US military radar system in Bahrain despite talks with mediators",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFg4ZVlablBic3hLR3NxVVoyTXBUSGtRZlYydzBfVm9zcjJXUnZlRU5Va2NCUWFUZGxURmtGVk1lXzRlTzZzQXR1VmwyMkRSVEltSElmbl9ZMS01SEtnUE5ZTW9wYjM3ODUzeU9nQUF3MDFHMEZaU2s4SWJjT0Y2dnc1Nkw2alQ2YUF3WXBCOXU3Ml9URVl2enp4c250VzhfUXhIcWliOGRRZ000MlRfUS1wYlVYbk4xVEVGaThfdw?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-11-20T20:46:41+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Business Standard"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Russia",
-   "flag": "🇷🇺",
-   "title": "Iran fuel crisis deepens amid war and sanctions",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
-   "src": "DW.com",
-   "time": "2026-11-20T19:24:03+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "DW.com"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -259,42 +188,19 @@
    ]
   },
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSktmSjNaMEFCRGluQXh5d0Vwelc4WlRWTGxUX0gxeTdYZ2RMak9jWWJUMTlZQ3JIbndfZDVaa0FHNGhwZG9SaElBZURXcDlLaHBxTkhHMEhtSHlZRVNuX0xKQWwwSmFid2tVczhFdl9pMGNISkR2UnMtTl9GUWhROUQ4S3YtYTZUek5jalo5QU5Da09PODZIY2ExYlZOQjdnU2I4elVtZnRIZ2RvNHZpOVE4UlYzaklkZHN4RVp2Nk5PS0VQZEtObjhFcXlHbkpjNF9RNGNR0gHbAUFVX3lxTE1VOENVNy1sVGptdDNOaldpanYxNkpndmQ2Q3RNVnVmcy1NVkNGdDFpRHlTN1o1MnM3RVI1VUg3Q3hlWnIzLTVhdFhMY29UZ2xSZFZ4bnlWZGItNERZdEhyUnpLd05tSnBvLXB3bmRmY3EwZmY0YTV3OWRxUjctb2s1dFlQZW1SeWNhcFJzYUZtbDlSNVVxV1hyOEh1Vm1QNGEzVnJxYkJyblpFZXhVRGxhZ0xScFBDMWVjR19fUjFaVEFYMWtUZFR6ME1sX0VxNXRQdWZWRmcxYjN0bw?oc=5",
-   "src": "Business Standard",
-   "time": "2026-11-20T13:54:39+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Foreign buying in India",
-   "why": "Foreign inflows support the Nifty, banks and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "Business Standard"
-   ],
-   "sectors": [
-    {
-     "sector": "BANK",
-     "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
-    }
-   ]
-  },
-  {
    "region": "Middle East",
    "flag": "🌍",
-   "title": "China’s Persian Gulf oil imports hit highest level since start of Iran war",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZHB2a3ZMRkJCa0JJV1BwaXRMNkpoYVN4aUtyTWdTUHdzcUpycWR1NWVtaGF3aXRES25OZHRkdXlGbmU5aEtKaU9rem9NZG9ISXpIQjRfeHNCWVp3QUZ3SHFyQzlMVXVBUGpiYTBzMEdfNWVrWVZBZEJkTlBQS2hGUFpNQktWWGRhWFhKNmVueThjMnk4RXZwUWR0LWM2ZTVhZTVOczAtSjRXb3ViUnJnc1B2OVdySG81M1dWY2dudjVKRXVjYVViNlktTURhQzlZ0gHQAUFVX3lxTE15cVh5RFU1S2ljTWc0ODdiMVBlaFFYTzI0WEszTWprWVlRVUJGZzN6eHlDNTM2T1dVTkt6RkJyM0R0QTJELVNxazBja3FkeUFLcTl5TFdJOVBZZno0Mzc0Y3NFWEdVcWFXQnBNUDhXNGVHcWJ4RFVoWjFwWEN3SmpsWTRhalkwTE9MMmR4U21LREN3SEdEYmFacUI1WHpKTlZzVEhkUXN1ekhoZktIN0YxVi1VUXlkWjdCWkdvRmFvQjhUSnZjZjRCSHFJdnczV0U?oc=5",
-   "src": "South China Morning Post",
-   "time": "2026-11-20T08:08:58+00:00",
+   "title": "Iran attacks US military radar system in Bahrain despite talks with mediators",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFg4ZVlablBic3hLR3NxVVoyTXBUSGtRZlYydzBfVm9zcjJXUnZlRU5Va2NCUWFUZGxURmtGVk1lXzRlTzZzQXR1VmwyMkRSVEltSElmbl9ZMS01SEtnUE5ZTW9wYjM3ODUzeU9nQUF3MDFHMEZaU2s4SWJjT0Y2dnc1Nkw2alQ2YUF3WXBCOXU3Ml9URVl2enp4c250VzhfUXhIcWliOGRRZ000MlRfUS1wYlVYbk4xVEVGaThfdw?oc=5",
+   "src": "The Business Standard",
+   "time": "2026-11-20T20:46:41+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "South China Morning Post"
+    "The Business Standard"
    ],
    "sectors": [
     {
@@ -316,6 +222,67 @@
      "sector": "UPSTREAM",
      "dir": 1,
      "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "Iran fuel crisis deepens amid war and sanctions",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
+   "src": "DW.com",
+   "time": "2026-11-20T19:24:03+00:00",
+   "level": "Medium",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "DW.com"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSktmSjNaMEFCRGluQXh5d0Vwelc4WlRWTGxUX0gxeTdYZ2RMak9jWWJUMTlZQ3JIbndfZDVaa0FHNGhwZG9SaElBZURXcDlLaHBxTkhHMEhtSHlZRVNuX0xKQWwwSmFid2tVczhFdl9pMGNISkR2UnMtTl9GUWhROUQ4S3YtYTZUek5jalo5QU5Da09PODZIY2ExYlZOQjdnU2I4elVtZnRIZ2RvNHZpOVE4UlYzaklkZHN4RVp2Nk5PS0VQZEtObjhFcXlHbkpjNF9RNGNR0gHbAUFVX3lxTE1VOENVNy1sVGptdDNOaldpanYxNkpndmQ2Q3RNVnVmcy1NVkNGdDFpRHlTN1o1MnM3RVI1VUg3Q3hlWnIzLTVhdFhMY29UZ2xSZFZ4bnlWZGItNERZdEhyUnpLd05tSnBvLXB3bmRmY3EwZmY0YTV3OWRxUjctb2s1dFlQZW1SeWNhcFJzYUZtbDlSNVVxV1hyOEh1Vm1QNGEzVnJxYkJyblpFZXhVRGxhZ0xScFBDMWVjR19fUjFaVEFYMWtUZFR6ME1sX0VxNXRQdWZWRmcxYjN0bw?oc=5",
+   "src": "Business Standard",
+   "time": "2026-11-20T13:54:39+00:00",
+   "level": "Medium",
+   "score": 1.12,
+   "label": "Foreign buying in India",
+   "why": "Foreign inflows support the Nifty, banks and large caps.",
+   "confirmed_by": 1,
+   "sources": [
+    "Business Standard"
+   ],
+   "sectors": [
+    {
+     "sector": "BANK",
+     "dir": 1,
+     "stocks": "HDFC Bank, ICICI Bank"
     }
    ]
   }
