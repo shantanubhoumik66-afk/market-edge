@@ -1,37 +1,80 @@
 {
- "generated": "2026-11-22T09:38:45.285354+00:00",
+ "generated": "2026-11-22T17:45:09.412467+00:00",
  "bias": {
-  "score": -6.57,
+  "score": -5.22,
   "label": "Risk-off for India",
   "sectors": [
    {
-    "sector": "NEWAGE",
-    "score": -3.7,
-    "stocks": "Zomato, Paytm, Nykaa"
-   },
-   {
-    "sector": "IT",
-    "score": -2.9,
-    "stocks": "TCS, Infosys, Wipro"
-   },
-   {
-    "sector": "DEFENCE",
-    "score": 2.24,
-    "stocks": "HAL, BEL"
-   },
-   {
     "sector": "OMC",
-    "score": -0.87,
+    "score": -4.55,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -0.87,
+    "score": -4.55,
     "stocks": "IndiGo"
+   },
+   {
+    "sector": "UPSTREAM",
+    "score": 3.82,
+    "stocks": "ONGC, Oil India"
+   },
+   {
+    "sector": "DEFENCE",
+    "score": 3.64,
+    "stocks": "HAL, BEL"
+   },
+   {
+    "sector": "PAINT",
+    "score": -2.0,
+    "stocks": "Asian Paints"
+   },
+   {
+    "sector": "IT",
+    "score": -1.2,
+    "stocks": "TCS, Infosys, Wipro"
+   },
+   {
+    "sector": "NEWAGE",
+    "score": -1.2,
+    "stocks": "Zomato, Paytm, Nykaa"
    }
   ]
  },
  "news": [
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Treasury Yields Fall, German Bunds’ Tick Higher",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-22T16:13:37+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates easing",
+   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": 1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": 1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    },
+    {
+     "sector": "BANK",
+     "dir": 1,
+     "stocks": "HDFC Bank, ICICI Bank"
+    }
+   ]
+  },
   {
    "region": "Global",
    "flag": "🌐",
@@ -137,6 +180,44 @@
    ]
   },
   {
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1owT2pOYVc3bXd5Z0RTeGlaemVoVXVReXNLeHcza0U3aVo2RW5FWDJjUTFGdGtrNm9OVEY4VVZCYXh6aTZ3bzZaVG1NYzdwZGRYOHRlUXVyanBTVzNTQ0FPNnpLbFl5WDBSamUxQmkxRHVUMG1sMk5xMm9sbmZKOEpwMUxVSHJCamsxdFJEZ3dKUWRoSy1SaGJn0gGfAUFVX3lxTE1sMGtPREkyMU1XR0dvQ0pkM2hraWFPblNyWGtsNC1fY1REcjFELUU2Sk9hNFNpT2dxVmxoU3JZQU9QMmlVWlladjlCRW95bEx6MGItcFNjN1VuMHJQSTZwWm1SQ3pLN28zbE05ZHo4cnBGWFZwZXhUR0VYUC1DMGFkTnV2XzlnZTRubzJtSzJ6YzhwUzgwRk1HdnhpVlNNWQ?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-11-22T11:49:36+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Al Jazeera"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
    "region": "US",
    "flag": "🇺🇸",
    "title": "Nasdaq Wipes Out 2026 Gains As S&P, Dow Sink Into Correction: Top Five Drags Behind The Selloff",
@@ -144,7 +225,7 @@
    "src": "NDTV Profit",
    "time": "2026-11-22T05:03:28+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Global equity selloff",
    "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
@@ -172,7 +253,7 @@
    "src": "Livemint",
    "time": "2026-11-22T03:33:53+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Global equity selloff",
    "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
@@ -199,110 +280,6 @@
    "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMldDbGpKQTNFTmY0X1FibWQxdkU5MDAwUFk0a2JMaWE0QXVXX2h6ZkNrOVZlUlVtTVBBRE5wajhBUjdGbllITXB5VWxqOHN6NXI3UjdheERnSjR2UGZONWVDN3gtWmtmOHNmZVRPQWdyZE5oUWMzX2VRaE1VOVB4ZFdCNGRMcHlzcGR5QW8xVTBHNjNjMDl3RUFkdGFQNnJhMnhYd3ZKUVdaUGQ5X1NmSW9pdlhoMllJWXhrcWoyWEhBVkV4THNlUTVzUjI4VC0wblNWODQ1WWhqNG43Tm9iYlFwR2F6M1JEa3BWN1djeDVCSEMzUHU4V3NRZVFWN0MzdUtxbE51TnFzRnU3cERGNGJ5akRJa2thRURGakxuY9IBpwJBVV95cUxQU3RXSUpueU9PdTdBeGlJR2Jsbkpyd2htVFlfdmh3bG9qN1pBeWgtQmlzWVVEdnNwLV84Ty1sUGJHSkR2TzlPd1VLeUVsT1Fwb1Z5aHgwNXVLMnktZl9sYkhFY1djRGFyLUczaERIREVpOXVveVJMNVBYbUlva3VCdGpXOVJVNnRCYW02V21Wcm9mVkFzYXBBaFl5ZnphRGFIeWw5U05PUjdPMUhFclFVWUpTWExtUmRkRHp4S1FkMk5vOGhpaENnc2w5a21sNGVzd2tsVEMySVlDSjRVMkRZREdDc2RLeU0tbG5zY2NwNHA3UWJER1ptNVR5S2ZLZGtZTzR5VzM3QjAtd0IzcGgtSTEzRGhqRHcxREVZbDgzUHhRSlZObFdv?oc=5",
    "src": "NDTV Profit",
    "time": "2026-11-22T00:30:03+00:00",
-   "level": "Medium",
-   "score": 1.5,
-   "label": "Crude oil falling",
-   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
-   "confirmed_by": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": 1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": 1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": 1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": -1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Oil Prices Fall Amid Supply Surplus Expectations, Middle East Tensions",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFCTV9zN1pVaFoteGpWam5uX3pGOXp4X3gwOVVqOVk5Yy1xdkdkc0w3MlFmWkNZWXA2Sms4OHhLMk5iNUExb3NYc3lJQW53dVJUQlkzVlNIX0FCWlM0cVpab0tQT2l1dzM0a3FlQmlqQ0NoQzB6WWs4Um9vbHY4LTFTMUc1Q3E5NnJYbVZSUzZ1czhPdXBkUjZMWXpKa2IxU1hqenFDc1RhRVV3bTJIdUtNWEJjZ2VsTUE?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-21T16:39:04+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Crude oil falling",
-   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
-   "confirmed_by": 1,
-   "sources": [
-    "WSJ"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": 1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": 1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": 1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": -1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "AI trade under pressure: Anthropic IPO fails to lift Wall Street as Nasdaq 100 suffers worst week since...",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPT1BlQnhyc0tiVFlMNG1vQXpaVDE5aUNxS01Yc0hNMnZPTk9YeFdZWkZPLTQ1SlF5U2Y4clJ5TjdTUnNYbXJzOVR0ZUlIaHBNU041RnlVb2k0YklhLXdXX2lMV1JGSG9rc2FjaXVsN3RhYW8zZFhWYXpCazllYTlwT2NYR2JIblZOd2JOR29ZZWFsMWlEaWNwb3hEWnlraTVNOU1yeml3eWc4WUJKMEs2Y0pEOVFSTktjRjJLem9NUEE5bTc3dnEtZG9ELTFlbTVmWEdqdDNsQko5QW1RdFZyb0FxUEhGRERDWTIzY0ZzbXYwS0NCdEV0ejRmMlp3U1c4NkHSAYcCQVVfeXFMTkNnSWJHNlM0dmZ1TTRPM0NlVGhkS1FHYU83aGt4M1ZoNEhvT0NRZjJSbEN0N3VqLWx6VXlyamVNSW9HVlQxd1VwY0dYcjJiLV9oNmF2cTB4WWRQdE9NWlVHWEJacE82Y3pKbFBGbGc2NGg3OVgtRGsxZkU4OV9OZjgxdU9nVGJ1X01EOHNVTkREZmhqTWhNalUtempFcFVWTmVMcXlOOHJpWEJXdFR2S0RoSi05bHlUMUVkWDU4aFNmdWJzZkxYTWFxVXctOXJnWEV5WS1obnhYczJBVUEycWY1TWp6a01qTV9zNm00WWkzRnJHd21xNVJ5WHc4NkpfMVIxNzc4bkU?oc=5",
-   "src": "Moneycontrol.com",
-   "time": "2026-11-21T14:42:14+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
-   "confirmed_by": 1,
-   "sources": [
-    "Moneycontrol.com"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Crude Oil Could Fall To $70 In 2027 Even Without US-Iran Deal. There's A China Link To It",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnZWRVJMdGpENTBGVzhLZXF0amtPbmo4VHdWSHdsTlBGR2h5OFVZMC1pZ3RUd0J1NFJMYmdGaGFqT1VialAtNkhwYS1EZUNKOHRGSXhWTVZtcnRtU0dvRXh3UzRvcjlFdGJZcmI1Qk4xNHE3TjgxQjlsY3pNbU52STN6UEdfWE9SN1BpUkwwRVNDWk5hX3J4MWFaY2t2QUo5T3Q2aDhkdFBIeW9sLTY3N1BwZ2ZITkUyUjJfSkNMNl85OXNsb21JWkF30gHSAUFVX3lxTE1xa0lNNDI4YkVBdGNZVmRjR1I1bUZUeVp0LTNlMzRmRWs2NkJJVWFfell0V05JVXNTeVBnYmtGV1hKT1NMdlRZcnRBQXhEV0dhZ3lFZnFFSDM3TndHT1BORkc2REE2Y1E0RTRUcFBJSXh6TTVaaUhSdU9BQ3ptR3FkVUVXa2JpN2ZQRUxsaVhic09aMUdyWTlTZGVvYmhleTRhaGVpN0xZQnlBa2VxeVJDdWcyNlVtQ0lVcHdmdm1RZzdLbEpJdHY0Q21NY0otcWthQQ?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-11-21T11:00:09+00:00",
    "level": "Medium",
    "score": 1.2,
    "label": "Crude oil falling",
@@ -413,39 +390,57 @@
  ],
  "videos": [
   {
-   "id": "MCHgo8-RYF4",
-   "title": "Golden Horse Awards 2026 LIVE: Red Carpet Arrivals Begin In Taiwan | Shu Qi's 'Girl' | N18G",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-22T08:29:17+00:00",
-   "thumb": "https://i.ytimg.com/vi/MCHgo8-RYF4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=MCHgo8-RYF4",
-   "business": true
-  },
-  {
-   "id": "rLHaKjzCJ44",
-   "title": "PM MODI LIVE: PM MODI’S BIG Message to India’s Youth from Lucknow | Kaushal Deekshant Samaroh 2026",
-   "channel": "Moneycontrol",
-   "published": "2026-11-22T07:48:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/rLHaKjzCJ44/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=rLHaKjzCJ44",
-   "business": true
-  },
-  {
-   "id": "DFD3Kib4TJw",
-   "title": "ZELENSKYY DEMANDS PM MODI React After Russian Missiles Destroy Indian Steel Plant in Ukraine | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-22T07:15:08+00:00",
-   "thumb": "https://i.ytimg.com/vi/DFD3Kib4TJw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=DFD3Kib4TJw",
-   "business": true
-  },
-  {
-   "id": "7AkWiMDPAio",
-   "title": "Anthropic IPO Fails to Halt AI Selloff, Ditching the Kitchen for Thanksgiving",
+   "id": "3GHg0maol8U",
+   "title": "Market Anxiety Over Tech Trade, Governors Release AI Framework, Game On for the Holidays",
    "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-21T17:02:13+00:00",
-   "thumb": "https://i.ytimg.com/vi/7AkWiMDPAio/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=7AkWiMDPAio",
+   "published": "2026-11-22T17:29:23+00:00",
+   "thumb": "https://i.ytimg.com/vi/3GHg0maol8U/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=3GHg0maol8U",
+   "business": true
+  },
+  {
+   "id": "9app-ib21_o",
+   "title": "Rahm Emanuel Says Trump Is Playing Into China’s Hands",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-22T15:50:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/9app-ib21_o/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=9app-ib21_o",
+   "business": true
+  },
+  {
+   "id": "6CoCxD1G7rs",
+   "title": "PM NARENDRA MODI ADDRESSES Gujarat BJP Cadre at Diwali Sneh Milan | Top India News | Breaking | Live",
+   "channel": "Moneycontrol",
+   "published": "2026-11-22T15:12:07+00:00",
+   "thumb": "https://i.ytimg.com/vi/6CoCxD1G7rs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=6CoCxD1G7rs",
+   "business": true
+  },
+  {
+   "id": "7KWB34-weAA",
+   "title": "'Nobody Knows What Balen Shah Will Sign', Ex-Nepal PM Khanal Sounds Alarm on India Bilateral Talks",
+   "channel": "Moneycontrol",
+   "published": "2026-11-22T14:00:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/7KWB34-weAA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=7KWB34-weAA",
+   "business": true
+  },
+  {
+   "id": "J1KXZJqfn8o",
+   "title": "Nepal PM Balen Shah In India: Meets PM Modi & President Murmu Tomorrow | N18V | CNBC TV18",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-22T13:34:28+00:00",
+   "thumb": "https://i.ytimg.com/vi/J1KXZJqfn8o/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=J1KXZJqfn8o",
+   "business": true
+  },
+  {
+   "id": "gQvqAalKLGo",
+   "title": "PM Modi Says Gold Prices Fell After His Appeal To Indians To Buy Less Gold | N18V",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-22T13:30:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/gQvqAalKLGo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=gQvqAalKLGo",
    "business": true
   },
   {
@@ -458,39 +453,12 @@
    "business": true
   },
   {
-   "id": "60hFHZ1wvlw",
-   "title": "Wall Street Confronts AI Reality Check",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-21T14:49:34+00:00",
-   "thumb": "https://i.ytimg.com/vi/60hFHZ1wvlw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=60hFHZ1wvlw",
-   "business": true
-  },
-  {
    "id": "-QRBzxT_Hcw",
    "title": "Wall Street plunges, climate talks run over, and Republicans position for 2028",
    "channel": "Reuters",
    "published": "2026-11-21T14:36:33+00:00",
    "thumb": "https://i.ytimg.com/vi/-QRBzxT_Hcw/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=-QRBzxT_Hcw",
-   "business": false
-  },
-  {
-   "id": "YKS34sswxbg",
-   "title": "AI that builds itself: Golden age or time to panic? | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-21T12:00:39+00:00",
-   "thumb": "https://i.ytimg.com/vi/YKS34sswxbg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=YKS34sswxbg",
-   "business": false
-  },
-  {
-   "id": "py9uIgX8UyM",
-   "title": "Illustrating a year of turmoil inside Iran",
-   "channel": "Reuters",
-   "published": "2026-11-21T06:00:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/py9uIgX8UyM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=py9uIgX8UyM",
    "business": false
   },
   {
@@ -509,15 +477,6 @@
    "published": "2026-11-20T18:38:12+00:00",
    "thumb": "https://i.ytimg.com/vi/vktqIFvhXMI/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=vktqIFvhXMI",
-   "business": true
-  },
-  {
-   "id": "YYNTzUHobU0",
-   "title": "Why Retail Investors Are Divided Over Anthropic’s $1.4 Trillion IPO",
-   "channel": "CNBC",
-   "published": "2026-11-18T15:00:07+00:00",
-   "thumb": "https://i.ytimg.com/vi/YYNTzUHobU0/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=YYNTzUHobU0",
    "business": true
   }
  ],
