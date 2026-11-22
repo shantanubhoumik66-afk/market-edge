@@ -1,77 +1,82 @@
 {
- "generated": "2026-11-22T17:45:09.412467+00:00",
+ "generated": "2026-11-22T23:30:37.258827+00:00",
  "bias": {
-  "score": -5.22,
+  "score": -5.06,
   "label": "Risk-off for India",
   "sectors": [
    {
+    "sector": "NEWAGE",
+    "score": -2.48,
+    "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
     "sector": "OMC",
-    "score": -4.55,
+    "score": -2.34,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -4.55,
+    "score": -2.34,
     "stocks": "IndiGo"
    },
    {
     "sector": "UPSTREAM",
-    "score": 3.82,
+    "score": 2.06,
     "stocks": "ONGC, Oil India"
    },
    {
+    "sector": "IT",
+    "score": -1.84,
+    "stocks": "TCS, Infosys, Wipro"
+   },
+   {
     "sector": "DEFENCE",
-    "score": 3.64,
+    "score": 1.4,
     "stocks": "HAL, BEL"
    },
    {
     "sector": "PAINT",
-    "score": -2.0,
+    "score": -1.36,
     "stocks": "Asian Paints"
-   },
-   {
-    "sector": "IT",
-    "score": -1.2,
-    "stocks": "TCS, Infosys, Wipro"
-   },
-   {
-    "sector": "NEWAGE",
-    "score": -1.2,
-    "stocks": "Zomato, Paytm, Nykaa"
    }
   ]
  },
  "news": [
   {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Treasury Yields Fall, German Bunds’ Tick Higher",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-22T16:13:37+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates easing",
-   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1owT2pOYVc3bXd5Z0RTeGlaemVoVXVReXNLeHcza0U3aVo2RW5FWDJjUTFGdGtrNm9OVEY4VVZCYXh6aTZ3bzZaVG1NYzdwZGRYOHRlUXVyanBTVzNTQ0FPNnpLbFl5WDBSamUxQmkxRHVUMG1sMk5xMm9sbmZKOEpwMUxVSHJCamsxdFJEZ3dKUWRoSy1SaGJn0gGfAUFVX3lxTE1sMGtPREkyMU1XR0dvQ0pkM2hraWFPblNyWGtsNC1fY1REcjFELUU2Sk9hNFNpT2dxVmxoU3JZQU9QMmlVWlladjlCRW95bEx6MGItcFNjN1VuMHJQSTZwWm1SQ3pLN28zbE05ZHo4cnBGWFZwZXhUR0VYUC1DMGFkTnV2XzlnZTRubzJtSzJ6YzhwUzgwRk1HdnhpVlNNWQ?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-11-22T11:49:36+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "WSJ"
+    "Al Jazeera"
    ],
    "sectors": [
     {
-     "sector": "IT",
-     "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "NEWAGE",
-     "dir": 1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
     },
     {
-     "sector": "BANK",
+     "sector": "DEFENCE",
      "dir": 1,
-     "stocks": "HDFC Bank, ICICI Bank"
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -82,8 +87,8 @@
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbEZFbkFMaHkzUXRmd09vSHR1SXZmT1NsRjJxcXE1WVFBeDVVS1c0R0RQdXp5LW45cDhyeFJDSE9qVTJHUzZnNkxuRXl2c085Z2lfbDM3aWhHMjR1c3FwbTNROE85bVV4TzB1QldOclRrb3dYZ2pPLVV3S1NPRTFZMW5KcFc1dTl2UFZuMGRwRV9SdGJ0ZzdtclFyQWtaSVBjUG96MGNlUXp0eFpyNDFQQk93dVBZbmN0Q213UG5QdUEzWWNjWVJwcVVnanpUckl6eFk00gHbAUFVX3lxTE9XUWZFVzZCYnoyNmhiN0E5VE9lZUEwVHh6X3VDTXRNRUZzY1pVcjhIZEY3Y0tuUFZ6WlEwalkwZVVBTWdhVm5tREZMUkU2MjJETEFBWndDSjE3ZzFPMjdveG9uRFd5d3FpcUdUXzYwNEdxVzVlcXJRRW9SdHIxdnVWX1hycWs5ZVhrMzVVNlVBZGNMdHhqUzJHbm5OQU56dVlxNFBrNGNTNm42eElNbGhoSm53X0liSXd4b09VSFZreGw2a2xqOE9wdXFlMWh6MWNmbUZkUExaU3h2Zw?oc=5",
    "src": "NDTV Profit",
    "time": "2026-11-22T07:31:53+00:00",
-   "level": "High",
-   "score": 1.6,
+   "level": "Medium",
+   "score": 1.28,
    "label": "Crude oil rising",
    "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
    "confirmed_by": 1,
@@ -120,8 +125,8 @@
    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQVlR4cHNpZjZPYm9ZV0lhZmFja3poQ0Q5NDVjc3lsVFRlVFNMOXVHd3BjX3hpYjFtd2VRRkw3WjVSSDNPR2RKX3E4aWdDRXBnbklYVG02WFB0cU1iN192T2swbUtOT0pRekR6RU5Td1ZfOFo3NWJ3S3BXSjNEcG10Q0FHV1hhRktlS0JyMktKRlhMR2l1ekVyQmNtMDlOOUR4YzdFaGhyV3I2OVh5c2xtSVRpTmVQd3NCTlhPZ3htYzRLQ2ttN2haVVl6NExUQTVOWnpMb0RUWEpqUENxaEZpOUE5R244V2ZacUp3ZHNPV0MyZzZ3c05xOGJYM0hiZ185S2VHNmpvX3dvbUVh0gGSAkFVX3lxTFBMTXNvRERFQnFuLVgzeG1fWlc3aU52T04wTnphVW1vUWp0VWgxdmMwZU0yVVpwSF9sRFV5a2JMRlhyajEtTkJmeXZNaDllNkphajhVemRGb2JHYTFhTUVvSGMtbkNZZ0JoRnB2NDI4Rmk1cW5ZUkNMN2RqbkFqV09lMjVBVVA1Z2xiZmFBUXlEYktLR3RFVW56QTRzbTdUZ3ZTTU93OW1fa09sQ1pxMC02aVd6V0daUFJDX0kzc3ZLdHpMOG1NeHh0dk5hOWFVRktXRWdaQTl3SXhiSTk1YTZmNXlXVlFsRXlFTkFqcm4tckZVd3JLQlcxOUNzenhfUkRha2ZKcEpHdnZBd2xRWDNSOWc?oc=5",
    "src": "Livemint",
    "time": "2026-11-22T06:54:55+00:00",
-   "level": "High",
-   "score": 1.6,
+   "level": "Medium",
+   "score": 1.28,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
@@ -148,8 +153,8 @@
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5",
    "src": "Business Standard",
    "time": "2026-11-22T06:23:13+00:00",
-   "level": "High",
-   "score": 1.6,
+   "level": "Medium",
+   "score": 1.28,
    "label": "Crude oil rising",
    "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
    "confirmed_by": 1,
@@ -171,44 +176,6 @@
      "sector": "AVIATION",
      "dir": -1,
      "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1owT2pOYVc3bXd5Z0RTeGlaemVoVXVReXNLeHcza0U3aVo2RW5FWDJjUTFGdGtrNm9OVEY4VVZCYXh6aTZ3bzZaVG1NYzdwZGRYOHRlUXVyanBTVzNTQ0FPNnpLbFl5WDBSamUxQmkxRHVUMG1sMk5xMm9sbmZKOEpwMUxVSHJCamsxdFJEZ3dKUWRoSy1SaGJn0gGfAUFVX3lxTE1sMGtPREkyMU1XR0dvQ0pkM2hraWFPblNyWGtsNC1fY1REcjFELUU2Sk9hNFNpT2dxVmxoU3JZQU9QMmlVWlladjlCRW95bEx6MGItcFNjN1VuMHJQSTZwWm1SQ3pLN28zbE05ZHo4cnBGWFZwZXhUR0VYUC1DMGFkTnV2XzlnZTRubzJtSzJ6YzhwUzgwRk1HdnhpVlNNWQ?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-11-22T11:49:36+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "Al Jazeera"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
     },
     {
      "sector": "UPSTREAM",
@@ -310,85 +277,72 @@
      "stocks": "ONGC, Oil India"
     }
    ]
-  },
-  {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran strikes three oil tankers as it unveils new missile launcher",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM0MtUEhyd0J0Y3dueE1WRy0wOVhPOXlRc3VZQml2X1h2cEJyeVJYdVYwazlQSkNGMEhQUmctQ3dkTnFXdzhzZFFYZEZJRlJzUXdKdFlaSnRkcnd0cUk1cGsyNU9jM1ZYMWY3NnIwNk5mNm9ZYkJQcDVrS2xLbDItaU5lNy1aWE10S0U1eUpkR3czbFBTRDNxOTlJOXNHU0dUUHFrc3ozSlRQTlR2ZlE5V05DRndXdw?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-11-21T17:55:00+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Business Standard"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Russia",
-   "flag": "🇷🇺",
-   "title": "Iran fuel crisis deepens amid war and sanctions",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
-   "src": "DW.com",
-   "time": "2026-11-21T17:50:42+00:00",
-   "level": "Medium",
-   "score": 1.12,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "DW.com"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
   }
  ],
  "videos": [
+  {
+   "id": "js-J_5bx7iA",
+   "title": "POILIEVRE ROASTS CARNEY! Hilarious Exchange at Canadian Press Dinner Goes Viral | N18G",
+   "channel": "Moneycontrol",
+   "published": "2026-11-22T22:38:57+00:00",
+   "thumb": "https://i.ytimg.com/vi/js-J_5bx7iA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=js-J_5bx7iA",
+   "business": true
+  },
+  {
+   "id": "BfZFWJ_qIRE",
+   "title": "How Amazon is shaping the next era of James Bond | The Global Story",
+   "channel": "BBC News",
+   "published": "2026-11-22T22:00:19+00:00",
+   "thumb": "https://i.ytimg.com/vi/BfZFWJ_qIRE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=BfZFWJ_qIRE",
+   "business": false
+  },
+  {
+   "id": "_vIyJUZoDrA",
+   "title": "Israeli settlers torch cars in West Bank villages",
+   "channel": "Reuters",
+   "published": "2026-11-22T20:25:42+00:00",
+   "thumb": "https://i.ytimg.com/vi/_vIyJUZoDrA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_vIyJUZoDrA",
+   "business": false
+  },
+  {
+   "id": "ygc9MJxJLjY",
+   "title": "Cockroaches, dissent and a paradigm shift in India | The Listening Post",
+   "channel": "Al Jazeera English",
+   "published": "2026-11-22T19:35:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/ygc9MJxJLjY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ygc9MJxJLjY",
+   "business": false
+  },
+  {
+   "id": "9MXgi0pvseE",
+   "title": "On China, is Trump bucking the US national security establishment? | The Bottom Line",
+   "channel": "Al Jazeera English",
+   "published": "2026-11-22T19:30:02+00:00",
+   "thumb": "https://i.ytimg.com/vi/9MXgi0pvseE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=9MXgi0pvseE",
+   "business": false
+  },
+  {
+   "id": "MvAQ2rnvi1k",
+   "title": "‘CEUTA IS NOT FOR SALE’, Thousands Rally in Spanish Enclave Demanding Madrid & EU Border Action N18G",
+   "channel": "Moneycontrol",
+   "published": "2026-11-22T19:00:00+00:00",
+   "thumb": "https://i.ytimg.com/vi/MvAQ2rnvi1k/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=MvAQ2rnvi1k",
+   "business": true
+  },
+  {
+   "id": "MCHgo8-RYF4",
+   "title": "Golden Horse Awards 2026 LIVE: Red Carpet Arrivals Begin In Taiwan | Shu Qi's 'Girl' | N18G",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-22T18:41:55+00:00",
+   "thumb": "https://i.ytimg.com/vi/MCHgo8-RYF4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=MCHgo8-RYF4",
+   "business": true
+  },
   {
    "id": "3GHg0maol8U",
    "title": "Market Anxiety Over Tech Trade, Governors Release AI Framework, Game On for the Holidays",
@@ -408,24 +362,6 @@
    "business": true
   },
   {
-   "id": "6CoCxD1G7rs",
-   "title": "PM NARENDRA MODI ADDRESSES Gujarat BJP Cadre at Diwali Sneh Milan | Top India News | Breaking | Live",
-   "channel": "Moneycontrol",
-   "published": "2026-11-22T15:12:07+00:00",
-   "thumb": "https://i.ytimg.com/vi/6CoCxD1G7rs/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=6CoCxD1G7rs",
-   "business": true
-  },
-  {
-   "id": "7KWB34-weAA",
-   "title": "'Nobody Knows What Balen Shah Will Sign', Ex-Nepal PM Khanal Sounds Alarm on India Bilateral Talks",
-   "channel": "Moneycontrol",
-   "published": "2026-11-22T14:00:09+00:00",
-   "thumb": "https://i.ytimg.com/vi/7KWB34-weAA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=7KWB34-weAA",
-   "business": true
-  },
-  {
    "id": "J1KXZJqfn8o",
    "title": "Nepal PM Balen Shah In India: Meets PM Modi & President Murmu Tomorrow | N18V | CNBC TV18",
    "channel": "CNBC-TV18",
@@ -435,31 +371,13 @@
    "business": true
   },
   {
-   "id": "gQvqAalKLGo",
-   "title": "PM Modi Says Gold Prices Fell After His Appeal To Indians To Buy Less Gold | N18V",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-22T13:30:17+00:00",
-   "thumb": "https://i.ytimg.com/vi/gQvqAalKLGo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=gQvqAalKLGo",
-   "business": true
-  },
-  {
    "id": "sxtXz24odps",
-   "title": "A First Look Inside The Fed’s New AI Task Force",
+   "title": "How the Fed Is Preparing For AI’s Economic Impact",
    "channel": "CNBC",
    "published": "2026-11-21T15:00:03+00:00",
    "thumb": "https://i.ytimg.com/vi/sxtXz24odps/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=sxtXz24odps",
    "business": true
-  },
-  {
-   "id": "-QRBzxT_Hcw",
-   "title": "Wall Street plunges, climate talks run over, and Republicans position for 2028",
-   "channel": "Reuters",
-   "published": "2026-11-21T14:36:33+00:00",
-   "thumb": "https://i.ytimg.com/vi/-QRBzxT_Hcw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=-QRBzxT_Hcw",
-   "business": false
   },
   {
    "id": "KUBNgANiicU",
@@ -497,7 +415,7 @@
   {
    "name": "Benzinga",
    "id": "UCqQs28K2zj2dOsc5NfXUKEg",
-   "video_id": "RSw6oD2DWJg",
+   "video_id": "J1zLc6_3Swg",
    "embeddable": true,
    "verified": true
   }
