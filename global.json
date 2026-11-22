@@ -1,13 +1,18 @@
 {
- "generated": "2026-11-21T21:02:09.898639+00:00",
+ "generated": "2026-11-22T01:32:06.136698+00:00",
  "bias": {
-  "score": -0.05,
-  "label": "Mixed / neutral",
+  "score": 1.98,
+  "label": "Risk-on for India",
   "sectors": [
    {
     "sector": "PAINT",
-    "score": 2.7,
+    "score": 4.2,
     "stocks": "Asian Paints"
+   },
+   {
+    "sector": "UPSTREAM",
+    "score": -2.94,
+    "stocks": "ONGC, Oil India"
    },
    {
     "sector": "DEFENCE",
@@ -15,28 +20,66 @@
     "stocks": "HAL, BEL"
    },
    {
-    "sector": "UPSTREAM",
-    "score": -1.44,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "NEWAGE",
-    "score": 1.21,
+    "score": 2.49,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "OMC",
-    "score": 0.94,
+    "score": 2.44,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": 0.94,
+    "score": 2.44,
     "stocks": "IndiGo"
+   },
+   {
+    "sector": "BANK",
+    "score": 1.15,
+    "stocks": "HDFC Bank, ICICI Bank"
    }
   ]
  },
  "news": [
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Crude Oil Has Fallen, But Why Is $91 Still Bad News For India? UBS' Gautam Chhaocharia On The Risks | Profit Exclusive",
+   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMldDbGpKQTNFTmY0X1FibWQxdkU5MDAwUFk0a2JMaWE0QXVXX2h6ZkNrOVZlUlVtTVBBRE5wajhBUjdGbllITXB5VWxqOHN6NXI3UjdheERnSjR2UGZONWVDN3gtWmtmOHNmZVRPQWdyZE5oUWMzX2VRaE1VOVB4ZFdCNGRMcHlzcGR5QW8xVTBHNjNjMDl3RUFkdGFQNnJhMnhYd3ZKUVdaUGQ5X1NmSW9pdlhoMllJWXhrcWoyWEhBVkV4THNlUTVzUjI4VC0wblNWODQ1WWhqNG43Tm9iYlFwR2F6M1JEa3BWN1djeDVCSEMzUHU4V3NRZVFWN0MzdUtxbE51TnFzRnU3cERGNGJ5akRJa2thRURGakxuY9IBpwJBVV95cUxQU3RXSUpueU9PdTdBeGlJR2Jsbkpyd2htVFlfdmh3bG9qN1pBeWgtQmlzWVVEdnNwLV84Ty1sUGJHSkR2TzlPd1VLeUVsT1Fwb1Z5aHgwNXVLMnktZl9sYkhFY1djRGFyLUczaERIREVpOXVveVJMNVBYbUlva3VCdGpXOVJVNnRCYW02V21Wcm9mVkFzYXBBaFl5ZnphRGFIeWw5U05PUjdPMUhFclFVWUpTWExtUmRkRHp4S1FkMk5vOGhpaENnc2w5a21sNGVzd2tsVEMySVlDSjRVMkRZREdDc2RLeU0tbG5zY2NwNHA3UWJER1ptNVR5S2ZLZGtZTzR5VzM3QjAtd0IzcGgtSTEzRGhqRHcxREVZbDgzUHhRSlZObFdv?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-11-22T00:30:03+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Crude oil falling",
+   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
+   "confirmed_by": 1,
+   "sources": [
+    "NDTV Profit"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": 1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "PAINT",
+     "dir": 1,
+     "stocks": "Asian Paints"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": 1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": -1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
   {
    "region": "Global",
    "flag": "🌐",
@@ -177,8 +220,41 @@
   {
    "region": "US",
    "flag": "🇺🇸",
+   "title": "Tech leads global stocks rout, Treasury yields fall",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmcwVzNrQjFDd0tjRDFGT09QU2Z5YzdEVE5WUHYtaWFobzlIcGVWeEJKLWUxemRjQmdZclhFSW9hU20xRlh0UHUxVy1QM2d3VThvWmVobTFpMmtpZW5uc3hKZ2FEZ01vWHgxMzdDZlJtYXlrYjl5YThuTXBaMXBNbDRmN0ZROHZSRWRIVkxqaHpCZzVnOTY2Qnh1UkJhVzJLNFNKaUpjSmF5endKRk5TM3FzQjYwMzFVTnBfSjJsRU9nSnA3SkHSAcsBQVVfeXFMTjMyd2p5VVBWdmp4Vkx3X25CbGFDZUNUQXF0X1BKTGlqaThiUGtwNjNGOVp3U0NlYzlVVXhhc2x0eTVJSUdsaG5HMFZzeEZPWXhvaGVwT1V2cEZlNEVyYzhBX3BwTjltbEhQak1VdGhzbGtvMk5HajdJMlF0bmRqX0lFMnVwQkdBYlZEM1VaOGFrd2poZVM4aGVjQ2RvR3VEcHBqNWRmV0tQdkR3bjJCdnBGOEMxejNlbjJvOGJTU1dfOU9FbHFHcXA5MVk?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-21T05:05:25+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates easing",
+   "why": "Lower US rates usually bring foreign inflows into Indian equities.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": 1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": 1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    },
+    {
+     "sector": "BANK",
+     "dir": 1,
+     "stocks": "HDFC Bank, ICICI Bank"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
    "title": "'Look at India': Trump cites 7% GDP growth, says US could hit 20% if Fed cuts interest rates",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0pvSE82Mk5vRHRsQkRSWFNlbmZKMEw0Y2ZUTWNKSF9WU3luaS1sLWpwdW4yYy1qTThxUjVaR2JCbWg5b1RBZHJQQ2xPZ1J2dVU1UTZRUWl5X3cwUkZES2E0Sl9hclhrN2JRUldwWHlIVmdSWG8yS2pJTTZsWnJtS0szV0xqdFFIZ28xTEo5SE02eVdjWGFCb1Q1bldTbnJlLXlVLU9jeHQ3SFlzRWJIbVhPQmswbjFMb2lyLVlUYkNpdl9CaVpVNzJRVXU5M2tZRThwRmZTUdIB4AFBVV95cUxOWndmSG9BbVZEUVRmdHdTWkJmN0M3b1QtczZHOUlqdGhCanB5QzlhbE8yNGpnYmtfLXhYZURGN29UeFVaNndRd1V2NEhYUFoyNHRKYnNja3lSM2VuX1RIa0d0ZDE1LWp4NU5XY2FRS3F0NVJzWUM5YWIxbFpROEw1TTdhbHBSQ1hndnV0VlcySW5jWGNVS1Q5ckdac1pKVm56MTlWMkNnMXhVY3c5SzdNWkFlbzJoblo1dl8yU19jeC15ekdxb0VuQUppOUVVVFhDRS13V3BuNnBVbGpKcmpVZg?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXgyNTFrRHItQzNYQVRlSUp1ZmxtV01jcHk1d0hCdnZic1dMbHlocmVZRWU0MVdTWHBrdVV1ZVpBR0N4N3BOTF90Rjg3ZzlxSTI2ZlhKN19ld3g5LWk5LWFyaThzZ1ZZME10ZTNscmVwVFJ0MHJldmtUY1kzOWU1YlJlRk1SQ2pOR216TzMxajhJWm4wU09kOGZQenNydXVUUmwzYUN3ZjZJLUJWM0g0X1lJOXZhMzlOcDdxVERvM2tYTDFlT1Y5Z0F4VG1hUU14Z09DUVRLQ1p5dTDSAeABQVVfeXFMTlp3ZkhvQW1WRFFUZnR3U1pCZjdDN29ULXM2RzlJanRoQmpweUM5YWxPMjRqZ2JrXy14WGVERjdvVHhVWjZ3UXdVdjRIWFBaMjR0SmJzY2t5UjNlbl9USGtHdGQxNS1qeDVOV2NhUUtxdDVSc1lDOWFiMWxaUThMNU03YWxwUkNYZ3Z1dFZXMkluY1hjVUtUOXJHWnNaSlZuejE5VjJDZzF4VWN3OUs3TVpBZW8yaG5aNXZfMlNfY3gteXpHcW9FbkFKaTlFVVRYQ0Utd1dwbjZwVWxqSnJqVWY?oc=5",
    "src": "Moneycontrol.com",
    "time": "2026-11-21T02:02:55+00:00",
    "level": "Medium",
@@ -248,17 +324,17 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
-   "src": "AP News",
-   "time": "2026-11-20T23:29:00+00:00",
+   "title": "Wall Street selloff: Dow, S&P 500 enter correction as Nasdaq plunges",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObTVOeVRXQi1jb1RjVWJwQXdUOUZRR092MnZzbDJ6OHdzTmQyN2ZZNnUweGNjYW5sWVppTXpOOWZscUJOQ3EzbkMxMzN2SFYtSVY5QzZnUnF4eXNOZ0NKcFMtYk1XY0hFLVJXQ3V1WjBHN1FLQ3ZzN1gwQmNVZ09DZnU4Q29TSmhWNV9TbUNxaDh0OUZ5NnRneDVGcW5Ia2RaVVp2YkNSeDlNRUo2Uzk2bWp6SGRzRGFtR3E4dTQ1bDJOUmF3TVRGYWxUUk1oT1UtMExQdHdycVVRdHdyc093Sm1GNFE5SWdmRXpHY9IB8wFBVV95cUxNbXVfZkpFYW9XRGZoZ0ZIRnYzeEUzdXpvdGNxSURVZlFUSTl6SWNsZDNqVVEzdV9jT3lnc1FVZlpGRmRiRTJkdUNjNWluZ0dvSTBVZ2FnYkZDdnI2TXpzd3VYb3JtaUZKUTVhS1JUX2RtelVPVFYzWkcwZUxMbk1EU1NWLTFuOTJyMmJCVS1uMk1VeFR5amZGOFdjSndWdVlXNjdKRW9FTHVFcVhvNXZMeUttLTQwZUlYU1FkM1VvM2taNWc4RlMzNGt5TWtEajZFSUJySzJXYUNta0tCMWpKSTJyaUlBdXJXaS0tN0gxR2p1QVk?oc=5",
+   "src": "BusinessLine",
+   "time": "2026-11-21T04:39:47+00:00",
    "level": "Medium",
    "score": 1.2,
    "label": "Global equity selloff",
    "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
    "sources": [
-    "AP News"
+    "BusinessLine"
    ],
    "sectors": [
     {
