@@ -1361,5 +1361,47 @@
   "dir": "DOWN",
   "net": -1.8,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "POWERGRID",
+  "dir": "UP",
+  "net": 3.11,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 2.79,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "DLF",
+  "dir": "UP",
+  "net": 2.22,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "TATASTEEL",
+  "dir": "DOWN",
+  "net": -2.88,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -2.37,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-24",
+  "sym": "MARICO",
+  "dir": "DOWN",
+  "net": -1.43,
+  "confidence": "Weak signal"
  }
 ]
