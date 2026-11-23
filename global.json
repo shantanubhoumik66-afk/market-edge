@@ -1,47 +1,121 @@
 {
- "generated": "2026-11-23T07:18:35.110792+00:00",
+ "generated": "2026-11-23T19:26:44.215287+00:00",
  "bias": {
-  "score": -12.39,
+  "score": -6.88,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -6.85,
+    "score": -4.9,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "IT",
-    "score": -5.45,
+    "score": -2.9,
     "stocks": "TCS, Infosys, Wipro"
-   },
-   {
-    "sector": "OMC",
-    "score": -2.16,
-    "stocks": "BPCL, IOC, HPCL"
-   },
-   {
-    "sector": "AVIATION",
-    "score": -2.16,
-    "stocks": "IndiGo"
-   },
-   {
-    "sector": "UPSTREAM",
-    "score": 1.94,
-    "stocks": "ONGC, Oil India"
-   },
-   {
-    "sector": "PAINT",
-    "score": -1.38,
-    "stocks": "Asian Paints"
    },
    {
     "sector": "DEFENCE",
     "score": 1.12,
     "stocks": "HAL, BEL"
+   },
+   {
+    "sector": "OMC",
+    "score": -0.86,
+    "stocks": "BPCL, IOC, HPCL"
+   },
+   {
+    "sector": "AVIATION",
+    "score": -0.86,
+    "stocks": "IndiGo"
    }
   ]
  },
  "news": [
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPempjM3lsdUx2MWstNHkxOEtKelpwUGNGOGVpZUVQdVM0aXBWdjV6TVhrU2lfakxTZ2Z2SS1tS0RMVjRPUW9JSjI5VE85cW9CNk9NbTJOTmdsT0tob0FnVExtdmJpV21UczFvZWs5NGxXT3l1UUpoZGhmZUJ1MTV6aUZMOXZhZDlheHlmOEZ1dkRsWmdnYzZqaHh2OU1uMjZzdktCX0szd1lMWlktRVVpbXZNZXVpRVlQdjdmN2tTMnVuNGljcVFzUjJpNlg?oc=5",
+   "src": "MarketWatch",
+   "time": "2026-11-23T10:57:00+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "MarketWatch"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "US Equity Futures: Dow jumps 1,000 points, Nasdaq gains 3.6% after tech sell-off",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdkRXZGtoWV9ITkFIWVVSUU5KeWZ1Y2U3VnZweENvcVJXRDFVS0ZfbUVGNkY5dHU0Tm5sWU8zcFM5aW5ua3ZoQmRYWUtuWFZ1RnBTWl8ycXBpbVpqSnl2TGpPUlBsUFNob0FEMHZVM25CeHR0ZWVhTUpDaG4tdFRscnBXbkVzMThCOURnYzFhaW42LVIzY1lxY3dQWmxob2pWR1RCdERWX1FoSllid0RnZWNZRHotZVVzRTdvT21DVWd0OU92dkxEUUZESmk2UU5INlRhNmZaOGlENUXSAeIBQVVfeXFMUGVad1ItMzJzTDJjMXVkRU1lYVh2MmY3NjZvZnE3YU9GZGZ4OUtvREpRM3JKUjdGanNzeV9GWDZ2UkY5a0IxSlp2VGI1X3h5c0VpcDM3MTJXM3RoWlRnbmRCckc3MGZ0VDRlMDlnd09PMzJTUDZRQ2xCcFlSMXllUnd1cm44M2xPRFpJUjVUcW9hT0J4TE5nOWVlVEZZZ0FQa0tmZlZmaXBpM2FQM1JLUXN4M3RxTFVFeFI0YWFnNC1EZERVOWtyRmx2QkV4NmNUZWltbzUtVjFDeGFXTFlwc01OQQ?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-23T10:09:08+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Financial Express"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "India’s Nifty Stands Apart as Global Stocks, Gold Suffer Rare Joint Selloff",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNjhGX3R5QUMxenFSa2h1MktrckFIT0NtM01wRkdKemU3RG1KV3FrbVVNcnlBRG9nYWx1RU9kVnZLRndwaG1sYnJtcVd4V0d1cko1eWY5N3J1d3BsWjEyZzJ1SThrVFE4RU9uQmRIUExtdmdaVDV0WDJtLUpYZnNkcGZnSm90QXNPWkxIa2YyempwZEEwcEJ6TWRXWllGc0JBMTROMHJqd0ZmMG8yQlN1Y01BRWdfWnQ3R01ZZ0ZWNGlCSnkwazY4?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-11-23T08:21:54+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "Bloomberg.com"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
   {
    "region": "Global",
    "flag": "🌐",
@@ -49,8 +123,8 @@
    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQd0RkVURydEg1S01oeGlRYTJMWVZFVEJxTVB3YzRPSlpxY3V6SmtmYmlveXhLTy1ZaGtMNTBQRUxqYWlsNU1QOUNIUmREcVBPVXFHNl9rc1otZXgxUkE2X0RFYm1HM3VWeU5oeVFoTG92WFJXNllhTGI1bjhVLW5wdE1zSmN2Q0JjU0htMERYU292R1R0NU5paUxHdnlFTzdCWFQxV1N3OEJROTdoajdsSlRNbGNaR00zOXNOMFU5eTRFd2dqM0pLdzhJWUstSjY0VmU4SUZTbUh2eE9pS3M4Y29tVHFhY1hxcmliU0ZTQVJFNHdvQ18wT3dhZFFMQVZJdm4w0gGIAkFVX3lxTE9ZcnNnNmo1d245UHFraUQzek5ZaHdoTHZvQjc0Zk43RFowYVhZZjZJdGdXSkFKTXh4MmNIR00waTR0U0pvV3E4aVU2bmhfOWcwMU9sNkcxYVhiTHlrTW1FQ1duX1hXaHpadkoyb3QxdHpuUmhtLTBLYUpBZS01emxaMTJjbE0zVGF3Y0w3bldNeW1Tcll5SUFTc3lUR05hOVNneGUwTnNTVTl5eHJvZ1lFY1I0UXlwSm05eGtMakFkZWZpQmctbGU5QnlsQVZET0xGbXVTN0RMT0dpTm8zNFpFZ1p2ZTU0aGdwaUYzaFdKRFlhTXlJT051QTJNVnVhdGt1YU1kdFpsUg?oc=5",
    "src": "Moneycontrol.com",
    "time": "2026-11-23T04:24:20+00:00",
-   "level": "High",
-   "score": 1.6,
+   "level": "Medium",
+   "score": 1.28,
    "label": "Crude oil rising",
    "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
    "confirmed_by": 1,
@@ -83,96 +157,58 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Gold rebounds as traders pare bets on near-term Fed rate hikes",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZGducWU1NjluRjEyZWZ4Y05fdXhIOTM4VlFUR1FhMHAxWE1YM1Jsb1B3TnZFeDhsN0xPUjM1NFNBUVB0ZmttWWppREYzcVE5cFl3d2tRUDV4QTRtWHRKNTlZZ28yRng3cnh2c1dDa3VhQWc4ZDdDRnlPZGxacUxDNmxxQlRUajBKdTBTZ2YtT1dOS2hSQVl6UEdYREd1ZWlDOUVfSWZlV2VZSTNNNWFtTGxvSDlVS2lSVmVVV2pmQlZoTlQzazhNaFFJZ9IB0AFBVV95cUxOTllYZUgxaVpReDZyWjhhcWk5ODlqUUtRT0h4WW50OHVSTDNlQ3NSTFNsNFBEbEVPamp2bjdjc2JkQk5hWFBzazVZUnBHQ0FBaWZqQm5FdmpWcU8wQ2Q0akxyQXpyOEhKVHBkRy1EdUVvSFZROVhxOUdOaUdHM0tKaWtPMWY0N2RBTUVjREQ2ZnRaMldrMHhjOWtqeWRFd0xHNm1kNlFocF9rVTVzLTBJbWh1OXJkaFRhZW1MZmVTb1FtM2tjQnF1REptRllvTTM0?oc=5",
-   "src": "Moneycontrol.com",
-   "time": "2026-11-23T01:22:33+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Moneycontrol.com"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Wall Street set to rebound after AI stock sell-off",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
-   "src": "Financial Times",
-   "time": "2026-11-23T06:06:07+00:00",
+   "title": "Nasdaq Jumps, Nvidia Surges as Investors Cheer Jensen Huang’s Return as CEO",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmRrWGlNNEhKN1FYMEt2NmxkREM3N2toWEt1QW9NOW5ULUt5MHpuRmdjMnI2MnpzbnFIdVdTcFhXMEJDZkNFenAxSWM5aWdaYVZyLVFwTjhFODJ0dUNIWGdmdkZ2ZFhBSnE4YjJZYXFDSWRZc3NTcHJSb0FvcEduX3Y4M1JINDZRaDlKMEZLbkJjLXRMMGM0Skt6V2FXZXlTZFV3bE93?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-23T17:37:00+00:00",
    "level": "Medium",
-   "score": 1.5,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "score": 1.2,
+   "label": "Global equity rally",
+   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
    "confirmed_by": 1,
    "sources": [
-    "Financial Times"
+    "WSJ"
    ],
    "sectors": [
     {
      "sector": "IT",
-     "dir": -1,
+     "dir": 1,
      "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "‘Market down $6 trillion’: Here’s who Trump blamed as AI fears fuel Wall Street sell-off",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHhBMWlFMXd1a0h2bUVmN0poQ2tBWVFQZnE1a2VKWTVHVUJ5TGhrSS13b2JwdGlxQmNWTGdZamxuT0pTVnktOFRTRmZWQUt4S1QyX3hIc0dHT2kybWk0QUwzaFZ3VFppSnctbVdIcXlnMGpjVWg0TmllWXBNcFVTcE1DLTdYTVN2WlhJQzhsVUw2OFA1d0ZrdzZDblhhMHoxOEp5VklQYjlua1RQM3ZybFpTcG8yTVhNZ1hIRE5GenNXWHVKSGtZTlUxQ3JTWWtWa0dGaVNUeVV5VHJs0gHjAUFVX3lxTE9qQU05cl9nejRQUDFSZFlDbFZ3Tjg3TVJLRnNhaVZ4T1lhcjZNQlFPYWozOHJyTUVWQkZlUkNnQm1GczhYWWhMdnMzZzB2WGdwdkJ4cVB6Q3lxZS1sVi16X3l1YUNlS3MxMVFvM3JFMjRPc3ZYc0lwNGVOZHdCNXF6U05IYTA4aERodS1ZTnlxaElGZ1hPc2s1anBOWnhYM3ZoTUc5YW9kRUtydDJtbkRQTXp5X1p3VHMyT2RJYU5fNU04bm9LV05iRXctWGQ1alYwVTYwTnpaVHRKLWxIdC1fYnI0?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-23T04:47:05+00:00",
+   "title": "Wall Street Surges Toward M&A Record as Megadeals Defy Selloff",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcmc0QjZVYzFQMVVNTEU5bjRqbVUzVm9XelNMNmN2aUNCdnRzM2hiS1JSX2ItdHBadzdvMzVLaEhuQ0lhcVJiMTNicHozVjJ3TXF0VjZaam5OVjFuQjdrR0xxQVBhNHhrX3RQVUU5YzFFalhrMU1kYUo1N09zbnhmVFI3Smx6cWpNQlU0TnNwTnQxbDlYZ2NiczRGM09nbkJxMFVvckNnZU1YeHlGR3gxVzBYWQ?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-11-23T12:12:56+00:00",
    "level": "Medium",
-   "score": 1.5,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "score": 1.2,
+   "label": "Global equity rally",
+   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
    "confirmed_by": 1,
    "sources": [
-    "The Financial Express"
+    "Bloomberg.com"
    ],
    "sectors": [
     {
      "sector": "IT",
-     "dir": -1,
+     "dir": 1,
      "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
   {
-   "region": "US",
-   "flag": "🇺🇸",
+   "region": "Global",
+   "flag": "🌐",
    "title": "Nasdaq futures surge nearly 3%, S&P 500 futures jump over 2% after worst tech selloff since 2020",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeDdvVTNXSk1MWGdVUXNKM1o5QS0zbEhxQ2dyWDJjUzByN1J0M0pndTRyQm5BRTVMTWR2UnVLS1J0MmFhdXRBVVdLQS0yUVJNXzJ4XzczOXlvUFpEQnRoUWxnRi1fQVdJX21iSzRKaDA5RERMS2ZLSjhRaFc5R09vb2J5dWNiMG44MFVSR2M2ckhlY3FPbzRpQzV5OWdfb1ZyTDBvTXkyQnVoNjgtS25KeVR5NkZBVU85X2dRZm91RnpTcDR6VzdqYUZxUHJqakF0dGxUMl9BVVJpZWRYWHIzNXhva0NEMG41SjkyeVFuVGNOSUhE0gH0AUFVX3lxTFB4N29VM1dKTUxYZ1VRc0ozWjlBLTNsSHFDZ3JYMmNTMHI3UnQzSmd1NHJCbkFFNUxNZHZSdUtLUnQyYWF1dEFVV0tBLTJRUk1fMnhfNzM5eW9QWkRCdGhRbGdGLV9BV0lfbWJLNEpoMDlERExLZktKOFFoVzlHT29vYnl1Y2IwbjgwVVJHYzZySGVjcU9vNGlDNXk5Z19vVnJMMG9NeTJCdWg2OC1Lbkp5VHk2RkFVTzlfZ1Fmb3VGelNwNHpXN2phRnFQcmpqQXR0bFQyX0FVUmllZFhYcjM1eG9rQ0QwbjVKOTJ5UW5UY05JSEQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNclhROXExN05kRVpPTTRWVHZ3d3dUdkJNU1JycjlpS19hS0kyWjNYOWcwNy1kbFh0OHRBdFFjYkNtakdxeUhyV1Blb2MtS3RNR0ZaNU9OQVRpaU53bEg2STdWN0J1OVdDV25aa2lzb3ZZMkVNTng4dU9oZ3hjb1pNS0RBNF90TUZKZWJlOVplNy1GRFBKbE5OTmtFdGU0dkJRZ2lvVU54dmRBSWV3SkNmc2EzbHhZR2RPdWY4eU5Mbjg2VHBSMmY3dndZTlVlcWFsS1hBSFhQaFNrbTkxS0xPeG9vei1wYURtQWszVlZRa9IB9AFBVV95cUxQeDdvVTNXSk1MWGdVUXNKM1o5QS0zbEhxQ2dyWDJjUzByN1J0M0pndTRyQm5BRTVMTWR2UnVLS1J0MmFhdXRBVVdLQS0yUVJNXzJ4XzczOXlvUFpEQnRoUWxnRi1fQVdJX21iSzRKaDA5RERMS2ZLSjhRaFc5R09vb2J5dWNiMG44MFVSR2M2ckhlY3FPbzRpQzV5OWdfb1ZyTDBvTXkyQnVoNjgtS25KeVR5NkZBVU85X2dRZm91RnpTcDR6VzdqYUZxUHJqakF0dGxUMl9BVVJpZWRYWHIzNXhva0NEMG41SjkyeVFuVGNOSUhE?oc=5",
    "src": "Moneycontrol.com",
    "time": "2026-11-23T03:04:42+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Global equity selloff",
    "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
@@ -200,7 +236,7 @@
    "src": "Business Standard",
    "time": "2026-11-23T02:50:56+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Crude oil falling",
    "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
@@ -233,96 +269,12 @@
   {
    "region": "Global",
    "flag": "🌐",
-   "title": "India’s Nifty Stands Apart as Global Stocks, Gold Suffer Rare Joint Selloff",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNjhGX3R5QUMxenFSa2h1MktrckFIT0NtM01wRkdKemU3RG1KV3FrbVVNcnlBRG9nYWx1RU9kVnZLRndwaG1sYnJtcVd4V0d1cko1eWY5N3J1d3BsWjEyZzJ1SThrVFE4RU9uQmRIUExtdmdaVDV0WDJtLUpYZnNkcGZnSm90QXNPWkxIa2YyempwZEEwcEJ6TWRXWllGc0JBMTROMHJqd0ZmMG8yQlN1Y01BRWdfWnQ3R01ZZ0ZWNGlCSnkwazY4?oc=5",
-   "src": "Bloomberg.com",
-   "time": "2026-11-23T02:36:46+00:00",
-   "level": "Medium",
-   "score": 1.5,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
-   "confirmed_by": 1,
-   "sources": [
-    "Bloomberg.com"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Kospi slumps nearly 4%; Asian markets fall as Wall Street sell-off deepens",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWnh4SEdaMDRGeDdWZ3VzbktkMUVjNElhTDlqTC03V0MxbEl2RW1kT2NzVFNEb2JHU296OGI3RzJSRDlGbVBXZXZoV0dfVm9RT2pLdDFlaGlkRVI2Q0pCMThwalBTRjJ3YzYtVi1mWUdfdDFQRXdsb1hBLXNPRzdKd0gxLVdSa2lfdVEzU2pEOGtTZ1JZU1phMlhFYkQycDN4N0FYXzlhdDJWX3F3U3Z5alJkNW0tOGJrbTZrSkptNUNTaHVuZFhGaGlKVGRCYzZ2TERlY3lNb1pzbHpkd3RkZ2ZFc0NEYnJr0gHuAUFVX3lxTE8zcmc4QnZGV2VfNG85LUZSdnlyNndOWnNILUJsVzRUaEYwTWJNbG13T01Ua0xXajRHV0MwWnlXNVYwVFlaRW9kUVdmclR5UjhnS200cXNNeDRHbDRaZXpDZjhhdlppbmVXTERFQzNudGJNRzRzV1picGJBdllvLXFJUVB6UmM1RU11UkY5R2V0c3dXOWhhZlpyczJhazRDNXBQWVNVMFAxQjQ4aWpoT0lQTUZzbGg4Rm5JNkpUeDExQTdhRjJUQUU1Q08zeHItWDQ4eUE3dHpYc0NlY1dlOFQyRzZzb2ZMd1BIWVZ5U3c?oc=5",
-   "src": "CNBC TV18",
-   "time": "2026-11-23T01:39:34+00:00",
-   "level": "Medium",
-   "score": 1.5,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
-   "confirmed_by": 1,
-   "sources": [
-    "CNBC TV18"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Asia’s stock rescue efforts gather pace after Wall Street plunge",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNEhZenM2VWt1VFR6WDE2YTJlejVvV19qaW80djh1WDVIWlJPQjJ0TThPR3VVaURWNlIwQjBZQ1E4eG9IQ3h3aHVBYW9CMndLRXJnYXItclZTNGFSMkJwRV9oSlBra2dvWkkxcmk5M1NSSDdPZHU5M21YaFZiRzZVUHJqMFQyUWw1T19ZVW85bXFrVWJUZ0ppY2NiNDlOY1BjcWhmSzkxX2VFZ2pfemFrekdOYTNuV205RldJNlV6MkJSbVAxRlZXeXBTMENEOUnSAdQBQVVfeXFMUEpXWW9ST1l3VTVQWThPRUVLSmd2TjREX3g1Y0N0dmQ4UEk4b0d0UWVTUzNLWHhubkhTYmswVEFJbXFiMVJIeWJMekNQT3BOaURacmtxQXBla0ZWNXpVVno0bElCR3lrSkkwRkFjUTFpVGNrVWZYY29panV3cmVuQmZpOFBpWkFNMVNOUy1FVzdPUlJteUZodEo0dm9vNzNId3Q4MFJrMGdXeFpvUFFfZUdPTlIwNlBKN183MUxKYkZVWG5jSjVLRUdlV3BoRE5iVnJCY3I?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-23T01:23:00+00:00",
-   "level": "Medium",
-   "score": 1.5,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
    "title": "Global Market Today: Asian shares cautious as AI selloff fears persist despite US futures rebound",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPY3VLcnpncC1QRFJ1dHA5UVdQS0RiU2hHb0pKakRWMkVLaVNsSFlBaU5kQlRBdFp5M1h0NkpaVE9nR2gtRTY4c2JDZ1VYRTY0bFE4QlJZVl9ReVVncXJ2NzhlX3R3WEZKWjFRYUdJd21QTTlMLVVpZ3hFUThva204RGZJUVVBUFlfWFh4ckprOG4tMldqdjJ5V1ltS0FMSlR3ck5McjQwUXkzNnNxSGRKclpWV1ZHaU9ROVVvR3V2eWw5MWx6Y1FWU0ROMUNWRDIwejZTYmVVNUt2X1poRGkyT0hTZEJCSFhKcjhDMXNTeDAtNjR3a0VPbVgxcVFOX21zSGd2MGQ2anJleGZxTmZF0gGIAkFVX3lxTE9ZSmRJUjZBeTByak1id1NxQVd6bFNudmlSbm5DMXd1MWh2SmcxN0lJUFZ1MHZzMkg4cVpXU3BsdHliVkhRVDNpcmlVMjlZc1Zaa19wZG5KSnNfYTZYRmVqS2JGSDBtLU9FQ3hmOHJlbUNmVGZRYW9fQ3JIQWw0T0xtcERPSHNhaEQ4TXRwUzdmWi1vei0wUlNYclZfWldCb1dTdzdrSHB4QkNYSFRld01Qby04b2tpSTAya09ZRWJBenJMMlc2aEFKeEk0QVZCVXQ1UWtNcXZadkFTZVdySlhpUGNBV2NVYVFsQWFiUlpSQmNiM2lYYWk0eVlVMFoyUVhZQ01NbXVPOA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOV0FtQkx0UEtIa21SZVJyY1VWc2NGcW5pbkZNdUN6aElFbGdRYnRFLVIyYTBuNE50d1pKYU5VQkQwV1E4MFFPc2pGc282T295c3VNNTNDVFVEclVKc2tqS3VkeGJmLVlpbUNiTFFTRXBVeTF3RndCZDBNREdrdWppMndSd2d2MXdXLUp0dXFIUVoxS2Z5dUR3NGdqQ2pncHBrclpRUmtHdEZuT0ZxejFOdnZCemdVblhGTmd0VTlzdk9ldV9MWDZBTEpPSDR2dXdRaklKX1RyOUFaNnhaTTRENW1CeTJkd2dnWFMwTklmdTM2dkxLLWJXLV96R3V3d2ZpeWNF0gGIAkFVX3lxTE9ZSmRJUjZBeTByak1id1NxQVd6bFNudmlSbm5DMXd1MWh2SmcxN0lJUFZ1MHZzMkg4cVpXU3BsdHliVkhRVDNpcmlVMjlZc1Zaa19wZG5KSnNfYTZYRmVqS2JGSDBtLU9FQ3hmOHJlbUNmVGZRYW9fQ3JIQWw0T0xtcERPSHNhaEQ4TXRwUzdmWi1vei0wUlNYclZfWldCb1dTdzdrSHB4QkNYSFRld01Qby04b2tpSTAya09ZRWJBenJMMlc2aEFKeEk0QVZCVXQ1UWtNcXZadkFTZVdySlhpUGNBV2NVYVFsQWFiUlpSQmNiM2lYYWk0eVlVMFoyUVhZQ01NbXVPOA?oc=5",
    "src": "The Economic Times",
    "time": "2026-11-23T01:02:27+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Global equity selloff",
    "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
@@ -343,80 +295,47 @@
    ]
   },
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "$16 Billion In One Month: How The US-Iran-Led Crude Oil Spike Inflated India's Energy Bill",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbEZFbkFMaHkzUXRmd09vSHR1SXZmT1NsRjJxcXE1WVFBeDVVS1c0R0RQdXp5LW45cDhyeFJDSE9qVTJHUzZnNkxuRXl2c085Z2lfbDM3aWhHMjR1c3FwbTNROE85bVV4TzB1QldOclRrb3dYZ2pPLVV3S1NPRTFZMW5KcFc1dTl2UFZuMGRwRV9SdGJ0ZzdtclFyQWtaSVBjUG96MGNlUXp0eFpyNDFQQk93dVBZbmN0Q213UG5QdUEzWWNjWVJwcVVnanpUckl6eFk00gHbAUFVX3lxTE9XUWZFVzZCYnoyNmhiN0E5VE9lZUEwVHh6X3VDTXRNRUZzY1pVcjhIZEY3Y0tuUFZ6WlEwalkwZVVBTWdhVm5tREZMUkU2MjJETEFBWndDSjE3ZzFPMjdveG9uRFd5d3FpcUdUXzYwNEdxVzVlcXJRRW9SdHIxdnVWX1hycWs5ZVhrMzVVNlVBZGNMdHhqUzJHbm5OQU56dVlxNFBrNGNTNm42eElNbGhoSm53X0liSXd4b09VSFZreGw2a2xqOE9wdXFlMWh6MWNmbUZkUExaU3h2Zw?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-11-22T07:31:53+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "Crude oil rising",
-   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
-   "confirmed_by": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": -1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Financials drag Indian shares down on profit-taking after four-week rally",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDVfby1VRHZ6aGZYVDB2dU9SSjlQRGlJcUUxQm5Gdk9vWkU4UG15RFdHeTZxVjZQUzVNLXRmX3FjVndPRFJQQzdoNWNsUlRMeEQzdWVxWE1RVWp3TUM2WnJRc2lqamVnM1Vlek5LdU1rZjVRNEdVOUNkMVpoNTRLQlMxRFlfUXZzd1JOQ2J2QUI2S0wzMTRUWnN5aVhrTG5qSmk0Mzc0NFEwU1owcEpPNlljaw?oc=5",
-   "src": "Reuters",
-   "time": "2026-11-23T02:37:00+00:00",
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "FirstFT: Wall Street set to rebound after AI stock sell-off",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYnR6V2FnQVRrTFZSSjhmQnFlY0hybjZsVHgxOVdDVmpOQkV3MXRUOVViLVd5ZWRCbERPeWhuVkgwWE1LaUI2cllYSTJLeGtqa1E0aE9SSmoyMXFvUDhnbk1oWlV3bjlRcG5VdHA3U1BZTFNkazJnU3pvUUFYeG1Qdk5ULW0?oc=5",
+   "src": "Financial Times",
+   "time": "2026-11-22T22:07:25+00:00",
    "level": "Medium",
    "score": 1.2,
-   "label": "Global equity rally",
-   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
    "confirmed_by": 1,
    "sources": [
-    "Reuters"
+    "Financial Times"
    ],
    "sectors": [
     {
      "sector": "IT",
-     "dir": 1,
+     "dir": -1,
      "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
   {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1owT2pOYVc3bXd5Z0RTeGlaemVoVXVReXNLeHcza0U3aVo2RW5FWDJjUTFGdGtrNm9OVEY4VVZCYXh6aTZ3bzZaVG1NYzdwZGRYOHRlUXVyanBTVzNTQ0FPNnpLbFl5WDBSamUxQmkxRHVUMG1sMk5xMm9sbmZKOEpwMUxVSHJCamsxdFJEZ3dKUWRoSy1SaGJn0gGfAUFVX3lxTE1sMGtPREkyMU1XR0dvQ0pkM2hraWFPblNyWGtsNC1fY1REcjFELUU2Sk9hNFNpT2dxVmxoU3JZQU9QMmlVWlladjlCRW95bEx6MGItcFNjN1VuMHJQSTZwWm1SQ3pLN28zbE05ZHo4cnBGWFZwZXhUR0VYUC1DMGFkTnV2XzlnZTRubzJtSzJ6YzhwUzgwRk1HdnhpVlNNWQ?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-11-22T11:49:36+00:00",
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "Iran fuel crisis deepens amid war and sanctions",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
+   "src": "DW.com",
+   "time": "2026-11-23T00:20:47+00:00",
    "level": "Medium",
    "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "Al Jazeera"
+    "DW.com"
    ],
    "sectors": [
     {
@@ -444,49 +363,103 @@
  ],
  "videos": [
   {
-   "id": "h-hXaoYn6jg",
-   "title": "SBI Securities: Data Center Opportunity In India Remains Intact As A Long-Term Story |Market Outlook",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-23T06:50:12+00:00",
-   "thumb": "https://i.ytimg.com/vi/h-hXaoYn6jg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=h-hXaoYn6jg",
+   "id": "OKvrpk0Zqkc",
+   "title": "Is the Bank of Jensen back open for business?",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-23T19:00:30+00:00",
+   "thumb": "https://i.ytimg.com/vi/OKvrpk0Zqkc/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=OKvrpk0Zqkc",
    "business": true
   },
   {
-   "id": "GNS80jybU6Y",
-   "title": "Sensex Slips 790 Points, Nifty At 25,550; Tata Steel, Axis Bank, Hindalco Top Losers | CNBC TV18",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-23T06:49:43+00:00",
-   "thumb": "https://i.ytimg.com/vi/GNS80jybU6Y/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=GNS80jybU6Y",
+   "id": "C71_sVcAj3k",
+   "title": "Jensen Huang Is Back at Nvidia. What Happens Now? | Market Hang",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-23T18:40:52+00:00",
+   "thumb": "https://i.ytimg.com/vi/C71_sVcAj3k/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=C71_sVcAj3k",
    "business": true
   },
   {
-   "id": "_MzhJLg-5QQ",
-   "title": "\"Govt Must Consider Lowering Tax On Debt Funds, At Some Point\": Fmr SEBI Chmn Damodaran",
+   "id": "Yz-BTcyCkTY",
+   "title": "The Mass Exodus Making Cuba’s Economic Crisis Even Worse | WSJ",
+   "channel": "Wall Street Journal",
+   "published": "2026-11-23T18:30:00+00:00",
+   "thumb": "https://i.ytimg.com/vi/Yz-BTcyCkTY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=Yz-BTcyCkTY",
+   "business": false
+  },
+  {
+   "id": "Mpk8Plt-RUI",
+   "title": "Why are Nvidia shares soaring after Jensen Huang's return as CEO? | Reuters World News",
+   "channel": "Reuters",
+   "published": "2026-11-23T18:12:36+00:00",
+   "thumb": "https://i.ytimg.com/vi/Mpk8Plt-RUI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=Mpk8Plt-RUI",
+   "business": false
+  },
+  {
+   "id": "qlL3iVQDxWE",
+   "title": "India Business Hour: Nvidia Reinstates Jensen Huang As CEO, Tech Stocks Attempt Rebound",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-23T18:08:25+00:00",
+   "thumb": "https://i.ytimg.com/vi/qlL3iVQDxWE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=qlL3iVQDxWE",
+   "business": true
+  },
+  {
+   "id": "S0Usv4fatAY",
+   "title": "₹6.5 Lakh Profit Every Second!How India's Top 500 Companies Made A Record ₹5.14 Lakh Crore|CNBC TV18",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-23T18:04:52+00:00",
+   "thumb": "https://i.ytimg.com/vi/S0Usv4fatAY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=S0Usv4fatAY",
+   "business": true
+  },
+  {
+   "id": "39B1JGXbC74",
+   "title": "MEA BRIEFING LIVE: BALEN SHAH Strikes Mega Deals With India, Vikram Misri Press Brief | Breaking",
    "channel": "Moneycontrol",
-   "published": "2026-11-23T06:30:03+00:00",
-   "thumb": "https://i.ytimg.com/vi/_MzhJLg-5QQ/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_MzhJLg-5QQ",
+   "published": "2026-11-23T17:55:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/39B1JGXbC74/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=39B1JGXbC74",
    "business": true
   },
   {
-   "id": "Jt-Mzwp2czM",
-   "title": "Asian Stocks Drop AI Fears Outweigh Support Measures",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-23T05:35:28+00:00",
-   "thumb": "https://i.ytimg.com/vi/Jt-Mzwp2czM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Jt-Mzwp2czM",
+   "id": "FlrX5h66q8U",
+   "title": "BALENDRA SHAH MEETS PM MODI LIVE:  NEPAL PM India Visit Live Updates | Breaking News",
+   "channel": "Moneycontrol",
+   "published": "2026-11-23T17:54:20+00:00",
+   "thumb": "https://i.ytimg.com/vi/FlrX5h66q8U/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=FlrX5h66q8U",
    "business": true
   },
   {
-   "id": "gU5BkH9gxTY",
-   "title": "Asia’s Stock Rescue Efforts Gather Pace",
+   "id": "8LME9z-8dK4",
+   "title": "Wall Street Reacts to Return of Nvidia's Huang",
    "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-23T05:03:34+00:00",
-   "thumb": "https://i.ytimg.com/vi/gU5BkH9gxTY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=gU5BkH9gxTY",
+   "published": "2026-11-23T17:42:57+00:00",
+   "thumb": "https://i.ytimg.com/vi/8LME9z-8dK4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=8LME9z-8dK4",
    "business": true
+  },
+  {
+   "id": "voVE9f0xweM",
+   "title": "Nvidia Stock Surges With Return of Huang as CEO",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-23T15:34:49+00:00",
+   "thumb": "https://i.ytimg.com/vi/voVE9f0xweM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=voVE9f0xweM",
+   "business": true
+  },
+  {
+   "id": "qFcl7JRivVI",
+   "title": "LIVE: Nvidia board reinstates Jensen Huang, shares surge",
+   "channel": "Reuters",
+   "published": "2026-11-23T14:34:33+00:00",
+   "thumb": "https://i.ytimg.com/vi/qFcl7JRivVI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=qFcl7JRivVI",
+   "business": false
   },
   {
    "id": "BfZFWJ_qIRE",
@@ -498,39 +471,12 @@
    "business": false
   },
   {
-   "id": "_vIyJUZoDrA",
-   "title": "Israeli settlers torch cars in West Bank villages",
-   "channel": "Reuters",
-   "published": "2026-11-22T20:25:42+00:00",
-   "thumb": "https://i.ytimg.com/vi/_vIyJUZoDrA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_vIyJUZoDrA",
-   "business": false
-  },
-  {
    "id": "sxtXz24odps",
    "title": "How the Fed Is Preparing For AI’s Economic Impact",
    "channel": "CNBC",
    "published": "2026-11-21T15:00:03+00:00",
    "thumb": "https://i.ytimg.com/vi/sxtXz24odps/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=sxtXz24odps",
-   "business": true
-  },
-  {
-   "id": "KUBNgANiicU",
-   "title": "Chip Sales Are at Records. So Why Are Chip Stocks Crashing? | Deirdre Bosa Live",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-20T22:05:11+00:00",
-   "thumb": "https://i.ytimg.com/vi/KUBNgANiicU/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=KUBNgANiicU",
-   "business": true
-  },
-  {
-   "id": "vktqIFvhXMI",
-   "title": "Stocks slide into correction territory as Anthropic falls toward its IPO price | Market Hang",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-20T18:38:12+00:00",
-   "thumb": "https://i.ytimg.com/vi/vktqIFvhXMI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=vktqIFvhXMI",
    "business": true
   }
  ],
@@ -551,7 +497,7 @@
   {
    "name": "Benzinga",
    "id": "UCqQs28K2zj2dOsc5NfXUKEg",
-   "video_id": "J1zLc6_3Swg",
+   "video_id": "RSw6oD2DWJg",
    "embeddable": true,
    "verified": true
   }
@@ -591,7 +537,7 @@
   },
   {
    "name": "Moneycontrol",
-   "status": "could not find the channel id"
+   "status": "not live right now"
   },
   {
    "name": "NDTV Profit",
