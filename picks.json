@@ -1,46 +1,49 @@
 {
- "generated": "2026-11-23T23:05:18.911033+00:00",
- "date": "2026-11-24",
+ "generated": "2026-11-24T21:44:16.905929+00:00",
+ "date": "2026-11-25",
  "picks_up": [
   {
-   "sym": "POWERGRID",
-   "sector": "POWER",
-   "net": 3.11,
-   "event_score": 1.0,
-   "sector_score": 0.0,
+   "sym": "DABUR",
+   "sector": "FMCG",
+   "net": 2.53,
+   "event_score": -0.24,
+   "sector_score": -0.73,
    "sources": 0,
    "reasons": [
     {
-     "label": "Order / contract win",
-     "title": "Rohas Tecnic Unit Bags RM134.32 Mln Contract From Power Grid Bangladesh",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fRHJPUHMybDlocHhCSktQVjFGX2xiZm9vTDA5dU9idU5lTHllUEQ3ZnRNU0VJaC1zVTFCZElYVDJzX1JpZHhmeHF3OEtmQ0piWkwtaUFnX0tlZw?oc=5",
-     "src": "BernamaBiz",
-     "time": "2026-11-23T12:51:55+00:00"
-    },
-    {
-     "label": "Capital return",
-     "title": "China Southern Power Grid Energy Chairman Proposes Up to 200 Million Yuan Share Buyback",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRFItVEdaYzI2bV92VzdkNVZLeEk0dzlIOUV3QkpwR3NqSVpyZU1TWnNudDE2bGd6cC0wVDM0NFZnaEItcXExZHJXcDBWZnBfLTRJVF9iTE03LXdHbEktS0lnYmx6ZG9aTTF6eU5DQ0pZM09ydW41VE4zVFZqS1d0R0hSS3Njc2t4NG9oNDRaa3FiR0pMSnJ2dEZtVUVweGpzQTFyRXJPNVhFRmxpbV9WWHZxODZSOEFKUUFNWXdCNFAtR3UxcG1VZ055QjEwbGdIX1hnalltYw?oc=5",
-     "src": "www.marketscreener.com",
-     "time": "2026-11-23T04:45:13+00:00"
+     "label": "Broker downgrade",
+     "title": "Dabur India Ltd. Downgraded to Sell Amid Valuation and Performance Concerns",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX3hubXBWcnZBTzcxcnRkMkFsaVlzWHJJbENmS2ZZZWYxR0c5UG5OREZQdWlBUWVUMXg2Rmg2V2k2VlQyUkV0d185VFFWODB5Q3hJa2tER0JoTzExRU1GVzBZdE9tcjhHUWQ4enJIRWN2ZlVBX1pIbWVfT3hncWZOTzQzVC1teDlWY25BWDJ4U2Z5cTNwckwtSHR4ZlhGeVlEemtYMFlpZkgwSHd4Q0ZtTWN6ZDRILUgzbXdkcnVsazBfWFFaeEVPc3ZsSkZvQWVUanc?oc=5",
+     "src": "MarketsMojo",
+     "time": "2026-11-23T13:16:56+00:00"
     }
    ],
-   "sector_reasons": [],
-   "today_chg": 1.7,
-   "two_day_chg": 3.82,
-   "vol_ratio": 1.27,
-   "close": 269.0,
-   "close_date": "2026-11-20",
+   "sector_reasons": [
+    {
+     "label": "Weak monsoon",
+     "title": "Nearly half of India faces drought conditions as soil moisture levels remain low",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRTh5NzJUNEhCWHQ0a25UUGNLSHFIcTNRUURxcXhTLThxZ3pCVTlCaEpaaGx2U0JJaTM0RTkxU2xyVHRybV82R0dJdGs1WDc4QmxjSjQ0c2w3OGIwQjRjZkt4UElFdU5Zd3QwTUJ0TnhwbVZQQXQwZFBYcE13QVB1bXZhdmI5bjhuR0lyalQ1b2FFdHlhZEtuTTcxZS1DalhFT3ZNS0d5c0gzcW4xZGo3MmJjQnBmZVA1UGNzeldoaULSAc4BQVVfeXFMUHdOTkd3RTFVcU1KZkdGamtLSE42ODJycmpTcWMwZkFPOWx2eWxRM01lRTlJd2piZHlMejkwNWwtNkhPWEJkZ0RyRXNHbGNwWGc4SGZBUzZ3ejNHazJmYXVTRVR1Z2lwanBpcEJKMW5TWWExbXdITVk4UkFxMUo5NDdzZVQtd0ZzaUFGZF80YWRuS2JabDN6aWl0X0QtaGhUNGgtdndpQ214M0hDWkhNbTNNdzJQY0Voc1BMVFhocDVoNHNxa0l6TF8tYmpPeGc?oc=5",
+     "src": "Down To Earth",
+     "time": "2026-11-23T11:55:40+00:00"
+    }
+   ],
+   "today_chg": 1.5,
+   "two_day_chg": 2.14,
+   "vol_ratio": 3.67,
+   "close": 399.0,
+   "close_date": "2026-11-23",
    "layers": {
-    "news": 1.0,
-    "sector": 0.0,
-    "technical": 1.4,
-    "relative": 0.31,
-    "flow": 0.0,
+    "news": -0.24,
+    "sector": -0.73,
+    "technical": 2,
+    "relative": 0.5,
+    "flow": 0.6,
     "market": 0.4
    },
    "tech_notes": [
-    "uptrend (above 20 and 50-day averages)"
+    "uptrend (above 20 and 50-day averages)",
+    "20-day breakout on volume",
+    "volume 3.7x average on a +1.5% day"
    ],
    "agree": 4,
    "dir": "UP",
@@ -49,90 +52,79 @@
   {
    "sym": "BEL",
    "sector": "DEFENCE",
-   "net": 2.79,
-   "event_score": 0.32,
+   "net": 2.25,
+   "event_score": 0.0,
    "sector_score": 1.6,
    "sources": 0,
-   "reasons": [
-    {
-     "label": "Order / contract win",
-     "title": "Bharat Electronics secures extra orders totaling ₹648 crore since Aug 26",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaktHblJhYk81MktZOUFodmRSVWg3SnByd2w4Q0FkcEc0Z2FZQ2xuT3g4NWJkTGtUZDZsLXlGMmFWVmFraS10alFJbFpLekd3VnZGMXFIMjA4SVlUR0M5ZndfaDBqMHpSd2VqTXBTWlVmYy13MkZRdlRrVWIzdG9WSnpLeG42LWVBUlhTOTg5VTFCUWxVUW41Q0VUVFU4Q1Z0YjBaNjNGRUtYWEgxcUVPdEN4dS1mQzRMTXhv?oc=5",
-     "src": "scanx.trade",
-     "time": "2026-11-22T10:48:52+00:00"
-    }
-   ],
+   "reasons": [],
    "sector_reasons": [
     {
      "label": "Geopolitical tension",
-     "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOHluRThtOW1FdTlreHp3MFVSSWRJa0YyM21XNHdVeFdHQndYZENuMEVKUDhnemxxRmhwTmNjaFlDUGNWbHJ6cjB1MXk2MG5IWWc3bVA2aUljWl82Z0J2dzBYcUpaV3hjUHI4MG95WVVLTEIyWXNGNFA4OGJ3Z1ZSOUphTEtpR0pTOWxwN1hYOGNfZmMyZmlYTHhtYmFTRTZqcG9OMUtaNVNsTzliWE9NdUNJWHdYcmEzN1ZZUFZ2R1dWNUwtUG00VU1EdUsydjNzUl9NZmJZU0xURGtweEhn0gHkAUFVX3lxTFBlQ2ZfNlpXREpIRDFnVHpDZE5EYnVuUDRkNzRpZ2xTdDdpVXlONFVHQU5nLU05RVpaY0pRZ1dPb0FvOG9ZZm5peW1SSWlZMU53ZzVhLW43aDRHZ0NsZHhuZkc0YWRpeGpxR2xrR1QtX3F4X2toOGxfazVUZU00WXJTYWN4LVp1VTQwOXluU3V1OFNoUlJ1Z3NzSVU5WUtpZWFDRHNhVXM2emFPWmp5MVdFakg5WE85UkNTaExmWEFfNzV5WmhGaHZHOGlDMmR5OHBaYXlxMTRMMWdTT21RUnRTLWt5RA?oc=5",
-     "src": "Business Standard",
-     "time": "2026-11-23T02:50:56+00:00"
+     "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+     "src": "EnergyNow.com",
+     "time": "2026-11-23T22:21:52+00:00"
     },
     {
      "label": "Defence orders / approvals",
-     "title": "PTC Industries bags major defence order for 400 tonnes of titanium",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVENST2lUMUpnNmdGZGJuWDdzalJmeUtmNllBMU4zSnZmc1dsakltLUZTZzhoSGVtNm42TTF1d0xCS09kZWtIaHNOYVd4Smt0Um8ycmp2Y2s1YW9NcVFPM0phVFpWMWwtMldIWFpnLUZaa3NyU2pNa2RVS1BSVkVDTFlza3NkYXE0WEVuMlY2S0t6emwtNFlOVnZKeXZTejZjQmRfeVJTSlpMN3hfVW9MVE5UMDNCcXk4UnpuYUgzazhkSUhUX2pqTXNjOHVSOW9o0gHWAUFVX3lxTE9yU3p3QnRxSVhTZUV5QU9nd0ZoT1lfSzVqbDZVcjlWaExGSzBXc0RCVnpqM2NfbmVYVmRRaTdCY3RrS09GTlY3b1dwalEzX1VQWXNySkctOG42aDItbmRsb0JSMTZTZ2pmZ0gzYkJOQTc2a0puM2ttZXlfc01MMXBhT2JkeU04UkdQVDB4T05acGttdjlNemhYRnVVUkNqRDNldkRfVy1LLWs1V1g4NWVjTktBSWhyeTZJUzA0ODFFSzNjaGs0OGtBT2N4cmh1Z3pMMHdKN0E?oc=5",
-     "src": "Business Standard",
-     "time": "2026-11-23T08:47:16+00:00"
+     "title": "PTC Industries wins 12-month defence contract to supply 400 tonnes of titanium products",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUjFWTTdHYnZhYm5pdEtSaGdsbHRuMjdoTS1BN3REZzVRSjU0WXJPMHljY083Sk1jUWVtMkoxS0s3SVNSclB1c3paWHZhMTZla0lrMHJrVW93cUJ0YnNOM2V4bFFfR2lsZTFTMnlPVEZKYkpPekl2Wl82R2VBWFhuY05EVHZSTlVQZFhvdGVKY0RDWXBLck9vd0syX3lEVVVCNEQyQzdBQ3JfRG5iX0NSeUlDNy1sN3BkWFdvWUxzeWx3aVRLejVMYUg5TGdQejltMC1FSjg3dkt3VGxxd2ZuVVVGdWZQTFHSAecBQVVfeXFMT1IxVk03R2J2YWJuaXRLUmhnbGx0bjI3aE0tQTd0RGc1UUo1NFlyTzB5Y2NPN0pNY1FlbTJKMUtLN0lTUnJQdXN6Wlh2YTE2ZWtJazBya1Vvd3FCdGJzTjNleGxRX0dpbGUxUzJ5T1RGSmJKT3pJdlpfNkdlQVhYbmNORFR2Uk5VUGRYb3RlSmNEQ1lwS3JPb3dLMl95RFVVQjREMkM3QUNyX0RuYl9DUnlJQzctbDdwZFhXb1lMc3lsd2lUS3o1TGFIOUxnUHo5bTAtRUo4N3ZLd1RscXdmblVVRnVmUExR?oc=5",
+     "src": "The Financial Express",
+     "time": "2026-11-23T12:37:32+00:00"
     }
    ],
-   "today_chg": -0.54,
-   "two_day_chg": 1.57,
-   "vol_ratio": 0.42,
-   "close": 402.0,
-   "close_date": "2026-11-20",
+   "today_chg": -1.54,
+   "two_day_chg": -2.08,
+   "vol_ratio": 0.62,
+   "close": 395.8,
+   "close_date": "2026-11-23",
    "layers": {
-    "news": 0.32,
+    "news": 0.0,
     "sector": 1.6,
-    "technical": 0.86,
-    "relative": -0.39,
+    "technical": 0.52,
+    "relative": -0.27,
     "flow": 0.0,
     "market": 0.4
    },
    "tech_notes": [
     "uptrend (above 20 and 50-day averages)"
    ],
-   "agree": 4,
+   "agree": 3,
    "dir": "UP",
-   "confidence": "Medium"
+   "confidence": "Low"
   },
   {
-   "sym": "DLF",
-   "sector": "REALTY",
-   "net": 2.22,
+   "sym": "JINDALSTEL",
+   "sector": "METALS",
+   "net": 1.63,
    "event_score": 0.0,
-   "sector_score": -0.72,
+   "sector_score": 0.72,
    "sources": 0,
    "reasons": [],
    "sector_reasons": [
     {
-     "label": "RBI rate hike",
-     "title": "Banks caution on demand as RBI considers more repo rate hikes and rising costs",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMm9fRzhhQ1VnZWZzdjVVa041UndHVFFiYUdjcjZoR2o2NmRHSXJqTlVzaWozeFAxSmtXU0cyQmVKcDBTQkRhamlrWnhKQTJrWGlOTGxJRExzMHNmalZfVk1jRTBiVjgxWWRhYjZqRFlrUHFxbGFlLUllNDNJU09RQlc1d1lmYW9lZ2hNX3pWZExCLVhrcXBnN2l3S3NnckZza0xMdmpqSmM?oc=5",
-     "src": "FlipItMoney",
-     "time": "2026-11-23T11:16:56+00:00"
+     "label": "Steel import duties",
+     "title": "Anti-Dumping Duty Not Mandatory Despite DGTR Recommendation: Delhi HC",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjJkT2pTa1h1YVlLRWNBM1ktYkVmYlI3bUMwdHBVa0ZQUGFaek9hRmhack1zdF9leURMRENGNEpfQ2l1b0RGNXFrWk91d01pQmd0c3o1VGRLTTRzVjIxd1F3aWw0UVdCLUFqREdwWENNZjRmYjBFMG9SNFlEaldLdUc1TGpEZUlWZWVDOW5EUlhJQXAzZk5BdUtvZmw?oc=5",
+     "src": "TaxGuru",
+     "time": "2026-11-24T20:29:55+00:00"
     }
    ],
-   "today_chg": 2.21,
-   "two_day_chg": 2.71,
-   "vol_ratio": 1.59,
-   "close": 785.0,
-   "close_date": "2026-11-20",
+   "today_chg": -0.05,
+   "two_day_chg": 1.51,
+   "vol_ratio": 1.32,
+   "close": 1131.3,
+   "close_date": "2026-11-23",
    "layers": {
     "news": 0.0,
-    "sector": -0.72,
-    "technical": 1.8,
-    "relative": 0.14,
-    "flow": 0.6,
+    "sector": 0.72,
+    "technical": 0.66,
+    "relative": -0.15,
+    "flow": 0.0,
     "market": 0.4
    },
    "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "20-day breakout on volume",
-    "RSI 81, overbought",
-    "volume 1.6x average on a +2.2% day"
+    "uptrend (above 20 and 50-day averages)"
    ],
    "agree": 3,
    "dir": "UP",
@@ -141,63 +133,55 @@
  ],
  "picks_down": [
   {
-   "sym": "TATASTEEL",
-   "sector": "METALS",
-   "net": -2.88,
-   "event_score": -0.78,
-   "sector_score": 0.0,
-   "sources": 2,
-   "reasons": [
+   "sym": "BAJAJ-AUTO",
+   "sector": "AUTO",
+   "net": -2.35,
+   "event_score": 0.0,
+   "sector_score": -1.6,
+   "sources": 0,
+   "reasons": [],
+   "sector_reasons": [
     {
-     "label": "Acquisition / partnership",
-     "title": "Block Deals: Tata Steel acquires 9.99% stake in APL Apollo Tubes from promoter entity in first tranche",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZWdWckNlYUpfWEx0VGhsNXVuMHc0blFpeE5JbDdBU01tSm8wS0NEaFlTOUZDMjJna2hFQTJjU3E0Zm1yX1ZzdzRiaEc3NUtaN1BxbTlDcE1RWng4Wi16RW9OdERQWkVrRkhpM1FXRGF5UGRaNm5GUGVWS0tyWkpGdnc1MC1DamgzSmFVWjlpbXVWSFFLOG1hb3NUcHVLX3BmcTc2LWVtcm1EejJUcURiTndoVzIwanVyNlF3SE1LOXR6Yy0wMEFkdHdRZXpORFZOQU9uSlJtMFA4T3hfdExmbHBxdGJ6T2xIUUJuMk1iNklXUFJrYXkyaNIB_gFBVV95cUxQR29wQVk3Zko5ZEhXWmNaMzdDb0w5VUpOZ0xpREs2QmJESnltd0xNRWdJbUZEREhTRGJVN1hfVEhBVjNIaDB6cF9WZktmUU1aMlV0Y2F3aEdRNndZMmhXQnE2cEYzN2RYQWhnQ01fMi1ReWtVVEh1NHVKc3ZkdFJULUExTWwySVJjU0RHQV85V3lpYWJLaFpjSVBBZkdtRjZDX2FuSTNaQVNWQjhDQWZCUXM0cnRFa2hZMkVZdHRVRHI3Qmw0UkJyb2NndkIzejJRUmRReWJkcU5EM2Y3ZmRfOXlla2tvMzAxYzVFXzBfSjJRVUY5MUxaU01aMUxDQQ?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-11-23T15:49:34+00:00"
+     "label": "RBI rate hike",
+     "title": "Indian Rupee: Can RBI Hikes Support Gains Against US Dollar? - Commerzbank",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlhCeGtnTTlabkFtM043cXg3b1NmNGtkOXlDdDBRcDR3TTdlb3dMaldYRkNVS3RzeDREMVlPMUlmN09QNXFhaFhVeTJFTm43YU9kMWJ4OUM5SjdrVUZZbkNYMm5oU0tVZXZQZURBRmFPajFwcXZJVHJfOGtPN1J2ZEM0NmJkQWpoWXpPNmUwdzF5amRHUko2Z1BkWjdYT0JYTlFGUlZLSWY5Z05zSmJ2anEzT3FPM1JYbGd3alBQWnJic2NRd1U0bnhnYWpXOEFhN1FEQw?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-24T06:55:27+00:00"
     },
     {
-     "label": "Broker downgrade",
-     "title": "‘Tata Steel deal negative for APL Apollo Tubes minority shareholders; co faces earnings downgrades,...",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWkk2YmJHX3pHWWFMVjhITjNseGQ3X050Y3pZX0lGODF6ZDMzUTJHcm1rbWk0dW1aMzEtODNQLTZNS2hUN0JZUmlvWDBVOFlKcjltT1hzYzl0NDRvdkFDVVdSMmFreFpsM1FhOVRWd0R6N18tR0VDTXY3SlFTVGY5SEMtcU5pcnFVVC1jajVFTEhMVUx0aVAzZG1OMTRTb2hDVUxoVWFlZWlCeEZHY3lVTnluamNnSEd4VzNET1h3bjV3RG5rWERVRG9VS0M3eEd1bVJxTHB4aFNxaHRtMGVVWmxVZW1aMlIxd3ZFTy1PV25jVUQzZTc1TmIxWWFGa0HSAYQCQVVfeXFMT0l6QmZmUzNsSUp1clZheWY5QnNfdkFfZXBlQ3Q3dzZ6TTQxd2RyLTFxLS1Bdmt3Rkx3RC1KUUpkZWRrQ0d0R3BKTlI3UERuNG95LWkzdk5GUWdVTUdkVjYtOGxaM3Zvbi1hd1hMamg1b0xoUXUzOG9iYjZwX3E0dWt3MmdVN2syemRHWE9UM1VUM19PMlFyelR1eE5WX1ZxZWRjSGFYMW1GQ1p6UHlYbGV5ajdHMnY0YUdIZi1fLXRpZGNtemhnMTM5MmhPWFg1OHNELWk5T2pjZXBuSGRxMjFQbGthSEF0ak55NE9rNDJNMVN6dUI5dnVicEtXYWNXbU1NTWI?oc=5",
-     "src": "Moneycontrol.com",
-     "time": "2026-11-23T07:29:16+00:00"
-    },
-    {
-     "label": "Supply / stake sale",
-     "title": "APL Apollo Stock Clocks Sharpest Fall Since 2026, Tanks 22% On Rs 15,510 Crore Worth Stake Sale Plans With Tata Steel",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZHQzY1FkS0E1T19vMzZDN3FNOXBIaE1aYnVLZU0zSkptSDJWRzUwU3U2RklPOUdlVnA0bnBKN01kZFZ4SHdRSm1PRHh4NTdLQW9OSUU0ZHNTR3F3aEFSVElHX0QzUnJIM3JIbVlveDRDandITzNLdkUtYlBVbWotTndFdG83Y2pReXJ4aGVCX1QyTVFUdU1OLWVzNlA3aElqbkFqbjFHZXhrTWdfZVZBWU9aUEEyUllJVS03Q0FYeHdfbGF5ZW5mMTJRNXZXMmU5alE5edIB3AFBVV95cUxQc2FfVGVWVWhYeDFVb1g0Q25qdWhCcTRKSEJrY2dPZDlrRUE2OEJXaG5ZdC1pUGNJWkptaU1JaTRPYURmYmRsZW9EcDRzQXREeXdNMjRSU0loRDVkY1A3a0FraWs2R3M5UTd5UWJhN2tpMncySDlGMWVOQktLdWhzN0RvcXhCcFRLNlI1dGJhLTdyYkNkcTI4YUFTSHA2OV9WS2hfRktIOE1xbzhLaVhkbVo3TTV3MTFMdDRBcGtnM0RxVVNJZUZxSUVQX3oxUk00UWFvX1F1Umd0cVJh?oc=5",
-     "src": "NDTV Profit",
-     "time": "2026-11-23T03:57:50+00:00"
+     "label": "Weak monsoon",
+     "title": "Nearly half of India faces drought conditions as soil moisture levels remain low",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRTh5NzJUNEhCWHQ0a25UUGNLSHFIcTNRUURxcXhTLThxZ3pCVTlCaEpaaGx2U0JJaTM0RTkxU2xyVHRybV82R0dJdGs1WDc4QmxjSjQ0c2w3OGIwQjRjZkt4UElFdU5Zd3QwTUJ0TnhwbVZQQXQwZFBYcE13QVB1bXZhdmI5bjhuR0lyalQ1b2FFdHlhZEtuTTcxZS1DalhFT3ZNS0d5c0gzcW4xZGo3MmJjQnBmZVA1UGNzeldoaULSAc4BQVVfeXFMUHdOTkd3RTFVcU1KZkdGamtLSE42ODJycmpTcWMwZkFPOWx2eWxRM01lRTlJd2piZHlMejkwNWwtNkhPWEJkZ0RyRXNHbGNwWGc4SGZBUzZ3ejNHazJmYXVTRVR1Z2lwanBpcEJKMW5TWWExbXdITVk4UkFxMUo5NDdzZVQtd0ZzaUFGZF80YWRuS2JabDN6aWl0X0QtaGhUNGgtdndpQ214M0hDWkhNbTNNdzJQY0Voc1BMVFhocDVoNHNxa0l6TF8tYmpPeGc?oc=5",
+     "src": "Down To Earth",
+     "time": "2026-11-23T11:55:40+00:00"
     }
    ],
-   "sector_reasons": [],
-   "today_chg": -1.6,
-   "two_day_chg": -0.56,
-   "vol_ratio": 2.01,
-   "close": 178.0,
-   "close_date": "2026-11-20",
+   "today_chg": -1.13,
+   "two_day_chg": -1.61,
+   "vol_ratio": 0.97,
+   "close": 10643.0,
+   "close_date": "2026-11-23",
    "layers": {
-    "news": -0.78,
-    "sector": 0.0,
-    "technical": -1.4,
-    "relative": -0.5,
-    "flow": -0.6,
+    "news": 0.0,
+    "sector": -1.6,
+    "technical": -0.97,
+    "relative": -0.18,
+    "flow": 0.0,
     "market": 0.4
    },
    "tech_notes": [
-    "downtrend (below 20 and 50-day averages)",
-    "volume 2.0x average on a -1.6% day"
+    "downtrend (below 20 and 50-day averages)"
    ],
-   "agree": 4,
+   "agree": 3,
    "dir": "DOWN",
-   "confidence": "Medium"
+   "confidence": "Low"
   },
   {
    "sym": "INFY",
    "sector": "IT",
-   "net": -2.37,
-   "event_score": -1.5,
-   "sector_score": -0.17,
+   "net": -2.05,
+   "event_score": -0.7,
+   "sector_score": -0.65,
    "sources": 1,
    "reasons": [
     {
@@ -218,20 +202,27 @@
    "sector_reasons": [
     {
      "label": "Fed tightening / yields up",
-     "title": "WTI and Brent Crude Oil Prices Decline as Bessent Challenges Fed's Hawkish Rate Expectations",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEJ3STVIQWcwUUVtaXJWdUdPYVZHLTRnN0hiam5GdElURmpuZzYyVXpIVzFiWlJlODlGZWU5WnVWZlVwdmVrQWx5LXJZSWQzWmlrYjhiQVBXUUtsd2sxMHJHZ1ZnZ192RnJrdzdQcHhudWFEeFhjaXRYWm5GYnNPSExBakktbndnN1VWMXZkRC1rOF8tNFVXUFA0LXZzZmw1TGxyX1RVRHZ6eXhOXzRYblRiNjZQQ0VOZkNfQmFaSzBYSUZqUkd5czBObEI4a0k?oc=5",
+     "title": "WTI and Brent Crude Oil Prices Fall as Bessent Challenges Fed's Hawkish Rate Expectations",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZEdWMFFlU3JoOWZ1V0hOWFBILVBrRFE3a3I0TUNGV01DYkp4VXEwTkxEOHlLUGEyeWNpUFlsMTRBR3hFVDBOYTJSY25QV29UOWw5Y0otM3BzN0ZvaXNmLUN1dm9DN1hkNDB2YzB5ZkN2aTNvQzhZZlBYSHpfT0NQMjI0MElydURES3BUX01tWlFwbHpsNHFwS1BOdlBYY2NNYXVMZDk1UkdXN3ZfRUVmaHRPcEQxSmRZNUQ3VG95dTNjVmt2ejRTTV9MSQ?oc=5",
      "src": "FXLeaders",
-     "time": "2026-11-22T23:35:10+00:00"
+     "time": "2026-11-23T05:19:44+00:00"
+    },
+    {
+     "label": "Rupee strengthening",
+     "title": "Indian Rupee gains against US Dollar to draw support from RBI hikes - Commerzbank",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb0l2UVVaYkZzU3JpcHk1NFY0a2k4YXBQYTFMak5QUkZlbWRSMElqQUFZZDhCMHc5NmtENUE1UHF0VGZFWjZidEhUbEtBc1k4M3kwYjFfQmZSZmkwRDhPOTl1SDhWbEZIZXVYcGRnYWU0NlQwVXlubW16cHBJdUota3FIVnBKTU9WWnBZMVJLZXRob0ZyczZmeWg1Nzg4MUhaSG5Nb3pFZ3JGaC1xQkdFemxPc1lUNWVveEZFUkxwUGRzYjRmZDZsWUZCS2pjVEJDOUE?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-24T08:20:53+00:00"
     }
    ],
-   "today_chg": 0.56,
-   "two_day_chg": -0.97,
-   "vol_ratio": 1.06,
-   "close": 1098.0,
-   "close_date": "2026-11-20",
+   "today_chg": 0.49,
+   "two_day_chg": 1.05,
+   "vol_ratio": 0.96,
+   "close": 1103.4,
+   "close_date": "2026-11-23",
    "layers": {
-    "news": -1.5,
-    "sector": -0.17,
+    "news": -0.7,
+    "sector": -0.65,
     "technical": -0.6,
     "relative": -0.5,
     "flow": 0.0,
@@ -243,29 +234,29 @@
    "confidence": "Low"
   },
   {
-   "sym": "MARICO",
-   "sector": "FMCG",
-   "net": -1.43,
-   "event_score": -1.93,
-   "sector_score": -0.56,
-   "sources": 1,
+   "sym": "ASHOKLEY",
+   "sector": "AUTO",
+   "net": -1.98,
+   "event_score": 0.32,
+   "sector_score": -1.6,
+   "sources": 0,
    "reasons": [
     {
-     "label": "Regulatory / legal action",
-     "title": "Who is Bhaskar Bhat and why was the Tata veteran fined ₹3 lakhs by Marico for ‘insider trading’?",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQTMwekNoVjF1MTd2bE1rSC1hdEhkLUV1MWZ2cTFHbGtSUUZBUFdac0VWVi1udm81aDNxOTdjZ1RmTGVWd25yYjh4ek5vZVlKVEdvaWZfa3djTnhzazR4UjczNm1YOHN2MGg4MklJeTduZVFHeklLYUVQa1RyTlB1NEpBcGR3WGh0T0dDR25jTDJzeDcxVExOWFBWdjhBVVNER2p5cXRTdFhXYlpzdGJjMW1sVFkzUWM3dk9pUEdfaWZodkRPdkozTm43OVZwbmtwVHRhcHlKZVl1ZExIMGE4UlVEbTlsTkR0M2QxUnJR0gHzAUFVX3lxTFBKcEpCdTNCYXZGNUpxUnhIZU1zVDJtbXRuMmhIQWVkdVVoX1czSU4tUGhyc3hmNURCOFZXWWtPMGpLdlJmZ29jLTI5M3FoUW9EX1hyVk01OWhGOFVITE5panJGNXBoeDBOa3U3Vjlwem90ZWdacmdJMFZRb21YYlMwWWtieTNaZGxGTTRPQTJIWUFnYWtNLXBRamRlZldWMy14VmZwQjl5ZzE5TWFZSUxJQ0o1aWdNWkhiRDR6b1dtM0l1aVpxQnctQUtmel91aG5HM083aWhqZXpjczNTb0o0QzdRWXFNbmdNeDhmeHRDRVg2SQ?oc=5",
-     "src": "Livemint",
-     "time": "2026-11-23T05:43:43+00:00"
-    },
-    {
-     "label": "Tax / debt / penalty",
-     "title": "Marico imposes ₹3 lakh penalty on director over wife's share purchase | He joined Marico as Independent Director in 2025 | Inshorts",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNGR4QVp2NlJYOVBRVWdUejNEeHVQV2pXaWpOU1M3eHpXOTFOb0EwblpQOXhwUm9ENzZrbGtlSkQzX1ZscFpPYlBoSWFPUm1xbmEzQjNTSVVxbHlXckhvaXJFX0VaX0YteEFiSGlQNGkwc2QtRkxORC1hSnVZTUw5UVVVS0ZXMUUtaWh4LXRwdmFnNC1BY2JvZlZiTUZMNnFGbFdqREloZTNQeXVueGxOSVN4RXJxWFnSAbcBQVVfeXFMUDRkeEFadjZSWDlQUVVnVHozRHh1UFdqV2lqTlNTN3h6VzkxTm9BMG5aUDl4cFJvRDc2a2xrZUpEM19WbHBaT2JQaElhT1JtcW5hM0IzU0lVcWx5V3JIb2lyRV9FWl9GLXhBYkhpUDRpMHNkLUZMTkQtYUp1WU1MOVFVVUtGVzFFLWloeC10cHZhZzQtQWNib2ZWYk1GTDZxRmxXakRJaGUzUHl1bnhsTklTeEVycVhZ?oc=5",
-     "src": "Inshorts",
-     "time": "2026-11-22T14:59:15+00:00"
+     "label": "Order / contract win",
+     "title": "Ashok Leyland Arm OHM Mobility Bags Order to Deploy Over 200 Trucks for Cement Distribution",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOTdraXNLS0Ytc014ZUxmV0prU09CUmtGanB5bXhEem1VbTNIaXV4bzNzbHR2NzVhbTl6ZjdqT01QWHl1TUM3ZDJjRm1zV0NIdkZ0R2xaOTFpX2E4OWxCemJyTE5xeGFPX2VIMDhvakVzaFY3TmFpbVBZSDNKcmh6cUtpYnhuVUx4cS0tazVBZWVUTUxobE4wdnd5VF96QVloRVk1dno5bVowX1k4M1FVY2lDb25oMU5pVTVkQjNPUFNoZFYtUVBmZNIB0AFBVV95cUxQTlVqSU5USnhhZ1p6NW1LRThLWEFrVVZ6LVF1XzUxTUxLNGVoNGxUN09lY05wM2FhQ25IdktBWlhUdmdYeE14VTJfVUVHcV9xeVRpNUE2SHZGRHJmenpVdFVsZS16ZXdsUHZ2UDlBNUROVE5FRTlSNzBmYWJqWXhMODZ1V2VGUmZLN3ZVOV9TdHRGajlHMjczWUoxcHNaeXktVlY3OEJlZ21UZXMwd0V5OTg3b25qZVZrZnM3VVI2ai1tOTU3amNfTy1waWdYUUtX?oc=5",
+     "src": "Autocar Professional",
+     "time": "2026-11-23T09:37:30+00:00"
     }
    ],
    "sector_reasons": [
+    {
+     "label": "RBI rate hike",
+     "title": "Indian Rupee: Can RBI Hikes Support Gains Against US Dollar? - Commerzbank",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlhCeGtnTTlabkFtM043cXg3b1NmNGtkOXlDdDBRcDR3TTdlb3dMaldYRkNVS3RzeDREMVlPMUlmN09QNXFhaFhVeTJFTm43YU9kMWJ4OUM5SjdrVUZZbkNYMm5oU0tVZXZQZURBRmFPajFwcXZJVHJfOGtPN1J2ZEM0NmJkQWpoWXpPNmUwdzF5amRHUko2Z1BkWjdYT0JYTlFGUlZLSWY5Z05zSmJ2anEzT3FPM1JYbGd3alBQWnJic2NRd1U0bnhnYWpXOEFhN1FEQw?oc=5",
+     "src": "www.tmgm.com",
+     "time": "2026-11-24T06:55:27+00:00"
+    },
     {
      "label": "Weak monsoon",
      "title": "Nearly half of India faces drought conditions as soil moisture levels remain low",
@@ -274,40 +265,37 @@
      "time": "2026-11-23T11:55:40+00:00"
     }
    ],
-   "today_chg": -0.2,
-   "two_day_chg": 1.21,
-   "vol_ratio": 0.54,
-   "close": 917.0,
-   "close_date": "2026-11-20",
+   "today_chg": -2.85,
+   "two_day_chg": -4.48,
+   "vol_ratio": 0.81,
+   "close": 158.7,
+   "close_date": "2026-11-23",
    "layers": {
-    "news": -1.93,
-    "sector": -0.56,
-    "technical": 0.78,
-    "relative": -0.12,
+    "news": 0.32,
+    "sector": -1.6,
+    "technical": -0.6,
+    "relative": -0.5,
     "flow": 0.0,
     "market": 0.4
    },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "RSI 77, overbought"
-   ],
-   "agree": 2,
+   "tech_notes": [],
+   "agree": 3,
    "dir": "DOWN",
-   "confidence": "Weak signal"
+   "confidence": "Low"
   }
  ],
  "stats": {
   "all": {
-   "total": 92,
-   "hits": 43
+   "total": 98,
+   "hits": 45
   },
   "up": {
-   "total": 48,
+   "total": 51,
    "hits": 29
   },
   "down": {
-   "total": 44,
-   "hits": 14
+   "total": 47,
+   "hits": 16
   },
   "tiers": {
    "High": {
@@ -315,11 +303,11 @@
     "hits": 6
    },
    "Medium": {
-    "total": 50,
-    "hits": 22
+    "total": 53,
+    "hits": 24
    },
    "Low": {
-    "total": 26,
+    "total": 29,
     "hits": 12
    },
    "Weak signal": {
@@ -329,6 +317,48 @@
   }
  },
  "recent": [
+  {
+   "date": "2026-11-25",
+   "sym": "ASHOKLEY",
+   "dir": "DOWN",
+   "net": -1.98,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-25",
+   "sym": "INFY",
+   "dir": "DOWN",
+   "net": -2.05,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-25",
+   "sym": "BAJAJ-AUTO",
+   "dir": "DOWN",
+   "net": -2.35,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-25",
+   "sym": "JINDALSTEL",
+   "dir": "UP",
+   "net": 1.63,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-25",
+   "sym": "BEL",
+   "dir": "UP",
+   "net": 2.25,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-25",
+   "sym": "DABUR",
+   "dir": "UP",
+   "net": 2.53,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-11-24",
    "sym": "MARICO",
@@ -418,65 +448,23 @@
    "sym": "HCLTECH",
    "dir": "DOWN",
    "net": -2.22,
-   "confidence": "Low"
+   "confidence": "Low",
+   "result": {
+    "next_date": "2026-11-23",
+    "chg": 1.48,
+    "hit": false
+   }
   },
   {
    "date": "2026-11-20",
    "sym": "BRITANNIA",
    "dir": "DOWN",
    "net": -2.67,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-20",
-   "sym": "VEDL",
-   "dir": "DOWN",
-   "net": -2.94,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-20",
-   "sym": "BEL",
-   "dir": "UP",
-   "net": 1.5,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-20",
-   "sym": "ABB",
-   "dir": "UP",
-   "net": 1.83,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-20",
-   "sym": "PNB",
-   "dir": "UP",
-   "net": 2.6,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-19",
-   "sym": "TATAELXSI",
-   "dir": "DOWN",
-   "net": -2.3,
-   "confidence": "Low",
+   "confidence": "Medium",
    "result": {
-    "next_date": "2026-11-20",
-    "chg": 3.36,
-    "hit": false
-   }
-  },
-  {
-   "date": "2026-11-19",
-   "sym": "WIPRO",
-   "dir": "DOWN",
-   "net": -2.3,
-   "confidence": "Low",
-   "result": {
-    "next_date": "2026-11-20",
-    "chg": 0.96,
-    "hit": false
+    "next_date": "2026-11-23",
+    "chg": -1.41,
+    "hit": true
    }
   }
  ],
@@ -484,8 +472,11 @@
  "market_regime": 1,
  "sector_effects": {
   "DEFENCE": 2.0,
-  "REALTY": -0.9,
-  "AUTO": -1.6,
-  "FMCG": -0.7
+  "IT": -0.81,
+  "REALTY": -1.44,
+  "AUTO": -2.0,
+  "PHARMA": -0.6,
+  "METALS": 0.9,
+  "FMCG": -0.91
  }
 }

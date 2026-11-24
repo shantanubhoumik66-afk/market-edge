@@ -1283,42 +1283,72 @@
   "sym": "PNB",
   "dir": "UP",
   "net": 2.6,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": -3.59,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-20",
   "sym": "ABB",
   "dir": "UP",
   "net": 1.83,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": -0.95,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-20",
   "sym": "BEL",
   "dir": "UP",
   "net": 1.5,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": -1.54,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-20",
   "sym": "VEDL",
   "dir": "DOWN",
   "net": -2.94,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": -1.05,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-20",
   "sym": "BRITANNIA",
   "dir": "DOWN",
   "net": -2.67,
-  "confidence": "Medium"
+  "confidence": "Medium",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": -1.41,
+   "hit": true
+  }
  },
  {
   "date": "2026-11-20",
   "sym": "HCLTECH",
   "dir": "DOWN",
   "net": -2.22,
-  "confidence": "Low"
+  "confidence": "Low",
+  "result": {
+   "next_date": "2026-11-23",
+   "chg": 1.48,
+   "hit": false
+  }
  },
  {
   "date": "2026-11-21",
@@ -1403,5 +1433,47 @@
   "dir": "DOWN",
   "net": -1.43,
   "confidence": "Weak signal"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "DABUR",
+  "dir": "UP",
+  "net": 2.53,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "BEL",
+  "dir": "UP",
+  "net": 2.25,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "JINDALSTEL",
+  "dir": "UP",
+  "net": 1.63,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "BAJAJ-AUTO",
+  "dir": "DOWN",
+  "net": -2.35,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -2.05,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-25",
+  "sym": "ASHOKLEY",
+  "dir": "DOWN",
+  "net": -1.98,
+  "confidence": "Low"
  }
 ]
