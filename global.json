@@ -1,58 +1,53 @@
 {
- "generated": "2026-11-24T15:11:59.395640+00:00",
+ "generated": "2026-11-25T00:03:58.688679+00:00",
  "bias": {
-  "score": -3.69,
+  "score": -8.0,
   "label": "Risk-off for India",
   "sectors": [
    {
-    "sector": "PAINT",
-    "score": 2.7,
-    "stocks": "Asian Paints"
-   },
-   {
     "sector": "DEFENCE",
-    "score": 2.1,
+    "score": 3.64,
     "stocks": "HAL, BEL"
    },
    {
-    "sector": "NEWAGE",
-    "score": -2.03,
-    "stocks": "Zomato, Paytm, Nykaa"
-   },
-   {
-    "sector": "UPSTREAM",
-    "score": -2.0,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "IT",
-    "score": -1.93,
+    "score": -3.12,
     "stocks": "TCS, Infosys, Wipro"
    },
    {
-    "sector": "OMC",
-    "score": 1.72,
-    "stocks": "BPCL, IOC, HPCL"
-   },
-   {
-    "sector": "AVIATION",
-    "score": 1.72,
-    "stocks": "IndiGo"
-   },
-   {
     "sector": "PHARMA",
-    "score": -0.9,
+    "score": -2.7,
     "stocks": "Sun Pharma, Cipla"
    },
    {
     "sector": "AUTO",
-    "score": -0.9,
+    "score": -2.7,
     "stocks": "Maruti, M&M"
    },
    {
     "sector": "METALS",
-    "score": -0.9,
+    "score": -2.7,
     "stocks": "Tata Steel, JSW Steel, Hindalco"
+   },
+   {
+    "sector": "NEWAGE",
+    "score": -1.5,
+    "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
+    "sector": "OMC",
+    "score": -1.35,
+    "stocks": "BPCL, IOC, HPCL"
+   },
+   {
+    "sector": "AVIATION",
+    "score": -1.35,
+    "stocks": "IndiGo"
+   },
+   {
+    "sector": "PAINT",
+    "score": 1.2,
+    "stocks": "Asian Paints"
    }
   ]
  },
@@ -60,8 +55,46 @@
   {
    "region": "US",
    "flag": "🇺🇸",
+   "title": "US planning to hike tariffs against India, 15 other countries: Report",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOGFpSU9pYl9nUFlqUjdoVlJmMGpnQXBxR0JkMVg5Mm1iWGdPR0NYLUxQM1ZsbEJOVFFQelYwSGFYMXQxVV9zQ05FUFZHN0M5S1B3NHl5djB5aUExZTQzMm5DcW1ZWEpmeDE4ZVM4bmlzZkxJLTRFTlQ5NmFHZE1uN2JFanluRERnV204Y2YwbS1PVzYxOHZWcklZV3ZRcllZWENQWm5VejNIMkhKZGVuWXhSWm9OZnJpczBmTVd2WlJCRWk2NzQ4Xy00YnI5REpIVXfSAdIBQVVfeXFMTzhhaUlPaWJfZ1BZalI3aFZSZjBqZ0FwcUdCZDFYOTJtYlhnT0dDWC1MUDNWbGxCTlRRUHpWMEhhWDF0MVVfc0NORVBWRzdDOUtQdzR5eXYweWlBMWU0MzJuQ3FtWVhKZngxOGVTOG5pc2ZMSS00RU5UOTZhR2RNbjdiRWp5bkREZ1dtOGNmMG0tT1c2MTh2VnJJWVd2UXJZWVhDUFpuVXozSDJISmRlbll4UlpvTmZyaXMwZk1XdlpSQkVpNjc0OF8tNGJyOURKSFV3?oc=5",
+   "src": "Business Standard",
+   "time": "2026-11-24T17:53:18+00:00",
+   "level": "High",
+   "score": 1.8,
+   "label": "Tariffs on India",
+   "why": "Directly hurts Indian exporters such as pharma, auto parts, textiles and metals.",
+   "confirmed_by": 1,
+   "sources": [
+    "Business Standard"
+   ],
+   "sectors": [
+    {
+     "sector": "PHARMA",
+     "dir": -1,
+     "stocks": "Sun Pharma, Cipla"
+    },
+    {
+     "sector": "AUTO",
+     "dir": -1,
+     "stocks": "Maruti, M&M"
+    },
+    {
+     "sector": "METALS",
+     "dir": -1,
+     "stocks": "Tata Steel, JSW Steel, Hindalco"
+    },
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
    "title": "US set to raise tariffs on India, China and dozens of other economies over industrial subsidies: WSJ",
-   "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVE5pRnNQUjVxb0lmOHI3RS1ObnUwQWhhb2dZSlRkSUtUMEZhdWJ2ZjVyUXEzWTVjWmRVbU8xbFRCTWZka2E2NndXcklRLUUtNWpnOTZ3aE5nTWM2UkpzUmljb0VoZHRKa0QyMzZERVZyODJVNXMzNDdwR0l6aVFTYnVyNWtPNHVkZzFHODlpZUVOWE9Vai0wbU0ydkx6N2d4SDBXZ2NST3FtNVE4a0tnVDU5SjJhR1FxRkZNS19pSDZvZFQ3UkprRjR4N3M3ZmlsRTBFc0U4bUdWTHJLSEtPMUN1OWlLaGpLMlpOR0Y0Q2FZVUhfSXUxLXA3dXp3aWhEODF6al9HSnF0eEtXbXF2NHptdFZqWTDSAZACQVVfeXFMT01aOTdrWHQ3ZVI5N2dkaG1PQVFEeFpoLWJMQ1dtM1BRU0swMFJCQWFhSkdpODg1eE9JZ1Q5U3JsZ1hNLXl6eDdTdWhjdnBlM3pxamVVSWxzVk1FTkNHWWNmZ3V4aS1Sc0FZOEJZNDlrVnJFdzl0bExueGE3T3VhLWhoSWxJQ3B2WUdSeVpHaWctZWE3UHJmVnNaMjZkQTZmLTl2TXZLbU01bUZqQzJ1MFIzNU5GbkdMVXNSREpCQmEyMVJmZUVfQU1JN0FJclY4d0ZOa2szSU9lOFRETmRXWl8xV0FiazhWNnBRaFFGMEJBM1FWbk1GQ09ySFBMa0x0aUdYT25BeDRiX2N1QmVzeFA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaUgtS3FhU2M5MWh6RWd1V09JNXNDZEJaY055WU5scDZtSlluQmV4ampvdHJfckZmOVo0VzZKNDZMam44TldJZkc5OWdZNGVLMDBwb1g5MVpIVDV0T2dfaU1jRmVsVllUUWFRUkFhQTN1ZEE1MUFfUkJWQjJsY1VVRzBVeVZSaXFodTJrREVGNXZFczY3YmFlQ1hRWWpSQ05sS19LZlVqYkdMak1TMWhrTkpqdTU2WTRFZzJsREFsYlZuN0kxYUktb0RQLUktRjRiQWZVM3dNZWVXMmRIZU44R2t5dGdEWXh4OXhJMjE3MDJPbEdJR0Rzc1BlcmtwaDk4aVpuVTd4OG5UNWvSAZACQVVfeXFMT01aOTdrWHQ3ZVI5N2dkaG1PQVFEeFpoLWJMQ1dtM1BRU0swMFJCQWFhSkdpODg1eE9JZ1Q5U3JsZ1hNLXl6eDdTdWhjdnBlM3pxamVVSWxzVk1FTkNHWWNmZ3V4aS1Sc0FZOEJZNDlrVnJFdzl0bExueGE3T3VhLWhoSWxJQ3B2WUdSeVpHaWctZWE3UHJmVnNaMjZkQTZmLTl2TXZLbU01bUZqQzJ1MFIzNU5GbkdMVXNSREpCQmEyMVJmZUVfQU1JN0FJclY4d0ZOa2szSU9lOFRETmRXWl8xV0FiazhWNnBRaFFGMEJBM1FWbk1GQ09ySFBMa0x0aUdYT25BeDRiX2N1QmVzeFA?oc=5",
    "src": "The Economic Times",
    "time": "2026-11-24T13:39:04+00:00",
    "level": "High",
@@ -96,6 +129,72 @@
    ]
   },
   {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU: Report",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTNkdDZhLWpQNkQxWjVwNzB0ZGJXUExTYktTQ2lsbkxxeUVDY185aEFzdUJXRlVROTVUbFRpQnRiTWdHUFlSck1qTVE0ZXFXd1VjTF9GWGxPQ1J0MTVERWRmS01YUXZoVy1rYkFoVmhwa3ZjRkhtcG1mX0tZR1dLdGJFZWx2Q0ZaYmk0OWVQQW9hMDBqNk9vOXNieW5KRjUwNUlNRzlWbmJGd2sxdmM5VFVvYlU?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-11-24T13:29:06+00:00",
+   "level": "High",
+   "score": 1.8,
+   "label": "Tariffs on India",
+   "why": "Directly hurts Indian exporters such as pharma, auto parts, textiles and metals.",
+   "confirmed_by": 1,
+   "sources": [
+    "NDTV Profit"
+   ],
+   "sectors": [
+    {
+     "sector": "PHARMA",
+     "dir": -1,
+     "stocks": "Sun Pharma, Cipla"
+    },
+    {
+     "sector": "AUTO",
+     "dir": -1,
+     "stocks": "Maruti, M&M"
+    },
+    {
+     "sector": "METALS",
+     "dir": -1,
+     "stocks": "Tata Steel, JSW Steel, Hindalco"
+    },
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeEpzR3NLc2czaVQ0bUV4SzB6NTk3MjJtbWFoWXJVcjZxcDFNS1NYc1VSYkhDMTRXTUpHVktRQUQxb0c1VkVuTlBQOWF6TzA4N2pxZzdlSy1BczA3azhsX0N1dk9Td0R0d210ZVBfOGh3cXB1SkE1Yi1ZTnpKM0pFcnduQzlaV18wMGhlMUNfVW5OaVdPWGp6dDRLa2JMQQ?oc=5",
+   "src": "WSJ",
+   "time": "2026-11-24T19:32:00+00:00",
+   "level": "Medium",
+   "score": 1.5,
+   "label": "Global equity selloff",
+   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "confirmed_by": 1,
+   "sources": [
+    "WSJ"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
    "region": "Middle East",
    "flag": "🌍",
    "title": "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working?",
@@ -124,6 +223,44 @@
    ]
   },
   {
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "How the Iran war drove India and China to record Russian oil imports in 2026, and why purchases may ease in 2027",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcEd6SGJNVXU0Tk0xd2FUZjNvVDVZYll3RWNRNjlsaHdfT3pfc0gwbVNhWmk2cm5wNE5ZQ3d3cU05el9GZFF5Q2pRUks1SlJKMmd4bVNLRTVRbFJTUDVSUWlxbHRnaS11akF4LWRrSnVhNWlZVEVOaWZ3OFVXeGNfR0tNNmxTMUFfQjJCcUVpTFBRaUNqRGMyWl90UC1wUkU2LWpScmJIQzl1eFduRU9kY1cxMFQ3VUEtbnRqWlhZcThyUFBtclJLYURSZmtiTHh5dENhWXhrOXI3bl9PY0xTM0ZMUzNDWDd0UE9CY2xmZ3QwbTZoZVdYeE8zRdIBgAJBVV95cUxOTWZWcGlzVlZPdUk2aFV4bldqRmNlMEpoRDFfdUFVQm5NVEZNRmp1TXpxdzNyWnJHbEhQdHhNYmVxUDdMSDlxYjUtNTExUUpUaVAxSFR0Ym5sT3Y2MVlIUk9ha1Vha3A1Z3ZlUTA3REozRU1CQTBBZlZiTUpTZmdSSHJCVHZZUVpybklBTkV0aEF3TUVMU2J1Zng0V1BhalcxQ1lueHRCd1p2VHpfS0oxX0wyWldPYVFDaE8tcTJhZVI1SXpyVGhZUWlIZHNMbDhvX2cyVkEtMWd0aXc4Z3hZYW9lci1DRG1vVjF6c29BX1RUVXpBZVdKNksyeVQzWF8x?oc=5",
+   "src": "Livemint",
+   "time": "2026-11-24T18:08:21+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Livemint"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
    "region": "Global",
    "flag": "🌐",
    "title": "Brent crude drops below $90: Is a looming supply glut outweighing Strait of Hormuz risks?",
@@ -131,7 +268,7 @@
    "src": "The Financial Express",
    "time": "2026-11-24T03:45:51+00:00",
    "level": "Medium",
-   "score": 1.5,
+   "score": 1.2,
    "label": "Crude oil falling",
    "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
    "confirmed_by": 1,
@@ -169,7 +306,7 @@
    "src": "The Business Standard",
    "time": "2026-11-24T08:17:38+00:00",
    "level": "Medium",
-   "score": 1.4,
+   "score": 1.12,
    "label": "Middle East conflict",
    "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
@@ -202,218 +339,167 @@
   {
    "region": "Global",
    "flag": "🌐",
-   "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMEtaVjZSNjRmR0RkTzhSeTgxNDR0RUF6MDJtRlJCMjkxOVBrT2tQNUpTcU1LaE8zWVQ2S096aUQ2MWU0b25MZ0hQX3U0U0NnT0NjWUhZcl9xTjNOTkhQXzJWZnlZalRDTFlfLU1JRU5YNHNxeFRVa1IyRGNPSkZXTkJBM2hYWUhUaFFjRXdRaGxaWWo5a2xpc2RoZGY4V3Bmb0Qyc05VZ3ZXcHVocU1xeGc0alBJQl9ldjN4eWtWV3VRMmdQcjJpaVl0cVZ5MHBwdms1M2FiaXJGZ0h0dWFNMmNKWTRsQ01IcWJ2MDRR0gHzAUFVX3lxTE5PRU5xR0k4eFYzYURIeXFXb09oamtOS3lhazRraDVlTmpOSVgyNFlqOHg4VXV6RzhrT2JDV0Z3bFlNWUI5MXJvU3hScF9MYmhMc2JMclZjZ0NjUE92Z3JWYlhwekZ1aDNxSWt3YjNXdUNzalZheE1KNWJyLUVBU1RqX0xvaXhxODNpWVJsS1JlcW85a1RYQVZ3V3NERHNlVW9jNXBkanVBcXpYeW1ybUI0VkVIMlE2cHNfNjhzbEhJMDlSQks3ZVNZTTk0SWFQMFlsZlFLanItLU9KTFloYjRuNE1TVFQ2dzJ2cUZocDBhTkxjdw?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-24T00:54:33+00:00",
+   "title": "Oil settles up $2 as traders weigh continued Hormuz ship attacks",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
+   "src": "Reuters",
+   "time": "2026-11-24T02:56:00+00:00",
    "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
    "confirmed_by": 1,
    "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkRJdUt0LVhZdzVhR0RpSnN6RWh6cDdGQVhOUU9vNENLN0hnSXB1YXJFU01rMzZBaXhuelM3ODlra1hKdnRxcnYweGNRSmFmSEpnMzJSQWxkOXZqZVM3NjBrZ2UwQS1PQS12di1uaHFUQWJRZHE2aHhxMnlLcVJ5Z3owcXd2WTV4NFJQSUM0SWplUVA5bW80ZU9fdDYzV1Z5QnFvcW1kdlhPMW8xc2JRQnVJc19mZw?oc=5",
-   "src": "WSJ",
-   "time": "2026-11-23T21:06:25+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Crude oil falling",
-   "why": "Cheaper crude helps OMCs, paints and airlines and eases India's import bill.",
-   "confirmed_by": 1,
-   "sources": [
-    "WSJ"
+    "Reuters"
    ],
    "sectors": [
     {
      "sector": "OMC",
-     "dir": 1,
+     "dir": -1,
      "stocks": "BPCL, IOC, HPCL"
     },
     {
-     "sector": "PAINT",
-     "dir": 1,
-     "stocks": "Asian Paints"
-    },
-    {
      "sector": "AVIATION",
-     "dir": 1,
+     "dir": -1,
      "stocks": "IndiGo"
     },
-    {
-     "sector": "UPSTREAM",
-     "dir": -1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Russia",
-   "flag": "🇷🇺",
-   "title": "Why are Russian warships off Libya, and will Ukraine’s attack change that?",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSk85RXFLazAzd0N4clEzTXBnaVhFVUF4VG9MRlFfSHVuLW02RFNlaENvQzM5OVF1a0FrUEdQUk1PU0dRbUZEbjhqSHpULUJtdzRBTWlubm9ZTWpFYklDZ2VxdXlBR2lfMVlmZ2xQaGt1aC1Tdlo4RTVXUmFBdzRhLUxvNmY2S3hvSW05SjN1aW9jV1A4SXMxaEpuNU1BcURXbnRHVURJM1c0V1dsQVg5aTZaRdIBuAFBVV95cUxOWnc3X1o3VExtU3dOaTMxb0F4MERlaWhhSVoydVdJM1FoN2xDOFMxSHBPa1MzeEcxN29KSlMtaTI0N3NwSnpGVnZ6WFlZR1JWSEZxUEd4dEpwN0I5bzFLNVhjaWo2ZkhaRkwwcml4RDFLdlp1YWJfeFlWU0p1aE5wVHBvb3dOTEdWRzdIOEVnV0JWY1lYdndzSkpZRlNELU5ORmJiczVPSy10SENrcC10Y0dfRmJtRXBZ?oc=5",
-   "src": "Al Jazeera",
-   "time": "2026-11-24T11:35:21+00:00",
-   "level": "Medium",
-   "score": 1.0,
-   "label": "Russia-Ukraine developments",
-   "why": "Can move crude, fertiliser and metal prices and India's oil import costs.",
-   "confirmed_by": 1,
-   "sources": [
-    "Al Jazeera"
-   ],
-   "sectors": [
     {
      "sector": "DEFENCE",
      "dir": 1,
      "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
     }
    ]
   }
  ],
  "videos": [
   {
-   "id": "8Xd1mdpuhSE",
-   "title": "WARNOCK GRILLS BESSENT OVER TRUMP'S TARIFFS! Heated Senate Hearing | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-24T14:30:11+00:00",
-   "thumb": "https://i.ytimg.com/vi/8Xd1mdpuhSE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=8Xd1mdpuhSE",
-   "business": true
-  },
-  {
-   "id": "L1G9MmFqSGo",
-   "title": "Kim Jong Un Receives Credentials Of India's New Ambassador Sanjeev Jain | Pyongyang | N18G",
+   "id": "jnuSnDGzVoY",
+   "title": "Indianomics LIVE | India's Economic Data Explained: GDP, CPI, Capex & More | MoSPI Secy Saurabh Garg",
    "channel": "CNBC-TV18",
-   "published": "2026-11-24T14:25:29+00:00",
-   "thumb": "https://i.ytimg.com/vi/L1G9MmFqSGo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=L1G9MmFqSGo",
+   "published": "2026-11-24T22:59:40+00:00",
+   "thumb": "https://i.ytimg.com/vi/jnuSnDGzVoY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=jnuSnDGzVoY",
    "business": true
   },
   {
-   "id": "Ay-4F2JobwU",
-   "title": "LIVE: Nasdaq opens after Huang reinstated at Nvidia",
-   "channel": "Reuters",
-   "published": "2026-11-24T14:12:06+00:00",
-   "thumb": "https://i.ytimg.com/vi/Ay-4F2JobwU/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=Ay-4F2JobwU",
-   "business": false
-  },
-  {
-   "id": "EAamSCk5A4A",
-   "title": "Market Talk: 'Clear signs Nvidia is trying to address the issues' over governance",
-   "channel": "Reuters",
-   "published": "2026-11-24T14:07:51+00:00",
-   "thumb": "https://i.ytimg.com/vi/EAamSCk5A4A/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=EAamSCk5A4A",
-   "business": false
-  },
-  {
-   "id": "qqPOCsPAyek",
-   "title": "GSK India Launches New Drug To Treat Blood Cancer, Says, 'Will Price Myeloma Drug Competitively'",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-24T13:07:41+00:00",
-   "thumb": "https://i.ytimg.com/vi/qqPOCsPAyek/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=qqPOCsPAyek",
+   "id": "VeCV3XT5EKM",
+   "title": "AI Stocks Retreat as Markets Rotate Beyond Tech",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-24T22:56:59+00:00",
+   "thumb": "https://i.ytimg.com/vi/VeCV3XT5EKM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=VeCV3XT5EKM",
    "business": true
   },
   {
-   "id": "ECfChE8rEr8",
-   "title": "South Korea's BIG US Investment Worry! Seoul Responds After Trump's Midterm Election Setback",
+   "id": "RPvaFK-wMFk",
+   "title": "LIVE: China set to launch Pakistan's first astronaut into space | DW News",
+   "channel": "DW News",
+   "published": "2026-11-24T22:55:11+00:00",
+   "thumb": "https://i.ytimg.com/vi/RPvaFK-wMFk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=RPvaFK-wMFk",
+   "business": false
+  },
+  {
+   "id": "wgg9qowCVic",
+   "title": "China holds ceremony before launch of Shenzhou-24 spacecraft",
    "channel": "Moneycontrol",
-   "published": "2026-11-24T12:34:12+00:00",
-   "thumb": "https://i.ytimg.com/vi/ECfChE8rEr8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ECfChE8rEr8",
+   "published": "2026-11-24T22:06:34+00:00",
+   "thumb": "https://i.ytimg.com/vi/wgg9qowCVic/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=wgg9qowCVic",
    "business": true
   },
   {
-   "id": "OfpKx5dnicE",
-   "title": "Stocks Fall as Nvidia Rally Fades; US Blacklists Megaspeed, Alibaba Unit",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-24T12:18:26+00:00",
-   "thumb": "https://i.ytimg.com/vi/OfpKx5dnicE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=OfpKx5dnicE",
-   "business": true
-  },
-  {
-   "id": "ieH-MZ9pe74",
-   "title": "Stock Rally Takes Breather as Nvidia Euphoria Wears Off",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-24T12:08:35+00:00",
-   "thumb": "https://i.ytimg.com/vi/ieH-MZ9pe74/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ieH-MZ9pe74",
-   "business": true
-  },
-  {
-   "id": "lnBNqFRGmDs",
-   "title": "Iran says two oil tankers catch fire after hitting mines in Strait of Hormuz",
-   "channel": "Al Jazeera English",
-   "published": "2026-11-24T11:17:59+00:00",
-   "thumb": "https://i.ytimg.com/vi/lnBNqFRGmDs/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=lnBNqFRGmDs",
-   "business": false
-  },
-  {
-   "id": "0KuNuWjW200",
-   "title": "Iran says two oil tankers catch fire after hitting mines in Strait of Hormuz",
-   "channel": "Al Jazeera English",
-   "published": "2026-11-24T09:29:05+00:00",
-   "thumb": "https://i.ytimg.com/vi/0KuNuWjW200/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=0KuNuWjW200",
-   "business": false
-  },
-  {
-   "id": "g1Qu20_vJIk",
-   "title": "Jensen Huang's return sends Nvidia and Asian stocks soaring | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-24T05:10:36+00:00",
-   "thumb": "https://i.ytimg.com/vi/g1Qu20_vJIk/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=g1Qu20_vJIk",
-   "business": false
-  },
-  {
-   "id": "3i4eI7l0BFE",
-   "title": "Iran says it won't tolerate US blockade and sanctions | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-23T21:45:06+00:00",
-   "thumb": "https://i.ytimg.com/vi/3i4eI7l0BFE/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=3i4eI7l0BFE",
-   "business": false
-  },
-  {
-   "id": "OKvrpk0Zqkc",
-   "title": "Is the Bank of Jensen back open for business?",
+   "id": "P_vVzEcKnWU",
+   "title": "Sozzi Unleashed At The Close | Market Coverage",
    "channel": "Yahoo Finance",
-   "published": "2026-11-23T19:00:30+00:00",
-   "thumb": "https://i.ytimg.com/vi/OKvrpk0Zqkc/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=OKvrpk0Zqkc",
+   "published": "2026-11-24T21:36:23+00:00",
+   "thumb": "https://i.ytimg.com/vi/P_vVzEcKnWU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=P_vVzEcKnWU",
    "business": true
   },
   {
-   "id": "C71_sVcAj3k",
-   "title": "Jensen Huang Is Back at Nvidia. What Happens Now? | Market Hang",
+   "id": "ddAdK-BUKfs",
+   "title": "Is the Jensen Huang Rally Already Fading?",
    "channel": "Yahoo Finance",
-   "published": "2026-11-23T18:40:52+00:00",
-   "thumb": "https://i.ytimg.com/vi/C71_sVcAj3k/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=C71_sVcAj3k",
+   "published": "2026-11-24T21:33:59+00:00",
+   "thumb": "https://i.ytimg.com/vi/ddAdK-BUKfs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ddAdK-BUKfs",
+   "business": true
+  },
+  {
+   "id": "SAcxKwYof3E",
+   "title": "LIVE: China holds ceremony before launch of Shenzhou-24 spacecraft",
+   "channel": "Reuters",
+   "published": "2026-11-24T21:03:15+00:00",
+   "thumb": "https://i.ytimg.com/vi/SAcxKwYof3E/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=SAcxKwYof3E",
+   "business": false
+  },
+  {
+   "id": "85EtrOAClsg",
+   "title": "Nvidia reinstates Jensen Huang, Ukraine war spreads to Libya, AI rally fizzles | Reuters World News",
+   "channel": "Reuters",
+   "published": "2026-11-24T20:57:46+00:00",
+   "thumb": "https://i.ytimg.com/vi/85EtrOAClsg/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=85EtrOAClsg",
+   "business": false
+  },
+  {
+   "id": "0IjQQx2UJCk",
+   "title": "WHITEHOUSE SLAMS REPUBLICAN LEADERSHIP! Looks Back at Two Years of Turmoil | N18G",
+   "channel": "Moneycontrol",
+   "published": "2026-11-24T20:30:11+00:00",
+   "thumb": "https://i.ytimg.com/vi/0IjQQx2UJCk/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=0IjQQx2UJCk",
+   "business": true
+  },
+  {
+   "id": "XZ966rNQsi4",
+   "title": "What does China think of Nvidia, Jensen Huang and Trump? | Global News Podcast",
+   "channel": "BBC News",
+   "published": "2026-11-24T20:27:46+00:00",
+   "thumb": "https://i.ytimg.com/vi/XZ966rNQsi4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=XZ966rNQsi4",
+   "business": false
+  },
+  {
+   "id": "95eIoBFysqQ",
+   "title": "Tens of thousands flee to Mali as Guinea cracks down on unregulated gold mining",
+   "channel": "Al Jazeera English",
+   "published": "2026-11-24T18:26:15+00:00",
+   "thumb": "https://i.ytimg.com/vi/95eIoBFysqQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=95eIoBFysqQ",
+   "business": false
+  },
+  {
+   "id": "qCCpuiD-I-A",
+   "title": "India Business Hour | NASDAQ Rides Nvidia Euphoria, Scotch Tariff Concessions, Oil Near 3-Month Lows",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-24T15:34:18+00:00",
+   "thumb": "https://i.ytimg.com/vi/qCCpuiD-I-A/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=qCCpuiD-I-A",
+   "business": true
+  },
+  {
+   "id": "_dOANeJ0zPs",
+   "title": "Why America’s Food Banks Are In Crisis",
+   "channel": "CNBC",
+   "published": "2026-11-24T15:00:27+00:00",
+   "thumb": "https://i.ytimg.com/vi/_dOANeJ0zPs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_dOANeJ0zPs",
+   "business": true
+  },
+  {
+   "id": "sxtXz24odps",
+   "title": "How the Fed Is Preparing For AI’s Economic Impact",
+   "channel": "CNBC",
+   "published": "2026-11-21T15:00:03+00:00",
+   "thumb": "https://i.ytimg.com/vi/sxtXz24odps/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=sxtXz24odps",
    "business": true
   }
  ],
@@ -432,51 +518,9 @@
  ],
  "live": [
   {
-   "name": "CNBC-TV18",
-   "id": "UCmRbHAgG2k2vDUvb3xsEunQ",
-   "video_id": "aBo9zua1IDA",
-   "embeddable": true,
-   "verified": true
-  },
-  {
-   "name": "CNBC Awaaz",
-   "id": "UCQIycDaLsBpMKjOCeaKUYVg",
-   "video_id": "0H1k9oOoXtc",
-   "embeddable": false,
-   "verified": true
-  },
-  {
-   "name": "Yahoo Finance",
-   "id": "UCEAZeUIeJs0IjQiqTCdVSIg",
-   "video_id": "KQp-e_XQnDE",
-   "embeddable": true,
-   "verified": true
-  },
-  {
-   "name": "Zee Business",
-   "id": "UCkXopQ3ubd-rnXnStZqCl2w",
-   "video_id": "G5PziwRzEMk",
-   "embeddable": true,
-   "verified": true
-  },
-  {
-   "name": "Moneycontrol",
-   "id": "UChftTVI0QJmyXkajQYt2tiQ",
-   "video_id": "zKggo39pL3Q",
-   "embeddable": true,
-   "verified": true
-  },
-  {
    "name": "Benzinga",
    "id": "UCqQs28K2zj2dOsc5NfXUKEg",
-   "video_id": "6ZnecI-LN5g",
-   "embeddable": true,
-   "verified": true
-  },
-  {
-   "name": "Bloomberg Markets and Finance",
-   "id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-   "video_id": "QB5BNdBFujE",
+   "video_id": "UJvgI2bwZYw",
    "embeddable": true,
    "verified": true
   }
@@ -492,15 +536,15 @@
   },
   {
    "name": "CNBC-TV18",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   },
   {
    "name": "CNBC Awaaz",
-   "status": "live, broadcaster blocks embedding: opens on YouTube"
+   "status": "not live right now"
   },
   {
    "name": "Yahoo Finance",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   },
   {
    "name": "ET Now",
@@ -508,7 +552,7 @@
   },
   {
    "name": "Zee Business",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   },
   {
    "name": "CNBC International",
@@ -516,7 +560,7 @@
   },
   {
    "name": "Moneycontrol",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   },
   {
    "name": "NDTV Profit",
@@ -532,7 +576,7 @@
   },
   {
    "name": "Bloomberg Markets and Finance",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   }
  ],
  "sources_note": "Only trusted outlets are used. 'Confirmed by' counts distinct trusted outlets carrying the same story."
