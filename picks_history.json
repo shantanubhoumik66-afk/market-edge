@@ -1475,5 +1475,47 @@
   "dir": "DOWN",
   "net": -1.98,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "LT",
+  "dir": "UP",
+  "net": 2.41,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "JINDALSTEL",
+  "dir": "UP",
+  "net": 2.06,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "PERSISTENT",
+  "dir": "UP",
+  "net": 1.98,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "BAJAJ-AUTO",
+  "dir": "DOWN",
+  "net": -2.35,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "ASHOKLEY",
+  "dir": "DOWN",
+  "net": -2.3,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-26",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -2.22,
+  "confidence": "Low"
  }
 ]
