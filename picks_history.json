@@ -1517,5 +1517,47 @@
   "dir": "DOWN",
   "net": -2.22,
   "confidence": "Low"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "CIPLA",
+  "dir": "UP",
+  "net": 3.96,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "HAL",
+  "dir": "UP",
+  "net": 3.27,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "LUPIN",
+  "dir": "UP",
+  "net": 3.13,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "INFY",
+  "dir": "DOWN",
+  "net": -3.59,
+  "confidence": "Medium"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "SWIGGY",
+  "dir": "DOWN",
+  "net": -2.4,
+  "confidence": "Low"
+ },
+ {
+  "date": "2026-11-27",
+  "sym": "PAYTM",
+  "dir": "DOWN",
+  "net": -2.4,
+  "confidence": "Low"
  }
 ]

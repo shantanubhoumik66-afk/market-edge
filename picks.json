@@ -1,96 +1,159 @@
 {
- "generated": "2026-11-25T20:51:18.438709+00:00",
- "date": "2026-11-26",
+ "generated": "2026-11-26T20:43:22.152093+00:00",
+ "date": "2026-11-27",
  "picks_up": [
   {
-   "sym": "LT",
-   "sector": "INFRA",
-   "net": 2.41,
-   "event_score": 1.6,
+   "sym": "CIPLA",
+   "sector": "PHARMA",
+   "net": 3.96,
+   "event_score": 0.7,
    "sector_score": 0.0,
    "sources": 1,
    "reasons": [
     {
-     "label": "Order / contract win",
-     "title": "L&T wins order worth up to ₹2,500 cr for battery storage project in Gujarat",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRmwtQjB0NF9GV3BoVnFQb2taMWRFLVlHZ19EOFJrWXhpMVp1QVRfTW9uMmJvaTBMaUxjRzl5TkN3Qldxa1pSZFdKYnBFM2FzWmVobmh1TTVLZEt3Q3dhR19qQ3FYVURKU0l4bi1PNk8zYmw3SEhXRVFhaUE4Q1VaTTYwajM1R25oUnQtalJlbFZmNmJXbmhGR0x2QWZwUS1nQ01VN3p3bHY1WHlRbXZ4RUFlNHR1anh0QzhqZjlteFZFcmJzNHVkNE1OYTRFZEpQb011U0ZZUUNxc3fSAeABQVVfeXFMT21MQ3djQjlBN3JnQ084WTl3Z2M3aU9PUERXNmZIUHlCN0c5eHBHSHRoTG5WWDRKcXJmTXEwT09HSnktR1U4NVhPYTJsWEtmdUc3THZ5SUJkbnhhdTVQYXVhdkxLMTR5NTNEd25KQmlLZk5xSkU0UmdRdUpDQ1BLZGNjYU9oS0M4MFlXWnNFUzFELWx4eGZRWThNSHJMUnZsYk1GUTI4SFM3aHI1Q296OVExWVcyNmQwV00xZEdoMmRLYU0zeFFMaXd3Slh1Tk1MZXFMdzdMV2FiaDRIaTBMenc?oc=5",
-     "src": "Business Standard",
-     "time": "2026-11-25T11:07:54+00:00"
+     "label": "Regulatory approval",
+     "title": "Cipla, Teva get USFDA nod for first generic Flovent HFA asthma inhaler",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTFh0VWdIellWbVZXMXlWVmRyQThDcEpiZ2JMb1V6RExJcDZrV0hKN25LWkZUVUZGNVVNVkxJSWU5MWJocURXcjdXTnpRMXZ5RlpQdFdtVzNPbWt1Q3FfOXZhNmN3eEQ4WWRhSHU5T3RldFVOS3VJM3dnYnY1ME5RQ0ktLUwzWklPMERRay1jNHJZaWs2Y1EwNzBUT3B6UGtDMUNoVkwtNHdxQVQtdUJOS3YxT3ZnZE9NbklSZ0xVak9lRUhaZlc5RklkNXJGSzVfX1HSAdgBQVVfeXFMTTdsQmRoa3hlcGxUMW5Eelo0RU5TeXd4emJ6Uk4tc2NsOEViZ19UUEZqaW0yS3JxQ1pHUG5HTFRHOVdNLXNEdUVnc0JqbmkxMTBlb2lNODBiV3pZWjdoWVgyYTROYXVCXzZyUFFLLVNEdG1jRko0c2s0XzhOWkRhTUVOdkJZQkN4VHB4SHF6ZWdMVFhHMnJzSWhzWVJOcVg1MDBFbGFCbU5wRVFrelpLdV9KbXhjUGIzRG1wWm1fU2ZBeC1mTGRDYUpsdTR4eGh6U1FDZVhuMUll?oc=5",
+     "src": "BusinessLine",
+     "time": "2026-11-25T07:26:43+00:00"
     }
    ],
    "sector_reasons": [],
-   "today_chg": -2.59,
-   "two_day_chg": -2.64,
-   "vol_ratio": 0.54,
-   "close": 4099.9,
-   "close_date": "2026-11-23",
+   "today_chg": 2.38,
+   "two_day_chg": 1.29,
+   "vol_ratio": 1.77,
+   "close": 1433.2,
+   "close_date": "2026-11-25",
    "layers": {
-    "news": 1.6,
+    "news": 0.7,
     "sector": 0.0,
-    "technical": 0.61,
-    "relative": -0.2,
-    "flow": 0.0,
+    "technical": 2,
+    "relative": 0.26,
+    "flow": 0.6,
     "market": 0.4
    },
    "tech_notes": [
-    "uptrend (above 20 and 50-day averages)"
+    "uptrend (above 20 and 50-day averages)",
+    "20-day breakout on volume",
+    "volume 1.8x average on a +2.4% day"
    ],
-   "agree": 3,
+   "agree": 5,
    "dir": "UP",
-   "confidence": "Low"
+   "confidence": "Medium"
   },
   {
-   "sym": "JINDALSTEL",
-   "sector": "METALS",
-   "net": 2.06,
+   "sym": "HAL",
+   "sector": "DEFENCE",
+   "net": 3.27,
    "event_score": 0.0,
-   "sector_score": 1.15,
+   "sector_score": 1.02,
    "sources": 0,
    "reasons": [],
    "sector_reasons": [
     {
-     "label": "Steel import duties",
-     "title": "Importer Need Not Challenge Assessment For Refund After Anti-Dumping Duty Set At Nil: Bombay High Court",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRGxxdjFYQXUzOGNQdmZFeWhqZG5Fbm0wLW1wM3VCVW91cWJpRjFFXzFhT25ZN0hWTzdjR3hxdS05VDFoaS13ckJfTFB4TUgtemt3QmtDamdYNVVrd0Zkd2ZDcWdMNTVETGMtZkpTSHlKZlB2SVhOcmFqSUtoR2Z5cXFMLXJBSTJDcnJYd3hjZGIyazUydjB3bGo0ZVotUWlsNDZMUHJyYy0wT1RaQjdSLXBJNzRNTHBsSGgtSDNIYnd1ZlU4UTNfQ3dCd1p3UmJRcnYzeWVSQXlaZXQyRlhJQmd5UC13TGdTT0tacnpZRTXSAfABQVVfeXFMUERscXYxWEF1MzhjUHZmRXloamRuRW5tMC1tcDN1QlVvdXFiaUYxRV8xYU9uWTdIVk83Y0d4cXUtOVQxaGktd3JCX0xQeE1ILXprd0JrQ2pnWDVVa3dGZHdmQ3FnTDU1RExjLWZKU0h5SmZQdklYTnJhaklLaEdmeXFxTC1yQUkyQ3JyWHd4Y2RiMms1MnYwd2xqNGVaLVFpbDQ2TFBycmMtME9UWkI3Ui1wSTc0TUxwbEhoLUgzSGJ3dWZVOFEzX0N3Qndad1JiUXJ2M3llUkF5WmV0MkZYSUJneVAtd0xnU09LWnJ6WUU1?oc=5",
-     "src": "LiveLawBiz",
-     "time": "2026-11-25T15:52:08+00:00"
+     "label": "Geopolitical tension",
+     "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+     "src": "EnergyNow.com",
+     "time": "2026-11-25T23:24:03+00:00"
     }
    ],
-   "today_chg": -0.05,
-   "two_day_chg": 1.51,
-   "vol_ratio": 1.32,
-   "close": 1131.3,
-   "close_date": "2026-11-23",
+   "today_chg": 3.26,
+   "two_day_chg": 2.64,
+   "vol_ratio": 1.22,
+   "close": 4936.0,
+   "close_date": "2026-11-25",
    "layers": {
     "news": 0.0,
-    "sector": 1.15,
-    "technical": 0.66,
-    "relative": -0.15,
+    "sector": 1.02,
+    "technical": 1.4,
+    "relative": 0.45,
     "flow": 0.0,
     "market": 0.4
    },
    "tech_notes": [
     "uptrend (above 20 and 50-day averages)"
    ],
-   "agree": 3,
+   "agree": 4,
    "dir": "UP",
-   "confidence": "Low"
+   "confidence": "Medium"
   },
   {
-   "sym": "PERSISTENT",
+   "sym": "LUPIN",
+   "sector": "PHARMA",
+   "net": 3.13,
+   "event_score": 1.4,
+   "sector_score": 0.0,
+   "sources": 1,
+   "reasons": [
+    {
+     "label": "Regulatory approval",
+     "title": "Lupin’s gets USFDA nod for injection to treat bacterial skin infections",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQzZTU0JCemdDNEtReHdvOEhlMGNZWlcydEpIQkRlM2pKUGtWZDB2TXd3OXh0X0dYYTJPYUhhR25IbXVxVXFQNnpSLUxmWHRkcXhCYWJSRUZzbVMwby1obEJ4Y1otT3QxV1NwLUFBdTVTbi15UnREMVVxU1JBak1zcjM1NklGRElOMHU5YWFLeWlYdEMyR2lNYnlhU3JjM0NTUG0xcDJkVDlNQUtLeVotM2pDcGJ6UGRlOFhjUWRUbmVMX25DM04zS3Bibi3SAdMBQVVfeXFMTkw1Uk16WnozbkFXZ2RqbVA1SjZWZlROYTlQMF9mQnhXdm1ZbjJpM0lKcGJLNkw4TDMwQkEzVmRrMXlpQkxvcWFzQ1ZONFBMeTNRSEJnNHotcHdiMmxrcy1sTEVHcXA2VGtIRDlsMmI5S2RhZmlYS3Z2dktISTVMUDZ1SW1Ud2QycVE2OWpyTlpNOEdZeEQ3VmdiZFRBbVlvQ1BjQWd2aGFUb0RFbEp2Rm54SzFlS2pvejY4ei1Pd1NVNnhZSzhUMFg2QTV0LXJfSF9VOA?oc=5",
+     "src": "The Financial Express",
+     "time": "2026-11-26T10:32:12+00:00"
+    }
+   ],
+   "sector_reasons": [],
+   "today_chg": 1.43,
+   "two_day_chg": -0.51,
+   "vol_ratio": 1.55,
+   "close": 2003.8,
+   "close_date": "2026-11-25",
+   "layers": {
+    "news": 1.4,
+    "sector": 0.0,
+    "technical": 0.55,
+    "relative": 0.18,
+    "flow": 0.6,
+    "market": 0.4
+   },
+   "tech_notes": [
+    "volume 1.6x average on a +1.4% day"
+   ],
+   "agree": 5,
+   "dir": "UP",
+   "confidence": "Medium"
+  }
+ ],
+ "picks_down": [
+  {
+   "sym": "INFY",
    "sector": "IT",
-   "net": 1.98,
-   "event_score": 0.0,
-   "sector_score": -1.52,
-   "sources": 0,
-   "reasons": [],
+   "net": -3.59,
+   "event_score": -2.81,
+   "sector_score": -0.9,
+   "sources": 2,
+   "reasons": [
+    {
+     "label": "Margin pressure",
+     "title": "Rupee recovery spells margin pressure for IT; Infosys stands out: Jefferies",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWlNak5IdEFKS0ZhaHBYX01WMllHQUtQc29hVmtCLUgyZ3c1eUZKS1lFSG9KT1NpSl9NT0hUcm5iaGhQQjYwWHpISjhCdzU4Z0Q0WFZHNlFNUlFiODgwZUR1QkN6MWk4TXNrdGh4cWl0X0xyWEpxQ2VGbzNpT01wTll5T0tTOU5GVHBBYXVXOEpVMF9kVWtQNV9TQS1rUFdrOGNWSUV4OGstcDFBUXJlNnV3aVgyMGZtaURFb1NPckdrQ0JoWXBnakdtMDZBUjRrOHliREJSb9IB3AFBVV95cUxPWFJQOVJaTjBZRHg3TTFESEVHeHZpWnBRSkw0cmlyUGxrMkJqSmJWM2xmeGdzSkR3SjVNR1ItTVo0VThYcnJMZ0VVNDlpQ1d0MFFybTd4OVh4LVB3WEZJSjBraXJLRUZEeERac3NvcXhpdHAxWk1HaGtRQ1VZdHpkOWNVRlcxa2RyaWVkWXphY3pNWW5hNVpwaUhMM1dzQjl1VkYzQ1cwRGE1SjVfcnc0Q0YtSU51UmN5b3lPTGFtMEt6ZEJDMnhWcTZ3VDV2YnBrVUk1TkkwcTFpRmlh?oc=5",
+     "src": "Business Standard",
+     "time": "2026-11-26T05:34:20+00:00"
+    },
+    {
+     "label": "Guidance cut",
+     "title": "Coforge, Infosys or Wipro: Why Bernstein sees 28% upside in one & cuts outlook for others?",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMWowbU5yOHJoaklFU2JrcnFtby05Q09ZYUF5S201by1NWEg1UEZyajdtTEtzbXBNZVp0U3F1YkxhbzFSTk1OUDVLUGd6VlVNZXJSVk5BZHBUNEh4aUtKYUxzRUlObG1PWF9weGZQUVdxdy1GdWFjaF9McC1jYmxWbmlxSWxoeXZKQ0JiVEE3N0FIUFRTemxPQzRZMFBwWjRiSTR0X2RmRWY3NEp6dmhXTzVuNWJXUHhIWnJ4RFZBampHVkNpbVBYSnVZVl8zbTZROXfSAdgBQVVfeXFMTlRqMXFWQThjQlAzR0hOQm5oTW1tWHdYWHFwMzViRGNlLVR5cFRuNWVEZjd6OXBSMW1BbEZFanJDZGFnUDVyWHdscnlHN0ttU0hlVkRUSjY4R3lfTDVNblNRdWRJZ2tvdDJmdTU5M0FMQ2FWOVplek1DNEN4emdjbkNQS3l3cVN4YkNudzdNX1ByZWJtVml2NVZtTnZCdWpsTm16Uk5pemJ1R1puZzRjcmxmUUdVdEhjb3l2LU41c09OUG9RUjZJTU9HcXJqNFRpLVRjWU5Ic1pT?oc=5",
+     "src": "The Financial Express",
+     "time": "2026-11-26T07:28:09+00:00"
+    },
+    {
+     "label": "Capital return",
+     "title": "Infosys stock buyback reaches final tender day - ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQWVmYURFYkp2aUFwVXJTOUd5RlowZ1dVc29BbDJkek1yVWVuc0xkXzl0OW5Lc1doRkNmWXhuMHdWbWc2U2poM256X19aeUlCRC1vaXJiMURXRDNXMjk1X3RHRlpzcHRFZmVKWk5Jd0hyNXZEeVdacGtrbVUtVnlYc1RYWGhSRHFZbW52MlZ5Nzk0SUZfN3hKQk1JYTFkWHB4U3FCZUY0QURMR05nWVE?oc=5",
+     "src": "ad-hoc-news.de",
+     "time": "2026-11-26T08:38:53+00:00"
+    }
+   ],
    "sector_reasons": [
     {
      "label": "Fed tightening / yields up",
-     "title": "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally?",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0tOQ29yUDZjUFdnNEFTVTVvYzNJQ1gzbFMtWDB0Qm43cGN4Z05adkFvQ2hURVZ1ZkpNVVVtRFlPTnpmZ2hQUG9oN0NfMVpUZXhBMk5ocWc3STNUWF8xTHFCZkVTV3N5OTN4Q2VvaW1fdnJHQUZKVkpfb0RTQ1gxZi1ZcThZbHp6eHMyUHIxcFVodDlOWkNtSEpsSndVcW8?oc=5",
-     "src": "StoneX",
-     "time": "2026-11-25T13:30:26+00:00"
+     "title": "Gold drifts lower as Fed rate-hike fears loom",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5",
+     "src": "Reuters",
+     "time": "2026-11-26T03:39:00+00:00"
     },
     {
      "label": "Rupee strengthening",
@@ -100,64 +163,51 @@
      "time": "2026-11-25T13:12:46+00:00"
     }
    ],
-   "today_chg": 2.59,
-   "two_day_chg": 6.85,
-   "vol_ratio": 2.1,
-   "close": 6282.5,
-   "close_date": "2026-11-23",
+   "today_chg": 2.41,
+   "two_day_chg": 2.91,
+   "vol_ratio": 1.23,
+   "close": 1130.0,
+   "close_date": "2026-11-25",
    "layers": {
-    "news": 0.0,
-    "sector": -1.52,
-    "technical": 2,
-    "relative": 0.5,
-    "flow": 0.6,
+    "news": -2.81,
+    "sector": -0.9,
+    "technical": 0.0,
+    "relative": -0.28,
+    "flow": 0.0,
     "market": 0.4
    },
-   "tech_notes": [
-    "uptrend (above 20 and 50-day averages)",
-    "20-day breakout on volume",
-    "volume 2.1x average on a +2.6% day"
-   ],
-   "agree": 4,
-   "dir": "UP",
-   "confidence": "Low"
-  }
- ],
- "picks_down": [
+   "tech_notes": [],
+   "agree": 3,
+   "dir": "DOWN",
+   "confidence": "Medium"
+  },
   {
-   "sym": "BAJAJ-AUTO",
-   "sector": "AUTO",
-   "net": -2.35,
+   "sym": "SWIGGY",
+   "sector": "NEWAGE",
+   "net": -2.4,
    "event_score": 0.0,
-   "sector_score": -1.6,
+   "sector_score": -0.9,
    "sources": 0,
    "reasons": [],
    "sector_reasons": [
     {
-     "label": "RBI rate hike",
-     "title": "Indian Rupee: Can RBI Hikes Support Gains Against US Dollar? - Commerzbank",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlhCeGtnTTlabkFtM043cXg3b1NmNGtkOXlDdDBRcDR3TTdlb3dMaldYRkNVS3RzeDREMVlPMUlmN09QNXFhaFhVeTJFTm43YU9kMWJ4OUM5SjdrVUZZbkNYMm5oU0tVZXZQZURBRmFPajFwcXZJVHJfOGtPN1J2ZEM0NmJkQWpoWXpPNmUwdzF5amRHUko2Z1BkWjdYT0JYTlFGUlZLSWY5Z05zSmJ2anEzT3FPM1JYbGd3alBQWnJic2NRd1U0bnhnYWpXOEFhN1FEQw?oc=5",
-     "src": "www.tmgm.com",
-     "time": "2026-11-24T06:55:27+00:00"
-    },
-    {
-     "label": "Weak monsoon",
-     "title": "The groundwater blind spot: Why millions of water structures have not made India drought-proof",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS1BENGFxWFF1cVZSeW5SNGdtQ2h1MXBmTUpyNXBZR0l2eVo2d2hlRnpSajNuTXpRTTFKNWNOc1hqS1Z0QWR5bmdzMDktcWZmRFJnRkZENDlWY1BQTlZYd0dpc2pWbWFzVmN5QWdfTnV6Y09GcHBYUGpuYjhDU3pXTGNObDVCa1BKajctc0lxYkhJd20tUFBhWGdNWEpuRHVaaF8teC1mZjh4dnpTTDZKanAxdkhDdTNqN2tlcExjbmx1SFUzT201X1hn0gHXAUFVX3lxTE1QcGFSS0hpSTRGOTBPbjVXalpRWFkzUDJNanQyT1ZvN3JPMW4yc1RrMjdzazIzU29BMjhuWTUwQ2VVLUFVTEJKRkc3RUUwOXdwY3BOZXJOUURIRmNBeEpEUGNnQnJ6R1BjdHlNeWo3RFpqUTB6dy1rdFN3WmhkeGxaMS1uVlVxLXduSXFuM2pPbzU2c09aYmxORE5xY2xXb3VEd1Z4djlVMlladndIMkV1blU4dVloSE5CYzlVTm9xZ3BuQU1HNHJBMzdUV2haN0hBcWVYLUxF?oc=5",
-     "src": "Down To Earth",
-     "time": "2026-11-25T10:03:44+00:00"
+     "label": "Fed tightening / yields up",
+     "title": "Gold drifts lower as Fed rate-hike fears loom",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5",
+     "src": "Reuters",
+     "time": "2026-11-26T03:39:00+00:00"
     }
    ],
-   "today_chg": -1.13,
-   "two_day_chg": -1.61,
-   "vol_ratio": 0.97,
-   "close": 10643.0,
-   "close_date": "2026-11-23",
+   "today_chg": 0.06,
+   "two_day_chg": -0.63,
+   "vol_ratio": 0.87,
+   "close": 177.07,
+   "close_date": "2026-11-25",
    "layers": {
     "news": 0.0,
-    "sector": -1.6,
-    "technical": -0.97,
-    "relative": -0.18,
+    "sector": -0.9,
+    "technical": -1.4,
+    "relative": -0.5,
     "flow": 0.0,
     "market": 0.4
    },
@@ -169,85 +219,38 @@
    "confidence": "Low"
   },
   {
-   "sym": "ASHOKLEY",
-   "sector": "AUTO",
-   "net": -2.3,
+   "sym": "PAYTM",
+   "sector": "NEWAGE",
+   "net": -2.4,
    "event_score": 0.0,
-   "sector_score": -1.6,
-   "sources": 0,
-   "reasons": [],
-   "sector_reasons": [
-    {
-     "label": "RBI rate hike",
-     "title": "Indian Rupee: Can RBI Hikes Support Gains Against US Dollar? - Commerzbank",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlhCeGtnTTlabkFtM043cXg3b1NmNGtkOXlDdDBRcDR3TTdlb3dMaldYRkNVS3RzeDREMVlPMUlmN09QNXFhaFhVeTJFTm43YU9kMWJ4OUM5SjdrVUZZbkNYMm5oU0tVZXZQZURBRmFPajFwcXZJVHJfOGtPN1J2ZEM0NmJkQWpoWXpPNmUwdzF5amRHUko2Z1BkWjdYT0JYTlFGUlZLSWY5Z05zSmJ2anEzT3FPM1JYbGd3alBQWnJic2NRd1U0bnhnYWpXOEFhN1FEQw?oc=5",
-     "src": "www.tmgm.com",
-     "time": "2026-11-24T06:55:27+00:00"
-    },
-    {
-     "label": "Weak monsoon",
-     "title": "The groundwater blind spot: Why millions of water structures have not made India drought-proof",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS1BENGFxWFF1cVZSeW5SNGdtQ2h1MXBmTUpyNXBZR0l2eVo2d2hlRnpSajNuTXpRTTFKNWNOc1hqS1Z0QWR5bmdzMDktcWZmRFJnRkZENDlWY1BQTlZYd0dpc2pWbWFzVmN5QWdfTnV6Y09GcHBYUGpuYjhDU3pXTGNObDVCa1BKajctc0lxYkhJd20tUFBhWGdNWEpuRHVaaF8teC1mZjh4dnpTTDZKanAxdkhDdTNqN2tlcExjbmx1SFUzT201X1hn0gHXAUFVX3lxTE1QcGFSS0hpSTRGOTBPbjVXalpRWFkzUDJNanQyT1ZvN3JPMW4yc1RrMjdzazIzU29BMjhuWTUwQ2VVLUFVTEJKRkc3RUUwOXdwY3BOZXJOUURIRmNBeEpEUGNnQnJ6R1BjdHlNeWo3RFpqUTB6dy1rdFN3WmhkeGxaMS1uVlVxLXduSXFuM2pPbzU2c09aYmxORE5xY2xXb3VEd1Z4djlVMlladndIMkV1blU4dVloSE5CYzlVTm9xZ3BuQU1HNHJBMzdUV2haN0hBcWVYLUxF?oc=5",
-     "src": "Down To Earth",
-     "time": "2026-11-25T10:03:44+00:00"
-    }
-   ],
-   "today_chg": -2.85,
-   "two_day_chg": -4.48,
-   "vol_ratio": 0.81,
-   "close": 158.7,
-   "close_date": "2026-11-23",
-   "layers": {
-    "news": 0.0,
-    "sector": -1.6,
-    "technical": -0.6,
-    "relative": -0.5,
-    "flow": 0.0,
-    "market": 0.4
-   },
-   "tech_notes": [],
-   "agree": 3,
-   "dir": "DOWN",
-   "confidence": "Low"
-  },
-  {
-   "sym": "INFY",
-   "sector": "IT",
-   "net": -2.22,
-   "event_score": 0.0,
-   "sector_score": -1.52,
+   "sector_score": -0.9,
    "sources": 0,
    "reasons": [],
    "sector_reasons": [
     {
      "label": "Fed tightening / yields up",
-     "title": "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally?",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0tOQ29yUDZjUFdnNEFTVTVvYzNJQ1gzbFMtWDB0Qm43cGN4Z05adkFvQ2hURVZ1ZkpNVVVtRFlPTnpmZ2hQUG9oN0NfMVpUZXhBMk5ocWc3STNUWF8xTHFCZkVTV3N5OTN4Q2VvaW1fdnJHQUZKVkpfb0RTQ1gxZi1ZcThZbHp6eHMyUHIxcFVodDlOWkNtSEpsSndVcW8?oc=5",
-     "src": "StoneX",
-     "time": "2026-11-25T13:30:26+00:00"
-    },
-    {
-     "label": "Rupee strengthening",
-     "title": "Indian Rupee strengthens as falling oil prices ease pressure; Middle East escalation and recession trade remain key risks",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPazRLZVFoSWY3cWpJelVSWGRWb1EyTVY5eTFZVFk1Q09GS0JhVnNsTjhhMjVoMGJBOVBxRUFoM0UtR1dBMDEtNnl1bmlLU0wwdlFYazFUbno3NjVTSkpWajk0NGZUYk0tekFwNy1ET2lYQnI3ejZWS1Q3SVRJVVF6TDRRMEdMTGhrZ1lnME5rSjRaQzM4cDR4LU93bjJxN1ptYktJUGxmVkYwZjJjZFlsSEFmZjJCdEdiQ1NCc2ZoYkI5THh6SFRvTUN1OU1BT0tXRmhUaElKVGlkN1BHRjVFRzZlVmxxRXRx?oc=5",
-     "src": "investingLive",
-     "time": "2026-11-25T13:12:46+00:00"
+     "title": "Gold drifts lower as Fed rate-hike fears loom",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5",
+     "src": "Reuters",
+     "time": "2026-11-26T03:39:00+00:00"
     }
    ],
-   "today_chg": 0.49,
-   "two_day_chg": 1.05,
-   "vol_ratio": 0.96,
-   "close": 1103.4,
-   "close_date": "2026-11-23",
+   "today_chg": -0.67,
+   "two_day_chg": -1.21,
+   "vol_ratio": 0.62,
+   "close": 1719.0,
+   "close_date": "2026-11-25",
    "layers": {
     "news": 0.0,
-    "sector": -1.52,
-    "technical": -0.6,
+    "sector": -0.9,
+    "technical": -1.4,
     "relative": -0.5,
     "flow": 0.0,
     "market": 0.4
    },
-   "tech_notes": [],
+   "tech_notes": [
+    "downtrend (below 20 and 50-day averages)"
+   ],
    "agree": 3,
    "dir": "DOWN",
    "confidence": "Low"
@@ -286,6 +289,48 @@
   }
  },
  "recent": [
+  {
+   "date": "2026-11-27",
+   "sym": "PAYTM",
+   "dir": "DOWN",
+   "net": -2.4,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-27",
+   "sym": "SWIGGY",
+   "dir": "DOWN",
+   "net": -2.4,
+   "confidence": "Low"
+  },
+  {
+   "date": "2026-11-27",
+   "sym": "INFY",
+   "dir": "DOWN",
+   "net": -3.59,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-27",
+   "sym": "LUPIN",
+   "dir": "UP",
+   "net": 3.13,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-27",
+   "sym": "HAL",
+   "dir": "UP",
+   "net": 3.27,
+   "confidence": "Medium"
+  },
+  {
+   "date": "2026-11-27",
+   "sym": "CIPLA",
+   "dir": "UP",
+   "net": 3.96,
+   "confidence": "Medium"
+  },
   {
    "date": "2026-11-26",
    "sym": "INFY",
@@ -383,61 +428,17 @@
    "dir": "DOWN",
    "net": -2.37,
    "confidence": "Low"
-  },
-  {
-   "date": "2026-11-24",
-   "sym": "TATASTEEL",
-   "dir": "DOWN",
-   "net": -2.88,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-24",
-   "sym": "DLF",
-   "dir": "UP",
-   "net": 2.22,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-24",
-   "sym": "BEL",
-   "dir": "UP",
-   "net": 2.79,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-24",
-   "sym": "POWERGRID",
-   "dir": "UP",
-   "net": 3.11,
-   "confidence": "Medium"
-  },
-  {
-   "date": "2026-11-21",
-   "sym": "WIPRO",
-   "dir": "DOWN",
-   "net": -1.8,
-   "confidence": "Low"
-  },
-  {
-   "date": "2026-11-21",
-   "sym": "SWIGGY",
-   "dir": "DOWN",
-   "net": -2.4,
-   "confidence": "Low"
   }
  ],
  "scanned": 111,
  "market_regime": 1,
  "sector_effects": {
+  "IT": -1.12,
   "DEFENCE": 1.28,
-  "IT": -1.9,
   "NEWAGE": -1.12,
-  "REALTY": -1.44,
-  "AUTO": -2.0,
-  "PHARMA": -0.78,
-  "TELECOM": 0.7,
-  "METALS": 1.44,
-  "FMCG": -1.12
+  "FMCG": -0.52,
+  "AUTO": -1.4,
+  "METALS": 1.17,
+  "REALTY": -1.17
  }
 }
