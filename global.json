@@ -1,37 +1,17 @@
 {
- "generated": "2026-11-27T14:12:51.501565+00:00",
+ "generated": "2026-11-27T22:52:44.830912+00:00",
  "bias": {
-  "score": -3.68,
+  "score": -4.53,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -5.76,
+    "score": -5.44,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
-    "sector": "OMC",
-    "score": -1.6,
-    "stocks": "BPCL, IOC, HPCL"
-   },
-   {
-    "sector": "PAINT",
-    "score": -1.6,
-    "stocks": "Asian Paints"
-   },
-   {
-    "sector": "AVIATION",
-    "score": -1.6,
-    "stocks": "IndiGo"
-   },
-   {
-    "sector": "UPSTREAM",
-    "score": 1.6,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "IT",
-    "score": -1.08,
+    "score": -1.95,
     "stocks": "TCS, Infosys, Wipro"
    }
   ]
@@ -40,38 +20,94 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Treasury yields are higher as oil prices rise, investors look ahead to payroll data",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VZE5oYjlVeWluQTU4R3YyeTNXclpnbDlnZklWOHQtaXFMZ2pKTGhlMUlfWlRGZWhuZERVaE5LampIR21EU1ZtT2FuOFMtdFU1MDlFWFBDbTM1S3ktYXVPLVBJYXlKaG9CR3dNaVZjNNIBdEFVX3lxTE05U3dmc0U2WGM1M3JZNkRBaWlWVXpxazVqZG5WTFFQVWZJUm5QcWtva0duRFNSVVRpWjRUb2EyYU5IOE82aHBxTkptb1pyWHV3Z2FySkRoQl8xcnJqWUxuZFdQaktvUU5DUGlKR0xkQVo4dm5L?oc=5",
-   "src": "CNBC",
-   "time": "2026-11-27T10:22:41+00:00",
+   "title": "US stocks rally sharply as AI shares rebound, but Fed rate hike clouds outlook",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORmpUU2UyOUlhdXB3Wkd4UmY0d291SXY5STVDaWdqc3N1TzRJNkxvczlNVC1WcTVsdVVROEhYR2ZoQmdBbHMzWHBXR000djI2bjUxU3A2cE1yUGlZMFBIejRxVGZLNExjQ1NhNTU0eWNpSEg2aW0xMk0tLU5YLWZvR2ZkX2QwUGlPcmg4SmlwYXE3RC1LbXJCbVZuU0tlT2kzN0NxdlRia2tvaElpUGozUm9qYUliSFZ6RXl6UGR1MXRRNGRHSDd4WVVaWGhZYWdlRjlvOTh6MnTSAd8BQVVfeXFMUHdBNE1jdTIyMlA1cUF3dXVMZlhSaVItR3ozVFpFc0ZMQjNDbHFkT3dNM1pTU1lRbFZpTDJzRnNLck94YzZsdTA0XzRYakNpdUZzUnUzMTFzTFJ4aUtJY0l2emo2amZPblE0bnNUMjlCSmZjZVJqZjVGdEt4cnJBMzlCNEdEV21JcGZoM2xrdloyUjFJSVc4c2haZ2w1Y3hOd0lmdXp1ai1jZWdsU1RoUTBlQ3VPUUx0QVNETFd5bXRMRlhjR2VzdXcxcUFoWWM3OVRYeFdQSllhTVRXYVRWaw?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-27T14:59:38+00:00",
    "level": "High",
    "score": 1.6,
-   "label": "Crude oil rising",
-   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "CNBC"
+    "The Financial Express"
    ],
    "sectors": [
     {
-     "sector": "OMC",
+     "sector": "IT",
      "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
+     "stocks": "TCS, Infosys, Wipro"
     },
     {
-     "sector": "PAINT",
+     "sector": "NEWAGE",
      "dir": -1,
-     "stocks": "Asian Paints"
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "India-US trade deal: What the new US tariff proposal means for India",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUlh1U1ZoZUFodTdmWkhQb2RycXIycDgwM3VEcmpkcUN1bWJLcmJsc29NS0Ntc3JfZ1daQzRZdE02TnNubHVXQjJSamYwdFVQaFhWTURXeUs1MVl0bFJQWFdkcEliQmNHV0ZRd2lHMkR3YWpnZUdkcmloWW1XeTlPdnlGd2h3SEZ3NENGVDh4R29CVGVjV1lLZGlIcnlWNGFkV2trN0lrYnp4LU5FQ2dydV9heDRmWG9YTFd4VHNrWk55M3RBa2lXNEFJU2ZhSkhBT3FUUEt1QnJmbm9MamwwYVVR0gHnAUFVX3lxTE9mZ2RwTDNFV2ZYZWtQNlhlQXFhNXZUZ0VXVXZVMHllLWdReVVXU3JtY1NxQ3M0T291akNCSmFYRnJHMS01eXVsMmtRT1hnWEdPeWowaG9tWkQ4WFJJd0VObEEwY0tBVHk5T2JwZFpYN014MU5USWpDMHF6NENQRXhzcHg0RnAyNEhHM2MxTzl6dWdfZXBPYlJxN2pLTFgxOGE0MExCZHpjQkJGTWpZaDNNSFN5WkVJSUxtNVBoLWVCS0JpTWNwUHdkOWJwWTRKN2xOeFJHa0EtY3Q0dndhUHBHSWM5eWZXcw?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-27T05:44:50+00:00",
+   "level": "Medium",
+   "score": 1.44,
+   "label": "Tariffs on India",
+   "why": "Directly hurts Indian exporters such as pharma, auto parts, textiles and metals.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "PHARMA",
+     "dir": -1,
+     "stocks": "Sun Pharma, Cipla"
     },
     {
-     "sector": "AVIATION",
+     "sector": "AUTO",
      "dir": -1,
-     "stocks": "IndiGo"
+     "stocks": "Maruti, M&M"
     },
     {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
+     "sector": "METALS",
+     "dir": -1,
+     "stocks": "Tata Steel, JSW Steel, Hindalco"
+    },
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    }
+   ]
+  },
+  {
+   "region": "Europe",
+   "flag": "🇪🇺",
+   "title": "Eurozone bond yields rise as investors return to riskier assets, oil prices rebound",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTWwwWmFSUmhmdktXQnllYzJmd0Rtd0ZMVDJGMnNzRHJJOW5XeDBUZHdzcDh1Nm9BNHUwMW1hazVLMXI5d2xmRjJwd0EyVmZTb0RKSEFVSGhLZGZoaU9UYXpqTmNYNmVWaG9nOF9wc2ctSmdkOWtBbGJydGNiVnZnSEJzSExWbmZIaklMU0JJaktPTUJTTFdlYno4SlBOeHY2MHhnV0p6MlA3b01jYnBfcHo2Sm5kTWl0UUVxSGtqS3lQRjBGbTFnd1I3S25Jc0dLRmliSG8zeFR1THFRV2w4Zk5NclRubmQ5WTRqWWs0aDTSAfYBQVVfeXFMTXZFQzY1UjB4TXYzd09kR2VqRnlrVXY1dXAwdjZSZUhGQ1dlVDBQazhQLUJYZkt4VXptZTFrYm43SGdMLU1uTGRJdjhJYVNVa3pMLUg0N2U2WjM1N29sempicVEzMDJXWmZnLVd5aFhMMFVfZE1IR1I3SndmdE5VXzVHMnNPdG9hNGFfdjg4TEI3ZUMyU0dGNVVkZ0lzX0NSdnVBV0NFQkVSNFJaUXIxRm1xMmpPVWxNQ1NobEU4VU5CNzVPSnk3R3lCcXZHRXpIU2VMWGVOaEMwWVJIVTBzWWNEMnJ2dTVBV2hjdHlLUkk5eUVJTnBn?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-27T10:26:25+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
     }
    ]
   },
@@ -82,8 +118,8 @@
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLWRoSmpBREFkZFVpM3ZhN1BoYVgtb0szUVVwTzNEYko0TmZSOVhiZUJ6MWg2bDRIenVtQm05dDRZNFNLRDZRQ3RPa1Q3SlpDbF92X0dHVzFMM3AxdHpMYnpTWTNFVHM5MXV4TWVEbnc2TTR4X0ZvRDRHekxRZ1BuQ1FTY1p2UzBKS3ZkNE9pUWFGUlJDemd5SGs2VDRtMFhjT3FVaDZUMDVkV1NIa2dTMGVmUlYtWmtZQkpWQ0dvN3AyWW1WSk16U1JsNDZyQ2I3TXF2WUJqLW9KcDBOWnfSAeQBQVVfeXFMT2FKVDV3TUcxZTVqSzVLY2lHMHZsaE5WUTI5cVdFZ3RDQUV0V2ZsdWRWbHdmeV9yNTdlZWN0X25uT2ZfMFZxbF9RcGdNUmdtZHEyRlc0RURveDhvb0lUVVNhb1JOaEZtTm5mZWV1em5EU09VTmFpYXEydElDS3d0aC00blFNbkdPNGhfRm1kSkN5enlzdDZ3cUxBQzVyaUdDODE2TWVhaWgzbXRxUURkV25QbV9faWVFemdFam1Yako3enJyMXZJR0lPN2F2VjlIb215VGk2WGFvR01taHhDR01QVXpJ?oc=5",
    "src": "The Financial Express",
    "time": "2026-11-27T10:04:27+00:00",
-   "level": "High",
-   "score": 1.6,
+   "level": "Medium",
+   "score": 1.28,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
@@ -110,34 +146,6 @@
    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLWZVZTZDVGdnZG5aSlZmYVpVNklETmV4R3NNR0ozc0YzNWUzbmFzV0hKZHJncjR0Y0wzUjIteGpFTy1mUjdRd1ZVMWZyVTFYclFXWlBvb0FldC1xWWxoRTh2VVRWTWxkb3FEUDFldHdjYmVfUmlKUEFIUE1aamxNRXQ0MkdCbFBXTlBZcEtoNVNPTEd2WmthUG9CV0oybVB2eGdfUUFJYVhDTy05Wm9wRDJtODJYMEQtU0ROSlROSTRiUGI4MGdKQnBVZ0t4RFdyVlNfVTc3UEt0NUFqNmlHOXJHRExOeWpvTEktcExZUDd4OWFOUmJET21FbkpPR3lKUW9idWxWTUFmdy1ucVRyYTdn0gGXAkFVX3lxTE9EMEQzcEppLTI3X1lWSkJ2WTdmR1JEbUJaX3VRU04xMU5xSXBZQVFBU1RkcVlqTDQyMVlGSXJQNm9MS2xOcWlkSDZXTm1CN25yWS1YS0tOWHVkbWdhbVB2eFZRaGFDUi0zWm9Na3NyRjVTWTk4S29iWl9FWnF1S3ZrU0dXMHpkQ0FQQ29VV1h2UW9PQndDNy1zX1RiTHBjSVpCUUEtNU80OUVwamdDZ0EwRXdDdUFaQ1o3ZnktUnRWek00eDRTZmh2M1JsS2hwb2ZwaFM3Y3hndjBUTjNUUjBJZjlDYmd2RjVFY2RQbTZlRUltMDI5YVdXWFJ0RGRDT1lwUnhjb080MDdSYzNLTlJCRVlsekp4SQ?oc=5",
    "src": "Livemint",
    "time": "2026-11-27T08:01:40+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Livemint"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Gold drifts lower as Fed rate-hike fears loom",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSThYZWtfY1p5Wk5DUXZXVkN2OE9OZVB5MThKRnR2VG5BX2E3bE1fUjY0OUhDcnk4MkR5eGc2NUNQcEg1RDJoZUsxQ1BuNnFFMjVMd1dKdG12TkdlSmlnampBT09GeTFVZWJuSTZFYkVuN1FsUVpxZ1l1dlM2T3d3UGdmdEhkSk1jS2p5bUxRalpEZVFQM2ZfdkF6Z1RVd9IBowFBVV95cUxOYnAtWU51RTlfT1dUMF8zX0VLeThEYklKSUpWcUpoclVsUlpzYlNqd0VzaWlUaGxkWWRqSHFCenFmenlLQVNMWUs1c2pLN3I5NVhhMlNYYW9seEhDZXJ2azNuSTRhNU9MTDNvdmdZbDE0dFJzbHZCQVhqNWFYaXhHSkFuNU5pdDJZZXg3WFNWMHdtckZnb1JLSVdMUWZpR2ItS3FZ?oc=5",
-   "src": "Livemint",
-   "time": "2026-11-26T19:11:53+00:00",
    "level": "Medium",
    "score": 1.28,
    "label": "US rates / yields rising",
@@ -162,38 +170,10 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNREd0RUx1TTJiVHRreUdrdTRYNk5HdVNmMFp4SURfa3c2S1NmalFseWJ5VnZqWkxJZ1gzR1FtZkNjZnJWRzRrU05hNUJCYVhOdGk2RzJRU1NiTVRnYXd4bThxWlhZSmpsMzlGMXZGc0lPaFo3R0FydU5fYkc0Y1c1U0pzSUY?oc=5",
-   "src": "Financial Times",
-   "time": "2026-11-26T14:58:45+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Financial Times"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Wall Street Eyes Thanksgiving Cheer: What's Fueling Nasdaq Futures 600-Point Surge?",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeEZodVljam9GcE5kR0Q3bFRhQ21LTTJEREJKMUF1VFZxM2xHc1luODFGY2NCZm5BeDBEYVUtTlgxOWJWWkRQVVo1UzNjSnpHOFJLdzA2bV95OWNpNlpiN3R1aVRUWGxBTlQ3Q1VrVE16Mm40ZTZZNjI4X1NVTEhXOHVIZjh5NFhDWUNTY2VzRUo4ZnRoZkZSZUU4SjhVQVFfMzVMdDFjLVhIY0cwb3VxVS1CNEZrVm9peDhackdHam5Id9IBygFBVV95cUxOckdLVW9KazlMZVVtUDhfNDVfcFFvNjNNcDBwMjlnenJXMFdlQkNIbWxIMXgzUE4tb1BrRDdXdWJoUTZmaGFFNEZxX0d2dlpBenpUbjRRR2NDYXdsTGZlSDk4R0lxbkEzUGhSOXBIZkFsbnV3a012b2pkbXFLRjN3eC13cmxudWVqUUw1ZHEzYjd3SlRvR0hmOWFkN2stSDllRjF4Qkd5ZVAwXzBOb21lU3RUdzZ0bTJEYVZ2S2ZfY1p2aE1TLVpkLXl3?oc=5",
+   "title": "Thanksgiving Leftovers? Wall Street Feasts On A 500-Point Dow Rally, Nasdaq Locks AI-Dip Buying",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb3VXbXlZTzBLMmlRNExtU2tZcF9DNk5vWXZGZlpnUkRHOXRXXzJBZnBwMDhyb1ZhVG41RmJOVV9Ed2ItRDJaR1pYMm11aDhJTWptU211LXJQemV6bTlxMHhseHU0dFZWd2gweFA4dG01dTNEWndsNWwzY3RaZ0loTWYtb1Z2QUdfRDF3cTlsbkdwSE1sV2J5a2wxMHRpRXdmWTJfZjhQeUFVZnBtZ2ZhWjZuYzY0Yk8xX3VxUmNLNWVLTU95X21RQVZtenBLdzlYZ2gzRtIB3AFBVV95cUxNMktmbkc4bVVsZ2l5anBKV003cVZBZjBmd3REdWxXNVFJSWZnTnpzUHF1b2VCdzkxQ01jUUMzTWdEdzZFRVV1R2ZOanN3c3g1WENNX0xIZ29ycnNGV0MzUGlrWVllS1RKeEJTalNldXNabkRERlpBWTAyWWs4RmwwN2lOUVVFTnU0T0llTTExOVN6YXdoS3NDWUh6TlM2cWlZVUpfQVNXRi1LM3FhTlNCMnF1MndGSDhWR0hOSmItVmt2Yk5pRDB2Sjl1M25hVnlVTU9IcHc1UUwwMUNH?oc=5",
    "src": "NDTV Profit",
-   "time": "2026-11-27T10:28:31+00:00",
+   "time": "2026-11-27T18:11:09+00:00",
    "level": "Medium",
    "score": 1.2,
    "label": "Global equity rally",
@@ -211,42 +191,19 @@
    ]
   },
   {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Gold price today 27 November 2026: MCX gold rate jumps but still 31% down from record high; is it the right time to buy?",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMURYSVB6WkxoalNCeFpQU1ZEN0hLMzloTVNtaFl1bFlvZ2xBZE4wZVlfd1FMNFJqOFV2eUdDa1cwQWZ2WHJhZDV1V3o0RnBMdFpyLTh1aXM4RDN6dHNQc0J4ZmJTd3dGNDJ1aDlTQ1QxZ20tUFhSUWFMSldNem5CZU1vTEhGZ2wwd0xUMEtnU2RtVnZ0bkYzNjl6YnVUVE04cmtCSl9WV01pWHJmSXZMYmtGdlZBMV9SR2VQcFMxY1JIRTRKVW1nVHBfa0ptOEQ4S0w4dXh3X3p1STFQTWpNbUhKMVE2TnRkODZNR3FycjJIU1I0MkcyWFVFaDJLbG1zTWc4Ync5QUtldUEz0gGSAkFVX3lxTFBCZlQ2Q21WZ1RJQlQzbWFCS0ZjYmVFeGlSWGZuYWF1WWtTTGxmMlBXcWtaM1pHN1NBSE9TOEdrVnZjZVdVekpNdjRqMjgtRzVVQU5UMkZOU3VTQWhKbldlaW15dUYwMzFJekt4UlRyUEpyb2djajNxYlNoeWdTRzZTVjFwT2M3ZUlORHRtbmZhRk5MQUV1VktGSWt2ejNMX2dIRkl5ZUtQRGRoZkREQXp1cVp4SUVzaElNSm1uRDUyd1RIS19iSnBQTHgxQTZSNWxlRnpQdWdJVlpISDVlQVRVUXlFYlk1T3dnOEpXTTZwUGNDQTRMS01aNURJVDVNenprcmxHMXdadHBkdXN5QWxoSHc?oc=5",
-   "src": "Livemint",
-   "time": "2026-11-27T05:10:55+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity rally",
-   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "Livemint"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
-    }
-   ]
-  },
-  {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Dow, Nasdaq futures rise after Wall Street turmoil; global stocks rally",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbHBoaDNOOFJEVlhwdXZMXzY5LXNoZWMxU3l5dE9sNG13U1JiRjNxc1JVQ3k3OEU5WlM0aFJpc2lzVFdjX3ZqZmtRNW85T1Jad21ZYVhzQ0NvRFBPbGpMbi1yV210Ry1yd0lDb0Y0UVZkSnhrbmdUcEctR2ZUbnpBMnZRTTlHVHZsRE5aNnd1RjJrUXVRWEZKQnd3OERWUWFHSjNHVlV2MHhvaDlKUHlzcGpsb29lVEdqNENBVHBsQlFjU3VDbUpaNjlhcHVqZzRBaVN2MGt6R2dXVTJVclBF0gHmAUFVX3lxTE5BcUFHd1V4Z1BtMEM1REpleENBYUMzQkRqaHpFN1RZZ0JuajRaUzhYc0NrNzZsS3pEY0tDSWRGaDNiVEIzc0NvVUdrS1dETklmN0JoNzQwY2dLSUhMMWxHV2psWmFWcUZ2WUNEbUNmd1JBNS0tNUFKU3pqYWJ1cmFWLWpEbFpoSlJVczRLd2lLckUtZU5TRy1VdWk3Rm9GREFLNE9pSUlVaVotektKZS01cHBoa1BMUXJOSHRVOE0xLTBZeUIxeDdaUzZza0R4cnNZSDFqeFFvelVvRzdvSUFnYVpHcVVn?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-27T03:47:23+00:00",
+   "title": "Wall Street's Post-Thanksgiving Rally: Nasdaq Jumps 330 Points On AI Dip-Buying, Dow Eyes Weekly Surge",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTlExeGhLaWQ0V0pVVS0xdVRnb3Q2TWpLZU1nT1JHZkRwZHRhcnJaSFE1eTRDYXpxdTJXY2VBd3pRcERzeUFwNGpxWWtRWTgxUGg3NU1NTnFib2l0YkdrN0lZNUduSG02NTllbjh6bFZCNlVKZkRYUVdybDJueEhLRW1NcTJsMFd4MW9rR013LW1ENFMtTGZQWXh4TUhfYTlpUVhTYXFLQWotekJnVjU2ZzlVM1dONjdlQzFEUHdhRjFzSEYwNUVUV0ltQkhFczdEazFuSEcyVWZBeVp2dU52Zk5jaWJOcGVIbTUxWmp1VzNCN0XSAfsBQVVfeXFMT1EwMGdtbnlaQXA5bl9SRnB0cktDeVJERm1jdGR0NExXcUs2MzBqRk1MQUp0bDRMWG5MRFB1MkV2RDRqQ09lejUwUXNBZlZRbkljWHNKb0YtN1FFel90MWJiVnhkTl9XejgwMEFpUHJDWG5pZ3RULUZaWmxxRDUwRVhYZkFmcm9pY2N2amN4bXMxUUtkbEpCcERnWW5lQzgzT1ZyMWYwZUZUclFRaU1TajlvQU5JakxsOFd4bGVrdGNvSGc0a3RBTTFtTmMyZlVLd2VHUXRPRTBnQUlGSHhKT2dvMV9ZTXFnc19kVVZ1ZjU2MW04Tnh6WFJtczQ?oc=5",
+   "src": "NDTV Profit",
+   "time": "2026-11-27T14:36:48+00:00",
    "level": "Medium",
    "score": 1.2,
    "label": "Global equity rally",
    "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
    "confirmed_by": 1,
    "sources": [
-    "The Financial Express"
+    "NDTV Profit"
    ],
    "sectors": [
     {
@@ -259,76 +216,112 @@
  ],
  "videos": [
   {
-   "id": "ch2n-55ypOY",
-   "title": "Deutsche Bank's leaked files expose ties to Epstein, Trump and oligarchs | DW News",
-   "channel": "DW News",
-   "published": "2026-11-27T13:30:14+00:00",
-   "thumb": "https://i.ytimg.com/vi/ch2n-55ypOY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ch2n-55ypOY",
-   "business": false
-  },
-  {
-   "id": "J5JDXKFrwpc",
-   "title": "The Week in Numbers: Trump tariff salvo, stocks soar on Huang's return",
-   "channel": "Reuters",
-   "published": "2026-11-27T13:26:18+00:00",
-   "thumb": "https://i.ytimg.com/vi/J5JDXKFrwpc/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=J5JDXKFrwpc",
-   "business": false
-  },
-  {
-   "id": "WaLY8qTulHM",
-   "title": "India Business Hour: Tracking The Latest Stock Market Headlines & Top Developments",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-27T13:21:27+00:00",
-   "thumb": "https://i.ytimg.com/vi/WaLY8qTulHM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=WaLY8qTulHM",
-   "business": true
-  },
-  {
-   "id": "4_-95oStIwY",
-   "title": "Stock Market LIVE Updates: Nifty & Sensex Live | TVS News | Nvidia | Nov 27th | Share Market LIVE",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-27T13:13:34+00:00",
-   "thumb": "https://i.ytimg.com/vi/4_-95oStIwY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=4_-95oStIwY",
-   "business": true
-  },
-  {
-   "id": "hG_99qK7-9s",
-   "title": "Market Talk: Jensen Huang's return 'is a governance nightmare'",
-   "channel": "Reuters",
-   "published": "2026-11-27T12:45:12+00:00",
-   "thumb": "https://i.ytimg.com/vi/hG_99qK7-9s/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=hG_99qK7-9s",
-   "business": false
-  },
-  {
-   "id": "yTLub3BlBwI",
-   "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-27T12:43:44+00:00",
-   "thumb": "https://i.ytimg.com/vi/yTLub3BlBwI/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=yTLub3BlBwI",
-   "business": true
-  },
-  {
-   "id": "YX9jmyVv-5c",
-   "title": "Von der Leyen Hails EU Support For €45 Billion Ukraine Loan As Leaders Debate Mega Budget",
+   "id": "UZBy1MvnBSQ",
+   "title": "Spain’s Opposition Leader Alberto Núñez Feijóo Holds Final Campaign Rally",
    "channel": "Moneycontrol",
-   "published": "2026-11-27T12:25:22+00:00",
-   "thumb": "https://i.ytimg.com/vi/YX9jmyVv-5c/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=YX9jmyVv-5c",
+   "published": "2026-11-27T22:35:16+00:00",
+   "thumb": "https://i.ytimg.com/vi/UZBy1MvnBSQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=UZBy1MvnBSQ",
    "business": true
   },
   {
-   "id": "JU6cgehyN9A",
-   "title": "Stock Futures Rally as AI Trade Gathers Pace; EU Budget Talks Falter",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-27T12:20:02+00:00",
-   "thumb": "https://i.ytimg.com/vi/JU6cgehyN9A/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=JU6cgehyN9A",
+   "id": "54koVHNp1zA",
+   "title": "Editors Roundtable LIVE | Editors Discuss The Week Gone By & Road Ahead For The Markets",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-27T22:34:32+00:00",
+   "thumb": "https://i.ytimg.com/vi/54koVHNp1zA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=54koVHNp1zA",
    "business": true
+  },
+  {
+   "id": "6Clqu9eY33w",
+   "title": "EU REVOLTS AGAINST Ukraine’s War Funding, Orbán Declares Brussels Talks ‘Pointless’ | N18G",
+   "channel": "Moneycontrol",
+   "published": "2026-11-27T22:30:20+00:00",
+   "thumb": "https://i.ytimg.com/vi/6Clqu9eY33w/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=6Clqu9eY33w",
+   "business": true
+  },
+  {
+   "id": "bgONnPA8QU8",
+   "title": "How AI could be coming for your bank account | BBC News",
+   "channel": "BBC News",
+   "published": "2026-11-27T20:30:09+00:00",
+   "thumb": "https://i.ytimg.com/vi/bgONnPA8QU8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=bgONnPA8QU8",
+   "business": false
+  },
+  {
+   "id": "LM-w0KHG45w",
+   "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-27T18:40:29+00:00",
+   "thumb": "https://i.ytimg.com/vi/LM-w0KHG45w/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=LM-w0KHG45w",
+   "business": true
+  },
+  {
+   "id": "lSCBqdIqr3A",
+   "title": "Has the AI trade changed? This panel cannot agree | Market Hang",
+   "channel": "Yahoo Finance",
+   "published": "2026-11-27T18:39:00+00:00",
+   "thumb": "https://i.ytimg.com/vi/lSCBqdIqr3A/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=lSCBqdIqr3A",
+   "business": true
+  },
+  {
+   "id": "ModHpa2V48E",
+   "title": "Huang Is Worth Up to $10 Trillion to the Market, Ives Says",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-27T18:19:54+00:00",
+   "thumb": "https://i.ytimg.com/vi/ModHpa2V48E/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ModHpa2V48E",
+   "business": true
+  },
+  {
+   "id": "CNqmQxEPJ0Y",
+   "title": "LIVE: Nuremberg's Christmas market opens",
+   "channel": "Reuters",
+   "published": "2026-11-27T18:12:30+00:00",
+   "thumb": "https://i.ytimg.com/vi/CNqmQxEPJ0Y/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=CNqmQxEPJ0Y",
+   "business": false
+  },
+  {
+   "id": "nQD2-_ohYBE",
+   "title": "China’s Luxury Megastores: So Big, They Look Like Warehouses | WSJ",
+   "channel": "Wall Street Journal",
+   "published": "2026-11-27T17:59:46+00:00",
+   "thumb": "https://i.ytimg.com/vi/nQD2-_ohYBE/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=nQD2-_ohYBE",
+   "business": false
+  },
+  {
+   "id": "_vZzJnZuJuI",
+   "title": "LIVE: New York Stock Exchange opening bell rings",
+   "channel": "Reuters",
+   "published": "2026-11-27T17:59:21+00:00",
+   "thumb": "https://i.ytimg.com/vi/_vZzJnZuJuI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_vZzJnZuJuI",
+   "business": false
+  },
+  {
+   "id": "ap2SjrayHUM",
+   "title": "'South India Will Lose Heavily': Chandrababu Naidu Explains Case For 50% Seat Increase | N18V",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-27T17:40:46+00:00",
+   "thumb": "https://i.ytimg.com/vi/ap2SjrayHUM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=ap2SjrayHUM",
+   "business": true
+  },
+  {
+   "id": "-3iriaqazbo",
+   "title": "Why China is watching Taiwan's elections so closely | DW News",
+   "channel": "DW News",
+   "published": "2026-11-27T15:35:37+00:00",
+   "thumb": "https://i.ytimg.com/vi/-3iriaqazbo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=-3iriaqazbo",
+   "business": false
   },
   {
    "id": "fE49-DYK0r8",
@@ -340,39 +333,12 @@
    "business": false
   },
   {
-   "id": "wctExblHCjY",
-   "title": "I followed Putin to China for a historic summit | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-27T10:32:58+00:00",
-   "thumb": "https://i.ytimg.com/vi/wctExblHCjY/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=wctExblHCjY",
-   "business": false
-  },
-  {
    "id": "j3K4FBo2Mn8",
    "title": "Steve Sosnick says the Fed won't rescue stocks, a lawyer says Huang could be fired | Sozzi Unleashed",
    "channel": "Yahoo Finance",
    "published": "2026-11-25T21:34:55+00:00",
    "thumb": "https://i.ytimg.com/vi/j3K4FBo2Mn8/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=j3K4FBo2Mn8",
-   "business": true
-  },
-  {
-   "id": "-2cAbQoJ0fg",
-   "title": "Jensen Huang apologized, and this panel says the market is pricing the worst case | Market Hang",
-   "channel": "Yahoo Finance",
-   "published": "2026-11-25T19:39:24+00:00",
-   "thumb": "https://i.ytimg.com/vi/-2cAbQoJ0fg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=-2cAbQoJ0fg",
-   "business": true
-  },
-  {
-   "id": "_dOANeJ0zPs",
-   "title": "Why America’s Food Banks Are In Crisis",
-   "channel": "CNBC",
-   "published": "2026-11-24T15:00:27+00:00",
-   "thumb": "https://i.ytimg.com/vi/_dOANeJ0zPs/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=_dOANeJ0zPs",
    "business": true
   }
  ],
