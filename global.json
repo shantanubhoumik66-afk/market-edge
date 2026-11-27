@@ -1,42 +1,42 @@
 {
- "generated": "2026-11-26T21:51:09.303877+00:00",
+ "generated": "2026-11-27T04:03:19.172513+00:00",
  "bias": {
-  "score": -8.51,
+  "score": -5.09,
   "label": "Risk-off for India",
   "sectors": [
    {
     "sector": "NEWAGE",
-    "score": -5.32,
+    "score": -3.44,
     "stocks": "Zomato, Paytm, Nykaa"
    },
    {
     "sector": "OMC",
-    "score": -3.86,
+    "score": -2.06,
     "stocks": "BPCL, IOC, HPCL"
    },
    {
     "sector": "AVIATION",
-    "score": -3.86,
+    "score": -2.06,
     "stocks": "IndiGo"
    },
    {
-    "sector": "UPSTREAM",
-    "score": 3.58,
-    "stocks": "ONGC, Oil India"
-   },
-   {
     "sector": "IT",
-    "score": -3.11,
+    "score": -1.87,
     "stocks": "TCS, Infosys, Wipro"
    },
    {
+    "sector": "UPSTREAM",
+    "score": 1.84,
+    "stocks": "ONGC, Oil India"
+   },
+   {
     "sector": "PAINT",
-    "score": -2.88,
+    "score": -1.28,
     "stocks": "Asian Paints"
    },
    {
     "sector": "DEFENCE",
-    "score": 1.4,
+    "score": 1.12,
     "stocks": "HAL, BEL"
    }
   ]
@@ -45,17 +45,17 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNREd0RUx1TTJiVHRreUdrdTRYNk5HdVNmMFp4SURfa3c2S1NmalFseWJ5VnZqWkxJZ1gzR1FtZkNjZnJWRzRrU05hNUJCYVhOdGk2RzJRU1NiTVRnYXd4bThxWlhZSmpsMzlGMXZGc0lPaFo3R0FydU5fYkc0Y1c1U0pzSUY?oc=5",
-   "src": "Financial Times",
-   "time": "2026-11-26T14:58:45+00:00",
+   "title": "Gold drifts lower as Fed rate-hike fears loom",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSThYZWtfY1p5Wk5DUXZXVkN2OE9OZVB5MThKRnR2VG5BX2E3bE1fUjY0OUhDcnk4MkR5eGc2NUNQcEg1RDJoZUsxQ1BuNnFFMjVMd1dKdG12TkdlSmlnampBT09GeTFVZWJuSTZFYkVuN1FsUVpxZ1l1dlM2T3d3UGdmdEhkSk1jS2p5bUxRalpEZVFQM2ZfdkF6Z1RVd9IBowFBVV95cUxOYnAtWU51RTlfT1dUMF8zX0VLeThEYklKSUpWcUpoclVsUlpzYlNqd0VzaWlUaGxkWWRqSHFCenFmenlLQVNMWUs1c2pLN3I5NVhhMlNYYW9seEhDZXJ2azNuSTRhNU9MTDNvdmdZbDE0dFJzbHZCQVhqNWFYaXhHSkFuNU5pdDJZZXg3WFNWMHdtckZnb1JLSVdMUWZpR2ItS3FZ?oc=5",
+   "src": "Livemint",
+   "time": "2026-11-26T19:11:53+00:00",
    "level": "High",
    "score": 1.6,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "Financial Times"
+    "Livemint"
    ],
    "sectors": [
     {
@@ -67,44 +67,6 @@
      "sector": "NEWAGE",
      "dir": -1,
      "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "Global",
-   "flag": "🌐",
-   "title": "Spike in oil prices partly reverses rupee rally, forward premiums surge",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOE9ueW0tU1Izd0g1c2dERkU3c2Jnc295N25DaGJDazczMHpORkJxaWpvdk5ORGEtY2tlREFMUkktUzkyOHRydm5FMGhNVHl6eTJRQ20tWERORzVEcEtiZ01OMEhEcGJWRjFZdWFxYzAwMWp6OTV1QmR0MDhvcGg1ZXJHcVdKcTluUkZuNFUtaWV0VkZMWDRYNGdYZHJFYmxieldrTFRlbnJRLTdZbk12WEJSZVhhUE5pTDdZeVZQTER0ZGZqTDJfMVRLaXJCZnBNN2pUaWtPY3lEcTBLX1Vua3JCY9IB6AFBVV95cUxNd01uR3JHc1A3cWpnc2dSRDdaTUhWcV9WOHhuWlBvdHM0WXo3LWhnX0ZWVjk2VUpFVHR6bnFjN3pFeEp2SVBYMmpDdy0wU3oxYXZxREhQM3NibEVnNVdua3VRNVBCR1FPeGZ3V2tuRzRkM3lQbXFiOUFPd1BBelBrUm9aRmp5ZVJYOEpZeUN4aWxiTzFhelBTV2hIU1ZPQnZKT0VGU1RuZ25nVUJZUUNrTVdiQ1RHenNGR2VpNC1pSE9XZWkteEdPc3JFc2NBWFRFQ1p1R2EwaURNRWJtbE9VSDlLUF9qWHAz?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-26T10:36:16+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "Crude oil rising",
-   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "PAINT",
-     "dir": -1,
-     "stocks": "Asian Paints"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -147,118 +109,19 @@
    ]
   },
   {
-   "region": "Middle East",
-   "flag": "🌍",
-   "title": "Iran strikes three oil tankers as it unveils new missile launcher",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM0MtUEhyd0J0Y3dueE1WRy0wOVhPOXlRc3VZQml2X1h2cEJyeVJYdVYwazlQSkNGMEhQUmctQ3dkTnFXdzhzZFFYZEZJRlJzUXdKdFlaSnRkcnd0cUk1cGsyNU9jM1ZYMWY3NnIwNk5mNm9ZYkJQcDVrS2xLbDItaU5lNy1aWE10S0U1eUpkR3czbFBTRDNxOTlJOXNHU0dUUHFrc3ozSlRQTlR2ZlE5V05DRndXdw?oc=5",
-   "src": "The Business Standard",
-   "time": "2026-11-26T11:25:17+00:00",
-   "level": "Medium",
-   "score": 1.4,
-   "label": "Middle East conflict",
-   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Business Standard"
-   ],
-   "sectors": [
-    {
-     "sector": "OMC",
-     "dir": -1,
-     "stocks": "BPCL, IOC, HPCL"
-    },
-    {
-     "sector": "AVIATION",
-     "dir": -1,
-     "stocks": "IndiGo"
-    },
-    {
-     "sector": "DEFENCE",
-     "dir": 1,
-     "stocks": "HAL, BEL"
-    },
-    {
-     "sector": "UPSTREAM",
-     "dir": 1,
-     "stocks": "ONGC, Oil India"
-    }
-   ]
-  },
-  {
-   "region": "Europe",
-   "flag": "🇪🇺",
-   "title": "Eurozone bond yields rise as global stock rally dents safe-haven demand",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOS1RjZFVteHk5TjVsWThfQThkdlRHT1hZS0kxdkQ1OHlLZVJuRDQ3NEg2Z3N5Mm9mcDRuQmZORkx1TE90OHExMjdJM2g2d0VJMlF5cjF2SWNQeWZlWUVqTW5SdDY1dzZMYlVTZ2tZaXpTUlJpVE1aUklMTHZLRU1EbkNCYklGdlVEb09xd2VoNG1WcVZtMWJ3RVdPX3lwV1FpbEhiZDFFaUZNVldORTlJa1JUMHRObU5MODNaMVI0RVFBU2Q2MXJ6Ti1DbGZLZXdLSUhReEN5YkpMZEpGTjF0ckpR0gHnAUFVX3lxTE5fNEg2WDJrRHVMcXhyeEJpQ1lMRnQybDNONHVUdHA0dG9DeE9CcGt0cXAwN1Y0VXQwWHpleHl6Mkp1T1VvRHo5ajczTHN6MVBZMl8zaXh6aXBFVmhNMGo4ZGRrSEZpVkhZZFNxZVFVWkJWb2ZlUGtjajVSOUk4QmUxUTdrUGpCeXdiZldRY3FXdTBHOUZVMGU4MFNCQ0txZEljS0lCMTlpLUgtSTRlRFFLZXdPRndTTmtsem0wNzRzazF4QU1xLUMxT0xrYWRuZFBUMm1YNnNibzFhWS00WXhTOEFNZDRLTQ?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-26T08:59:09+00:00",
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNREd0RUx1TTJiVHRreUdrdTRYNk5HdVNmMFp4SURfa3c2S1NmalFseWJ5VnZqWkxJZ1gzR1FtZkNjZnJWRzRrU05hNUJCYVhOdGk2RzJRU1NiTVRnYXd4bThxWlhZSmpsMzlGMXZGc0lPaFo3R0FydU5fYkc0Y1c1U0pzSUY?oc=5",
+   "src": "Financial Times",
+   "time": "2026-11-26T14:58:45+00:00",
    "level": "Medium",
    "score": 1.28,
    "label": "US rates / yields rising",
    "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
    "confirmed_by": 1,
    "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "US Tariff Plan Raises Stakes for India to Clinch Trade Deal",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZC1kOEEtUUhWWU96b1c0clRmTmk4NWFhaG9nQklwWTIzdHEzN3ZJZk5YSGpqM0ttY3NLb2xlWnFFXzcxQU5sR0NnNGhVakxjclBtTzR5V1JUSlliNnNoSGlQS1AwLTYzUWM4ZGtpbjk2aUc1bzh1cnpuSkVDOWNPYmdIc1czaDhfMFEyX3BQQVVZWkxvT3RIY1l2ZXlLRi1FWHVmaENuZzlqejBNbm5LN2hEOXQ?oc=5",
-   "src": "Bloomberg",
-   "time": "2026-11-26T06:33:02+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "Trade deal with India",
-   "why": "A trade deal improves access for Indian exporters and lifts sentiment.",
-   "confirmed_by": 1,
-   "sources": [
-    "Bloomberg"
-   ],
-   "sectors": [
-    {
-     "sector": "PHARMA",
-     "dir": 1,
-     "stocks": "Sun Pharma, Cipla"
-    },
-    {
-     "sector": "AUTO",
-     "dir": 1,
-     "stocks": "Maruti, M&M"
-    },
-    {
-     "sector": "METALS",
-     "dir": 1,
-     "stocks": "Tata Steel, JSW Steel, Hindalco"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Gold drifts lower as Fed rate-hike fears loom",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5",
-   "src": "Reuters",
-   "time": "2026-11-26T03:39:00+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Reuters"
+    "Financial Times"
    ],
    "sectors": [
     {
@@ -276,17 +139,17 @@
   {
    "region": "Global",
    "flag": "🌐",
-   "title": "Oil prices rise on supply concerns as Iran claims mine strikes on ships",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY3N3bjBPbkV4emp1enEwcW43VUotZmVBT2paVEFoVHNuaVU3Wmg3TlJ3Unc0a2Y4Ulh0bkcyU2xYLWpJc2lfdC1EV3FwVThua1ZYYzNOcVc1dE80NXg5UEVkb084V1oxNlJ1MURXcVdDZXJ5cUlwb1kxM3l6aktkc2lGOUFzdkgzQ3ZGbFRCRkpuaFZBYzB1cC1adVJ6YWtRR3Q4eU1oQUFwWmxrWk5KLVZJbkRYVnp6aDd0UlJwSm53MVZoTE01d0s2OHVaRjZ0U3B5d0hrN25ib3AyVFHSAeMBQVVfeXFMUE1zdHhNYnZQVFh0WUdXWlNOVHQyY0VGaExJN1BMM0VVMGhocXZ1bmxJUXplR3dId2NlemppR0Z3X2xYNGF6T2dhWWpUYzFoZmVJdzVzS1Z1V09HYnZlNnNYN19mbHhPWkZCSXpuX2tZUEZrUnFvbHFRMEVkNGp2RXJBQy0zZERNOUl1UHI4U181UE1USTliRFFaTVFVNE5tbFJRWDlyRW8ybDNwMWNuOENLdlpwYzBaaW5ETmxudUExQmMwTzY1Z0NwaENjbTU2NC1zb2JRN2s2NTVNN2t3elpHQzQ?oc=5",
-   "src": "Business Standard",
-   "time": "2026-11-26T03:38:36+00:00",
+   "title": "Spike in oil prices partly reverses rupee rally, forward premiums surge",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOE9ueW0tU1Izd0g1c2dERkU3c2Jnc295N25DaGJDazczMHpORkJxaWpvdk5ORGEtY2tlREFMUkktUzkyOHRydm5FMGhNVHl6eTJRQ20tWERORzVEcEtiZ01OMEhEcGJWRjFZdWFxYzAwMWp6OTV1QmR0MDhvcGg1ZXJHcVdKcTluUkZuNFUtaWV0VkZMWDRYNGdYZHJFYmxieldrTFRlbnJRLTdZbk12WEJSZVhhUE5pTDdZeVZQTER0ZGZqTDJfMVRLaXJCZnBNN2pUaWtPY3lEcTBLX1Vua3JCY9IB6AFBVV95cUxNd01uR3JHc1A3cWpnc2dSRDdaTUhWcV9WOHhuWlBvdHM0WXo3LWhnX0ZWVjk2VUpFVHR6bnFjN3pFeEp2SVBYMmpDdy0wU3oxYXZxREhQM3NibEVnNVdua3VRNVBCR1FPeGZ3V2tuRzRkM3lQbXFiOUFPd1BBelBrUm9aRmp5ZVJYOEpZeUN4aWxiTzFhelBTV2hIU1ZPQnZKT0VGU1RuZ25nVUJZUUNrTVdiQ1RHenNGR2VpNC1pSE9XZWkteEdPc3JFc2NBWFRFQ1p1R2EwaURNRWJtbE9VSDlLUF9qWHAz?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-26T10:36:16+00:00",
    "level": "Medium",
    "score": 1.28,
    "label": "Crude oil rising",
    "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
    "confirmed_by": 1,
    "sources": [
-    "Business Standard"
+    "The Economic Times"
    ],
    "sectors": [
     {
@@ -314,28 +177,71 @@
   {
    "region": "US",
    "flag": "🇺🇸",
-   "title": "Stocks Meltdown Spills Into Unlikely Market, Sinking Carry Trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME1DZHA3Z2xzbFRfdDg0WjNOZktfaTRSUHNwQ013U0NDNHYzY3VpNV95NDZHX2p3YVFNU0lpM19iQW12dTJiSkhaWmZEZUkwZHB0TU0xcWt0OXNvS1BTR2x4czRHaHc2QWJwd1REVzE4eEdDNTVQbWJHamNqMEw2aEdzY3Zuemk2WkMwX2hyUlJxSnFHX1Y2eEV1dVVRZDV5WTZycUhEdml1ZEJEUHlyV1FPNlY?oc=5",
-   "src": "Bloomberg",
-   "time": "2026-11-26T03:16:00+00:00",
+   "title": "US Tariff Plan Raises Stakes for India to Clinch Trade Deal",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZC1kOEEtUUhWWU96b1c0clRmTmk4NWFhaG9nQklwWTIzdHEzN3ZJZk5YSGpqM0ttY3NLb2xlWnFFXzcxQU5sR0NnNGhVakxjclBtTzR5V1JUSlliNnNoSGlQS1AwLTYzUWM4ZGtpbjk2aUc1bzh1cnpuSkVDOWNPYmdIc1czaDhfMFEyX3BQQVVZWkxvT3RIY1l2ZXlLRi1FWHVmaENuZzlqejBNbm5LN2hEOXQ?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-11-26T06:33:02+00:00",
    "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity selloff",
-   "why": "Global risk-off usually pulls the Nifty lower the next session.",
+   "score": 1.28,
+   "label": "Trade deal with India",
+   "why": "A trade deal improves access for Indian exporters and lifts sentiment.",
    "confirmed_by": 1,
    "sources": [
-    "Bloomberg"
+    "Bloomberg.com"
    ],
    "sectors": [
     {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
+     "sector": "PHARMA",
+     "dir": 1,
+     "stocks": "Sun Pharma, Cipla"
     },
     {
-     "sector": "NEWAGE",
+     "sector": "AUTO",
+     "dir": 1,
+     "stocks": "Maruti, M&M"
+    },
+    {
+     "sector": "METALS",
+     "dir": 1,
+     "stocks": "Tata Steel, JSW Steel, Hindalco"
+    }
+   ]
+  },
+  {
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQck13clVLM3Z3YkFxWGJyYmZYQTllN3AzR3lBZzlQNm00R2RQckxMczVRRXUwU3hlWEVsNzd0dTBYQVVPNU1lWkl3WDFYNk96MEsydHBtYk4tLUNwOVJtVWJtSzZtaTdoWGxla240NjFJRWNublpNRXY3eE43Nkt4dG5xa01kSnBQbk5CSmo3NkhGYVpidGt1UW5ZNnBfNjZzbFZSa0Qyal82SHdtcUJCTjAxTWI?oc=5",
+   "src": "Bloomberg.com",
+   "time": "2026-11-26T07:59:00+00:00",
+   "level": "Medium",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Bloomberg.com"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
      "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
     }
    ]
   },
@@ -365,21 +271,57 @@
  ],
  "videos": [
   {
-   "id": "QzsCHiG7dj8",
-   "title": "Germany’s Merz Addresses Media As EU Leaders Debate Budget And Ukraine Funding",
-   "channel": "Moneycontrol",
-   "published": "2026-11-26T20:57:44+00:00",
-   "thumb": "https://i.ytimg.com/vi/QzsCHiG7dj8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=QzsCHiG7dj8",
+   "id": "kKZWPrKocGc",
+   "title": "Trump Demands Probe Into 'Fake' Pre- Midterm Poll GDP Data ; Urges Putin To 'Pull Back' Aggression",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-27T03:53:32+00:00",
+   "thumb": "https://i.ytimg.com/vi/kKZWPrKocGc/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=kKZWPrKocGc",
    "business": true
   },
   {
-   "id": "TCe3nqFDGg4",
-   "title": "Crystal Crop Protection Listing LIVE | Crystal Crop Protection Shares List On Dalal Street | N18L",
+   "id": "rkGbzWupxpU",
+   "title": "Global Markets Mixed | Hopes Of An End To The West Asia War Are Pulling Crude Lower: Lyn Alden Invst",
    "channel": "CNBC-TV18",
-   "published": "2026-11-26T18:24:31+00:00",
-   "thumb": "https://i.ytimg.com/vi/TCe3nqFDGg4/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=TCe3nqFDGg4",
+   "published": "2026-11-27T03:38:38+00:00",
+   "thumb": "https://i.ytimg.com/vi/rkGbzWupxpU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=rkGbzWupxpU",
+   "business": true
+  },
+  {
+   "id": "K9J4lz1iEKQ",
+   "title": "Sensex, Nifty Near 10-Month High  | US futures tick higher | Brent crude tops $96 | Opening Bell",
+   "channel": "Moneycontrol",
+   "published": "2026-11-27T02:34:48+00:00",
+   "thumb": "https://i.ytimg.com/vi/K9J4lz1iEKQ/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=K9J4lz1iEKQ",
+   "business": true
+  },
+  {
+   "id": "GJjFZWwEB4s",
+   "title": "EU Leaders Von Der Leyen And Costa Address Media On Budget And Ukraine Funding",
+   "channel": "Moneycontrol",
+   "published": "2026-11-27T01:45:05+00:00",
+   "thumb": "https://i.ytimg.com/vi/GJjFZWwEB4s/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=GJjFZWwEB4s",
+   "business": true
+  },
+  {
+   "id": "sprwU_cYFvo",
+   "title": "Iran says two oil tankers hit naval mines in Strait of Hormuz",
+   "channel": "Al Jazeera English",
+   "published": "2026-11-26T23:00:52+00:00",
+   "thumb": "https://i.ytimg.com/vi/sprwU_cYFvo/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=sprwU_cYFvo",
+   "business": false
+  },
+  {
+   "id": "1nucn_-EMh4",
+   "title": "Inflation-Wary Shoppers Prepare for Black Friday",
+   "channel": "Bloomberg Markets and Finance",
+   "published": "2026-11-26T22:45:05+00:00",
+   "thumb": "https://i.ytimg.com/vi/1nucn_-EMh4/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=1nucn_-EMh4",
    "business": true
   },
   {
@@ -390,15 +332,6 @@
    "thumb": "https://i.ytimg.com/vi/8eHSVdSRBl8/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=8eHSVdSRBl8",
    "business": false
-  },
-  {
-   "id": "hAV3G--aMeg",
-   "title": "India Business Hour: Tracking The Latest Stock Market Headlines & Top Developments",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-26T17:55:46+00:00",
-   "thumb": "https://i.ytimg.com/vi/hAV3G--aMeg/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=hAV3G--aMeg",
-   "business": true
   },
   {
    "id": "xoK-ej0Ww8c",
@@ -419,39 +352,12 @@
    "business": true
   },
   {
-   "id": "dVQbtu1BWV8",
-   "title": "I followed Putin to China for a historic summit | BBC News",
-   "channel": "BBC News",
-   "published": "2026-11-26T13:59:25+00:00",
-   "thumb": "https://i.ytimg.com/vi/dVQbtu1BWV8/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=dVQbtu1BWV8",
-   "business": false
-  },
-  {
    "id": "dV-67ucD2DE",
    "title": "Market Talk: 'Markets have a degree of tariff fatigue'",
    "channel": "Reuters",
    "published": "2026-11-26T13:40:17+00:00",
    "thumb": "https://i.ytimg.com/vi/dV-67ucD2DE/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=dV-67ucD2DE",
-   "business": false
-  },
-  {
-   "id": "UOH-lARhAnw",
-   "title": "Global Stocks Climb as AI Trade Rebounds",
-   "channel": "Bloomberg Markets and Finance",
-   "published": "2026-11-26T13:02:19+00:00",
-   "thumb": "https://i.ytimg.com/vi/UOH-lARhAnw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=UOH-lARhAnw",
-   "business": true
-  },
-  {
-   "id": "cuV0wxDkVcU",
-   "title": "Amid Tensions in India, Sikhs and Hindus are building mosques for Muslims | DW News",
-   "channel": "DW News",
-   "published": "2026-11-26T10:33:01+00:00",
-   "thumb": "https://i.ytimg.com/vi/cuV0wxDkVcU/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=cuV0wxDkVcU",
    "business": false
   },
   {
@@ -496,13 +402,6 @@
   "Moneycontrol"
  ],
  "live": [
-  {
-   "name": "Fox Business",
-   "id": "UCCXoCcu9Rp7NPbTzIvogpZg",
-   "video_id": "knoQn0yrp4g",
-   "embeddable": true,
-   "verified": true
-  },
   {
    "name": "Benzinga",
    "id": "UCqQs28K2zj2dOsc5NfXUKEg",
@@ -554,7 +453,7 @@
   },
   {
    "name": "Fox Business",
-   "status": "live, plays in the app"
+   "status": "not live right now"
   },
   {
    "name": "Benzinga",
