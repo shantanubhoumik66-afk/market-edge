@@ -1,220 +1,39 @@
 {
- "generated": "2026-11-27T22:52:44.830912+00:00",
+ "generated": "2026-11-28T04:40:08.214028+00:00",
  "bias": {
-  "score": -4.53,
-  "label": "Risk-off for India",
-  "sectors": [
-   {
-    "sector": "NEWAGE",
-    "score": -5.44,
-    "stocks": "Zomato, Paytm, Nykaa"
-   },
-   {
-    "sector": "IT",
-    "score": -1.95,
-    "stocks": "TCS, Infosys, Wipro"
-   }
-  ]
+  "score": 0.0,
+  "label": "Mixed / neutral",
+  "sectors": []
  },
- "news": [
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "US stocks rally sharply as AI shares rebound, but Fed rate hike clouds outlook",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORmpUU2UyOUlhdXB3Wkd4UmY0d291SXY5STVDaWdqc3N1TzRJNkxvczlNVC1WcTVsdVVROEhYR2ZoQmdBbHMzWHBXR000djI2bjUxU3A2cE1yUGlZMFBIejRxVGZLNExjQ1NhNTU0eWNpSEg2aW0xMk0tLU5YLWZvR2ZkX2QwUGlPcmg4SmlwYXE3RC1LbXJCbVZuU0tlT2kzN0NxdlRia2tvaElpUGozUm9qYUliSFZ6RXl6UGR1MXRRNGRHSDd4WVVaWGhZYWdlRjlvOTh6MnTSAd8BQVVfeXFMUHdBNE1jdTIyMlA1cUF3dXVMZlhSaVItR3ozVFpFc0ZMQjNDbHFkT3dNM1pTU1lRbFZpTDJzRnNLck94YzZsdTA0XzRYakNpdUZzUnUzMTFzTFJ4aUtJY0l2emo2amZPblE0bnNUMjlCSmZjZVJqZjVGdEt4cnJBMzlCNEdEV21JcGZoM2xrdloyUjFJSVc4c2haZ2w1Y3hOd0lmdXp1ai1jZWdsU1RoUTBlQ3VPUUx0QVNETFd5bXRMRlhjR2VzdXcxcUFoWWM3OVRYeFdQSllhTVRXYVRWaw?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-27T14:59:38+00:00",
-   "level": "High",
-   "score": 1.6,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "India-US trade deal: What the new US tariff proposal means for India",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUlh1U1ZoZUFodTdmWkhQb2RycXIycDgwM3VEcmpkcUN1bWJLcmJsc29NS0Ntc3JfZ1daQzRZdE02TnNubHVXQjJSamYwdFVQaFhWTURXeUs1MVl0bFJQWFdkcEliQmNHV0ZRd2lHMkR3YWpnZUdkcmloWW1XeTlPdnlGd2h3SEZ3NENGVDh4R29CVGVjV1lLZGlIcnlWNGFkV2trN0lrYnp4LU5FQ2dydV9heDRmWG9YTFd4VHNrWk55M3RBa2lXNEFJU2ZhSkhBT3FUUEt1QnJmbm9MamwwYVVR0gHnAUFVX3lxTE9mZ2RwTDNFV2ZYZWtQNlhlQXFhNXZUZ0VXVXZVMHllLWdReVVXU3JtY1NxQ3M0T291akNCSmFYRnJHMS01eXVsMmtRT1hnWEdPeWowaG9tWkQ4WFJJd0VObEEwY0tBVHk5T2JwZFpYN014MU5USWpDMHF6NENQRXhzcHg0RnAyNEhHM2MxTzl6dWdfZXBPYlJxN2pLTFgxOGE0MExCZHpjQkJGTWpZaDNNSFN5WkVJSUxtNVBoLWVCS0JpTWNwUHdkOWJwWTRKN2xOeFJHa0EtY3Q0dndhUHBHSWM5eWZXcw?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-27T05:44:50+00:00",
-   "level": "Medium",
-   "score": 1.44,
-   "label": "Tariffs on India",
-   "why": "Directly hurts Indian exporters such as pharma, auto parts, textiles and metals.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "PHARMA",
-     "dir": -1,
-     "stocks": "Sun Pharma, Cipla"
-    },
-    {
-     "sector": "AUTO",
-     "dir": -1,
-     "stocks": "Maruti, M&M"
-    },
-    {
-     "sector": "METALS",
-     "dir": -1,
-     "stocks": "Tata Steel, JSW Steel, Hindalco"
-    },
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    }
-   ]
-  },
-  {
-   "region": "Europe",
-   "flag": "🇪🇺",
-   "title": "Eurozone bond yields rise as investors return to riskier assets, oil prices rebound",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTWwwWmFSUmhmdktXQnllYzJmd0Rtd0ZMVDJGMnNzRHJJOW5XeDBUZHdzcDh1Nm9BNHUwMW1hazVLMXI5d2xmRjJwd0EyVmZTb0RKSEFVSGhLZGZoaU9UYXpqTmNYNmVWaG9nOF9wc2ctSmdkOWtBbGJydGNiVnZnSEJzSExWbmZIaklMU0JJaktPTUJTTFdlYno4SlBOeHY2MHhnV0p6MlA3b01jYnBfcHo2Sm5kTWl0UUVxSGtqS3lQRjBGbTFnd1I3S25Jc0dLRmliSG8zeFR1THFRV2w4Zk5NclRubmQ5WTRqWWs0aDTSAfYBQVVfeXFMTXZFQzY1UjB4TXYzd09kR2VqRnlrVXY1dXAwdjZSZUhGQ1dlVDBQazhQLUJYZkt4VXptZTFrYm43SGdMLU1uTGRJdjhJYVNVa3pMLUg0N2U2WjM1N29sempicVEzMDJXWmZnLVd5aFhMMFVfZE1IR1I3SndmdE5VXzVHMnNPdG9hNGFfdjg4TEI3ZUMyU0dGNVVkZ0lzX0NSdnVBV0NFQkVSNFJaUXIxRm1xMmpPVWxNQ1NobEU4VU5CNzVPSnk3R3lCcXZHRXpIU2VMWGVOaEMwWVJIVTBzWWNEMnJ2dTVBV2hjdHlLUkk5eUVJTnBn?oc=5",
-   "src": "The Economic Times",
-   "time": "2026-11-27T10:26:25+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Economic Times"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "US Fed rate hike: Why is the central bank turning hawkish as markets brace for more hikes?",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLWRoSmpBREFkZFVpM3ZhN1BoYVgtb0szUVVwTzNEYko0TmZSOVhiZUJ6MWg2bDRIenVtQm05dDRZNFNLRDZRQ3RPa1Q3SlpDbF92X0dHVzFMM3AxdHpMYnpTWTNFVHM5MXV4TWVEbnc2TTR4X0ZvRDRHekxRZ1BuQ1FTY1p2UzBKS3ZkNE9pUWFGUlJDemd5SGs2VDRtMFhjT3FVaDZUMDVkV1NIa2dTMGVmUlYtWmtZQkpWQ0dvN3AyWW1WSk16U1JsNDZyQ2I3TXF2WUJqLW9KcDBOWnfSAeQBQVVfeXFMT2FKVDV3TUcxZTVqSzVLY2lHMHZsaE5WUTI5cVdFZ3RDQUV0V2ZsdWRWbHdmeV9yNTdlZWN0X25uT2ZfMFZxbF9RcGdNUmdtZHEyRlc0RURveDhvb0lUVVNhb1JOaEZtTm5mZWV1em5EU09VTmFpYXEydElDS3d0aC00blFNbkdPNGhfRm1kSkN5enlzdDZ3cUxBQzVyaUdDODE2TWVhaWgzbXRxUURkV25QbV9faWVFemdFam1Yako3enJyMXZJR0lPN2F2VjlIb215VGk2WGFvR01taHhDR01QVXpJ?oc=5",
-   "src": "The Financial Express",
-   "time": "2026-11-27T10:04:27+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "The Financial Express"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Is a US Fed rate hike confirmed in Dec meet? How will it impact Sensex, Nifty, Gold as US PCE inflation rises in October",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLWZVZTZDVGdnZG5aSlZmYVpVNklETmV4R3NNR0ozc0YzNWUzbmFzV0hKZHJncjR0Y0wzUjIteGpFTy1mUjdRd1ZVMWZyVTFYclFXWlBvb0FldC1xWWxoRTh2VVRWTWxkb3FEUDFldHdjYmVfUmlKUEFIUE1aamxNRXQ0MkdCbFBXTlBZcEtoNVNPTEd2WmthUG9CV0oybVB2eGdfUUFJYVhDTy05Wm9wRDJtODJYMEQtU0ROSlROSTRiUGI4MGdKQnBVZ0t4RFdyVlNfVTc3UEt0NUFqNmlHOXJHRExOeWpvTEktcExZUDd4OWFOUmJET21FbkpPR3lKUW9idWxWTUFmdy1ucVRyYTdn0gGXAkFVX3lxTE9EMEQzcEppLTI3X1lWSkJ2WTdmR1JEbUJaX3VRU04xMU5xSXBZQVFBU1RkcVlqTDQyMVlGSXJQNm9MS2xOcWlkSDZXTm1CN25yWS1YS0tOWHVkbWdhbVB2eFZRaGFDUi0zWm9Na3NyRjVTWTk4S29iWl9FWnF1S3ZrU0dXMHpkQ0FQQ29VV1h2UW9PQndDNy1zX1RiTHBjSVpCUUEtNU80OUVwamdDZ0EwRXdDdUFaQ1o3ZnktUnRWek00eDRTZmh2M1JsS2hwb2ZwaFM3Y3hndjBUTjNUUjBJZjlDYmd2RjVFY2RQbTZlRUltMDI5YVdXWFJ0RGRDT1lwUnhjb080MDdSYzNLTlJCRVlsekp4SQ?oc=5",
-   "src": "Livemint",
-   "time": "2026-11-27T08:01:40+00:00",
-   "level": "Medium",
-   "score": 1.28,
-   "label": "US rates / yields rising",
-   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
-   "confirmed_by": 1,
-   "sources": [
-    "Livemint"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": -1,
-     "stocks": "TCS, Infosys, Wipro"
-    },
-    {
-     "sector": "NEWAGE",
-     "dir": -1,
-     "stocks": "Zomato, Paytm, Nykaa"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Thanksgiving Leftovers? Wall Street Feasts On A 500-Point Dow Rally, Nasdaq Locks AI-Dip Buying",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb3VXbXlZTzBLMmlRNExtU2tZcF9DNk5vWXZGZlpnUkRHOXRXXzJBZnBwMDhyb1ZhVG41RmJOVV9Ed2ItRDJaR1pYMm11aDhJTWptU211LXJQemV6bTlxMHhseHU0dFZWd2gweFA4dG01dTNEWndsNWwzY3RaZ0loTWYtb1Z2QUdfRDF3cTlsbkdwSE1sV2J5a2wxMHRpRXdmWTJfZjhQeUFVZnBtZ2ZhWjZuYzY0Yk8xX3VxUmNLNWVLTU95X21RQVZtenBLdzlYZ2gzRtIB3AFBVV95cUxNMktmbkc4bVVsZ2l5anBKV003cVZBZjBmd3REdWxXNVFJSWZnTnpzUHF1b2VCdzkxQ01jUUMzTWdEdzZFRVV1R2ZOanN3c3g1WENNX0xIZ29ycnNGV0MzUGlrWVllS1RKeEJTalNldXNabkRERlpBWTAyWWs4RmwwN2lOUVVFTnU0T0llTTExOVN6YXdoS3NDWUh6TlM2cWlZVUpfQVNXRi1LM3FhTlNCMnF1MndGSDhWR0hOSmItVmt2Yk5pRDB2Sjl1M25hVnlVTU9IcHc1UUwwMUNH?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-11-27T18:11:09+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity rally",
-   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
-    }
-   ]
-  },
-  {
-   "region": "US",
-   "flag": "🇺🇸",
-   "title": "Wall Street's Post-Thanksgiving Rally: Nasdaq Jumps 330 Points On AI Dip-Buying, Dow Eyes Weekly Surge",
-   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTlExeGhLaWQ0V0pVVS0xdVRnb3Q2TWpLZU1nT1JHZkRwZHRhcnJaSFE1eTRDYXpxdTJXY2VBd3pRcERzeUFwNGpxWWtRWTgxUGg3NU1NTnFib2l0YkdrN0lZNUduSG02NTllbjh6bFZCNlVKZkRYUVdybDJueEhLRW1NcTJsMFd4MW9rR013LW1ENFMtTGZQWXh4TUhfYTlpUVhTYXFLQWotekJnVjU2ZzlVM1dONjdlQzFEUHdhRjFzSEYwNUVUV0ltQkhFczdEazFuSEcyVWZBeVp2dU52Zk5jaWJOcGVIbTUxWmp1VzNCN0XSAfsBQVVfeXFMT1EwMGdtbnlaQXA5bl9SRnB0cktDeVJERm1jdGR0NExXcUs2MzBqRk1MQUp0bDRMWG5MRFB1MkV2RDRqQ09lejUwUXNBZlZRbkljWHNKb0YtN1FFel90MWJiVnhkTl9XejgwMEFpUHJDWG5pZ3RULUZaWmxxRDUwRVhYZkFmcm9pY2N2amN4bXMxUUtkbEpCcERnWW5lQzgzT1ZyMWYwZUZUclFRaU1TajlvQU5JakxsOFd4bGVrdGNvSGc0a3RBTTFtTmMyZlVLd2VHUXRPRTBnQUlGSHhKT2dvMV9ZTXFnc19kVVZ1ZjU2MW04Tnh6WFJtczQ?oc=5",
-   "src": "NDTV Profit",
-   "time": "2026-11-27T14:36:48+00:00",
-   "level": "Medium",
-   "score": 1.2,
-   "label": "Global equity rally",
-   "why": "Global risk-on tends to lift Indian shares, led by IT and large caps.",
-   "confirmed_by": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "sectors": [
-    {
-     "sector": "IT",
-     "dir": 1,
-     "stocks": "TCS, Infosys, Wipro"
-    }
-   ]
-  }
- ],
+ "news": [],
  "videos": [
+  {
+   "id": "AT4_JDAbkrw",
+   "title": "MUST WATCH: 16-Year-Old Indian AI Prodigy Raul Wows Putin | Russia President Praises Modi | N18G",
+   "channel": "CNBC-TV18",
+   "published": "2026-11-28T04:00:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/AT4_JDAbkrw/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=AT4_JDAbkrw",
+   "business": true
+  },
+  {
+   "id": "q8DAOIG30LY",
+   "title": "Japanese PM's economic agenda: Has Takaichi faced backlash? | DW News",
+   "channel": "DW News",
+   "published": "2026-11-28T01:00:17+00:00",
+   "thumb": "https://i.ytimg.com/vi/q8DAOIG30LY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=q8DAOIG30LY",
+   "business": false
+  },
+  {
+   "id": "M5XDDgHor9Y",
+   "title": "Santiago Abascal Leads Vox’s Closing Campaign Rally At Valencia Bullring",
+   "channel": "Moneycontrol",
+   "published": "2026-11-28T00:29:51+00:00",
+   "thumb": "https://i.ytimg.com/vi/M5XDDgHor9Y/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=M5XDDgHor9Y",
+   "business": true
+  },
   {
    "id": "UZBy1MvnBSQ",
    "title": "Spain’s Opposition Leader Alberto Núñez Feijóo Holds Final Campaign Rally",
@@ -231,15 +50,6 @@
    "published": "2026-11-27T22:34:32+00:00",
    "thumb": "https://i.ytimg.com/vi/54koVHNp1zA/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=54koVHNp1zA",
-   "business": true
-  },
-  {
-   "id": "6Clqu9eY33w",
-   "title": "EU REVOLTS AGAINST Ukraine’s War Funding, Orbán Declares Brussels Talks ‘Pointless’ | N18G",
-   "channel": "Moneycontrol",
-   "published": "2026-11-27T22:30:20+00:00",
-   "thumb": "https://i.ytimg.com/vi/6Clqu9eY33w/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=6Clqu9eY33w",
    "business": true
   },
   {
@@ -303,24 +113,6 @@
    "published": "2026-11-27T17:59:21+00:00",
    "thumb": "https://i.ytimg.com/vi/_vZzJnZuJuI/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=_vZzJnZuJuI",
-   "business": false
-  },
-  {
-   "id": "ap2SjrayHUM",
-   "title": "'South India Will Lose Heavily': Chandrababu Naidu Explains Case For 50% Seat Increase | N18V",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-27T17:40:46+00:00",
-   "thumb": "https://i.ytimg.com/vi/ap2SjrayHUM/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=ap2SjrayHUM",
-   "business": true
-  },
-  {
-   "id": "-3iriaqazbo",
-   "title": "Why China is watching Taiwan's elections so closely | DW News",
-   "channel": "DW News",
-   "published": "2026-11-27T15:35:37+00:00",
-   "thumb": "https://i.ytimg.com/vi/-3iriaqazbo/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=-3iriaqazbo",
    "business": false
   },
   {
