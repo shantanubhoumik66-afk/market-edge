@@ -1,19 +1,226 @@
 {
- "generated": "2026-11-28T04:40:08.214028+00:00",
+ "generated": "2026-11-28T14:01:34.826431+00:00",
  "bias": {
-  "score": 0.0,
-  "label": "Mixed / neutral",
-  "sectors": []
+  "score": -4.94,
+  "label": "Risk-off for India",
+  "sectors": [
+   {
+    "sector": "OMC",
+    "score": -3.36,
+    "stocks": "BPCL, IOC, HPCL"
+   },
+   {
+    "sector": "AVIATION",
+    "score": -3.36,
+    "stocks": "IndiGo"
+   },
+   {
+    "sector": "NEWAGE",
+    "score": -2.88,
+    "stocks": "Zomato, Paytm, Nykaa"
+   },
+   {
+    "sector": "UPSTREAM",
+    "score": 2.86,
+    "stocks": "ONGC, Oil India"
+   },
+   {
+    "sector": "DEFENCE",
+    "score": 2.52,
+    "stocks": "HAL, BEL"
+   },
+   {
+    "sector": "PAINT",
+    "score": -1.6,
+    "stocks": "Asian Paints"
+   },
+   {
+    "sector": "IT",
+    "score": -1.44,
+    "stocks": "TCS, Infosys, Wipro"
+   }
+  ]
  },
- "news": [],
+ "news": [
+  {
+   "region": "Global",
+   "flag": "🌐",
+   "title": "Rupee weakens to 92.99 on oil price rise, dollar demand",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaG1QakJQeWNUMmxHQVFYQVl6QktMM0ZXdkpXMEhGNnRxZEFQLTRnUy1CTWlra3prejFlVXByazBkTTE5MFVhVFdWdFl2cHViVzJhRXc2NE9VM3JPeEQ1UTg4bEQ4LU9na0RaRV9aUl9JSDZrdGVnQ3ZmNUNSUmZvUFI4WEVSMUxPa3hvaEZNT2pONTRxbzdzdXhId1lMbUJrdXJfSDV3RkVNdFh3UFlKN0RXQUpxdDNONzlNMk12VWJuTDRrVndsckFHcnYzZ9IB0wFBVV95cUxNbXRXLWZTNHF6TkI0MVhEZWJrMDRBamQtZlR6ZTlpbjhET01RbkVXUDhpTEpTMkpBVW16SmxFTHlGaTZaQnlXWnJ4RkhHSFcyenNQRVNYN2Vnbi1iRzRvSTBWVG1wOGc4eUlKbE53cHdaNVBhOHJ1Q2tBaDFtWjB2bVN3VzFma18wTE1leHd4eU5wZWxCcmRwSUozU0hsUXQyRkxLcGJZOFZIUEdjNzlacUN6d2UyVVRBTmRpd3h4ZEd0UU90bGdHRXRRbWFobmhXODZv?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-28T04:10:35+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "Crude oil rising",
+   "why": "India imports most of its oil: higher crude hurts OMCs, paints and airlines, and helps upstream producers.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "PAINT",
+     "dir": -1,
+     "stocks": "Asian Paints"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "Gold pares gains as Fed hike risks linger, eyes first weekly rise in three weeks",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZEhaTmw0YVVnLVhaMm1fV0RaSFdXM2tFRFNXNk9NVEZManU5Y1NTUWdMb1g0SV9KTy1paEQyY1JWWGlYMGlId1BHajVYeXB1UHBSQmQzN0s3OVp3S2hVcHJUUEg5bkN0S3RHZ0NIcVFMQXM5REU2a1JwQVNBdndIV21tNVNwVE8yZEpDOVpnal9aOUdXc0IzM2R0T0drUV9wWWQtUkV1aF9ndWRidTBGMWR0Rnp2Q1R1cjRDb2oyQUNUMkd2Nzk4YWRHUlF1WDNsR2xmaDhvTW9YQkNHTGYtX1N0V0RBOTkyY0hUMHdoUdIB9AFBVV95cUxOTzk4VkZqelNTem9YQ0txSldlQ0VRX0E3d1BHLXpzempQSG9XX0h5azhBV2h3UHNNeVRJWFdYaXRqc3BzWlRSMGRIT1NFdEtNWDdVTWZMNE8walBXR0R5b3ZiNUN6T2VIbkkzWGUyZ19XZ3BsV2d2bHY4bklDR2ItQ2NDbEJiMEt2RjJVZzBsejVMMU1zbGtISjE1THhjUTBVa1BMZGxuRTRkZ243dXNTdy0wc29nenFnZFhXQndvWWpRUENVQ2l5bVdKNTNvYzJTdHZDNC1IZllTVXhYbWpQX2ZMQkVTYkw3V0JTUE1JLUxYbm5Q?oc=5",
+   "src": "The Economic Times",
+   "time": "2026-11-28T03:52:36+00:00",
+   "level": "High",
+   "score": 1.6,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Economic Times"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Middle East",
+   "flag": "🌍",
+   "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONW1XWWlCQURrWEh2RFVqLXBiZ09SOWJhdjJ1eVYtSXY0OXo1czU1d3R5TUthXzgzS2Y3TXJHT0E2ZUM5NGRvQVJMYTRoN3pFeXlULUt4WjdIbFEzRVF1SUxqckp3VUJ3QlkyZUJzRkJWSV80ajlqdC1KaGd2eVRFWW9DMXV3eC1JYmxVOUZ3ZFZtV2o1NmJrQU9aR004eml6QzFuSG1IZmVWazI0YlVnetIBtgFBVV95cUxONlpDd29xMFlpUThoZVctV2ljTEhqY0R1MUI1Q1l1cEJaQ0FVUk9LQ01xY1RSckdiWHhxSTZhYzQ1cW1JNnBVX0djWmY0LVBGczNmUEpDY3p1ZDFXWERiWmJqUF81ci1DcEFNQWZmbTJvcHZCYmlReEFRMHo2R0VTS1k2aEVHRFd5QUw2d2wtZm5ySmVfMXJSMmpCZ3lJZ2puRDVUSm5LU0hUMEk0UjN6b0dlbV9vQQ?oc=5",
+   "src": "Al Jazeera",
+   "time": "2026-11-28T12:59:29+00:00",
+   "level": "Medium",
+   "score": 1.4,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "Al Jazeera"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  },
+  {
+   "region": "US",
+   "flag": "🇺🇸",
+   "title": "US stocks rally sharply as AI shares rebound, but Fed rate hike clouds outlook",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORmpUU2UyOUlhdXB3Wkd4UmY0d291SXY5STVDaWdqc3N1TzRJNkxvczlNVC1WcTVsdVVROEhYR2ZoQmdBbHMzWHBXR000djI2bjUxU3A2cE1yUGlZMFBIejRxVGZLNExjQ1NhNTU0eWNpSEg2aW0xMk0tLU5YLWZvR2ZkX2QwUGlPcmg4SmlwYXE3RC1LbXJCbVZuU0tlT2kzN0NxdlRia2tvaElpUGozUm9qYUliSFZ6RXl6UGR1MXRRNGRHSDd4WVVaWGhZYWdlRjlvOTh6MnTSAd8BQVVfeXFMUHdBNE1jdTIyMlA1cUF3dXVMZlhSaVItR3ozVFpFc0ZMQjNDbHFkT3dNM1pTU1lRbFZpTDJzRnNLck94YzZsdTA0XzRYakNpdUZzUnUzMTFzTFJ4aUtJY0l2emo2amZPblE0bnNUMjlCSmZjZVJqZjVGdEt4cnJBMzlCNEdEV21JcGZoM2xrdloyUjFJSVc4c2haZ2w1Y3hOd0lmdXp1ai1jZWdsU1RoUTBlQ3VPUUx0QVNETFd5bXRMRlhjR2VzdXcxcUFoWWM3OVRYeFdQSllhTVRXYVRWaw?oc=5",
+   "src": "The Financial Express",
+   "time": "2026-11-27T14:59:38+00:00",
+   "level": "Medium",
+   "score": 1.28,
+   "label": "US rates / yields rising",
+   "why": "Higher US yields pull foreign money out of Indian stocks and weaken the rupee.",
+   "confirmed_by": 1,
+   "sources": [
+    "The Financial Express"
+   ],
+   "sectors": [
+    {
+     "sector": "IT",
+     "dir": -1,
+     "stocks": "TCS, Infosys, Wipro"
+    },
+    {
+     "sector": "NEWAGE",
+     "dir": -1,
+     "stocks": "Zomato, Paytm, Nykaa"
+    }
+   ]
+  },
+  {
+   "region": "Russia",
+   "flag": "🇷🇺",
+   "title": "Iran fuel crisis deepens amid war and sanctions",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5",
+   "src": "DW.com",
+   "time": "2026-11-28T00:39:41+00:00",
+   "level": "Medium",
+   "score": 1.12,
+   "label": "Middle East conflict",
+   "why": "Risk to oil supply and shipping: supports defence stocks and hurts OMCs and airlines.",
+   "confirmed_by": 1,
+   "sources": [
+    "DW.com"
+   ],
+   "sectors": [
+    {
+     "sector": "OMC",
+     "dir": -1,
+     "stocks": "BPCL, IOC, HPCL"
+    },
+    {
+     "sector": "AVIATION",
+     "dir": -1,
+     "stocks": "IndiGo"
+    },
+    {
+     "sector": "DEFENCE",
+     "dir": 1,
+     "stocks": "HAL, BEL"
+    },
+    {
+     "sector": "UPSTREAM",
+     "dir": 1,
+     "stocks": "ONGC, Oil India"
+    }
+   ]
+  }
+ ],
  "videos": [
   {
-   "id": "AT4_JDAbkrw",
-   "title": "MUST WATCH: 16-Year-Old Indian AI Prodigy Raul Wows Putin | Russia President Praises Modi | N18G",
+   "id": "mcZDc73iQJI",
+   "title": "'BJP Wants To Redraw India's Electoral Map': Rahul Gandhi On Delimitation | SIR | Gyanesh Kumar",
    "channel": "CNBC-TV18",
-   "published": "2026-11-28T04:00:10+00:00",
-   "thumb": "https://i.ytimg.com/vi/AT4_JDAbkrw/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=AT4_JDAbkrw",
+   "published": "2026-11-28T13:30:10+00:00",
+   "thumb": "https://i.ytimg.com/vi/mcZDc73iQJI/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=mcZDc73iQJI",
    "business": true
   },
   {
@@ -26,30 +233,12 @@
    "business": false
   },
   {
-   "id": "M5XDDgHor9Y",
-   "title": "Santiago Abascal Leads Vox’s Closing Campaign Rally At Valencia Bullring",
+   "id": "zj1lHv8arL0",
+   "title": "Pedro Sánchez Holds Final PSOE Campaign Rally Ahead Of Spain's November 29 Election",
    "channel": "Moneycontrol",
-   "published": "2026-11-28T00:29:51+00:00",
-   "thumb": "https://i.ytimg.com/vi/M5XDDgHor9Y/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=M5XDDgHor9Y",
-   "business": true
-  },
-  {
-   "id": "UZBy1MvnBSQ",
-   "title": "Spain’s Opposition Leader Alberto Núñez Feijóo Holds Final Campaign Rally",
-   "channel": "Moneycontrol",
-   "published": "2026-11-27T22:35:16+00:00",
-   "thumb": "https://i.ytimg.com/vi/UZBy1MvnBSQ/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=UZBy1MvnBSQ",
-   "business": true
-  },
-  {
-   "id": "54koVHNp1zA",
-   "title": "Editors Roundtable LIVE | Editors Discuss The Week Gone By & Road Ahead For The Markets",
-   "channel": "CNBC-TV18",
-   "published": "2026-11-27T22:34:32+00:00",
-   "thumb": "https://i.ytimg.com/vi/54koVHNp1zA/hqdefault.jpg",
-   "url": "https://www.youtube.com/watch?v=54koVHNp1zA",
+   "published": "2026-11-27T22:09:46+00:00",
+   "thumb": "https://i.ytimg.com/vi/zj1lHv8arL0/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=zj1lHv8arL0",
    "business": true
   },
   {
@@ -131,6 +320,15 @@
    "published": "2026-11-25T21:34:55+00:00",
    "thumb": "https://i.ytimg.com/vi/j3K4FBo2Mn8/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=j3K4FBo2Mn8",
+   "business": true
+  },
+  {
+   "id": "_dOANeJ0zPs",
+   "title": "Why America’s Food Banks Are In Crisis",
+   "channel": "CNBC",
+   "published": "2026-11-24T15:00:27+00:00",
+   "thumb": "https://i.ytimg.com/vi/_dOANeJ0zPs/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=_dOANeJ0zPs",
    "business": true
   }
  ],
